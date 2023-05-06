@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/chapter 1.rpy", line 3411, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter 1.rpy", line 3855, in script call
+    call REJECTEDLAW from _call_REJECTEDLAW
+  File "game/chapter 1.rpy", line 1884, in script
+    Model "Alright , I'll do a nice pose too. Just a second."
+Exception: Sayer 'Model' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/chapter 1.rpy", line 3411, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter 1.rpy", line 3855, in script call
+    call REJECTEDLAW from _call_REJECTEDLAW
+  File "game/chapter 1.rpy", line 1884, in script
+    Model "Alright , I'll do a nice pose too. Just a second."
+  File "renpy/ast.py", line 680, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Model' is not defined.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.5.1648
+ 0.2
+Sat May  6 22:23:00 2023
