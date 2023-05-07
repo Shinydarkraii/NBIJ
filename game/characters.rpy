@@ -72,4 +72,5 @@ define Masseur = Character("Masseur")
 define Stenographer = Character("Strenographer")
 define Customer = Character("Customer")
 define Yamazakl = Character("Yamazakl")
+define Model = Character("Model")
 #Game dev 
