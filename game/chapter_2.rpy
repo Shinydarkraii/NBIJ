@@ -3519,7 +3519,10 @@ label chap_2_scene_17:
             Elizabeth "(This dick is so good)"
             scene bg_lanamsgsideang_anim_3  with Dissolve(0.8)
             Masseur "Ohhh fuck , I'm cumming"
-            Elizabeth "W*glurg* not in m *glurp*"
+            scene bg_lanamsgsideang_anim_3  with vpunch
+            scene bg_lanamsgsideang_anim_3  with vpunch
+            scene bg_lanamsgsideang_anim_3  with vpunch
+            # Elizabeth "W*glurg* not in m *glurp*"
             scene bg lanamommsgaccpt 68  with Dissolve(0.8)
             Masseur "Ohhhhh... Fuck that was good"
             scene bg lanamommsgaccpt 69  with Dissolve(0.8)
@@ -5399,7 +5402,9 @@ label chap_2_scene_29:
     Kiara "Do you know any restros around ? I didn't have lunch so kinda hungry"
     Keisuke "Of course no need to ask , I'll get you to a good place i know."
     scene bg kiaaftrcsplaydaytwo 22 with Dissolve(0.8)
-    Kiara "Alright , surprise me then"
+    Kiara "Alright, surprise me then"
     # End 0.2
+    $ renpy.save('quick-1')
     "End 0.2"
-    return
+    
+    $ renpy.quit()

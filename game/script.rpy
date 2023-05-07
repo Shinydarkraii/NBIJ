@@ -13,5 +13,6 @@ label start:
     show screen fondness_screen
     jump intro
     #Game end
-    #test 
+    
+    
     return

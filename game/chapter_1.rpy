@@ -207,7 +207,8 @@ label veronicaevidencedel:
     ""
 
     "{i}In New York{/i}"
-    jump miamasonnighttalk
+    jump chap_2_scene_1
+    return
 
 
 label endingofchaptrpart2:
@@ -468,7 +469,7 @@ label wongandjohn:
     John "Ain't that right...? Lovely Veronica. "
     ""
     stop music
-    jump endingofchaptr1
+    jump veronicaevidencedel
 
 label aidenrevealscene:
     play music "/audio/aidnrevl.ogg"
@@ -500,7 +501,7 @@ label aidenrevealscene:
     Aiden "Old man... what are you planning. "
     ""
     stop music
-    jump wongandjohn
+    jump investigatevng
 
 
 label valntdamimomscn:
@@ -553,7 +554,7 @@ label valntdamimomscn1:
     ""
     stop music
     #loading
-    jump aidenrevealscene
+    jump veromeetsevlyn
 
 label valntdamimomscn2:
     stop music
@@ -612,7 +613,7 @@ label valntdamimomscn2:
     Valentina "I can't let uncle luke see me this way! I'll just call him later. "
     ""
     stop music
-    jump aidenrevealscene
+    jump veromeetsevlyn
 
 label jakemeetsevelyn:
     play music "/audio/jkeveone.ogg"
@@ -705,7 +706,7 @@ label jakemeetsevelyn:
     Jake "Mom... I think I found the girl you were talking about , I'll do my best to be a better person. "
     ""
     stop music
-    jump valntdamimomscn
+    jump wongandjohn
 
 label assistantevngscn:
     play music "/audio/asstntscn2.ogg"
@@ -798,7 +799,7 @@ label natsunightbathroom:
     Natsuko "Finally, I feel a bit clean... ugh, I'll make sure that molester suffers next time. "
     ""
     stop music
-    jump assistantevngscn
+    jump miamasonnighttalk
 
 
 label azuminighttext:
@@ -952,7 +953,7 @@ label investigatevng:
     Jake "Mom I don't know if what I do is morally right , but I'll do whatever it takes to save you. "
     ""
     stop music
-    jump Keisukereveal
+    jump Lanaliz
 
 
 label miaveroeve:
@@ -989,7 +990,7 @@ label miaveroeve:
     Mia "Thank you... ( I wish I were as positive as her ) "
     ""
     stop music
-    jump investigatevng
+    jump miamasonmiday
 
 label sachikohome:
     play music "/audio/schikobthscn.ogg"
@@ -1245,7 +1246,7 @@ label introsachikorin:
     Rin "Plus, I wonder what Lana's deal is. Her travel plans are more random than her mood swings. "
     show bg sachikandrinintro 17 with Dissolve(0.8)
     ""
-    jump aftersubway2
+    jump valntdamimomscn
 
 label Lanaliz:
     play music "/audio/clthnshop.ogg"
@@ -1254,7 +1255,7 @@ label Lanaliz:
     Karl "Ms. Lana, please, I misunderstood. "
     show bg lanaandlizatshop 2 with Dissolve(0.8)
     Lana "How do you mess something up that's just so simple to do? "
-    Karl "Please Ms. Lana at least hear me out  , you said Japanese dress, and I- "
+    Karl "Please Ms. Lana at least hear me out, you said Japanese dress, and I-{w=1.5}{nw}"
     show bg lanaandlizatshop 3 with Dissolve(0.8)
     Lana "Karl, stop being delusional."
     show bg lanaandlizatshop 4 with Dissolve(0.8)
@@ -1296,7 +1297,7 @@ label Lanaliz:
     Lana "Okay, mom , off we go. "
     ""
     stop music
-    jump returninghome
+    jump assistantevngscn
 
 label miamasonmiday:
     show bg miamasonnoon 1 with Dissolve(0.8)
@@ -1339,7 +1340,7 @@ label Investigationafter:
     Jake "Hm, alright, john told me to be outside his office , suppose I'll go there. "
     ""
     stop music
-    jump Lanaliz
+    jump sachikohome
 
 label aftersubway:
     show bg kianatsuaftrsbway 1 with Dissolve(0.8)
@@ -1734,7 +1735,7 @@ label azumiworried:
 
 label veromeetsevlyn:
     play music "/audio/evlynvnca.ogg"
-    show bg veromeetsevelyn 1 with Dissolve(0.8)
+    scene bg veromeetsevelyn 1 with Dissolve(0.8)
     Veronica "Such a long trip , but I think it's about time. "
     show bg veromeetsevelyn 2 with Dissolve(0.8)
     Veronica "She's probably gonna be mad at me for this... "
@@ -1821,7 +1822,7 @@ label veromeetsevlyn:
     Evelyn "You and your silly compliments.... "
     ""
     stop music
-    jump azumiworried
+    jump Lanaliz
 
 
 label kiaralocal:
@@ -1938,7 +1939,7 @@ label Johnandjake:
     JakeInvestigator "Right... Fine by me. "
     ""
     stop music
-    jump natsufindingkiara2
+    jump lanaafterintro
 
 label natsufindingkiara:
     play music "/audio/antntsutlksns.ogg"
@@ -2083,7 +2084,7 @@ label miafterintro:
     Mia "No you... "
     stop music
 
-    jump kiarateashop
+    jump Johnandjake
 
 label lanaafterintro:
     play music "/audio/lnamrng.ogg"
@@ -2106,7 +2107,7 @@ label lanaafterintro:
             jump .part_1
         "Don't do it":
             Lana "Yeah not worth it."
-            jump .part_2
+            jump introsachikorin
 
     label .part_1:
         show bg lanaafterintro 7 with Dissolve(0.8)
@@ -2157,7 +2158,7 @@ label lanaafterintro:
         "Deliveryguy" "Should I maybe touch it?... this has to be intentional. "
         show bg lanaafterintro 26 with Dissolve(0.8)
         stop music
-        jump miafterintro
+        jump introsachikorin
 
     label .part_2:
         show bg lanaafterintro 27 with Dissolve(0.8)
@@ -2177,7 +2178,7 @@ label lanaafterintro:
         Lana "Kiara, I hope you allow yourself to open up and live a little, too. See you soon, babe. "
         ""
         stop music
-    jump miafterintro
+    jump introsachikorin
 
 label kiarainstreets2:
     show bg kiaraandtaka 32 with Dissolve(0.8)
@@ -2548,7 +2549,7 @@ label johnandassistant:
     Patricia "While I may feel sorry for him, this is for the better, I hope you find a new life, Kiara and Mia. "
     ""
     stop music
-    jump auntevening
+    jump miafterintro
 
 label miamasonnighttalk:
     play music "/audio/miamsnntlk.ogg"

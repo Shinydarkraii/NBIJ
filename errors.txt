@@ -747,4 +747,4 @@ The label chap_2_scene_29 is defined twice, at
   File "game/chapter_2.rpy", line 5341.
 
 Ren'Py Version: Ren'Py 7.4.5.1648
-Sun May  7 12:58:12 2023
+Sun May  7 13:01:41 2023

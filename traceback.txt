@@ -1,40 +1,60 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After initialization, but before game start.
-IOError: Couldn't find file 'gui/window_icon.png'.
+While running game code:
+  File "game/chapter_1.rpy", line 3416, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter_1.rpy", line 3860, in script call
+    call REJECTEDLAW from _call_REJECTEDLAW
+  File "game/chapter_1.rpy", line 1375, in script
+    ""
+Exception: Required parameter title has no value.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/bootstrap.py", line 326, in bootstrap
-    renpy.main.main()
-  File "renpy/main.py", line 538, in main
-    renpy.game.script.report_duplicate_labels()
-  File "renpy/script.py", line 962, in report_duplicate_labels
-    if renpy.parser.report_parse_errors():
-  File "renpy/parser.py", line 2962, in report_parse_errors
-    renpy.display.error.report_parse_errors(full_text, error_fn)
-  File "renpy/display/error.py", line 194, in report_parse_errors
-    error_fn=error_fn,
-  File "renpy/game.py", line 284, in invoke_in_new_context
-    return callable(*args, **kwargs)
-  File "renpy/display/error.py", line 46, in call_exception_screen
-    return renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
+  File "game/chapter_1.rpy", line 3416, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter_1.rpy", line 3860, in script call
+    call REJECTEDLAW from _call_REJECTEDLAW
+  File "game/chapter_1.rpy", line 1375, in script
+    ""
+  File "renpy/ast.py", line 715, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1219, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/character.py", line 871, in do_display
+    **display_args)
+  File "renpy/character.py", line 621, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "renpy/ui.py", line 298, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "renpy/display/core.py", line 3174, in interact
-    self.start()
-  File "renpy/display/core.py", line 2114, in start
-    self.post_init()
-  File "renpy/display/core.py", line 2192, in post_init
-    self.set_icon()
-  File "renpy/display/core.py", line 2235, in set_icon
-    with renpy.loader.load(icon) as f:
-  File "renpy/loader.py", line 798, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'gui/window_icon.png'.
+  File "renpy/display/core.py", line 3213, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3630, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/core.py", line 567, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 567, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/core.py", line 567, in visit_all
+    d.visit_all(callback, seen)
+  File "renpy/display/screen.py", line 432, in visit_all
+    callback(self)
+  File "renpy/display/core.py", line 3630, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "renpy/display/screen.py", line 443, in per_interact
+    self.update()
+  File "renpy/display/screen.py", line 631, in update
+    self.screen.function(**self.scope)
+  File "renpy/ast.py", line 159, in apply_arguments
+    return parameters.apply(args, kwargs, ignore_errors)
+  File "renpy/ast.py", line 123, in apply
+    raise Exception("Required parameter %s has no value." % name)
+Exception: Required parameter title has no value.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.5.1648
  0.2
-Sun May  7 12:58:12 2023
+Sun May  7 13:51:56 2023
