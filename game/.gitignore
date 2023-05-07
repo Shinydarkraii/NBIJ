@@ -1,0 +1,11 @@
+images/
+*.log
+**/.rpyc
+game/images/
+saves/
+cache/
+tl/
+gui/
+**.rpyc
+**.bak
+test/
