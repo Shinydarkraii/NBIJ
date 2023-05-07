@@ -2,14 +2,749 @@
 errors listed below, and try again.
 
 
-File "game/screens/Character Profile.rpy", line 91: invalid syntax
-    [\
-        ["Kiara", im.Scale("images/UI/Kiaraprofile.png", 170, 190), "images/UI/Kiaraprofile.png", "Kiara is a 23-year-old woman who has faced significant challenges in her past but has emerged from them as a strong and resilient individual. Despite being the daughter of a billionaire, she is humble, kind-hearted, and selfless, always putting the needs of others before her own. Kiara is proud of her mixed heritage, being half-Japanese and half-American, and she values her individuality and independence, wanting to be recognized for her own accomplishments rather than her family's wealth. She has recently recovered from a coma that lasted throughout the COVID-19 pandemic, and while she experiences some amnesia about her past, she remains optimistic and determined to build a better future for herself and those she cares about. Although she can be somewhat reserved, Kiara is a trustworthy and loyal friend who believes in the importance of building strong relationships with others."],\
-                                                          ^
-        ["Veronica", im.Scale("images/UI/veronicaprofile.png", 170, 190), "images/UI/veronicaprofile.png", "Veronica Majors is a highly successful lawyer in New York City, known for both her sharp legal mind and stunning looks. Despite her feminine beauty, Veronica has a tomboyish attitude that sets her apart from other women in her field. At 28 years old, she is still quite young, but she has already made a name for herself in the legal community.Veronica is bisexual by nature and has developed a fondness for Evelyn Hall, the older daughter of Mia. She wants everyone around her, including her cousin Mason, to be happy and fulfilled. Despite her outward confidence, Veronica struggles with feelings of loneliness that she keeps hidden from others. There are only two people in the world who can truly touch Veronica's heart: Mason, who she has known since childhood and has watched grow into a successful lawyer like herself, and Evelyn, who she has loved since they first met. Despite her feelings for Evelyn, Veronica is hesitant to express them for fear of being rejected or causing problems within the family dynamic."],\
-        ["Xia", im.Scale("images/UI/xiaprofile.png", 170, 190), "images/UI/xiaprofile.png", "Xia Watanabe is a fierce and skilled woman who has dedicated her life to the art of wing chun, which she learned to protect her loved ones. At 43 years old, Xia resides in Osaka with her father, and longs for her family to be reunited once again. She is deeply caring and always puts the needs of others before her own. Xia has a daughter named Natsuko, and is happily married to Ichigo. Despite her strength and confidence, Xia harbors a deep-seated hatred for John due to his mistreatment of her sister, Mia. However, she endures his presence for the sake of her family. Xia is emotionally stable and resolute, but becomes vulnerable and defensive when it comes to Ichigo, who loves her unconditionally."],\
-        ["Mia", im.Scale("images/UI/Miaprofile.png", 170,j 190), "images/UI/Miaprofile.png", "Mia Watanabe/Hall is a 40-year-old Japanese woman who moved to New York after marrying Jonathan Hall. She is a kind and caring person who loves her daughters and wants the best for them. Despite the challenges of her marriage to Jonathan, Mia has always put her daughters first and tried to create a happy home for them. Mia often feels torn between her Japanese heritage and her life in New York, and she struggles with feelings of guilt and a sense of not belonging. She misses her family in Japan but fears they may reject her for leaving, and this weighs heavily on her mental health.Despite her struggles, Mia is a resilient person who keeps pushing forward to make a better life for her daughters. She is determined to create a better future for them, even if it means sacrificing her own happiness in the process."],\
-    
+The label epilouge is defined twice, at
+  File "game/chapter 1.rpyc", line 1 and
+  File "game/chapter_1.rpy", line 1.
 
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Apr 28 21:25:03 2023
+The label azumiportbathroom is defined twice, at
+  File "game/chapter 1.rpyc", line 42 and
+  File "game/chapter_1.rpy", line 42.
+
+The label azumiportbathroomchoice1 is defined twice, at
+  File "game/chapter 1.rpyc", line 84 and
+  File "game/chapter_1.rpy", line 84.
+
+The label azumiportbathroomchoice2 is defined twice, at
+  File "game/chapter 1.rpyc", line 137 and
+  File "game/chapter_1.rpy", line 137.
+
+The label endingofchaptr1final is defined twice, at
+  File "game/chapter 1.rpyc", line 145 and
+  File "game/chapter_1.rpy", line 145.
+
+The label veronicaevidencedel is defined twice, at
+  File "game/chapter 1.rpyc", line 155 and
+  File "game/chapter_1.rpy", line 155.
+
+The label endingofchaptrpart2 is defined twice, at
+  File "game/chapter 1.rpyc", line 213 and
+  File "game/chapter_1.rpy", line 213.
+
+The label endingofchaptr1 is defined twice, at
+  File "game/chapter 1.rpyc", line 270 and
+  File "game/chapter_1.rpy", line 270.
+
+The label endingofchaptr1choice2 is defined twice, at
+  File "game/chapter 1.rpyc", line 325 and
+  File "game/chapter_1.rpy", line 325.
+
+The label endingofchaptr1choice1 is defined twice, at
+  File "game/chapter 1.rpyc", line 362 and
+  File "game/chapter_1.rpy", line 362.
+
+The label wongandjohn is defined twice, at
+  File "game/chapter 1.rpyc", line 404 and
+  File "game/chapter_1.rpy", line 404.
+
+The label aidenrevealscene is defined twice, at
+  File "game/chapter 1.rpyc", line 473 and
+  File "game/chapter_1.rpy", line 473.
+
+The label valntdamimomscn is defined twice, at
+  File "game/chapter 1.rpyc", line 506 and
+  File "game/chapter_1.rpy", line 506.
+
+The label valntdamimomscn1 is defined twice, at
+  File "game/chapter 1.rpyc", line 549 and
+  File "game/chapter_1.rpy", line 549.
+
+The label valntdamimomscn2 is defined twice, at
+  File "game/chapter 1.rpyc", line 558 and
+  File "game/chapter_1.rpy", line 558.
+
+The label jakemeetsevelyn is defined twice, at
+  File "game/chapter 1.rpyc", line 617 and
+  File "game/chapter_1.rpy", line 617.
+
+The label assistantevngscn is defined twice, at
+  File "game/chapter 1.rpyc", line 710 and
+  File "game/chapter_1.rpy", line 710.
+
+The label natsunightbathroom is defined twice, at
+  File "game/chapter 1.rpyc", line 786 and
+  File "game/chapter_1.rpy", line 786.
+
+The label azuminighttext is defined twice, at
+  File "game/chapter 1.rpyc", line 804 and
+  File "game/chapter_1.rpy", line 804.
+
+The label Keisukereveal is defined twice, at
+  File "game/chapter 1.rpyc", line 845 and
+  File "game/chapter_1.rpy", line 845.
+
+The label investigatevng is defined twice, at
+  File "game/chapter 1.rpyc", line 895 and
+  File "game/chapter_1.rpy", line 895.
+
+The label miaveroeve is defined twice, at
+  File "game/chapter 1.rpyc", line 958 and
+  File "game/chapter_1.rpy", line 958.
+
+The label sachikohome is defined twice, at
+  File "game/chapter 1.rpyc", line 994 and
+  File "game/chapter_1.rpy", line 994.
+
+The label auntdinner is defined twice, at
+  File "game/chapter 1.rpyc", line 1085 and
+  File "game/chapter_1.rpy", line 1085.
+
+The label backhomenight is defined twice, at
+  File "game/chapter 1.rpyc", line 1133 and
+  File "game/chapter_1.rpy", line 1133.
+
+The label aftersubway2 is defined twice, at
+  File "game/chapter 1.rpyc", line 1174 and
+  File "game/chapter_1.rpy", line 1174.
+
+The label introsachikorin is defined twice, at
+  File "game/chapter 1.rpyc", line 1205 and
+  File "game/chapter_1.rpy", line 1205.
+
+The label Lanaliz is defined twice, at
+  File "game/chapter 1.rpyc", line 1250 and
+  File "game/chapter_1.rpy", line 1250.
+
+The label miamasonmiday is defined twice, at
+  File "game/chapter 1.rpyc", line 1301 and
+  File "game/chapter_1.rpy", line 1301.
+
+The label Investigationafter is defined twice, at
+  File "game/chapter 1.rpyc", line 1326 and
+  File "game/chapter_1.rpy", line 1326.
+
+The label aftersubway is defined twice, at
+  File "game/chapter 1.rpyc", line 1344 and
+  File "game/chapter_1.rpy", line 1344.
+
+The label natsugrop is defined twice, at
+  File "game/chapter 1.rpyc", line 1362 and
+  File "game/chapter_1.rpy", line 1362.
+
+The label _call_natsugroprjct is defined twice, at
+  File "game/chapter 1.rpyc", line 1369 and
+  File "game/chapter_1.rpy", line 1369.
+
+The label _call_natsugropaccpt is defined twice, at
+  File "game/chapter 1.rpyc", line 1372 and
+  File "game/chapter_1.rpy", line 1372.
+
+The label natsugroprjct is defined twice, at
+  File "game/chapter 1.rpyc", line 1377 and
+  File "game/chapter_1.rpy", line 1377.
+
+The label natsugropaccpt is defined twice, at
+  File "game/chapter 1.rpyc", line 1393 and
+  File "game/chapter_1.rpy", line 1393.
+
+The label returninghome is defined twice, at
+  File "game/chapter 1.rpyc", line 1477 and
+  File "game/chapter_1.rpy", line 1477.
+
+The label returninghome2 is defined twice, at
+  File "game/chapter 1.rpyc", line 1513 and
+  File "game/chapter_1.rpy", line 1513.
+
+The label auntlateevng is defined twice, at
+  File "game/chapter 1.rpyc", line 1582 and
+  File "game/chapter_1.rpy", line 1582.
+
+The label kiaralocal2 is defined twice, at
+  File "game/chapter 1.rpyc", line 1658 and
+  File "game/chapter_1.rpy", line 1658.
+
+The label azumiworried is defined twice, at
+  File "game/chapter 1.rpyc", line 1676 and
+  File "game/chapter_1.rpy", line 1676.
+
+The label veromeetsevlyn is defined twice, at
+  File "game/chapter 1.rpyc", line 1735 and
+  File "game/chapter_1.rpy", line 1735.
+
+The label kiaralocal is defined twice, at
+  File "game/chapter 1.rpyc", line 1827 and
+  File "game/chapter_1.rpy", line 1827.
+
+The label natsufindingkiara2 is defined twice, at
+  File "game/chapter 1.rpyc", line 1850 and
+  File "game/chapter_1.rpy", line 1850.
+
+The label Johnandjake is defined twice, at
+  File "game/chapter 1.rpyc", line 1897 and
+  File "game/chapter_1.rpy", line 1897.
+
+The label natsufindingkiara is defined twice, at
+  File "game/chapter 1.rpyc", line 1943 and
+  File "game/chapter_1.rpy", line 1943.
+
+The label kiarateashop is defined twice, at
+  File "game/chapter 1.rpyc", line 1968 and
+  File "game/chapter_1.rpy", line 1968.
+
+The label miafterintro is defined twice, at
+  File "game/chapter 1.rpyc", line 2050 and
+  File "game/chapter_1.rpy", line 2050.
+
+The label lanaafterintro is defined twice, at
+  File "game/chapter 1.rpyc", line 2088 and
+  File "game/chapter_1.rpy", line 2088.
+
+The label lanaafterintro.part_1 is defined twice, at
+  File "game/chapter 1.rpyc", line 2111 and
+  File "game/chapter_1.rpy", line 2111.
+
+The label lanaafterintro.part_2 is defined twice, at
+  File "game/chapter 1.rpyc", line 2162 and
+  File "game/chapter_1.rpy", line 2162.
+
+The label kiarainstreets2 is defined twice, at
+  File "game/chapter 1.rpyc", line 2182 and
+  File "game/chapter_1.rpy", line 2182.
+
+The label kiaraandtaka is defined twice, at
+  File "game/chapter 1.rpyc", line 2196 and
+  File "game/chapter_1.rpy", line 2196.
+
+The label kiaraandtaka.part_1 is defined twice, at
+  File "game/chapter 1.rpyc", line 2244 and
+  File "game/chapter_1.rpy", line 2244.
+
+The label kiaraandtaka.part_2 is defined twice, at
+  File "game/chapter 1.rpyc", line 2260 and
+  File "game/chapter_1.rpy", line 2260.
+
+The label kiaraandtaka.part_3 is defined twice, at
+  File "game/chapter 1.rpyc", line 2297 and
+  File "game/chapter_1.rpy", line 2297.
+
+The label _call_photoshootleatherchoice1 is defined twice, at
+  File "game/chapter 1.rpyc", line 2367 and
+  File "game/chapter_1.rpy", line 2367.
+
+The label _call_photoshootleatherchoice2 is defined twice, at
+  File "game/chapter 1.rpyc", line 2370 and
+  File "game/chapter_1.rpy", line 2370.
+
+The label photoshootleatherchoice1 is defined twice, at
+  File "game/chapter 1.rpyc", line 2375 and
+  File "game/chapter_1.rpy", line 2375.
+
+The label photoshootleatherchoice2 is defined twice, at
+  File "game/chapter 1.rpyc", line 2386 and
+  File "game/chapter_1.rpy", line 2386.
+
+The label kiarainstreets is defined twice, at
+  File "game/chapter 1.rpyc", line 2412 and
+  File "game/chapter_1.rpy", line 2412.
+
+The label auntevening is defined twice, at
+  File "game/chapter 1.rpyc", line 2451 and
+  File "game/chapter_1.rpy", line 2451.
+
+The label johnandassistant is defined twice, at
+  File "game/chapter 1.rpyc", line 2510 and
+  File "game/chapter_1.rpy", line 2510.
+
+The label miamasonnighttalk is defined twice, at
+  File "game/chapter 1.rpyc", line 2553 and
+  File "game/chapter_1.rpy", line 2553.
+
+The label meetingnatsuko is defined twice, at
+  File "game/chapter 1.rpyc", line 2615 and
+  File "game/chapter_1.rpy", line 2615.
+
+The label daybath is defined twice, at
+  File "game/chapter 1.rpyc", line 2659 and
+  File "game/chapter_1.rpy", line 2659.
+
+The label auntmeet is defined twice, at
+  File "game/chapter 1.rpyc", line 2685 and
+  File "game/chapter_1.rpy", line 2685.
+
+The label kiaraincab is defined twice, at
+  File "game/chapter 1.rpyc", line 2787 and
+  File "game/chapter_1.rpy", line 2787.
+
+The label kiaraairport is defined twice, at
+  File "game/chapter 1.rpyc", line 2855 and
+  File "game/chapter_1.rpy", line 2855.
+
+The label kalintro is defined twice, at
+  File "game/chapter 1.rpyc", line 2885 and
+  File "game/chapter_1.rpy", line 2885.
+
+The label airport is defined twice, at
+  File "game/chapter 1.rpyc", line 2953 and
+  File "game/chapter_1.rpy", line 2953.
+
+The label intro is defined twice, at
+  File "game/chapter 1.rpyc", line 2989 and
+  File "game/chapter_1.rpy", line 2989.
+
+The label hotel is defined twice, at
+  File "game/chapter 1.rpyc", line 3093 and
+  File "game/chapter_1.rpy", line 3093.
+
+The label _call_accepthotelmom is defined twice, at
+  File "game/chapter 1.rpyc", line 3137 and
+  File "game/chapter_1.rpy", line 3137.
+
+The label _call_rejecthotelmom is defined twice, at
+  File "game/chapter 1.rpyc", line 3139 and
+  File "game/chapter_1.rpy", line 3139.
+
+The label accepthotelmom is defined twice, at
+  File "game/chapter 1.rpyc", line 3144 and
+  File "game/chapter_1.rpy", line 3144.
+
+The label _call_accmumelv is defined twice, at
+  File "game/chapter 1.rpyc", line 3176 and
+  File "game/chapter_1.rpy", line 3176.
+
+The label _call_rejmumelv is defined twice, at
+  File "game/chapter 1.rpyc", line 3178 and
+  File "game/chapter_1.rpy", line 3178.
+
+The label accmumelv is defined twice, at
+  File "game/chapter 1.rpyc", line 3182 and
+  File "game/chapter_1.rpy", line 3182.
+
+The label rejmumelv is defined twice, at
+  File "game/chapter 1.rpyc", line 3250 and
+  File "game/chapter_1.rpy", line 3250.
+
+The label rejecthotelmom is defined twice, at
+  File "game/chapter 1.rpyc", line 3264 and
+  File "game/chapter_1.rpy", line 3264.
+
+The label roomsegment is defined twice, at
+  File "game/chapter 1.rpyc", line 3286 and
+  File "game/chapter_1.rpy", line 3286.
+
+The label lanastart is defined twice, at
+  File "game/chapter 1.rpyc", line 3359 and
+  File "game/chapter_1.rpy", line 3359.
+
+The label lanahotel is defined twice, at
+  File "game/chapter 1.rpyc", line 3372 and
+  File "game/chapter_1.rpy", line 3372.
+
+The label lanaelevator is defined twice, at
+  File "game/chapter 1.rpyc", line 3394 and
+  File "game/chapter_1.rpy", line 3394.
+
+The label _call_lanaAcpt1 is defined twice, at
+  File "game/chapter 1.rpyc", line 3413 and
+  File "game/chapter_1.rpy", line 3413.
+
+The label _call_lanaRjt1 is defined twice, at
+  File "game/chapter 1.rpyc", line 3415 and
+  File "game/chapter_1.rpy", line 3415.
+
+The label roomsegment2 is defined twice, at
+  File "game/chapter 1.rpyc", line 3421 and
+  File "game/chapter_1.rpy", line 3421.
+
+The label lanaAcpt1 is defined twice, at
+  File "game/chapter 1.rpyc", line 3451 and
+  File "game/chapter_1.rpy", line 3451.
+
+The label _call_lanaRjt2 is defined twice, at
+  File "game/chapter 1.rpyc", line 3469 and
+  File "game/chapter_1.rpy", line 3469.
+
+The label _call_lanaAcpt2 is defined twice, at
+  File "game/chapter 1.rpyc", line 3473 and
+  File "game/chapter_1.rpy", line 3473.
+
+The label lanaRjt1 is defined twice, at
+  File "game/chapter 1.rpyc", line 3491 and
+  File "game/chapter_1.rpy", line 3491.
+
+The label lanaRjt2 is defined twice, at
+  File "game/chapter 1.rpyc", line 3518 and
+  File "game/chapter_1.rpy", line 3518.
+
+The label lanaAcpt2 is defined twice, at
+  File "game/chapter 1.rpyc", line 3546 and
+  File "game/chapter_1.rpy", line 3546.
+
+The label Momandlawyer is defined twice, at
+  File "game/chapter 1.rpyc", line 3734 and
+  File "game/chapter_1.rpy", line 3734.
+
+The label _call_ACCEPTEDLAW is defined twice, at
+  File "game/chapter 1.rpyc", line 3857 and
+  File "game/chapter_1.rpy", line 3857.
+
+The label _call_REJECTEDLAW is defined twice, at
+  File "game/chapter 1.rpyc", line 3859 and
+  File "game/chapter_1.rpy", line 3859.
+
+The label ACCEPTEDLAW is defined twice, at
+  File "game/chapter 1.rpyc", line 3862 and
+  File "game/chapter_1.rpy", line 3862.
+
+The label Momspyscene is defined twice, at
+  File "game/chapter 1.rpyc", line 3905 and
+  File "game/chapter_1.rpy", line 3905.
+
+The label REJECTEDLAW is defined twice, at
+  File "game/chapter 1.rpyc", line 3913 and
+  File "game/chapter_1.rpy", line 3913.
+
+The label PLANESEGMENT is defined twice, at
+  File "game/chapter 1.rpyc", line 3930 and
+  File "game/chapter_1.rpy", line 3930.
+
+The label chap_2_prelude is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1 and
+  File "game/chapter_2.rpy", line 1.
+
+The label chap_2_scene_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 52 and
+  File "game/chapter_2.rpy", line 52.
+
+The label chap_2_scene_1.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 182 and
+  File "game/chapter_2.rpy", line 182.
+
+The label chap_2_scene_1.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 244 and
+  File "game/chapter_2.rpy", line 244.
+
+The label chap_2_scene_1.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 253 and
+  File "game/chapter_2.rpy", line 253.
+
+The label chap_2_scene_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 392 and
+  File "game/chapter_2.rpy", line 392.
+
+The label chap_2_scene_2.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 443 and
+  File "game/chapter_2.rpy", line 443.
+
+The label chap_2_scene_2.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 482 and
+  File "game/chapter_2.rpy", line 482.
+
+The label chap_2_scene_2.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 545 and
+  File "game/chapter_2.rpy", line 545.
+
+The label chap_2_scene_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 557 and
+  File "game/chapter_2.rpy", line 557.
+
+The label chap_2_scene_3.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 604 and
+  File "game/chapter_2.rpy", line 604.
+
+The label chap_2_scene_3.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 687 and
+  File "game/chapter_2.rpy", line 687.
+
+The label chap_2_scene_3.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 702 and
+  File "game/chapter_2.rpy", line 702.
+
+The label chap_2_scene_4 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 775 and
+  File "game/chapter_2.rpy", line 775.
+
+The label chap_2_scene_4.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1005 and
+  File "game/chapter_2.rpy", line 1005.
+
+The label chap_2_scene_4.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1034 and
+  File "game/chapter_2.rpy", line 1034.
+
+The label chap_2_scene_4.part_4 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1088 and
+  File "game/chapter_2.rpy", line 1088.
+
+The label chap_2_scene_4.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1110 and
+  File "game/chapter_2.rpy", line 1110.
+
+The label chap_2_scene_5 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1140 and
+  File "game/chapter_2.rpy", line 1140.
+
+The label chap_2_scene_5.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1321 and
+  File "game/chapter_2.rpy", line 1321.
+
+The label chap_2_scene_5.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1332 and
+  File "game/chapter_2.rpy", line 1332.
+
+The label chap_2_scene_5.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1355 and
+  File "game/chapter_2.rpy", line 1355.
+
+The label chap_2_scene_5.part_5 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1457 and
+  File "game/chapter_2.rpy", line 1457.
+
+The label chap_2_scene_5.part_6 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1477 and
+  File "game/chapter_2.rpy", line 1477.
+
+The label chap_2_scene_5.part_4 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1489 and
+  File "game/chapter_2.rpy", line 1489.
+
+The label chap_2_scene_6 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1507 and
+  File "game/chapter_2.rpy", line 1507.
+
+The label chap_2_scene_6.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1613 and
+  File "game/chapter_2.rpy", line 1613.
+
+The label chap_2_scene_6.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1727 and
+  File "game/chapter_2.rpy", line 1727.
+
+The label chap_2_scene_7 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1744 and
+  File "game/chapter_2.rpy", line 1744.
+
+The label chap_2_scene_7.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1896 and
+  File "game/chapter_2.rpy", line 1896.
+
+The label chap_2_scene_7.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1914 and
+  File "game/chapter_2.rpy", line 1914.
+
+The label chap_2_scene_8 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 1927 and
+  File "game/chapter_2.rpy", line 1927.
+
+The label chap_2_scene_9 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2059 and
+  File "game/chapter_2.rpy", line 2059.
+
+The label chap_2_scene_9.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2112 and
+  File "game/chapter_2.rpy", line 2112.
+
+The label chap_2_scene_9.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2135 and
+  File "game/chapter_2.rpy", line 2135.
+
+The label chap_2_scene_9.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2182 and
+  File "game/chapter_2.rpy", line 2182.
+
+The label chap_2_scene_10 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2353 and
+  File "game/chapter_2.rpy", line 2353.
+
+The label chap_2_scene_10.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2495 and
+  File "game/chapter_2.rpy", line 2495.
+
+The label chap_2_scene_10.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2552 and
+  File "game/chapter_2.rpy", line 2552.
+
+The label chap_2_scene_10.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2575 and
+  File "game/chapter_2.rpy", line 2575.
+
+The label chap_2_scene_10.part_4 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2628 and
+  File "game/chapter_2.rpy", line 2628.
+
+The label chap_2_scene_10.part_5 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2659 and
+  File "game/chapter_2.rpy", line 2659.
+
+The label chap_2_scene_10.part_6 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2672 and
+  File "game/chapter_2.rpy", line 2672.
+
+The label chap_2_scene_11 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2751 and
+  File "game/chapter_2.rpy", line 2751.
+
+The label chap_2_scene_12 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2879 and
+  File "game/chapter_2.rpy", line 2879.
+
+The label chap_2_scene_13 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2947 and
+  File "game/chapter_2.rpy", line 2947.
+
+The label chap_2_scene_13.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 2976 and
+  File "game/chapter_2.rpy", line 2976.
+
+The label chap_2_scene_14 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3065 and
+  File "game/chapter_2.rpy", line 3065.
+
+The label chap_2_scene_15 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3107 and
+  File "game/chapter_2.rpy", line 3107.
+
+The label chap_2_scene_16 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3203 and
+  File "game/chapter_2.rpy", line 3203.
+
+The label chap_2_scene_17 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3286 and
+  File "game/chapter_2.rpy", line 3286.
+
+The label chap_2_scene_17.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3325 and
+  File "game/chapter_2.rpy", line 3325.
+
+The label chap_2_scene_17.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3337 and
+  File "game/chapter_2.rpy", line 3337.
+
+The label chap_2_scene_17.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3398 and
+  File "game/chapter_2.rpy", line 3398.
+
+The label chap_2_scene_18 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3544 and
+  File "game/chapter_2.rpy", line 3544.
+
+The label chap_2_scene_19 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 3962 and
+  File "game/chapter_2.rpy", line 3962.
+
+The label chap_2_scene_20 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4057 and
+  File "game/chapter_2.rpy", line 4057.
+
+The label chap_2_scene_21 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4136 and
+  File "game/chapter_2.rpy", line 4136.
+
+The label chap_2_scene_22 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4277 and
+  File "game/chapter_2.rpy", line 4277.
+
+The label chap_2_scene_22.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4390 and
+  File "game/chapter_2.rpy", line 4390.
+
+The label chap_2_scene_22.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4443 and
+  File "game/chapter_2.rpy", line 4443.
+
+The label chap_2_scene_23 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4458 and
+  File "game/chapter_2.rpy", line 4458.
+
+The label chap_2_scene_24 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4503 and
+  File "game/chapter_2.rpy", line 4503.
+
+The label chap_2_scene_24.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4612 and
+  File "game/chapter_2.rpy", line 4612.
+
+The label chap_2_scene_24.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4623 and
+  File "game/chapter_2.rpy", line 4623.
+
+The label chap_2_scene_24.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4653 and
+  File "game/chapter_2.rpy", line 4653.
+
+The label chap_2_scene_24.part_4 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4665 and
+  File "game/chapter_2.rpy", line 4665.
+
+The label chap_2_scene_24.part_5 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4674 and
+  File "game/chapter_2.rpy", line 4674.
+
+The label chap_2_scene_25 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4695 and
+  File "game/chapter_2.rpy", line 4695.
+
+The label chap_2_scene_25.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4774 and
+  File "game/chapter_2.rpy", line 4774.
+
+The label chap_2_scene_25.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4807 and
+  File "game/chapter_2.rpy", line 4807.
+
+The label chap_2_scene_25.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4824 and
+  File "game/chapter_2.rpy", line 4824.
+
+The label chap_2_scene_26 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4830 and
+  File "game/chapter_2.rpy", line 4830.
+
+The label chap_2_scene_27 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4878 and
+  File "game/chapter_2.rpy", line 4878.
+
+The label chap_2_scene_27.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4917 and
+  File "game/chapter_2.rpy", line 4917.
+
+The label chap_2_scene_27.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 4925 and
+  File "game/chapter_2.rpy", line 4925.
+
+The label chap_2_scene_28 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5071 and
+  File "game/chapter_2.rpy", line 5071.
+
+The label chap_2_scene_28.part_1 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5137 and
+  File "game/chapter_2.rpy", line 5137.
+
+The label chap_2_scene_28.part_2 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5146 and
+  File "game/chapter_2.rpy", line 5146.
+
+The label chap_2_scene_28.part_3 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5171 and
+  File "game/chapter_2.rpy", line 5171.
+
+The label chap_2_scene_28.part_4 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5206 and
+  File "game/chapter_2.rpy", line 5206.
+
+The label chap_2_scene_28.part_6 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5240 and
+  File "game/chapter_2.rpy", line 5240.
+
+The label chap_2_scene_28.part_7 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5298 and
+  File "game/chapter_2.rpy", line 5298.
+
+The label chap_2_scene_28.part_8 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5305 and
+  File "game/chapter_2.rpy", line 5305.
+
+The label chap_2_scene_29 is defined twice, at
+  File "game/chapter2 scene 1.rpyc", line 5341 and
+  File "game/chapter_2.rpy", line 5341.
+
+Ren'Py Version: Ren'Py 7.4.5.1648
+Sun May  7 12:58:12 2023
