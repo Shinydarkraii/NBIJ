@@ -205,8 +205,7 @@ label veronicaevidencedel:
 
     Jake  "Sure... alright. "
     ""
-
-    "{i}In New York{/i}"
+    stop music
     jump chap_2_scene_1
     return
 
