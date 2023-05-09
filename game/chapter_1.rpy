@@ -2292,7 +2292,7 @@ label kiaraandtaka:
         show bg kiaraandtaka 27 with Dissolve(0.8)
         Taka "Well done , impressive indeed. "
         stop music
-    jump part_1
+    jump .part_1
 
     label .part_3:
         
