@@ -1,3 +1,5 @@
+default persistent.mia_hotel_scene_1 = False
+
 
 #Gallery code
 screen gallery():
@@ -6,7 +8,7 @@ screen gallery():
     add "images/Jpn/Prelude/bg photoshootleather 8.png"
     default gallery_a_list = [
             # [Scene Label, Image, Persistent ]
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), persistent.kiara_scene_1_unlocked],
+            ["accmumelv", im.Scale("images/Jpn/Ny/Intro/HOTEL/Mom/Acceptedhotelmom/bg gropedcde 2.jpg", 640, 360), persistent.mia_hotel_scene_1],
             ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
             ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
             ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
@@ -42,7 +44,7 @@ screen gallery():
             for i in range(((cg_page_a-1)*4),(cg_page_a*4)):
                 if i < len(gallery_a_list):
                     imagebutton:
-                        action Replay(gallery_a_list[i][0], scope={"mc_name": Kiara or "Kiara"}, locked=not (renpy.seen_label(gallery_a_list[i][0]) or gallery_a_list[i][2] or persistent.master_unlock))
+                        action Replay(gallery_a_list[i][0], scope={"mc_name": Kiara or "Kiara"}, locked=None) # not (gallery_a_list[i][2] or persistent.master_unlock))
                         idle Transform(gallery_a_list[i][1], zoom=1)
                         hover Composite((640, 360), (0, 0), gallery_a_list[i][1], (0, 0), "images/UI/thumbnail_hover.png")
                         insensitive Transform(gallery_a_list[i][1], zoom=1, blur=30, xsize=640, ysize=360, matrixcolor=SaturationMatrix(0))
