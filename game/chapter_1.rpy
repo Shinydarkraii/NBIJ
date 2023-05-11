@@ -3170,7 +3170,7 @@ label accepthotelmom:
 
     play music "/audio/choicmusic.ogg"
     menu:
-        "It's just my body , I'd give my life for her":
+        "It's just my body, I'd give my life for her":
             #TODO kiara corruption by 1
             $ mc_stats.adjust_corruption(1)
             call accmumelv from _call_accmumelv
@@ -3243,6 +3243,8 @@ label accmumelv:
     Dennis "*Smooch* Juicy , now you can go ."
     stop music
 
+    $ renpy.end_replay
+    $ persistent.mia_hotel_scene_1 = False
 
 
     return
@@ -3449,6 +3451,7 @@ label roomsegment2:
     jump Momandlawyer
 
 label lanaAcpt1:
+    # TODO gallery scene here
     play music "/audio/htlscns.ogg"
     show bg lanadecidegrope with Dissolve(0.8)
     Lana "Okay, whatever, poor guy probably hasn't seen a girl. I'll be out of the lift soon."
@@ -3464,6 +3467,8 @@ label lanaAcpt1:
     Dennis "God gave you wonderful babies for sure, hun. I wonder what god gave you down there, heh."
     Lana "Hey, cut it out. What the -"
     Lana "This is crazy. I should do something before it's too late."
+    if _in_replay:
+        jump lanaAcpt2
     menu:
         "Try to run away...":
             call lanaRjt2 from _call_lanaRjt2
@@ -3688,8 +3693,11 @@ label lanaAcpt2:
     Dennis "Yes babe , you're hella tight too."
     show bg lanasex 43
     Lana "Fuck yea, fuck me , oh yes"
-    scene bg lanasex 43
-    Dennis "you're so good , you're so damn hot , holy fuck so tight."
+    scene bg lanasex 43pt1 with Dissolve(0.8)
+    Dennis "you're so good , you're so damn hot, holy fuck so tight."
+    scene bg lanasex 43pt2 with Dissolve(0.8)
+    pause
+    scene bg lanasex 43pt3 with Dissolve(0.8)
     Dennis "Blondes are the best no lies"
     show bg lanasex 44 with Dissolve(0.8)
     Dennis "I can't wait anymore."
@@ -3703,6 +3711,7 @@ label lanaAcpt2:
     show bg lanasex 48 with Dissolve(0.8)
     Lana "Oh fuck! That hurt but so good omg."
     Dennis "Hurts me too but I can't stop fuck."
+    show bg lanasex 49 with Dissolve(0.8)
     Lana "fuck me you bastard spread that ass, oh yes."
     Dennis "Damn baby you are tight"
     Dennis "Fuck I'm cumming"
@@ -3727,7 +3736,7 @@ label lanaAcpt2:
     Lana "Kinda ironic how I was gonna bring kiara clothes and I'm the one naked... oh well hope your trip to japan is as fun as this was for me kiara <3."
     stop music
 
-
+    $ renpy.end_replay
 
     jump roomsegment2
 
@@ -3816,6 +3825,7 @@ label Momandlawyer:
     play music "/audio/swhrmsc.ogg"
     show bg mumlawyer 25 with Dissolve(0.8)
     "" "Mia due to stress had forgot to lock the door."
+    #TODO gallery scene here
     show bg mumlawyer 26 with Dissolve(0.8)
     Mia "Ah if nothing else at least warm water helps to keep head clean."
     show bg mumlawyer 29 with Dissolve(0.8)
@@ -3850,6 +3860,9 @@ label Momandlawyer:
     stop music
     play music "/audio/choicmusic.ogg"
     Mia "Love? What... is happening I should do something."
+
+    if _in_replay:
+        jump 
     menu:
         "Let it happen":
             #TODO add kiara corruption by 1
@@ -3902,6 +3915,25 @@ label ACCEPTEDLAW:
     show bg mumlawyeraccpt 19 with Dissolve (0.8)
     Mason "Bend over Mia. I can't hold back anymore."
     Mia "Ah... um, are we?"
+    show bg mumlawyeraccpt 20 with Dissolve(0.8)
+    pause
+    show bg mumlawyeraccpt 20pt2 with Dissolve(0.8)
+    pause
+    show bg mumlawyeraccpt 20pt3 with Dissolve(0.8)
+    pause
+    show bg mumlawyeraccpt 20pt4 with Dissolve(0.8)
+    pause
+    show bg mumlawyeraccpt 20pt5 with Dissolve(0.8)
+    pause
+    show bg mumlawyeraccpt 20pt6 with Dissolve(0.8)
+    pause
+    show bg mumlawyeraccpt 20pt7 with Dissolve(0.8)
+    pause
+    show bg mumlawyeraccpt 20pt8 with Dissolve(0.8)
+    pause
+    show bg mumlawyeraccpt 21 with Dissolve(0.8)
+    return 
+
 label Momspyscene:
     show bg mumlawyerspy 1 with Dissolve(0.8)
     ChrisInvestigator "Heh, Mason, see even the best of best lawyers slide when the pussy is there, can't blame you, brother. That is one hot babe. "
