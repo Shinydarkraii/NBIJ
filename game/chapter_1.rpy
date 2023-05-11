@@ -3862,7 +3862,7 @@ label Momandlawyer:
     Mia "Love? What... is happening I should do something."
 
     if _in_replay:
-        jump 
+        jump ACCEPTEDLAW
     menu:
         "Let it happen":
             #TODO add kiara corruption by 1
@@ -3932,7 +3932,7 @@ label ACCEPTEDLAW:
     show bg mumlawyeraccpt 20pt8 with Dissolve(0.8)
     pause
     show bg mumlawyeraccpt 21 with Dissolve(0.8)
-    return 
+    jump Momspyscene 
 
 label Momspyscene:
     show bg mumlawyerspy 1 with Dissolve(0.8)
