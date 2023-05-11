@@ -1,11 +1,25 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
+<<<<<<< HEAD
+After initialization, but before game start.
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'E:\\nbij\\chpt1\\Projects\\NBIJ\\game\\saves\\navigation.json.new' -> 'E:\\nbij\\chpt1\\Projects\\NBIJ\\game\\saves\\navigation.json'
+=======
 While loading <'Scale' <'Image' u'images/Jpn/Ny/Intro/HOTEL/Mom/Acceptedhotel/lmombg gropedcde 2.png'> 640 360 True>:
 IOError: Couldn't find file 'images/Jpn/Ny/Intro/HOTEL/Mom/Acceptedhotel/lmombg gropedcde 2.png'.
+>>>>>>> 775b672b9d4fd8685625a3a4de1ae219e9f981c8
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\main.py", line 610, in main
+    renpy.dump.dump(False)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\dump.py", line 262, in dump
+    os.rename(new, filename)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'E:\\nbij\\chpt1\\Projects\\NBIJ\\game\\saves\\navigation.json.new' -> 'E:\\nbij\\chpt1\\Projects\\NBIJ\\game\\saves\\navigation.json'
+=======
   File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
     python hide:
   File "renpy/ast.py", line 922, in execute
@@ -75,8 +89,13 @@ Full traceback:
   File "renpy/display/im.py", line 688, in load
     raise e
 IOError: Couldn't find file 'images/Jpn/Ny/Intro/HOTEL/Mom/Acceptedhotel/lmombg gropedcde 2.png'.
+>>>>>>> 775b672b9d4fd8685625a3a4de1ae219e9f981c8
 
 Windows-10-10.0.19041
 Ren'Py 7.4.5.1648
  0.2
+<<<<<<< HEAD
+Thu May 11 22:08:50 2023
+=======
 Thu May 11 21:53:13 2023
+>>>>>>> 775b672b9d4fd8685625a3a4de1ae219e9f981c8
