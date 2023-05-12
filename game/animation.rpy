@@ -6,8 +6,8 @@ image bg lanasex 49 = Movie(fps= 60, play= "images/Jpn/Ny/Intro/HOTEL/Lana/Grope
 
 #acepted law 
 image bg mumlawyeraccpt 20pt7 = Movie(fps= 60, play= "images/Jpn/Ny/Intro/momlawyer/ACCEPTEDLAW/bgmumlawyeraccpt20pt7.webm", loop = True)
-image bg mumlawyeraccpt 20pt8 = Movie(fps= 60, play= "images/Jpn/Ny/Intro/momlawyer/ACCEPTEDLAW/bgmumlawyeraccpt20pt7.webm", loop = True)
-image bg mumlawyeraccpt 21  = Movie(fps= 60, play= "images/Jpn/Ny/Intro/momlawyer/ACCEPTEDLAW/bgmumlawyeraccpt20pt7.webm", loop = True)
+image bg mumlawyeraccpt 20pt8 = Movie(fps= 60, play= "images/Jpn/Ny/Intro/momlawyer/ACCEPTEDLAW/bgmumlawyeraccpt20pt8.webm", loop = True)
+image bg mumlawyeraccpt 21  = Movie(fps= 60, play= "images/Jpn/Ny/Intro/momlawyer/ACCEPTEDLAW/bgmumlawyeraccpt21.webm", loop = True)
 
 ###miamsnmrngscn ANIMATIONS 
 image bg_miamsnmrngscn_anim_1 = Movie(fps= 60, play= "images/Jpn/Ny/msonmiamrngscn/bg miamsnmrngscn 32.webm", loop = True)

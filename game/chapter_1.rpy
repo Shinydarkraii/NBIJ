@@ -3932,6 +3932,7 @@ label ACCEPTEDLAW:
     show bg mumlawyeraccpt 20pt8 with Dissolve(0.8)
     pause
     show bg mumlawyeraccpt 21 with Dissolve(0.8)
+    pause
     jump Momspyscene 
 
 label Momspyscene:
