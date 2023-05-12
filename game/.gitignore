@@ -10,3 +10,5 @@ gui/
 **.bak
 test/
 audio/
+log.txt
+errors.txt
