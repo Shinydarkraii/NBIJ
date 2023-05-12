@@ -3932,13 +3932,14 @@ label ACCEPTEDLAW:
     show bg mumlawyeraccpt 20pt8 with Dissolve(0.8)
     pause
     show bg mumlawyeraccpt 21 with Dissolve(0.8)
+    pause
     jump Momspyscene 
 
 label Momspyscene:
     show bg mumlawyerspy 1 with Dissolve(0.8)
-    ChrisInvestigator "Heh, Mason, see even the best of best lawyers slide when the pussy is there, can't blame you, brother. That is one hot babe. "
+    JakeInvestigator "Heh, Mason, see even the best of best lawyers slide when the pussy is there, can't blame you, brother. That is one hot lady "
     show bg mumlawyerspy 2 with Dissolve(0.8)
-    ChrisInvestigator "Mr.john will be pleased with these... shame he's a sly dog, had quite the babe to himself hah."
+    JakeInvestigator "Mr.john will be pleased with these... shame he's a sly dog, had quite the babe to himself hah."
     stop music
 
     jump PLANESEGMENT
