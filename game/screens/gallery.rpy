@@ -5,7 +5,7 @@ default persistent.mia_hotel_scene_1 = False
 screen gallery():
 
     style_prefix "navigation"
-    add "images/Jpn/Prelude/bg photoshootleather 8.png"
+    add "images/Jpn/chptrstrt/bg chptstrt 51.jpg"
     default gallery_a_list = [
             # [Scene Label, Image, Persistent ]
             ["accmumelv", im.Scale("images/Jpn/Ny/Intro/HOTEL/Mom/Acceptedhotelmom/bg gropedcde 2.jpg", 640, 360), persistent.mia_hotel_scene_1],
