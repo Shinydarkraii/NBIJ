@@ -47,7 +47,7 @@ screen gallery():
                         action Replay(gallery_a_list[i][0], scope={"mc_name": Kiara or "Kiara"}, locked=None) # not (gallery_a_list[i][2] or persistent.master_unlock))
                         idle Transform(gallery_a_list[i][1], zoom=1)
                         hover Composite((640, 360), (0, 0), gallery_a_list[i][1], (0, 0), "images/UI/thumbnail_hover.png")
-                        insensitive Transform(gallery_a_list[i][1], zoom=1, blur=30, xsize=640, ysize=360, matrixcolor=SaturationMatrix(0))
+                        insensitive Transform("images/UI/lock_imaege.jpg", zoom=1, blur=30, xsize=640, ysize=360, matrixcolor=SaturationMatrix(0))
                 else:
                     null
 

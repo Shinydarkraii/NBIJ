@@ -1,75 +1,21 @@
-<<<<<<< HEAD
-Sat May 13 19:01:14 2023
-=======
-<<<<<<< HEAD
-Sat May 13 06:59:59 2023
-=======
-<<<<<<< HEAD
-Sat May 13 19:00:33 2023
-=======
-<<<<<<< HEAD
-Sat May 13 06:55:02 2023
->>>>>>> a39f036d321bd7042b45b6dc4f7e77cb29a4278e
-Windows-10-10.0.22621
-Ren'Py 8.0.3.22090809
- 
-
-Bootstrap to the start of init.init took 0.02s
-Early init took 0.00s
-Loader init took 0.12s
-Loading error handling took 0.03s
-Loading script took 0.14s
-Loading save slot metadata. took 0.10s
-Loading persistent took 0.01s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.11s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.00s
-Save screen analysis took 0.01s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-Sat May 13 18:58:04 2023
->>>>>>> 82660bd83a2f296a299df06e535a1fb9d28d70dc
->>>>>>> 26cce78175622025baf41215e611a85ef67d32c0
+Sat May 13 19:23:46 2023
 Windows-10-10.0.19044
 Ren'Py 8.0.3.22090809
  
 
-Bootstrap to the start of init.init took 0.04s
+Bootstrap to the start of init.init took 0.03s
 Early init took 0.00s
 Loader init took 0.07s
 Loading error handling took 0.03s
-Loading script took 0.19s
-Loading save slot metadata. took 0.01s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\Renpy projects\\New Beginings In Japan\\dialog data\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.07s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
 Dump and make backups. took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -77,56 +23,27 @@ Initial gc. took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.20s
+Creating interface object took 0.23s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.03s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.06s
-<<<<<<< HEAD
-=======
->>>>>>> be1397c25e6efb45b2a4b7ba64a4c920918aad4a
->>>>>>> 82660bd83a2f296a299df06e535a1fb9d28d70dc
->>>>>>> a39f036d321bd7042b45b6dc4f7e77cb29a4278e
->>>>>>> 26cce78175622025baf41215e611a85ef67d32c0
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'NVIDIA Corporation'"
-<<<<<<< HEAD
-=======
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 531.68'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 26cce78175622025baf41215e611a85ef67d32c0
 Renderer: b'NVIDIA GeForce RTX 3060/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 531.61'
 Display Info: None
 Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 47add3e23b771ac3cb401e3e14c4638d432289f8
->>>>>>> be1397c25e6efb45b2a4b7ba64a4c920918aad4a
->>>>>>> 82660bd83a2f296a299df06e535a1fb9d28d70dc
->>>>>>> a39f036d321bd7042b45b6dc4f7e77cb29a4278e
->>>>>>> 26cce78175622025baf41215e611a85ef67d32c0
