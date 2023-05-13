@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Sat May 13 18:58:04 2023
 Windows-10-10.0.19044
 Ren'Py 8.0.3.22090809
@@ -47,3 +48,5 @@ Version: b'4.6.0 NVIDIA 531.61'
 Display Info: None
 Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
+=======
+>>>>>>> 47add3e23b771ac3cb401e3e14c4638d432289f8
