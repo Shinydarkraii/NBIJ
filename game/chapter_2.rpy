@@ -251,6 +251,7 @@ label chap_2_scene_1:
         jump .part_3
 
     label .part_3:
+        #TODO gallery scene here
         scene bg chptstrt 50  with Dissolve(0.8)
         Kiara "Haaa , okay i hope the water isn't cold"
         scene bg chptstrt 51 with Dissolve(0.8)
@@ -266,8 +267,9 @@ label chap_2_scene_1:
         scene bg chptstrt 56 with Dissolve(0.8)
         pause
         scene bg chptstrt 57  with Dissolve(0.8)
-        Kiara "Definitely needed that , lets go"
+        Kiara "Definitely needed that, lets go."
         scene bg chptstrt 58 with Dissolve(0.8)
+        $ renpy.end_replay
         pause
         scene bg chptstrt 59  with Dissolve(0.8)
         Natsuko "Mom , why can't we take in a cat"
@@ -482,6 +484,7 @@ label chap_2_scene_2:
     label .part_2:
 
         #Cosplychcetwo - 
+        #TODO gallery scene here
         scene bg kiaracrptcsply 1 with Dissolve(0.8)
         Kiara "100$ sounds good to me , where's the outfit?"                     
         scene bg kiaracrptcsply 2 with Dissolve(0.8)
@@ -537,7 +540,7 @@ label chap_2_scene_2:
         Taka "(Fuck why does she wear thong in the game.. I almost wanna tear that off) Alright kiara , let's do one without the wig so they know its you!"
         scene bg kiaracrptcsply 25 with Dissolve(0.8)
         Taka "Perfect! that'll be all~"
-
+        $ renpy.end_replay
         $ mc_stats.adjust_corruption(5)
         $ inventory.add(100)
         jump chap_2_scene_3
@@ -602,7 +605,8 @@ label chap_2_scene_3:
             jump .part_2
 
     label .part_1:
-        #bg mtngwnggrpys -         
+        #bg mtngwnggrpys -   
+        #TODO gallery scene here      
         scene bg mtngwnggrpyes 1  with Dissolve(0.8)
         AgentWong "(I shouldn't risk it.. it's just a pervert , I'll handle it)"
         scene bg mtngwnggrpyes 2  with Dissolve(0.8)
@@ -675,6 +679,8 @@ label chap_2_scene_3:
         scene bg mtngwnggrpyes 33  with Dissolve(0.8)
         AgentWong "Aah-.. You're disgusting.."
         Molester "Your love hole says otherwise babe"
+
+        $ renpy.end_replay
         scene bg mtngwnggrpyes 34  with Dissolve(0.8)
         AgentWong "There's the tunnel.. finally"
         scene bg mtngwngtunnl  with Dissolve(0.8) 
@@ -1003,7 +1009,8 @@ label chap_2_scene_4:
             jump .part_2
 
     label .part_1:
-        #IF CHOICE ASK NOW 
+        #IF CHOICE ASK NOW
+        #TODO gallery scene here 
         scene bg offchptrsgmnt 89  with Dissolve(0.8)
         Assistant "Aaah! sir.. wai-" 
         scene bg offchptrsgmnt 90  with Dissolve(0.8)
@@ -1022,7 +1029,8 @@ label chap_2_scene_4:
         Kiara "W-what is happening.. this.. I should leave" 
         #CHOICE  - Kiara dialogue first  - 
         pass
-    
+    if _in_replay:
+        jump .part_3
     
     #CHOICE -  Keep watching ( + 5 Corruption) , Don’t watch (No corruption).
     menu:
@@ -1067,6 +1075,8 @@ label chap_2_scene_4:
         Vince "Swear i heard something.."
         scene bg offccptwtch 16 with Dissolve(0.8)
         Kiara "Oh my god , he could've spotted me.. I- i gotta go now"
+
+        $ renpy.end_replay
         scene bg offccptwtch 17 with Dissolve(0.8)
         Kiara "This was.. what just happened?"
         scene bg offccptwtch 18 with Dissolve(0.8)
@@ -1612,6 +1622,7 @@ label chap_2_scene_6:
 
     label .part_1:
         # #IF LET HIM TAKE THEN USE RENDERS OF FOLDER -  msrmntyes ->
+        #TODO gallery scene here
         scene bg msrmntaccpt 1 with Dissolve(0.8)
         Kiara "Right sure ( I shouldn't be so suspicious of everyone he's just an old man)"
         scene bg msrmntaccpt 2 with Dissolve(0.8)
@@ -1720,7 +1731,7 @@ label chap_2_scene_6:
         Kiara "Sure , thank you (God i'm glad i was wearing bra)"
         scene bg msrmntaccpt 47 with Dissolve(0.8)
         Genji "Good day kiara-san (One day i'll measure your insides as well..)"
-
+        $ renpy.end_replay
         $ mc_stats.adjust_corruption(5)
         jump chap_2_scene_7
     
@@ -2068,41 +2079,45 @@ label chap_2_scene_9:
     pause
     scene bgkiabathroom 5 with Dissolve(0.8)
     Kiara "Alright , I'll just take a shower at home anyway it's fine"
-    scene bgkiabathroom 6 with Dissolve(0.8)
-    Kiara "Whew.. what a relief , day went better than i thought honestly"
-    scene bgkiabathroom 7 with Dissolve(0.8)
-    Kiara "That said though i have to decide a roadmap for this many things to do"
-    scene bgkiabathroom 8 with Dissolve(0.8)
-    Kiara "Huh? the lights , what the-"
-    scene bgkiabathroom 9 with Dissolve(0.8)
-    Kiara "He-.. oh they're back"
-    scene bgkiabathroom 10 with Dissolve(0.8)
-    Kiara "Weird , you'd expect a gaming cafe to not have power cuts , anyway let's g-"
-    scene bgkiabathroom 11 with Dissolve(0.8)
-    Kiara "Wh-- what the? where's my"
-    Jako "Hey you in there , all good? Lights just went out"
-    scene bgkiabathroom 12 with Dissolve(0.8)
-    Kiara "It was a power a cut..um excuse me what are you doing in the ladies bathroom?"
-    Jako "At night it's a mixed one babe"
-    scene bgkiabathroom 13 with Dissolve(0.8)
-    Kiara "What the-.. uh , (whatever) Um have you seen my skirt? It was here and power went out i think i kicked it out by accident"
-    scene bgkiabathroom 14 with Dissolve(0.8)
-    Jako "Oh no you didn't kick it out , I stole it"
-    Kiara "WHAT?! Hey give it back!"
-    scene bgkiabathroom 15 with Dissolve(0.8)
-    Jako "No problem babe , but ima need something first"
-    Kiara "W-.. what?"
-    scene bgkiabathroom 16 with Dissolve(0.8)
-    Jako "I'll give your skirt back , but i want your panties for 10 seocnds"
-    Kiara "Are you fucking serious? hey cut it out return it!"
-    Jako "I will , cross my heart just need your panties for 10 seconds"
-    scene bgkiabathroom 17 with Dissolve(0.8)
-    Kiara "(What the hell.. is he for real?)"
-    scene bgkiabathroom dcd  with Dissolve(0.8)
-    Kiara "What do i do here? I just wanna go home"
+
+    label .part_4:
+        scene bgkiabathroom 6 with Dissolve(0.8)
+        Kiara "Whew.. what a relief , day went better than i thought honestly"
+        scene bgkiabathroom 7 with Dissolve(0.8)
+        Kiara "That said though i have to decide a roadmap for this many things to do"
+        scene bgkiabathroom 8 with Dissolve(0.8)
+        Kiara "Huh? the lights , what the-"
+        scene bgkiabathroom 9 with Dissolve(0.8)
+        Kiara "He-.. oh they're back"
+        scene bgkiabathroom 10 with Dissolve(0.8)
+        Kiara "Weird , you'd expect a gaming cafe to not have power cuts , anyway let's g-"
+        scene bgkiabathroom 11 with Dissolve(0.8)
+        Kiara "Wh-- what the? where's my"
+        Jako "Hey you in there , all good? Lights just went out"
+        scene bgkiabathroom 12 with Dissolve(0.8)
+        Kiara "It was a power a cut..um excuse me what are you doing in the ladies bathroom?"
+        Jako "At night it's a mixed one babe"
+        scene bgkiabathroom 13 with Dissolve(0.8)
+        Kiara "What the-.. uh , (whatever) Um have you seen my skirt? It was here and power went out i think i kicked it out by accident"
+        scene bgkiabathroom 14 with Dissolve(0.8)
+        Jako "Oh no you didn't kick it out , I stole it"
+        Kiara "WHAT?! Hey give it back!"
+        scene bgkiabathroom 15 with Dissolve(0.8)
+        Jako "No problem babe , but ima need something first"
+        Kiara "W-.. what?"
+        scene bgkiabathroom 16 with Dissolve(0.8)
+        Jako "I'll give your skirt back , but i want your panties for 10 seocnds"
+        Kiara "Are you fucking serious? hey cut it out return it!"
+        Jako "I will , cross my heart just need your panties for 10 seconds"
+        scene bgkiabathroom 17 with Dissolve(0.8)
+        Kiara "(What the hell.. is he for real?)"
+        scene bgkiabathroom dcd  with Dissolve(0.8)
+        Kiara "What do i do here? I just wanna go home"
     #> CHOICE  with Dissolve(0.8)
     #> CALL HIS BOSS ( + No Corruption) 
     #Give panties (REQUIRES 20 CORRUPTION) (ALSO  + Corruption) 
+    if _in_replay:
+        jump .part_2
     menu:
         "Call his boss":
             jump .part_1
@@ -2176,6 +2191,9 @@ label chap_2_scene_9:
         Kiara "Where the hell is he?"
         scene bgbathkiagivepants 16 with Dissolve(0.8)
         Kiara "Whatever.. let's just go home"
+
+        $ renpy.end_replay
+
         $ mc_stats.adjust_corruption(5)
     jump .part_3
 
@@ -2464,27 +2482,31 @@ label chap_2_scene_10:
     Azumi "Uh , my head hurts.. should've had tea instead"
     scene bg kiagdnit 45 with Dissolve(0.8)
     Azumi "Why is the room suddenly getting so warm.. is it because i didn't shower after school?"
-    scene bg kiagdnit 46 with Dissolve(0.8)
-    pause
-    scene bg kiagdnit 47 with Dissolve(0.8)
-    pause
-    scene bg kiagdnit 48 with Dissolve(0.8)
-    pause
-    scene bg kiagdnit 49 with Dissolve(0.8)
-    Azumi "Why am i still sweating? ugh i should just take a shower"
-    scene bg kiagdnit 50 with Dissolve(0.8)
-    Azumi "Where's my brush"
-    scene bg kiagdnit 51 with Dissolve(0.8)
-    Azumi "What is happening.. I feel dizzy too"
-    scene bg kiagdnit 52 with Dissolve(0.8)
-    Azumi "It's like something is just burning right next to me"
-    scene bg kiagdnit 53 with Dissolve(0.8)
-    Azumi "*Phone rings* What the?.. Kiara? " 
-    scene bg kiagdnitazmidcd  with Dissolve(0.8)
-    Azumi "I don't feel like now is the right time to talk, but i don't wanna ignore her"
+    # TODO gallery scene here
+    label .part_7:
+        scene bg kiagdnit 46 with Dissolve(0.8)
+        pause
+        scene bg kiagdnit 47 with Dissolve(0.8)
+        pause
+        scene bg kiagdnit 48 with Dissolve(0.8)
+        pause
+        scene bg kiagdnit 49 with Dissolve(0.8)
+        Azumi "Why am i still sweating? ugh i should just take a shower"
+        scene bg kiagdnit 50 with Dissolve(0.8)
+        Azumi "Where's my brush"
+        scene bg kiagdnit 51 with Dissolve(0.8)
+        Azumi "What is happening.. I feel dizzy too"
+        scene bg kiagdnit 52 with Dissolve(0.8)
+        Azumi "It's like something is just burning right next to me"
+        scene bg kiagdnit 53 with Dissolve(0.8)
+        Azumi "*Phone rings* What the?.. Kiara? " 
+        scene bg kiagdnitazmidcd  with Dissolve(0.8)
+        Azumi "I don't feel like now is the right time to talk, but i don't wanna ignore her"
     #> CHOICE  with Dissolve(0.8)
     #> TALK WITH KIARA (+1 corruption) ""
     #TELL HER YOU’RE BUSY ""
+    if _in_replay:
+        jump .part_1
     menu:
         "Talk with [Kiara].":
             jump .part_1
@@ -2546,6 +2568,8 @@ label chap_2_scene_10:
         Azumi "Yeah , Goodnight.. *Smooch*"
         scene azmitalkoncall  19 with Dissolve(0.8)
         Azumi "Definitely need that shower now.."
+
+        $ renpy.end_replay
         $ mc_stats.adjust_corruption(1)
         jump .part_3
     
@@ -2974,7 +2998,7 @@ label chap_2_scene_13:
             jump .part_1
 
     label .part_1:
-
+        #TODO gallery scene here
         # If not skipped then continue from here
         scene bg miamsnmrngscn 7  with Dissolve(0.8)
         Mason "Huh?.. are those?"
@@ -3056,9 +3080,9 @@ label chap_2_scene_13:
         scene bg miamsnmrngscn 38  with Dissolve(0.8)
         Mia "(Wow , he came so much seems he likes my tits the most)"
         scene bg miamsnmrngscn 39  with Dissolve(0.8)
-        Mason "Sorry i covered your face.."
+        Mason "Sorry I covered your face.."
         Mia "I love it , it's yummy.."
-
+        $ renpy.end_replay
         jump chap_2_scene_14
 
 
@@ -3336,6 +3360,7 @@ label chap_2_scene_17:
 
     label .part_1:
         # IF LET HIM MASSAGE THEN USE RENDERS OF  -> lethimsglana-
+        #TODO gallery scene here
         scene bg lanamommsgaccpt 1  with Dissolve(0.8)
         Elizabeth "Uh alright , well please make it quick then"
         Masseur "No point in rushing mam , I am a professional you need not to worry"
@@ -3387,12 +3412,13 @@ label chap_2_scene_17:
         #CHOICE 
         #Let him continue? 
         #Stop  this now ( IF STOP THIS NOW THEN USE RENDERS OF dntmsg like above ) ( IF LET HIM CONTINUE RESUME AHEAD LIKE NORMAL 
-        
+        if _in_replay:
+            jump .part_3
         menu:
             "Stop this now":
                 jump .part_2
 
-            "Let him contiue":
+            "Let him continue":
                 pass
 
         label .part_3:
@@ -3533,6 +3559,7 @@ label chap_2_scene_17:
             Masseur "Oh yeah that's right , swallow that baby"
             scene bg lanamommsgaccpt 72  with Dissolve(0.8)
             Elizabeth "Ha.. um"
+            $ renpy.end_replay
             scene bg lanamommsgaccpt 73  with Dissolve(0.8)
             Masseur "Shit , you okay?"
             scene bg lanamommsgaccpt 74  with Dissolve(0.8)
@@ -4060,6 +4087,7 @@ label chap_2_scene_19:
 label chap_2_scene_20:
     scene bg jhnbljhbscn 1 with Dissolve(0.8)
     John "Hehe , Keep going at it girls"
+    #TODO gallery scene here
     scene bg jhnbljhbscn 2 with Dissolve(0.8)
     pause
     scene bg jhnbljhbscn 3 with Dissolve(0.8)
@@ -4103,7 +4131,8 @@ label chap_2_scene_20:
     AgentWong "Tsk.."
     John "Ah i apologize please don't ruin your lovely face by anger , I am just worried"
     scene bg jhnbljhbscn 19 with Dissolve(0.8)
-    AgentWong "I'll keep her safe , don't worry bye for now"
+    AgentWong "I'll keep her safe don't worry, bye for now."
+    $ renpy.end_replay
     scene bg jhnbljhbscn 20 with Dissolve(0.8)
     John "Wait ! One thing ms wong"
     AgentWong "What?"

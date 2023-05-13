@@ -527,16 +527,20 @@ label valntdamimomscn:
     MaidAna "Mrs. Valentina always has been kind to master Damian , I wonder why they never got together. "
     show valntdamimomscn 11 with Dissolve(0.8)
     Valentina "Mrs. Arundel? It's me. When will Damian will be ba- "
-    show valntdamimomscn 12 with Dissolve(0.8)
-    Eugine "Hmm hmm *music humming* "
-    show valntdamimomscn 13 with Dissolve(0.8)
-    Valentina "Shit! I forgot they had an open bathroom... she didn't notice me, right? "
-    show valntdamimomscn 14 with Dissolve(0.8)
-    ""
-    stop music
-    show valntdamimomscn 15 with Dissolve(0.8)
-    Valentina "I- This was a mistake , what do I do? "
-    play music "/audio/choicmusic.ogg"
+
+    label .part_1:
+        show valntdamimomscn 12 with Dissolve(0.8)
+        Eugine "Hmm hmm *music humming* "
+        show valntdamimomscn 13 with Dissolve(0.8)
+        Valentina "Shit! I forgot they had an open bathroom... she didn't notice me, right? "
+        show valntdamimomscn 14 with Dissolve(0.8)
+        ""
+        stop music
+        show valntdamimomscn 15 with Dissolve(0.8)
+        Valentina "I- This was a mistake , what do I do? "
+        play music "/audio/choicmusic.ogg"
+    if _in_replay:
+        jump valntdamimomscn2
     menu:
         "Leave! the last thing you need is this stuff right now.":
             jump valntdamimomscn1 
@@ -611,6 +615,7 @@ label valntdamimomscn2:
     show valntdamimomscn 39 with Dissolve(0.8)
     Valentina "I can't let uncle luke see me this way! I'll just call him later. "
     ""
+    $ renpy.end_replay
     stop music
     jump veromeetsevlyn
 
@@ -1465,6 +1470,7 @@ label natsugropaccpt:
     Natsuko "*sniff* Thank god... "
     show bg natsugropaccpt 24 with Dissolve(0.8)
     Molester "Wear a skirt next time... we'll have more fun... hehe *buttslap* "
+    $ renpy.end_replay
     Natsuko "I...why didn't I stop him... "
     show bg natsugropaccpt 25 with Dissolve(0.8)
     Natsuko "I should dress up , I can't let anyone see me like this. "
@@ -1553,30 +1559,32 @@ label returninghome2:
     Natsuko "Far from it , but don't worry, I'm good to see you in a bit. "
     show bg kiaraandnatsugohome 23 with Dissolve(0.8)
     Natsuko "Alright then , music time it is. "
-    show bg kiaraandnatsugohome 24 with Dissolve(0.8)
-    stop music
-    show bg kiaraandnatsugohome 25 with Dissolve(0.8)
-    play music "/audio/ntsuchikn.ogg"
-    "???""Start with a soft touch... "
-    show bg kiaraandnatsugohome 26 with Dissolve(0.8)
-    "???""Doesn't seem to notice... let's go further, then. "
-    show bg kiaraandnatsugohome 27 with Dissolve(0.8)
-    ""
-    show bg kiaraandnatsugohome 28 with Dissolve(0.8)
-    ""
-    show bg kiaraandnatsugohome 29 with Dissolve(0.8)
-    ""
-    show bg kiaraandnatsugohome 30 with Dissolve(0.8)
-    Natsuko "Is that someone's hand? it is crowded... "
-    show bg kiaraandnatsugohome 31 with Dissolve(0.8)
-    Natsuko "*Gasp* Ah! Hey, what are you-... "
-    show bg kiaraandnatsugohome 32 with Dissolve(0.8)
-    Molester "You might want to stay quiet, sweetheart. "
-    Natsuko "Hey who are yo- "
-    show bg kiaraandnatsugohome 33 with Dissolve(0.8)
-    Molester "Shhh , it'll take me a minute to rip this top away and disappear into the crowd. Meanwhile, you'd be left topless in a train full of mostly guys,  you sure you want that?... "
-    Natsuko "(What the hell.... he can't be serious?)"
-    stop music
+    #TODO gallery scene here
+    label .part_1:
+        show bg kiaraandnatsugohome 24 with Dissolve(0.8)
+        stop music
+        show bg kiaraandnatsugohome 25 with Dissolve(0.8)
+        play music "/audio/ntsuchikn.ogg"
+        "???""Start with a soft touch... "
+        show bg kiaraandnatsugohome 26 with Dissolve(0.8)
+        "???""Doesn't seem to notice... let's go further, then. "
+        show bg kiaraandnatsugohome 27 with Dissolve(0.8)
+        ""
+        show bg kiaraandnatsugohome 28 with Dissolve(0.8)
+        ""
+        show bg kiaraandnatsugohome 29 with Dissolve(0.8)
+        ""
+        show bg kiaraandnatsugohome 30 with Dissolve(0.8)
+        Natsuko "Is that someone's hand? it is crowded... "
+        show bg kiaraandnatsugohome 31 with Dissolve(0.8)
+        Natsuko "*Gasp* Ah! Hey, what are you-... "
+        show bg kiaraandnatsugohome 32 with Dissolve(0.8)
+        Molester "You might want to stay quiet, sweetheart. "
+        Natsuko "Hey who are yo- "
+        show bg kiaraandnatsugohome 33 with Dissolve(0.8)
+        Molester "Shhh , it'll take me a minute to rip this top away and disappear into the crowd. Meanwhile, you'd be left topless in a train full of mostly guys,  you sure you want that?... "
+        Natsuko "(What the hell.... he can't be serious?)"
+        stop music
     jump natsugrop
 
 label auntlateevng:
@@ -2109,6 +2117,7 @@ label lanaafterintro:
             jump introsachikorin
 
     label .part_1:
+        #TODO gallery scene here
         show bg lanaafterintro 7 with Dissolve(0.8)
         Lana "*Yawn* Hmm, I wonder how Japanese food is. I've only had sushi. "
         show bg lanaafterintro 8 with Dissolve(0.8)
@@ -2157,7 +2166,7 @@ label lanaafterintro:
         "Deliveryguy" "Should I maybe touch it?... this has to be intentional. "
         show bg lanaafterintro 26 with Dissolve(0.8)
         stop music
-        jump introsachikorin
+        jump kiaraandtaka.part_2
 
     label .part_2:
         show bg lanaafterintro 27 with Dissolve(0.8)
@@ -2176,6 +2185,7 @@ label lanaafterintro:
         show bg lanaafterintro 32 with Dissolve(0.8)
         Lana "Kiara, I hope you allow yourself to open up and live a little, too. See you soon, babe. "
         ""
+        $ renpy.end_replay
         stop music
     jump introsachikorin
 
@@ -2258,7 +2268,7 @@ label kiaraandtaka:
     jump kiarainstreets2
 
     label .part_2:
-
+        
     
         play music "/audio/tkashop.ogg"
         show bg kiaraandtaka 15 with Dissolve(0.8)
@@ -2296,7 +2306,7 @@ label kiaraandtaka:
 
     label .part_3:
         
-
+        #TODO gallery scene here
         show bg kiaraandtaka 16 with Dissolve(0.8)
         stop music
         play music "/audio/lthrcsply.ogg"
@@ -2361,7 +2371,9 @@ label kiaraandtaka:
         show bg photoshootleather dcd with Dissolve(0.8)
         Kiara "I didn't expect this... What do I do? "
 
-
+        if _in_replay:
+            call photoshootleatherchoice2
+            jump .part_1
         menu:
             "I can't do this , just because he's gay doesn't mean I can be in front of him like that.":
                 call photoshootleatherchoice1 from _call_photoshootleatherchoice1
