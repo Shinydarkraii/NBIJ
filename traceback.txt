@@ -1,9 +1,7 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "renpy/common/00action_file.rpy", line 463, in __call__
-    renpy.load(fn)
-AttributeError: Can't get attribute 'Affection' on <renpy.python.StoreModule object at 0x00000000042f8700>
+While loading <renpy.display.im.Image object ('images/Jpn/Prelude/bg photoshootleather 8.png') at 0x000000000648ebe0>:
+OSError: Couldn't find file 'images/Jpn/Prelude/bg photoshootleather 8.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -20,49 +18,49 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 4258, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\transition.py", line 53, in event
-    return self.new_widget.event(ev, x, y, st) # E1101
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 743, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1399, in event
-    rv = super(Window, self).event(ev, x, y, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1073, in event
-    return handle_click(self.clicked)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1008, in handle_click
-    rv = run(action)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\behavior.py", line 322, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\behavior.py", line 329, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_file.rpy", line 463, in __call__
-    renpy.load(fn)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\loadsave.py", line 768, in load
-    roots, log = loads(location.load(filename))
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\compat\pickle.py", line 100, in loads
-    return load(io.BytesIO(s))
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\compat\pickle.py", line 97, in load
-    return up.load()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\compat\pickle.py", line 93, in find_class
-    return super().find_class(module, name)
-AttributeError: Can't get attribute 'Affection' on <renpy.python.StoreModule object at 0x00000000042f8700>
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3912, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 2602, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 495, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\transition.py", line 370, in render
+    return render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 704, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 627, in render
+    return cache.get(self, render=True)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 295, in get
+    surf = image.load()
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 720, in load
+    raise e
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 685, in load
+    filelike = renpy.loader.load(self.filename)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'images/Jpn/Prelude/bg photoshootleather 8.png'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
  0.2
-Sat May 13 06:00:19 2023
+Sat May 13 06:13:31 2023
