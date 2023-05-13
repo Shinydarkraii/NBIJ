@@ -9,14 +9,22 @@ screen gallery():
     default gallery_a_list = [
             # [Scene Label, Image, Persistent ]
             ["accmumelv", im.Scale("images/Jpn/Ny/Intro/HOTEL/Mom/Acceptedhotelmom/bg gropedcde 2.jpg", 640, 360), persistent.mia_hotel_scene_1],
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True],
-            ["chap_2_scene_7", im.Scale("images/Jpn/kiagmrscn/bg kiagmrscn 20.jpg", 640, 360), True]
+            ["lanaAcpt1", im.Scale("images/Jpn/Ny/Intro/HOTEL/Lana/Grope/bg lanadecidegrope.jpg", 640, 360), True],
+            ["kiaraandtaka.part_3", im.Scale("images/Jpn/Kiara/kiaraandtaka/bg kiaraandtaka 16.jpg", 640, 360), True],
+            ["returninghome2.part_1", im.Scale("images/Jpn/Natsuko/returninghome/bg kiaraandnatsugohome 24.jpg", 640, 360), True],
+            ["lanaafterintro.part_1", im.Scale("images/Jpn/Ny/Lana/lanafterintro/bg lanaafterintro 7.jpg", 640, 360), True],
+            ["chap_2_scene_1.part_3", im.Scale("images/Jpn/chptrstrt/bg chptstrt 50.jpg", 640, 360), True],
+            ["chap_2_scene_2.part_2", im.Scale("images/Jpn/kiafstcosplay/cosplychcetwo/bg kiaracrptcsply 1.jpg", 640, 360), True],
+            ["chap_2_scene_3.part_1", im.Scale("images/Jpn/mtngwong/mtngwnggrpys/bg mtngwnggrpyes 1", 640, 360), True],
+            ["chap_2_scene_4.part_1", im.Scale("images/Jpn/Officechptrsgmnt/bg offchptrsgmnt 89.jpg", 640, 360), True],
+            ["chap_2_scene_6.part_1", im.Scale("images/Jpn/kiaacfescn/msrmntyes/bg msrmntaccpt 1.jpg", 640, 360), True],
+            ["chap_2_scene_10.part_7", im.Scale("images/Jpn/kiagdnight/bg kiagdnit 46.jpg", 640, 360), True],
+            ["chap_2_scene_13.part_1", im.Scale("images/Jpn/Ny/msonmiamrngscn/bg miamsnmrngscn 7.jpg", 640, 360), True],
+            ["chap_2_scene_17.part_1", im.Scale("images/Jpn/Ny/lanamommsg/lethimsglana/bg lanamommsgaccpt 1.jpg", 640, 360), True],
+            ["chap_2_scene_20", im.Scale("images/Jpn/Ny/jhnbljhbscn/bg jhnbljhbscn 2.jpg", 640, 360), True],
+            ["chap_2_scene_23", im.Scale("images/Jpn/day2jpn/dytwobathscn/bg dytwobathscn 1.jpg", 640, 360), True],
+            ["chap_2_scene_27.part_2", im.Scale("images/Jpn/day2jpn/rinsxscndytwo/rinsxscnstrt/bg rinsxscnstrt 1.jpg", 640, 360), True],
+            ["chap_2_scene_28.part_4", im.Scale("images/Jpn/day2jpn/dytwocsplay/dtwolewdcsply/bg dtwolewdcsply 1.jpg", 640, 360), True]
         ]
 
     default total_scenes = len(gallery_a_list)
@@ -47,7 +55,7 @@ screen gallery():
                         action Replay(gallery_a_list[i][0], scope={"mc_name": Kiara or "Kiara"}, locked=None) # not (gallery_a_list[i][2] or persistent.master_unlock))
                         idle Transform(gallery_a_list[i][1], zoom=1)
                         hover Composite((640, 360), (0, 0), gallery_a_list[i][1], (0, 0), "images/UI/thumbnail_hover.png")
-                        insensitive Transform("images/UI/lock_imaege.jpg", zoom=1, blur=30, xsize=640, ysize=360, matrixcolor=SaturationMatrix(0))
+                        insensitive Transform("images/UI/lock_image.jpg", zoom=1, blur=30, xsize=640, ysize=360, matrixcolor=SaturationMatrix(0))
                 else:
                     null
 

@@ -1,5 +1,4 @@
 label epilouge:
-    #TODO change name here
     play music "/audio/elogue.ogg"
     show bg epilogue 1 with Dissolve(0.8)
     "" "We hope you liked the game , here's what to expect in chapter 2!"
@@ -72,7 +71,6 @@ label azumiportbathroom:
     show bg azumibathport dcd with Dissolve(0.8)
     menu:
         "I should investigate , could be serious":
-            #TODO add kiara corruption by 1
             $ mc_stats.adjust_corruption(1)
             jump azumiportbathroomchoice1 
         "I'll just call security from outside to check it.":
@@ -1559,7 +1557,7 @@ label returninghome2:
     Natsuko "Far from it , but don't worry, I'm good to see you in a bit. "
     show bg kiaraandnatsugohome 23 with Dissolve(0.8)
     Natsuko "Alright then , music time it is. "
-    #TODO gallery scene here
+    
     label .part_1:
         show bg kiaraandnatsugohome 24 with Dissolve(0.8)
         stop music
@@ -2108,7 +2106,6 @@ label lanaafterintro:
     show bg lanaafterintro 6 with Dissolve(0.8)
     Lana "Wait... how about I tease him a bit? The man's working hard and deserves a bit of eye candy. "
 
-    #TODO add a choice like this here
     menu:
         "Tease him":
             jump .part_1
@@ -2117,7 +2114,6 @@ label lanaafterintro:
             jump introsachikorin
 
     label .part_1:
-        #TODO gallery scene here
         show bg lanaafterintro 7 with Dissolve(0.8)
         Lana "*Yawn* Hmm, I wonder how Japanese food is. I've only had sushi. "
         show bg lanaafterintro 8 with Dissolve(0.8)
@@ -2247,7 +2243,6 @@ label kiaraandtaka:
         "Okay I'll do the 350$ one.":
             jump .part_2
         "I'll do the 500$ one":
-            #TODO add kiara corruption by 5
             $ mc_stats.adjust_corruption(5)
             jump .part_3
 
@@ -2306,7 +2301,7 @@ label kiaraandtaka:
 
     label .part_3:
         
-        #TODO gallery scene here
+        
         show bg kiaraandtaka 16 with Dissolve(0.8)
         stop music
         play music "/audio/lthrcsply.ogg"
@@ -3144,7 +3139,6 @@ label hotel:
     play music "/audio/choicmusic.ogg"
     menu:
         "Let it be , Kiara needs less drama now":
-            #TODO add kiara corruption by 1 
             $ mc_stats.adjust_corruption(1)
             call accepthotelmom from _call_accepthotelmom
         "Stop him!":
@@ -3183,7 +3177,6 @@ label accepthotelmom:
     play music "/audio/choicmusic.ogg"
     menu:
         "It's just my body, I'd give my life for her":
-            #TODO kiara corruption by 1
             $ mc_stats.adjust_corruption(1)
             call accmumelv from _call_accmumelv
         "I can't do this...":
@@ -3422,7 +3415,6 @@ label lanaelevator:
 
     menu:
         "Don't mind it":
-            #TODO add kiara corruption by 1
             $ mc_stats.adjust_corruption(1)
             call lanaAcpt1 from _call_lanaAcpt1
         "Time to kick his ass":
@@ -3463,7 +3455,7 @@ label roomsegment2:
     jump Momandlawyer
 
 label lanaAcpt1:
-    # TODO gallery scene here
+    
     play music "/audio/htlscns.ogg"
     show bg lanadecidegrope with Dissolve(0.8)
     Lana "Okay, whatever, poor guy probably hasn't seen a girl. I'll be out of the lift soon."
@@ -3485,7 +3477,6 @@ label lanaAcpt1:
         "Try to run away...":
             call lanaRjt2 from _call_lanaRjt2
         "It's too late...":
-            #TODO add kiara corruption by 1
             $ mc_stats.adjust_corruption(1)
             call lanaAcpt2 from _call_lanaAcpt2
     # show bg lanaelv 5 with Dissolve(0.8)
@@ -3837,47 +3828,46 @@ label Momandlawyer:
     play music "/audio/swhrmsc.ogg"
     show bg mumlawyer 25 with Dissolve(0.8)
     "" "Mia due to stress had forgot to lock the door."
-    #TODO gallery scene here
-    show bg mumlawyer 26 with Dissolve(0.8)
-    Mia "Ah if nothing else at least warm water helps to keep head clean."
-    show bg mumlawyer 29 with Dissolve(0.8)
-    Mason "Fuck... that's'... that's Mia, my god she looks maginificant..."
-    show bg mumlawyer 30 with Dissolve(0.8)
-    Mia "Damn you john... not only do I not get love emotionally but not phsyiscally either... you ruined so much."
-    show bg mumlawyer 31 with Dissolve(0.8)
-    Mia "I am so horny too... I should take care of this should help a little with stress."
-    show bg mumlawyer 32 with Dissolve(0.8)
-    Mia "Unf , it feels so wrong to masturbate in someone else's house, but I don't wanna stop... I wonder if Mason ever thought about me this way."
-    show bg mumlawyer 33 with Dissolve(0.8)
-    Mason "Is she really talking about me?"
-    show bg mumlawyer 34 with Dissolve(0.8)
-    Mia "Mmm… I want to get railed so bad..."
-    show bg mumlawyer 35 with Dissolve(0.8)
-    Mason "Fuck I'm getting hard... I – I can't stop I have to go... this is my only chance."
-    show bg mumlawyer 36 with Dissolve(0.8)
-    Mia "This is so wrong imagining another guy than my husband but I love it..."
-    show bg mumlawyer 37 with Dissolve(0.8)
-    Mia "God, I'm so wet."
-    show bg mumlawyer 38 with Dissolve(0.8)
-    Mia "Mmm... this is risky yet so exciting."
-    show bg mumlawyer 39 with Dissolve(0.8)
-    Mia "I want you badly m-"
-    show bg mumlawyer 40 with Dissolve(0.8)
-    Mason "Hi Mia..."
-    show bg mumlawyer 41 with Dissolve(0.8)
-    Mia "What I uh-"
-    show bg mumlawyer 42 with Dissolve(0.8)
-    Mia "Mason um, what are you-"
-    Mason "I know you want this... let me help , I love you..."
-    stop music
-    play music "/audio/choicmusic.ogg"
-    Mia "Love? What... is happening I should do something."
+    label .part_1:
+        show bg mumlawyer 26 with Dissolve(0.8)
+        Mia "Ah if nothing else at least warm water helps to keep head clean."
+        show bg mumlawyer 29 with Dissolve(0.8)
+        Mason "Fuck... that's'... that's Mia, my god she looks maginificant..."
+        show bg mumlawyer 30 with Dissolve(0.8)
+        Mia "Damn you john... not only do I not get love emotionally but not phsyiscally either... you ruined so much."
+        show bg mumlawyer 31 with Dissolve(0.8)
+        Mia "I am so horny too... I should take care of this should help a little with stress."
+        show bg mumlawyer 32 with Dissolve(0.8)
+        Mia "Unf , it feels so wrong to masturbate in someone else's house, but I don't wanna stop... I wonder if Mason ever thought about me this way."
+        show bg mumlawyer 33 with Dissolve(0.8)
+        Mason "Is she really talking about me?"
+        show bg mumlawyer 34 with Dissolve(0.8)
+        Mia "Mmm… I want to get railed so bad..."
+        show bg mumlawyer 35 with Dissolve(0.8)
+        Mason "Fuck I'm getting hard... I – I can't stop I have to go... this is my only chance."
+        show bg mumlawyer 36 with Dissolve(0.8)
+        Mia "This is so wrong imagining another guy than my husband but I love it..."
+        show bg mumlawyer 37 with Dissolve(0.8)
+        Mia "God, I'm so wet."
+        show bg mumlawyer 38 with Dissolve(0.8)
+        Mia "Mmm... this is risky yet so exciting."
+        show bg mumlawyer 39 with Dissolve(0.8)
+        Mia "I want you badly m-"
+        show bg mumlawyer 40 with Dissolve(0.8)
+        Mason "Hi Mia..."
+        show bg mumlawyer 41 with Dissolve(0.8)
+        Mia "What I uh-"
+        show bg mumlawyer 42 with Dissolve(0.8)
+        Mia "Mason um, what are you-"
+        Mason "I know you want this... let me help , I love you..."
+        stop music
+        play music "/audio/choicmusic.ogg"
+        Mia "Love? What... is happening I should do something."
 
     if _in_replay:
         jump ACCEPTEDLAW
     menu:
         "Let it happen":
-            #TODO add kiara corruption by 1
             $ mc_stats.adjust_corruption(1)
             call ACCEPTEDLAW from _call_ACCEPTEDLAW
         "No I can't do this":
@@ -3945,6 +3935,7 @@ label ACCEPTEDLAW:
     pause
     show bg mumlawyeraccpt 21 with Dissolve(0.8)
     pause
+    $ renpy.end_replay
     jump Momspyscene 
 
 label Momspyscene:

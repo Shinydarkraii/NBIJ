@@ -251,7 +251,6 @@ label chap_2_scene_1:
         jump .part_3
 
     label .part_3:
-        #TODO gallery scene here
         scene bg chptstrt 50  with Dissolve(0.8)
         Kiara "Haaa , okay i hope the water isn't cold"
         scene bg chptstrt 51 with Dissolve(0.8)
@@ -484,7 +483,6 @@ label chap_2_scene_2:
     label .part_2:
 
         #Cosplychcetwo - 
-        #TODO gallery scene here
         scene bg kiaracrptcsply 1 with Dissolve(0.8)
         Kiara "100$ sounds good to me , where's the outfit?"                     
         scene bg kiaracrptcsply 2 with Dissolve(0.8)
@@ -605,8 +603,7 @@ label chap_2_scene_3:
             jump .part_2
 
     label .part_1:
-        #bg mtngwnggrpys -   
-        #TODO gallery scene here      
+        #bg mtngwnggrpys -       
         scene bg mtngwnggrpyes 1  with Dissolve(0.8)
         AgentWong "(I shouldn't risk it.. it's just a pervert , I'll handle it)"
         scene bg mtngwnggrpyes 2  with Dissolve(0.8)
@@ -1010,7 +1007,6 @@ label chap_2_scene_4:
 
     label .part_1:
         #IF CHOICE ASK NOW
-        #TODO gallery scene here 
         scene bg offchptrsgmnt 89  with Dissolve(0.8)
         Assistant "Aaah! sir.. wai-" 
         scene bg offchptrsgmnt 90  with Dissolve(0.8)
@@ -1622,7 +1618,6 @@ label chap_2_scene_6:
 
     label .part_1:
         # #IF LET HIM TAKE THEN USE RENDERS OF FOLDER -  msrmntyes ->
-        #TODO gallery scene here
         scene bg msrmntaccpt 1 with Dissolve(0.8)
         Kiara "Right sure ( I shouldn't be so suspicious of everyone he's just an old man)"
         scene bg msrmntaccpt 2 with Dissolve(0.8)
@@ -2482,7 +2477,6 @@ label chap_2_scene_10:
     Azumi "Uh , my head hurts.. should've had tea instead"
     scene bg kiagdnit 45 with Dissolve(0.8)
     Azumi "Why is the room suddenly getting so warm.. is it because i didn't shower after school?"
-    # TODO gallery scene here
     label .part_7:
         scene bg kiagdnit 46 with Dissolve(0.8)
         pause
@@ -2998,7 +2992,6 @@ label chap_2_scene_13:
             jump .part_1
 
     label .part_1:
-        #TODO gallery scene here
         # If not skipped then continue from here
         scene bg miamsnmrngscn 7  with Dissolve(0.8)
         Mason "Huh?.. are those?"
@@ -3360,7 +3353,6 @@ label chap_2_scene_17:
 
     label .part_1:
         # IF LET HIM MASSAGE THEN USE RENDERS OF  -> lethimsglana-
-        #TODO gallery scene here
         scene bg lanamommsgaccpt 1  with Dissolve(0.8)
         Elizabeth "Uh alright , well please make it quick then"
         Masseur "No point in rushing mam , I am a professional you need not to worry"
@@ -4087,7 +4079,6 @@ label chap_2_scene_19:
 label chap_2_scene_20:
     scene bg jhnbljhbscn 1 with Dissolve(0.8)
     John "Hehe , Keep going at it girls"
-    #TODO gallery scene here
     scene bg jhnbljhbscn 2 with Dissolve(0.8)
     pause
     scene bg jhnbljhbscn 3 with Dissolve(0.8)
@@ -4530,6 +4521,7 @@ label chap_2_scene_23:
     Kiara "(I can manage this new life , just need to take one step at a time)"
     scene bg dytwobathscn 16 with Dissolve(0.8)
     Kiara "(There we go , I really stare at myself too much sometimes)"
+    $ renpy.end_replay
     jump chap_2_scene_24
 
 label chap_2_scene_24:
@@ -5073,6 +5065,7 @@ label chap_2_scene_27:
         scene bg rinsxscnstrt 45 with Dissolve(0.8)
         Rin "(Why does being a whore feel so good? heh)"
         "Hotel waiter" "(I am so fucking lucky!)"
+        $ renpy.end_replay
         scene bg rinsxscnstrt 46 with Dissolve(0.8)
         Lana "So that's why we couldn't do what we wanted"
         Damian "I see , well either way i'm sure we'll figure it out"
@@ -5263,6 +5256,8 @@ label .part_4:
     #if not continue) (Optins 
     #> Unbutton 
     #Do not . 
+    if _in_replay:
+        jump .part_6
     menu:
         "Unbutton":
             jump .part_6
@@ -5319,7 +5314,9 @@ label .part_4:
     #> CHOICE  
     #> Take off Pajamas (+ 5 corruption 
     #requires 40 Corruption) 
-    #Refuse to do so ( No changes) 
+    #Refuse to do so ( No changes)
+    if _in_replay:
+        jump .part_8 
     menu:
         "Take off pajamas" if mc_stats.current_corruption > 40:
             jump .part_8
@@ -5367,6 +5364,7 @@ label .part_4:
         Taka "Sit simply with hands at back"
         scene bg dytwopntsoffcsply 14 with Dissolve(0.8)
         Taka "Alright that's a wrap! ( I'll nut in her as well , she's too good to let go )"
+        $ renpy.end_replay
         Kiara "Alright , I'ma go change go back to office"
         jump chap_2_scene_29
 
