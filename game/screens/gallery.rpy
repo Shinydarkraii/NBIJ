@@ -15,7 +15,7 @@ screen gallery():
             ["lanaafterintro.part_1", im.Scale("images/Jpn/Ny/Lana/lanafterintro/bg lanaafterintro 7.jpg", 640, 360), True],
             ["chap_2_scene_1.part_3", im.Scale("images/Jpn/chptrstrt/bg chptstrt 50.jpg", 640, 360), True],
             ["chap_2_scene_2.part_2", im.Scale("images/Jpn/kiafstcosplay/cosplychcetwo/bg kiaracrptcsply 1.jpg", 640, 360), True],
-            ["chap_2_scene_3.part_1", im.Scale("images/Jpn/mtngwong/mtngwnggrpys/bg mtngwnggrpyes 1", 640, 360), True],
+            ["chap_2_scene_3.part_1", im.Scale("images/Jpn/mtngwong/mtngwnggrpys/bg mtngwnggrpyes 1.jpg", 640, 360), True],
             ["chap_2_scene_4.part_1", im.Scale("images/Jpn/Officechptrsgmnt/bg offchptrsgmnt 89.jpg", 640, 360), True],
             ["chap_2_scene_6.part_1", im.Scale("images/Jpn/kiaacfescn/msrmntyes/bg msrmntaccpt 1.jpg", 640, 360), True],
             ["chap_2_scene_10.part_7", im.Scale("images/Jpn/kiagdnight/bg kiagdnit 46.jpg", 640, 360), True],
