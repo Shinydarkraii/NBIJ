@@ -5429,9 +5429,360 @@ label chap_2_scene_29:
     Kiara "Do you know any restros around ? I didn't have lunch so kinda hungry"
     Keisuke "Of course no need to ask , I'll get you to a good place i know."
     scene bg kiaaftrcsplaydaytwo 22 with Dissolve(0.8)
-    Kiara "Alright, surprise me then"
+    Kiara "Alright, surprise me then."
     # End 0.2
-    $ renpy.save('quick-1')
-    "End 0.2"
+    # $ renpy.save('quick-1')
+    # "End 0.2"
+    scene bg ksukedatedytwo 1 with Dissolve(0.8)
+    pause
+    scene bg ksukedatedytwo 2 with Dissolve(0.8)
+    pause
+    scene bg ksukedatedytwo 3 with Dissolve(0.8)
+    pause
+    scene bg ksukedatedytwo 4 with Dissolve(0.8)
+    pause
+    scene bg ksukedatedytwo 5 with Dissolve(0.8)
+    pause
+    scene bg chckskedtfst with Dissolve(0.8)
+    menu:
+        "Insist on it":
+            jump .part_1
+        "Accept":
+            jump .part_2
+
+    label .part_1:
+        scene bg Keidateys 1 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 2 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 3 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 4 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 5 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 6 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 7 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 8 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 9 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 10 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 11 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 12 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 13 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 14 with Dissolve(0.8)
+        pause
+        scene bg ksukedtyschcfstaftrfourteen with Dissolve(0.8)
+        menu:
+            "Say Simply":
+                jump .part_4
+            "Compliment":
+                jump .part_5
+        
+        label .part_4:
+            scene bg saysmplykske 1 with Dissolve(0.8)
+            pause
+            scene bg saysmplykske 2 with Dissolve(0.8)
+            pause
+            scene bg saysmplykske 3 with Dissolve(0.8)
+            pause
+            $ keisuke_rom.adjust_romance(1)
+            jump .part_3
+        
+        label .part_5:
+            scene bg cmplmntkske 1 with Dissolve(0.8)
+            pause
+            scene bg cmplmntkske 2 with Dissolve(0.8)
+            pause
+            scene bg cmplmntkske 3 with Dissolve(0.8)
+            pause
+            scene bg cmplmntkske 4 with Dissolve(0.8)
+            pause
+            jump .part_3
+            
+
+
+    label .part_2:
+        scene bg Keidateno 1 with Dissolve(0.8)
+        pause
+        scene bg Keidateno 2 with Dissolve(0.8)
+        pause
+        scene bg Keidateno 3 with Dissolve(0.8)
+        pause
+        scene bg Keidateno 4 with Dissolve(0.8)
+        pause
+        scene bg Keidateno 5 with Dissolve(0.8)
+        pause
+        jump .part_3
+        
+    label .part_3:
+        $ keisuke_rom.adjust_romance(1)
+        scene bg Keidateys 15 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 16 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 17 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 18 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 19 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 20 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 21 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 22 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 23 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 24 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 25 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 26 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 27 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 28 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 29 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 30 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 31 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 32 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 33 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 34 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 35 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 36 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 37 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 38 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 39 with Dissolve(0.8)
+        pause
+        scene bg Keidateys 40 with Dissolve(0.8)
+        pause
+        scene bg kskedtdytwoscndchcaftrforty with Dissolve(0.8)
+        
+        menu:
+            "Respond Flirty":
+                jump .part_6
+            "Respond friendly":
+                jump .part_7
+
+        label .part_6:
+
+            scene bg rspndkskeflirt 1 with Dissolve(0.8)
+            pause
+            scene bg rspndkskeflirt 2 with Dissolve(0.8)
+            pause
+            scene bg rspndkskeflirt 3 with Dissolve(0.8)
+            pause
+            scene bg rspndkskeflirt 4 with Dissolve(0.8)
+            pause
+            scene bg rspndkskeflirt 5 with Dissolve(0.8)
+            pause
+            $ keisuke_rom.adjust_romance(1)
+            scene bg Keidateys 40 with Dissolve(0.8)
+            pause
+            jump chap_2_scene_30
+
+        label .part_7:
+            scene bg rspndkskefrnd 1 with Dissolve(0.8)
+            pause
+            scene bg rspndkskefrnd 1 with Dissolve(0.8)
+            pause
+            scene bg Keidateys 40 with Dissolve(0.8)
+            pause
+            jump chap_2_scene_30
     
-    $ renpy.quit()
+    label chap_2_scene_30:
+        scene bg kiadytwoskool 1 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 2 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 3 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 4 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 5 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 6 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 7 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 8 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 9 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 10 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 11 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 12 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 13 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 14 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 15 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 16 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 17 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 18 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 19 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 20 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 21 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 22 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 23 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 24 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 25 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 26 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 27 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 28 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 29 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 30 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 31 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 32 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 33 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 34 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 35 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 36 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 37 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 38 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 39 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 40 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 41 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 42 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 43 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 44 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 45 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskolchcfrst with Dissolve(0.8)
+        menu:
+            "Compliment":
+                jump .part_1
+            "Say simply":
+                jump .part_2
+
+        label .part_1:
+            scene bg dytwoskoolazmicmplmnt 1 with Dissolve(0.8)
+            pause
+            scene bg dytwoskoolazmicmplmnt 2 with Dissolve(0.8)
+            pause
+            scene bg dytwoskoolazmicmplmnt 3 with Dissolve(0.8)
+            pause
+            scene bg dytwoskoolazmicmplmnt 4 with Dissolve(0.8)
+            pause
+
+        label .part_2:
+            scene bg dytwoskoolazmisaysmply 1 with Dissolve(0.8)
+            pause
+            scene bg dytwoskoolazmisaysmply 2 with Dissolve(0.8)
+            pause
+            scene bg dytwoskoolazmisaysmply 3 with Dissolve(0.8)
+            pause
+            scene bg dytwoskoolazmisaysmply 4 with Dissolve(0.8)
+            pause
+
+            
+        scene bg kiadytwoskool 46 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 47 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 48 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 49 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 50 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 51 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 52 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 53 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 54 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 55 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 56 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 57 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 58 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 59 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 60 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 61 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 62 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 63 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 64 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 65 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 66 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 67 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 68 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 69 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 70 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 71 with Dissolve(0.8)
+        pause
+        scene bg kiadytwoskool 72 with Dissolve(0.8)
+        pause
+
+        
+
