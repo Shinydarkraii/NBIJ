@@ -95,7 +95,7 @@ label azumiportbathroomchoice1:
     show azumiinvstgt 6 with Dissolve(0.8)
     "Girls" "Ohh.... ahh yeah , eat it well mm... "
     show azumiinvstgt 7 with Dissolve(0.8)
-    Azumi "Oh my kami... "
+    Azumi "Oh my wha... "
     show azumiinvstgt 8 with Dissolve(0.8)
     "Girls" "Mmm... that's right , get that tongue swirling in there. "
     show azumiinvstgt 9 with Dissolve(0.8)
@@ -124,7 +124,7 @@ label azumiportbathroomchoice1:
     Azumi "No... I can't- sorry. "
     show azumiinvstgt 20 with Dissolve(0.8)
     Azumi "I... I already like someone , I apologize I didn't intend to do that , I just froze. "
-    "Girls" "Aw , that's okay you can go then you're really cute by the way. "
+    "Girls" "Aw, that's okay. You can go then. You're really cute, by the way."
     show azumiinvstgt 21 with Dissolve(0.8)
     Azumi "Did...that just happen? "
     show azumiinvstgt 22 with Dissolve(0.8)
@@ -173,7 +173,7 @@ label veronicaevidencedel:
 
     show bg veronicaevidencedel 5 with Dissolve(0.8)
 
-    Veronica "Check your counter below, my coworker earlier dropped 10K for you... you don't need to know how , when, or why , just delete all of your CCTV footage since last week and remember... I wasn't here. "
+    Veronica "Check your counter below, my assistant earlier here has dropped 10k there ... you don't need to know how , when, or why , just delete all of your CCTV footage since last week and remember... I wasn't here. "
 
     show bg veronicaevidencedel 6 with Dissolve(0.8)
 
@@ -189,7 +189,7 @@ label veronicaevidencedel:
 
     show bg veronicaevidencedel 9 with Dissolve(0.8)
 
-    Jake "Yo john... she's here like you said... what do I do? "
+    Jake "Yo john... she's here like you said, what do I do? "
 
     show bg veronicaevidencedel 10 with Dissolve(0.8)
 
@@ -228,7 +228,7 @@ label endingofchaptrpart2:
     show bg endingchpt 24 with Dissolve(0.8)
     Rin "Did you fuck him? "
     show bg endingchpt 25 with Dissolve(0.8)
-    Damian "Ah no, we were just friends- "
+    Damian "Wh- no, we were just friends- "
     Lana "Rin, shut up, will you , christ's sake. "
     show bg endingchpt 26 with Dissolve(0.8)
     Damian "Hey Lana, cool outfit by the way. "
@@ -238,7 +238,7 @@ label endingofchaptrpart2:
     Lana "Rin! ZIP IT! "
     show bg endingchpt 28 with Dissolve(0.8)
     Rin "Issa. Jokes, calm down. "
-    Damian "She reminds me of you in the first year, Lana. "
+    Damian "She reminds me of you in the early uni days, Lana. "
     Lana "Aheheh , I guess that's why she's my friend."
     show bg endingchpt 29 with Dissolve(0.8)
     "Announcement""{i}Attention all passengers , flight to Osaka will leave in 30 minutes , please board the plane immediately. {/i}"
@@ -760,7 +760,7 @@ label assistantevngscn:
     Patricia "One, he never got convicted on them, and, 2 In the 3 years I've worked for him , he hasn't done anything to me, and he pays me well , So I don't care. "
     Devin "How can you not care? is money so important to you that you're just gonna let other innocent people suffer? you should be ashamed as a woman.  "
     show bg assistantevng 19 with Dissolve(0.8)
-    Patricia "Should I be ashamed of making a living, then you should be ashamed as a man for not earning one , no wonder Valentina left you as well. "
+    Patricia "Should I be ashamed of making a living, then you should be ashamed as a man for not earning one , no wonder your ex left you as well. "
     show bg assistantevng 20 with Dissolve(0.8)
     Devin "Don't you fucking dare bring her into this conversation , I had health issues and was a recovering addict. "
     show bg assistantevng 21 with Dissolve(0.8)
@@ -861,7 +861,7 @@ label Keisukereveal:
     show bg keisukereveal 5 with Dissolve(0.8)
     Ayane "What do you mean you don't know? You've waited 4 years for this. "
     show bg keisukereveal 6 with Dissolve(0.8)
-    Keisuke "She made her choice long ago, Ayane , I have no right to step in and take that away. "
+    Keisuke "She made her choice long ago, Ayane. I have no right to step in and take that away."
     Ayane "What are you talking about? "
     show bg keisukereveal 7 with Dissolve(0.8)
     Ayane "You and I both know she lost her memories , she couldn't come back even if she wanted to. "
@@ -875,22 +875,22 @@ label Keisukereveal:
     show bg keisukereveal 11 with Dissolve(0.8)
     Keisuke "It isn't that easy, Ayane."
     Ayane "It is! , sit down for a moment. "
-    Keisuke "Fine "
+    Keisuke "What is it? "
     show bg keisukereveal 12 with Dissolve(0.8)
     Ayane "Kei, what if she made the wrong choice? You told me you were happy together, but you never confessed. "
-    Keisuke "I wanted to take it slow , I fucked up... I didn't want her to hate me. "
+    Keisuke "I wanted to take it slow , not let her believe that was why i got close , I fucked up... I didn't want her to hate me. "
     show bg keisukereveal 13 with Dissolve(0.8)
     Ayane "Kei , even if you feel you fucked up, which I don't think you did , you can fix it now.  "
     show bg keisukereveal 14 with Dissolve(0.8)
     Ayane "Think about what I said, okay?... My brother's a great guy, and I'm sure she'd think the same.  "
     show bg keisukereveal 15 with Dissolve(0.8)
-    Keisuke "If what Ayane says is true, then I may have a chance. "
+    Keisuke "If what ayane says is true then i have to try... "
     show bg keisukereveal 16 with Dissolve(0.8)
     Keisuke "A chance to fix things , appreciate her even better, and perhaps confess... "
     show bg keisukereveal 17 with Dissolve(0.8)
     Keisuke "This time , I'll be good enough, kiara, I swear. "
     show bg keisukereveal 18 with Dissolve(0.8)
-    Keisuke "I hope you're sleeping with a smile. It always suits you. "
+    Keisuke "I hope you're sleeping with a smile. It always suited you. "
     ""
     stop music
     jump azuminighttext
@@ -913,7 +913,7 @@ label investigatevng:
     show bg jakeinvestaftrevng 6 with Dissolve(0.8)
     John "I tried to get the judge, but it seems he's a tough ass as well , so a legal battle is my only option here. "
     show bg investigatoraftermiamason 7 with Dissolve(0.8)
-    Jake "So you're gonna more than a million to avoid paying a couple hundred thousand? "
+    Jake "So you're gonna burn more than a million to avoid paying a couple hundred thousand? "
     John "It ain't about the money here Jake , no one touches me in New York."
     show bg investigatoraftermiamason 8 with Dissolve(0.8)
     John "Mia not only hurt me but also took my girl, who I've made sure remains a virgin for myself. I ain't letting this shit go. I want to see Mia humiliated. "
