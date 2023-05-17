@@ -1,13 +1,25 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
+<<<<<<< HEAD
 While running game code:
   File "renpy/common/00action_file.rpy", line 463, in __call__
     renpy.load(fn)
 AttributeError: Can't get attribute 'Affection' on <renpy.python.StoreModule object at 0x000000000413d700>
+=======
+While loading <renpy.display.im.Image object ('images/Jpn/Ny/Intro/ONTHEPLANE/bg ontheplane 6.jpg') at 0x000000000828f970>:
+  File "game/chapter_1.rpy", line 3427, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter_1.rpy", line 3889, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 4002, in script
+    Azumi "You're welcome. I'm Azumi."
+OSError: Couldn't find file 'images/Jpn/Ny/Intro/ONTHEPLANE/bg ontheplane 6.jpg'.
+>>>>>>> e9f2b0ac6730115b542813a4f76d0f39c747b30c
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "renpy/common/_layout/screen_load_save.rpym", line 35, in script
     $ ui.interact()
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
@@ -17,9 +29,29 @@ Full traceback:
   File "renpy/common/_layout/screen_load_save.rpym", line 35, in <module>
     $ ui.interact()
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+=======
+  File "game/chapter_1.rpy", line 3427, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter_1.rpy", line 3889, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 4002, in script
+    Azumi "You're welcome. I'm Azumi."
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+>>>>>>> e9f2b0ac6730115b542813a4f76d0f39c747b30c
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+<<<<<<< HEAD
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 4258, in interact_core
     rv = root_widget.event(ev, x, y, 0)
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
@@ -59,8 +91,53 @@ Full traceback:
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\compat\pickle.py", line 93, in find_class
     return super().find_class(module, name)
 AttributeError: Can't get attribute 'Affection' on <renpy.python.StoreModule object at 0x000000000413d700>
+=======
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3912, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 2602, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 495, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\transform.py", line 747, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\image.py", line 506, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\image.py", line 309, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 627, in render
+    return cache.get(self, render=True)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 295, in get
+    surf = image.load()
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 720, in load
+    raise e
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 685, in load
+    filelike = renpy.loader.load(self.filename)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'images/Jpn/Ny/Intro/ONTHEPLANE/bg ontheplane 6.jpg'.
+>>>>>>> e9f2b0ac6730115b542813a4f76d0f39c747b30c
 
 Windows-10-10.0.19044 AMD64
 Ren'Py 8.0.3.22090809
  0.2
+<<<<<<< HEAD
 Wed May 17 22:52:03 2023
+=======
+Wed May 17 17:27:29 2023
+>>>>>>> e9f2b0ac6730115b542813a4f76d0f39c747b30c
