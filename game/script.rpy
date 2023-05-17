@@ -11,8 +11,8 @@ label start:
     show screen stats_screen
     show screen char_profile_button
     show screen fondness_screen
-    jump intro
+    #jump intro
     #Game end
-    
+    jump chap_2_scene_29
     
     return

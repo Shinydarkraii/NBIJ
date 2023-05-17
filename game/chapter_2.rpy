@@ -5451,9 +5451,9 @@ label chap_2_scene_29:
             jump .part_2
 
     label .part_1:
-        scene bg Keidateys 1 with Dissolve(0.8)
+        scene bg Keidateysss 1 with Dissolve(0.8)
         pause
-        scene bg Keidateys 2 with Dissolve(0.8)
+        scene bg Keidateysssss 2 with Dissolve(0.8)
         pause
         scene bg Keidateys 3 with Dissolve(0.8)
         pause
