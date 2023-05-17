@@ -1,21 +1,33 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Scale object at 0x0000000009b5fb20>:
-OSError: Couldn't find file 'images/Jpn/mtngwong/mtngwnggrpys/bg mtngwnggrpyes 1'.
+While loading <renpy.display.im.Image object ('images/Jpn/Ny/Intro/ONTHEPLANE/bg ontheplane 6.jpg') at 0x000000000828f970>:
+  File "game/chapter_1.rpy", line 3427, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter_1.rpy", line 3889, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 4002, in script
+    Azumi "You're welcome. I'm Azumi."
+OSError: Couldn't find file 'images/Jpn/Ny/Intro/ONTHEPLANE/bg ontheplane 6.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
+  File "game/chapter_1.rpy", line 3427, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter_1.rpy", line 3889, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 4002, in script
+    Azumi "You're welcome. I'm Azumi."
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
@@ -38,40 +50,18 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 170, in renpy.display.render.render
   File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 704, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1060, in render
-    surf = render(d, rw, height - y, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 497, in render
-    renders = [ render(i, renwidth, renheight, st, at) for i in children ]
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 497, in <listcomp>
-    renders = [ render(i, renwidth, renheight, st, at) for i in children ]
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\behavior.py", line 885, in render
-    rv = super(Button, self).render(width, height, st, at)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1334, in render
-    surf = render(child,
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\transform.py", line 747, in render
     return transform_render(self, width, height, st, at)
   File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
   File "render.pyx", line 266, in renpy.display.render.render
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\image.py", line 506, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\image.py", line 309, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 627, in render
     return cache.get(self, render=True)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 295, in get
-    surf = image.load()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 890, in load
-    child = cache.get(self.image)
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 295, in get
     surf = image.load()
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\im.py", line 720, in load
@@ -80,9 +70,9 @@ Full traceback:
     filelike = renpy.loader.load(self.filename)
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/Jpn/mtngwong/mtngwnggrpys/bg mtngwnggrpyes 1'.
+OSError: Couldn't find file 'images/Jpn/Ny/Intro/ONTHEPLANE/bg ontheplane 6.jpg'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
  0.2
-Sat May 13 08:36:46 2023
+Wed May 17 17:27:29 2023

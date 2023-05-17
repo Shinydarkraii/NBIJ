@@ -40,15 +40,19 @@ label epilouge:
 
 label azumiportbathroom:
     stop music
+    scene blackscreen
+    show titletext "Airport bathroom.. Osaka , Japan" with dissolve
+    pause 1.0
+    window hide
     play music "/audio/azmibthscn.ogg"
     show bg azumibathport 1 with Dissolve(0.8)
     ""
     show bg azumibathport 2 with Dissolve(0.8)
     Azumi "Kiara , what a lovely name. "
     show bg azumibathport 3 with Dissolve(0.8)
-    Azumi "I hope we become great friends if nothing more. "
+    Azumi "( I hope we become great friends if nothing more.) "
     show bg azumibathport 4 with Dissolve(0.8)
-    Azumi "Although I would hope for the latter"
+    Azumi "( Although I would hope for the latter )"
     show bg azumibathport 5 with Dissolve(0.8)
     Azumi "I'll help her out anyway I can , she deserves it. "
     show bg azumibathport 6 with Dissolve(0.8)
@@ -1149,7 +1153,8 @@ label backhomenight:
     show bg backhomenight 6 with Dissolve(0.8)
     Xia "Natsuko , Kiara come here please. "
     show bg backhomenight 7 with Dissolve(0.8)
-    NatsukoKiara "Mom, I can explain , it got dark, and then we took- aunty, it's my fault. I promise it won't happ- "
+    Natsuko "Mother , I can explain  it got dark, and then we took-"
+    Kiara "Aunty, it's my fault. I promise it won't happ-"
     show bg backhomenight 8 with Dissolve(0.8)
     NatsukoKiara "Hu? um? "
     Xia "What are you two saying? I'm glad your home, I was so worried. "
@@ -1175,19 +1180,22 @@ label backhomenight:
     jump auntdinner
 
 label aftersubway2:
+    scene blackscreen
+    show titletext "Home street.. , Bit later.." with dissolve
+    pause 1.0
+    window hide
     play music "/audio/ntsuaftrsbwy.ogg"
     show bg kianatsuaftrsbway 5 with Dissolve(0.8)
-    "" "{i}Home Street {/i}"
     Kiara "I think we're close right? natsu? "
     show bg kianatsuaftrsbway 5 with Dissolve(0.8)
     Natsuko "( What do I do , I want to tell her...) "
     show bg kianatsuaftrsbway 6 with Dissolve(0.8)
-    Natsuko "She's gonna live here , city is great but predators exist too. "
+    Natsuko "( She's gonna live here , city is great but predators exist too.) "
     Kiara "Natsu? "
     show bg kianatsuaftrsbway 7 with Dissolve(0.8)
-    Natsuko "And her past... it feels just so wrong to hide it even if mom told me to. "
+    Natsuko "( And her past... it feels just so wrong to hide it even if it's for her own good ) "
     show bg kianatsuaftrsbway 8 with Dissolve(0.8)
-    Natsuko "What if aunt Mia loses the case? I don't want her to go back."
+    Natsuko "( What if aunt Mia loses the case? I don't want her to go back.)"
     Kiara "Natsuko!! "
     Natsuko "Wha-! "
     show bg kianatsuaftrsbway 9 with Dissolve(0.8)
@@ -1493,7 +1501,7 @@ label returninghome:
     Ino "Being independent has its perks Kiara, you learn not to care about what others think. "
     Kiara "I see , I suppose in a way it's peaceful... but anyway I- *Knock knock* "
     show bg kiaraandnatsugohome 5 with Dissolve(0.8)
-    Kiara "Ah, that must be my cousin ... I've got to go, Ms. Ino; I hope we meet again. "
+    Kiara "Ah, that must be my cousin. I've got to go, Ms. Ino I hope we meet again. "
     show bg kiaraandnatsugohome 6 with Dissolve(0.8)
     Ino "I'll be here , feel free to visit. "
     Kiara "Coming natsu! "
@@ -1587,6 +1595,10 @@ label returninghome2:
 
 label auntlateevng:
     play music "/audio/anthmevscn.ogg"
+    scene blackscreen
+    show titletext "Watanabe household , Kitchen.." with dissolve
+    pause 1.0
+    window hide
     show bg xiaevescn 1 with Dissolve(0.8)
     Xia "What should I make for dinner? I wonder what she'll like."
     show bg xiaevescn 2 with Dissolve(0.8)
@@ -1623,32 +1635,33 @@ label auntlateevng:
     Xia "Mwwah , there. "
     Ichigo "Thank you, that should suffice for the week. "
     show bg xiaevescn 14 with Dissolve(0.8)
-    Ichigo "So...where's natsuko? She grew up so fast and didn't even call me a lot. "
-    Xia "No, no , she misses you too, just busy, and currently outside with kiara. "
+    Ichigo "So...where's natsuko? She grew up so fast firstly and now doesn't even call me a lot. "
+    Xia "No no , she misses you too, just busy, and currently outside with kiara. "
     show bg xiaevescn 15 with Dissolve(0.8)
     Ichigo "This late? Is everything alright? "
-    Xia "Yes, all is well , kiara just got lost, so she went to find her. She's in the park. They'll return home soon. "
+    Xia "Yes all is well , kiara just got lost, so she went to find her. "
+    Xia "She's in the park. They'll return home soon."
     show bg xiaevescn 16 with Dissolve(0.8)
     Ichigo "Oh, alright , so did you talk to kiara? How is she? "
     Xia "I did. She's... not okay, but I think her being here will help, and it'll take time, Ichigo. "
     Ichigo "Ah, of course, and what about Mia? is she coming? "
     show bg xiaevescn 17 with Dissolve(0.8)
-    Xia "She won't be able to till the lawsuit, it seems. I miss sis. I hope this time that man gets out of her life. "
+    Xia "She won't be able to till the lawsuit, it seems. I miss sis so I hope this time that man gets out of her life. "
     Ichigo "I hope so as well , Xia. I have a small request. "
     show bg xiaevescn 18 with Dissolve(0.8)
     Xia "Yes, dear? What is it? "
     Ichigo "Please go easy on her, okay? I know you want her to be strong, but she's been through a lot. "
     show bg xiaevescn 19 with Dissolve(0.8)
-    Xia "Of course, I will love , like I said, it'll take time for her to heal. I'll be there with her till she can stand. "
+    Xia "Of course I will love , like i said, it'll take time for her to heal. I'll be there with her till she can stand. "
     Ichigo "Thank you , I hope Mia gets justice as well , I'm sure she'd love to be home again too. "
     show bg xiaevescn 20 with Dissolve(0.8)
     Xia "Yes , her birthday is soon as well. We'll have a good party. "
     Ichigo "Look at you , strong and caring... anyway, I'll eat dinner now, okay? "
     show bg xiaevescn 21 with Dissolve(0.8)
     Xia "Alright, I'll get to cooking too. I nee- "
-    Ichigo "Wait, wait, wait ,  one super important thing. "
+    Ichigo "Wait wait, wait ,  one super important thing. "
     show bg xiaevescn 22 with Dissolve(0.8)
-    Xia "Yes, dear? Tell me. "
+    Xia "Yes dear? Tell me. "
     Ichigo "Aishiteru Xia "
     show bg xiaevescn 23 with Dissolve(0.8)
     Xia "*Blushes* I love you more ... wait before you go, I have something to show you. "
@@ -1671,18 +1684,22 @@ label kiaralocal2:
     show bg kiarainlocal 11 with Dissolve(0.8)
     Natsuko "Kiara! Where are you? I've been trying to find you , I found your phone at taka's. "
     Kiaraonphone "I- I know I'm sorry I lost it there and I'm right now at tori gate garden , some house in the middle of it... could you come? "
-    Natsuko "Yes , stay there don't move, okay? "
+    Natsuko "Yes , stay there don't move okay? "
     show bg kiarainlocal 12 with Dissolve(0.8)
-    Natsuko "C'mon, c'mon, it's close I can get there fast. "
+    Natsuko "C'mon c'mon, it's close I can get there fast. "
     ""
     stop music
     jump auntlateevng
 
 
 label azumiworried:
+    scene blackscreen
+    show titletext "Hazashi household , Shura colony.. " with dissolve
+    pause 1.0
+    window hide
     play music "/audio/azmihmscn.ogg"
     show bg azumiworried 1 with Dissolve(0.8)
-    "" "{i}Satō Household{/i}"
+    
     Azumi "Why isn't she picking up my calls  ... or replying... Is she okay? "
 
     show bg azumiworried 2 with Dissolve(0.8)
@@ -1691,27 +1708,27 @@ label azumiworried:
 
     show bg azumiworried 3 with Dissolve(0.8)
 
-    Azumi "Kiara , even if any of that is true, I really hope you're okay, that's all. "
+    Azumi "Kiara even if any of that is true, I really hope you're okay, that's all. "
 
-    "sato" "Azumi? did you not eat yet? "
+    "Sato" "Azumi? did you not eat yet? "
 
     show bg azumiworried 4 with Dissolve(0.8)
 
     Azumi "Oh uncle... uh, I'm not hungry. "
 
-    "sato" "Don't be silly , you haven't eaten since you arrived. Tell me, what's bothering you? "
+    "Sato" "Don't be silly , you haven't eaten since you arrived. Tell me, what's bothering you? "
 
     show bg azumiworried 5 with Dissolve(0.8)
 
     Azumi "It's just the girl I told you about uncle , she's not responding at all. It's been hours, and I'm worried. "
 
-    "sato" "Azumi , she must be tired as well, you know. Maybe she's resting? "
+    "Sato" "Azumi , she must be tired as well, you know. Maybe she's resting? "
 
     show bg azumiworried 6 with Dissolve(0.8)
 
     Azumi "We had a perfect vibe... She said she'll meet me as well , I hope that happens at least. "
 
-    "sato" "I'm sure she will , so who is she anyway? "
+    "Sato" "I'm sure she will , so who is she anyway? "
 
     show bg azumiworried 7 with Dissolve(0.8)
 
@@ -1719,21 +1736,21 @@ label azumiworried:
 
     show bg azumiworried 8 with Dissolve(0.8)
 
-    "sato" "I see ( Mmm... look at those lips, seems even I have to meet her in person now ) "
+    "Sato" "I see (Hmm , azumi is very easily attached but she seems serious this time) "
 
     show bg azumiworried 9 with Dissolve(0.8)
 
-    "sato" "How about leaving the phone for a bit and eating? You need peace in your tummy first before your mind. "
+    "Sato" "How about leaving the phone for a bit and eating? You need peace in your tummy first before your mind. "
 
     Azumi "Okay, uncle , I'll be back if she calls midway, please let me know. "
 
     show bg azumiworried 10 with Dissolve(0.8)
 
-    "sato" "Don't worry , I will! "
+    "Sato" "Don't worry , I will! "
 
     show bg azumiworried 11 with Dissolve(0.8)
 
-    "sato" "I'll give her the job , bonus, and personal attention, heh. "
+    "Sato" "( See you soon , Ms. Kiara i hope certainly you can give the care i couldn't to azumi) "
     ""
     stop music
     jump kiaralocal2
@@ -1963,7 +1980,7 @@ label natsufindingkiara:
     Kiara "I understand, however, but she's not picking up my calls either , so please look around, okay? "
     Natsuko "Certainly, mother , I'll go right away. "
     show bg natsuafterintro 7 with Dissolve(0.8)
-    Xia "Oh, and remember Natsuko, no mentions of the past. Your room decor choice earlier was risky as well. Please don't do that again, if you don't mind. "
+    Xia "Oh, and remember Natsuko , no mentions of the past. Your room decor choice earlier was risky as well. Please don't do that again, if you don't mind. "
     show bg natsuafterintro 8 with Dissolve(0.8)
     Natsuko "I'm sorry, mother. I just really wanted her to smile. It won't happen again, so may I go? "
     Xia "I love yours too, natsuko, and yes, take care."
@@ -2125,7 +2142,7 @@ label lanaafterintro:
         show bg lanaafterintro 11 with Dissolve(0.8)
         "Deliveryguy" "Uhh, this is the shipment for movesesian industries, ms Elizabeth? "
         show bg lanaafterintro 12 with Dissolve(0.8)
-        Lana "Heh, let's see how he reacts. "
+        Lana "(Heh, let's see how he reacts.) "
         "Deliveryguy" "I would require an uh sign or a thumbprint of any receiver. "
         show bg lanaafterintro 13 with Dissolve(0.8)
         Lana "Yes , I am lana movesesian. "
@@ -2364,7 +2381,7 @@ label kiaraandtaka:
         show bg photoshootleather 23 with Dissolve(0.8)
         Taka "I don't have any unfortunately, but you don't have to worry, kiara. I'm gay anyway, so don't think of it that way. It's just a few shots, so don't overthink. "
         show bg photoshootleather dcd with Dissolve(0.8)
-        Kiara "I didn't expect this... What do I do? "
+        Kiara "( I didn't expect this... What do I do?)"
 
         if _in_replay:
             call photoshootleatherchoice2
@@ -2417,9 +2434,13 @@ label kiaraandtaka:
 
 
 label kiarainstreets:
+    scene blackscreen
+    show titletext "Nit later , Home street.." with dissolve
+    pause 1.0
+    window hide
     play music "/audio/kiastrts1.ogg"
     show bg kiarainthestreets 1 with Dissolve(0.8)
-    Kiara "Alright, Let's go be brave, Kiara. You got this. "
+    Kiara "Alright , Let's just be normal Kiara. You got this. "
     show bg kiarainthestreets 2 with Dissolve(0.8)
     Kiara "The streets are so clean compared to back home. That's nice. "
     show bg kiarainthestreets 3 with Dissolve(0.8)
@@ -2436,18 +2457,18 @@ label kiarainstreets:
     show bg kiarainthestreets 8 with Dissolve(0.8)
     Taka "I'm glad you like the logo. I spent more on this than on my gaming setup. "
     show bg kiarainthestreets 9 with Dissolve(0.8)
-    Kiara "Aheh, sorry, Natsuko told me this shop belonged to her friend, so she told me to check it out. "
+    Kiara "Aheh sorry, Natsuko told me this shop belonged to her friend, so she told me to check it out. "
     Taka "Natsuko called me a friend? Well, that's nice to hear. "
     show bg kiarainthestreets 10 with Dissolve(0.8)
     Kiara "Actually, she told me you could help me a bit with the locality. "
-    Taka "Uh, I can, but what do you mean by help in it? "
+    Taka "Uh I can, but what do you mean by help in it? "
     show bg kiarainthestreets 11 with Dissolve(0.8)
     Kiara "Um, just... like where to start and meeting people and stuff. "
     Taka "Oh right, okay. "
     show bg kiarainthestreets 12 with Dissolve(0.8)
     Taka "Certainly I can help you with it. I have friends at agencies & language courses. "
     show bg kiarainthestreets 13 with Dissolve(0.8)
-    Taka "Please, Come in, though let's discuss this further in the office. It would be best if you didn't stand in the street. "
+    Taka "Please come in though , let's discuss this further in the office. It would be best if you didn't stand in the street. "
     Kiara "Sure. (What's that outfit he's wearing) "
     ""
     stop music
@@ -2456,6 +2477,10 @@ label kiarainstreets:
 
 
 label auntevening:
+    scene blackscreen
+    show titletext "Half an hour later , Xia's room.." with dissolve
+    pause 1.0
+    window hide
     play music "/audio/mcanttlk.ogg"
     show bg auntevening 1 with Dissolve(0.8)
     Kiara "I think this is the room, Auntie? Are you here? "
@@ -2494,18 +2519,17 @@ label auntevening:
     #loading screen
     show bg auntevening 13 with Dissolve(0.8)
     play music "/audio/kimonosn.ogg"
-    Xia "Kiaraa , come out let me see. "
-    Kiara "It doesn't look good I look silly. "
-    Xia "Oh shush , come on out. "
+    Xia "Kiara , come out let me see. "
     show bg auntevening 14 with Dissolve(0.8)
-    Kiara "Auntiee I don't know if this looks good. "
+    Kiara "Auntiee ,  I don't know if this looks good. "
     Xia "Don't think so much come on show me. "
     show bg auntevening 15 with Dissolve(0.8)
     Kiara "Does it look bad? Please don't laugh auntie. "
     Xia "Bad? Kiara you look like a flower! pun intended. "
     show bg auntevening 16 with Dissolve(0.8)
     Kiara "I knew it! you're just making fun of me. "
-    Xia "Aha , No honey I'm serious you look immaculate I'd go as far as to say it looks better on you than it ever did on me. "
+    Xia "Aha , No honey I'm serious you look immaculate."
+    Xia "I'd go as far as to say it looks better on you than it ever did on me. "
     show bg auntevening 17 with Dissolve(0.8)
     Xia "You look wondeful kiara , so you wanted to explore right? Go on out return before 7 okay? "
     show bg auntevening 18 with Dissolve(0.8)
@@ -2622,22 +2646,22 @@ label miamasonnighttalk:
 label meetingnatsuko:
     play music "/audio/mtngntsu.ogg"
     show bg daybathaftr 1 with Dissolve(0.8)
-    Kiara "Mhm, alright, definitely needed that. "
+    Kiara "Mhm alright, definitely needed that. "
     show bg daybathaftr 2 with Dissolve(0.8)
     Kiara "It's a shame my clothes aren't here yet. I wanted to explore the city a bit, and that dress could be better. "
     show bg daybathaftr 3 with Dissolve(0.8)
-    Xia "Remember natsu, nothing of the past, you and she shared a good bond, I know, but that's not her anymore. "
-    Natsuko "I was there when it happened, and I'll be with you even now. "
+    Xia "( Remember natsu, nothing of the past, you and she shared a good bond, I know, but that's not her anymore.)"
+    Natsuko "( I was there when it happened, and I'll be with you even now.) "
     show bg daybathaftr 4 with Dissolve(0.8)
-    Natsuko "It'll be fun knowing you once again, lovely kia. "
+    Natsuko "( It'll be fun knowing you once again, lovely kia.) "
     show bg daybathaftr 5 with Dissolve(0.8)
-    Natsuko "I've always loved her hair. She loved mine. It was cute and jealous at the same time, heh. "
+    Natsuko "( I've always loved her hair & She loved mine. It was cute and jealous at the same time, heh.)"
     show bg daybathaftr 6 with Dissolve(0.8)
     Kiara "Oh, I'm sorry I didn't notice you. "
     Natsuko "Don't mind me. I don't mind the view from the back, haha."
     show bg daybathaftr 7 with Dissolve(0.8)
-    Kiara "Aheh, thanks, um, I'm so sorry but I- you. "
-    Natsuko "It's ok, we haven't met. I'm Natsuko, but you can call me cousin. "
+    Kiara "Aheh thanks,  um I'm so sorry but I- you. "
+    Natsuko "It's okay we haven't met. I'm Natsuko, but you can call me cousin. "
     Kiara "Oh hi! "
     show bg daybathaftr 8 with Dissolve(0.8)
     Natsuko "Well, mom wasn't lying about beauty in a garden. You got the genes, girl. "
@@ -2669,7 +2693,7 @@ label daybath:
     Kiara "Woah, the lights are so warm."
     Kiara "This is better than my room back home."
     show bg roomentr 2 with Dissolve(0.8)
-    Kiara "Well, I prefer this one. I love it."
+    Kiara "Well I prefer this one way more too no actually I love it."
     Kiara "Alright, time to shower."
     show bg roomentr 3 with Dissolve(0.8)
     Kiara "Lana, I love you, sweetie, but your fashion sense is.... dangerous."
@@ -2693,52 +2717,52 @@ label auntmeet:
     show bg auntmeet 1 with Dissolve(0.8)
     play music "/audio/athom.ogg"
     Kiara "Wow, aunt's house is so cool."
-    Oldman "No wonder she's fine. This is an upper-class girl. "
+    Oldman "( No wonder she's fine. This is an upper-class girl.)"
     show bg auntmeet 2 with Dissolve(0.8)
-    Kiara "Whew... Alright, Kiara, make a good first impression, okay. "
+    Kiara "( Whew... Alright, Kiara, make a good first impression, okay.)"
     show bg auntmeet 3 with Dissolve(0.8)
     Kiara "Um Kon'nichiwa? Dareka masu ka? ( God, I feel like a moron) "
     show bg auntmeet 4 with Dissolve(0.8)
     Kiara "Helloooo? "
-    Xia "Is that her? Kiara, I never got to apologize for not being there for her. "
+    Xia "( Is that her? Kiara, I never got to apologize for the past to you kiara.)"
     show bg auntmeet 5 with Dissolve(0.8)
-    Xia "I wonder if our past is still with her, I Doubt it. I wasn't there for her when she needed me, either. "
+    Xia "( I wonder if our past is still with her, I Doubt it. I wasn't there for her when she needed me, either.)"
     show bg auntmeet 6 with Dissolve(0.8)
-    Xia "Kiara, I promise I'll protect you from everything this time. "
+    Xia "( Kiara, I promise I'll protect you from everything this time.)"
     Kiara "Oh hey, someone's there."
     show bg auntmeet 7 with Dissolve(0.8)
     Kiara "Yooooo auntie! Cool outfit! "
     Xia "Who's there? "
     show bg auntmeet 8 with Dissolve(0.8)
-    Kiara "Well shit, there goes the first impression. Uhh, okay, act normal. "
+    Kiara "Well shit, there goes the first impression. Uhh, okay, act normal."
     show bg auntmeet 9 with Dissolve(0.8)
-    Kiara "Er... Watashi wa , Kiara des , ohio gosaimas... Hi? "
+    Kiara "Er... Watashi wa , Kiara des , ohio gosaimas... Hi?"
     Xia "I can speak english just fine. Stand tall. "
     show bg auntmeet 10 with Dissolve(0.8)
-    Oldman "Damn, it's a shame her dress didn't open fully. That ass is begging to get out. "
-    Kiara "Um, I am Kiara, daughter of Mia Murayama, your sis-- "
+    Oldman "( Damn, it's a shame her dress didn't open fully. That ass is begging to get out.)"
+    Kiara "Um, I am Kiara, daughter of Mia Watanabe, your sis-- "
     show bg auntmeet 11 with Dissolve(0.8)
     Kiara "Ah * Gasp* she just hugged me. "
-    Xia "Kiara, Honey, welcome home. It is nice to have you here finally. I waited the entire morning."
+    Xia "Kiara Honey, welcome home. It is so nice to have you here finally. I waited the entire morning."
     show bg auntmeet 12 with Dissolve(0.8)
-    Kiara "This is what genuine appreciation feels like... It's nice. "
-    Xia "How was your trip? I hope you got here easily. "
+    Kiara "( This is what genuine appreciation feels like... It's nice.)"
+    Xia "How was your trip? I hope you got here easily."
     show bg auntmeet 13 with Dissolve(0.8)
     Kiara "Yes, all good. Thankfully, I met someone who speaks english at the airport, so it was pretty easy. "
-    Xia "That's great, don't worry about the luggage, okay? I'll tell the servant to take care of it. "
+    Xia "That's great, don't worry about the luggage, okay? I'll tell the servant to take care of it."
     show bg auntmeet 14 with Dissolve(0.8)
-    Xia "Well, Mia wasn't wrong though when she said you're the most beautiful in our family. "
-    Kiara "Ahan, Thank you, auntie. I doubt that's true since all of you have such good genes. "
+    Xia "Well, Mia wasn't wrong though when she said you're the most beautiful in our family."
+    Kiara "Ahan, Thank you auntie. I doubt that's true since all of you have such good genes."
     show bg auntmeet 15 with Dissolve(0.8)
-    Xia "Haha, is this flattery perhaps an apology for your poor Japanese earlier? "
+    Xia "Haha, is this flattery perhaps an apology for your poor Japanese earlier?"
     Kiara "Of course not, auntie, you're amazingly beautiful."
-    Xia "Well, thank you, honey."
+    Xia "Well , thank you honey."
     show bg auntmeet 16 with Dissolve(0.8)
-    Xia "Still such a sweetheart. Memories might be gone, but you're still pure Kiara. "
+    Xia "( Still such a sweetheart. Memories might be gone, but you're still pure Kiara.)"
     show bg auntmeet 17 with Dissolve(0.8)
-    Kiara "Aunty, your house is so beautiful. I love the design. "
+    Kiara "Aunty your house is so beautiful. I love the design. "
     show bg auntmeet 18 with Dissolve(0.8)
-    Xia "You think so? Why don't you  come in and take a look? "
+    Xia "You think so? Why don't you come in and take a look? "
     Kiara "Really? Yayyyy !"
     show bg auntmeet 19 with Dissolve(0.8)
     Kiara "Oh my gosh, it's real armor? Auntie come here! "
@@ -2754,7 +2778,7 @@ label auntmeet:
     play music "/audio/antattck.ogg"
     Xia "Where do you think you're going mister? "
     Oldman "Uhh, to  help your daughter with luggage and stuff."
-    Xia "No, thank you, We'll take care of it... besides, I caught you staring at her inappropriately."
+    Xia "No thank you, We'll take care of it... besides, I caught you staring at her inappropriately."
     show bg auntmeet 23 with Dissolve(0.8)
     Xia "Is this how you treat your customers? Gawking at them like a pervert? "
     Oldman "Woah woah, lady, calm down."
@@ -2792,8 +2816,7 @@ label auntmeet:
     jump daybath
 
 label kiaraincab:
-    show bg cabjpn 1 with Dissolve(0.8) 
-    Oldman "That's right."
+    show bg cabjpn 1 with Dissolve(0.8) ()
     Oldman "Hmm , I should initiate I suppose. "
     Kiara "All the other kids with the pumped up k-- "
     show bg cabjpn 2 with Dissolve(0.8)
@@ -2853,46 +2876,52 @@ label kiaraincab:
     show bg cabjpn 22 with Dissolve(0.8)
     Oldman "All good back there? "
     Kiara "Uhh yea, yea, Um, let's go."
-    Kiara "Better not argue. I'll get home and stay off this weirdo."
+    Kiara "( Better not argue. I'll get home and stay off this weirdo. )"
     stop music
 
     ""
     jump auntmeet
 
 label kiaraairport:
-    play music "/audio/oska.ogg"
-    show bg arrivaljapan 1
-    "" "{i}Osaka Japan - Early Morning{/i}"
+    scene blackscreen
+    show titletext "Fourteen hours later.. Osaka , Japan" with dissolve
+    pause 1.0
+    window hide
+    show bg arrivaljapan 1 with Dissolve(0.8)
     Azumi "Are you sure you're not cold? The ac was extreme in the plane. "
     Kiara "Heh, I am okay, Azumi. You worry more than my mum. "
     scene
-    show bg arrivaljapan 2
-    Azumi "Well, yea, because I know I won't find such a cool company again."
+    show bg arrivaljapan 2 with Dissolve(0.8)
+    Azumi "Well yeah, because I know I won't find such a cool company again."
     Kiara "Very cute. You're smoother than the leather seats in the plane."
-    show bg arrivaljapan 3
+    show bg arrivaljapan 3 with Dissolve(0.8)
     Azumi "So you really can't come home with me? I make good cupcakes. "
-    Kiara "I'll eat all of those, I promise, but right now, my aunt is probably waiting for me, so I need to go there first. "
-    show bg arrivaljapan 4
+    Kiara "I'll eat all of those I promise, but right now my aunt is probably waiting for me, so I need to go there first. "
+    show bg arrivaljapan 4 with Dissolve(0.8)
     Azumi "I hope you don't get lost or something. This is a big city. "
-    Kiara "I know, don't worry, I'll get home directly, and once I'm there, I'll let you know. "
-    show bg arrivaljapan 5
+    Kiara "Lost? Haha no don't worry , I'll get home directly, and once I'm there, I'll let you know. "
+    show bg arrivaljapan 5 with Dissolve(0.8)
     Kiara "Besides, I'm going to live here. Not to be rude, but I gotta learn the city a bit."
-    Azumi "No, of course not, but do let me know if you need anything. "
+    Azumi "No of course not, but do let me know if you need anything. "
     Kiara "You know I will ~ "
-    show bg arrivaljapan 6
+    show bg arrivaljapan 6 with Dissolve(0.8)
     Azumi "Kiara, Please call me, okay? I hope we meet again."
-    Kiara "Azumi, I will, I promise. You're my first friend here, after all. "
-    show bg arrival 1
-    Kiara "She was cute... Alright then, here we are, time to get going."
+    Kiara "Azumi awe I will, I promise. You're my first friend here, after all. "
+    show bg arrival 1 with Dissolve(0.8)
+    Kiara "( She was cute... Alright then, here we are, time to get going.)"
     Crowd "Damn, that's a babe right there."
     stop music
     ""
     jump kalintro
 
 label kalintro:
+    scene blackscreen
+    show titletext "Late night.. Queens , New york" with dissolve
+    pause 1.0
+    window hide
     play music "/audio/vltnc.ogg"
     show bg kaylaintro 1  with Dissolve(0.8)
-    Valentina "Cmon, Cmon, this is it. "
+    Valentina "Cmon Cmon, this is it. "
     show bg kaylaintro 2  with Dissolve(0.8)
     Valentina "I knew it... her passport was used! "
     show bg kaylaintro 3  with Dissolve(0.8)
@@ -2922,7 +2951,7 @@ label kalintro:
     Valentina "Why does he have a gun...? "
     show bg kaylaintro 15  with Dissolve(0.8)
     Police "Mam? is that clear? "
-    Valentina "Um... yes, officer, I'm sorry again. "
+    Valentina "Um... yes officer, I'm sorry again. "
     show bg kaylaintro 16  with Dissolve(0.8)
     Valentina "A fake distress call?... ugh kids these days."
     show bg kaylaintro 17  with Dissolve(0.8)
@@ -2941,6 +2970,7 @@ label kalintro:
     show bg kaylaintro 22  with Dissolve(0.8)
     Valentina "Listen asshole, this is not the time nor am I in the mood , So, go fuck yourself! "
     morphvoice "Alright I'll cut to the chase , you're snooping around things you shouldn't babe , back off, you're smart enough to know what I'm refering to here. "
+    morphvoice "IF you keep doing it after this call , I'll tie that fiance of yours and make him watch while i puund that pussy of yours"
     show bg kaylaintro 23  with Dissolve(0.8)
     Valentina "You fucking pig , how dare you! "
     morphvoice "**Hangs up** "
@@ -2958,10 +2988,13 @@ label kalintro:
 
 
 label airport:
-    "" "{i}Airport - Outside{/i}"
+    scene blackscreen
+    show titletext "Outside airport.." with dissolve
+    pause 1.0
+    window hide
     play music "/audio/oska.ogg"
-    scene bg arrival 2
-    Kiara "Alright, japan, Here I come!... Ah, the air seems nice too."
+    scene bg arrival 2 with Dissolve (0.8)
+    Kiara "Alright japan, Here I come!... Ah, the air seems nice too."
     show bg arrival 3 with Dissolve(0.8)
     Kiara "Dammit... probably should've asked Azumi to book a cab. My Japanese is trash. "
     show bg arrival 4 with Dissolve(0.8)
@@ -2973,7 +3006,7 @@ label airport:
     show bg arrival 7 with Dissolve(0.8)
     Kiara "Teishi shite kudasai! Er...no, wait! "
     show bg arrival 8 with Dissolve(0.8)
-    Oldman "Far from home, aren't you, sweetheart? "
+    Oldman "Far from home, aren't you sweetheart? "
     show bg arrival 9 with Dissolve(0.8)
     Kiara "Oh my gosh, you speak english! Hi... I'm so lucky, wow. "
     Oldman "Hahaha, I moved here 30 years ago, so where do you need to go? "
@@ -2981,12 +3014,11 @@ label airport:
     Kiara "I just arrived, I'm sorry, but yeah, I need to go to my aunts! "
     show bg arrival 11 with Dissolve(0.8)
     Kiara "Here you go, this was the location on maps sent to me... will this-- "
-    Oldman "Hot damn, this gal has nice tits... "
+    Oldman "( Hot damn, this gal has nice tits...)"
     Oldman "Ah yes, yes! Please sit, and put the bag behind you. "
     show bg arrival 12 with Dissolve(0.8)
     Kiara "Alright, Vamenos senior! "
-
-    ""
+    pause
     jump kiaraincab
 
     #intro segment
@@ -2997,28 +3029,29 @@ label intro:
     play music "audio/Intrmainscn.ogg"
     "{i}Somewhere in brooklyn{/i}"
     show bg intro 1 with Dissolve(0.8)
-    Kiara "Three years I've lost , they say the accident was so horrible that it put me in coma , all of that makes sense but what of before?...Why can't I remember days of uni? Maybe-"
+    Kiara "(Three years I've lost .  Everyone says the accident was so horrible that it put me in a coma. All of that makes sense, but what about before? Why can't I remember my days at university? Maybe-)"
     show bg intro 2 with Dissolve(0.8)
     stop music
     play music "audio/Intomain2.ogg"
-    John "Hey ya'll I'm home!"
+    John "I'm home everyone!"
     show bg intro 3 with Dissolve(0.8)
-    Kiara "Shit , lost my train of thought."
+    Kiara "(Shit , lost my train of thought.)"
     show bg intro 4 with Dissolve(0.8)
     Kiara "That must be dad... late as usual but I hope he's alright."
     show bg intro 5 with Dissolve(0.8)
-    Mia  "Well look who decided to show up , the irresponsible drunktard that thinks money and alchohol solves evertything."
+    Mia  "Well, look who decided to show up. The irresponsible drunkard who thinks money and alcohol solve everything."
     show bg intro 6 with Dissolve(0.8)
-    John "Money got me you didn't it? You're a fine piece that has everything heh."
+    John "Money got me you didn't it? You're a fine piece that has everything hehe."
     show bg intro 7 with Dissolve(0.8)
-    Mia  "You're so drunk you don't even realize john , compliments won't save you here , you told me you'd stop this."
+    Mia  "You're so drunk you don't even realize john , compliments won't help here  , you told me you'd stop this."
     John "Oh for christ sakes , shut up will you"
     show bg intro 8 with Dissolve(0.8)
-    John "Listen Mia can we not do this today , I had a fun night hun and it was great now don't ruin my mood alright."
+    John "
+Listen, Mia, can we not do this today? I had a fun night, hun, and it was great. Now, don't ruin my mood, alright?"
     show bg intro 8 with Dissolve(0.8)
-    Mia  "Not today? When does it stop Jonathan? You and I agreed that we'll improve our lives after what happened with kiara , how about you start doing that by not drinking and sleeping with sluts."
+    Mia  "Not today? When does it stop, Jonathan? You and I agreed that we'll improve our lives after what happened with Kiara. How about you start doing that by not drinking and sleeping with sluts"
     show bg intro 9 with Dissolve(0.8)
-    John "Argh whatever, you just don't understand me  , though you're right about one thing , I should stop sleeping with sluts, starting from today bedroom is all yours"
+    John " You just don't understand me. Though you're right about one thing, I should stop sleeping with sluts, starting from today bedroom is all yours"
     show bg intro 10 with Dissolve(0.8)
     Mia  "What the fuck did you just say?"
     show bg intro 10 with Dissolve(0.8)
@@ -3026,19 +3059,19 @@ label intro:
     show bg intro 11 with Dissolve(0.8)
     Kiara "What on earth is happening down there."
     show bg intro 12 with Dissolve(0.8)
-    Mia  "You have the guts to call me that after I've left my fucking family for you? What the hell is wrong with you."
+    Mia  "You have the audacity to call me that after I've left my fucking family for you? What the hell is wrong with you."
     show bg intro 12 with Dissolve(0.8)
-    John "Oh please you got money for it too stop acting like a teenager , don't act all high and mighty, fuck your stupid judgements."
+    John "Oh please you got money for it too stop acting like a teenager , don't act all high and mighty, fuck you"
     show bg intro 13 with Dissolve(0.8)
     Mia  "Fuck you too!"
     show bg intro 14 with Dissolve(0.8)
-    Kiara "I wish this would stop , they've been this way even after I got back home , god knows how bad it got in those 3 years."
+    Kiara "I wish this would stop. They have been this way even after I returned home. God knows how awful it got during those three years."
     show bg intro 15 with Dissolve(0.8)
-    Kiara "Honestly I'm too tired to even think at this point , I'll just take some pills and rest."
+    Kiara "Honestly , I'm too tired to even think at this point , I'll just take some pills and rest."
     show bg intro 16 with Dissolve(0.8)
     Kiara "Goodnight awful life , see you again tomorrow ."
     show bg intro 17 with Dissolve(0.8)
-    John "Kiara , sorry for all the comotion down there ,  I hope you weren't asleep-"
+    John "Kiara , sorry for all the commotion down there . I hope you weren't asleep-"
     show bg intro 18 with Dissolve(0.8)
     John "You here ?"
     show bg intro 18 with Dissolve(0.8)
@@ -3046,9 +3079,9 @@ label intro:
     show bg intro 19 with Dissolve(0.8)
     John "Kiara... oh my"
     show bg intro 20 with Dissolve(0.8)
-    John "There's my babygirl man what a diamond cutter she has , shame I can't cross boundries."
+    John "There's my babygirl man what a diamond cutter she has , shame I can't cross boundries yet."
     show bg intro 21 with Dissolve(0.8)
-    John "I wonder how her feet smell , she stays so clean after all I'm sure a little sniff wouldn't hurt."
+    John "I wonder how her feet smell , she stays so clean after all . I'm sure a little sniff wouldn't hurt."
     show bg intro 21 with Dissolve(0.8)
     John "*sniff* Oh god , she's perfect even in this department."
     show bg intro 22 with Dissolve(0.8)
@@ -3056,13 +3089,13 @@ label intro:
     show bg intro 23 with Dissolve(0.8)
     John "God even through the fabric its so soft , okay... I won't do more than touch so lets see how this ass looks."
     show bg intro 24 with Dissolve(0.8)
-    Mia  "What a joke this life is , ugh whatever I should check up on kiara."
+    Mia  "What a joke this life is , I miss you so much father.. ugh whatever I should check up on kiara."
     show bg intro 25 with Dissolve(0.8)
-    John "Holy fuck , that ass is so fucking soft , I think she wears skinny panties let'see."
+    John "Holy fuck , this ass is so fucking soft , I think she's wearing skinny panties let'see."
     show bg intro 26 with Dissolve(0.8)
-    Mia  "My life might be a shithole but I'll make sure her is the best , soon I'll find a way."
+    Mia  "My life might be a shithole but I'll make sure hers is the best , soon I'll find a way."
     show bg intro 27 with Dissolve(0.8)
-    John "Damn I can't touch but guess I can jerk off to it at least , she's my babygirl for sure."
+    John "Damn I can't touch but guess I can jerk off to it at least , she's my babygirl in the end."
     show bg intro 28 with Dissolve(0.8)
     John "Mmm god blessed me with a fine daughter"
     show bg intro 29 with Dissolve(0.8)
@@ -3088,7 +3121,7 @@ label intro:
     Mia  "Oh you think I can't? Fucking watch me you asshole."
     show bg intro 38 with Dissolve(0.8)
     John "Kiara I am sorry , I was drunk and then suddenly ju..."
-    Kiara "Even if you are sorry dad I think you need some time alone after what's happened , and I mean a long time alone , take care."
+    Kiara "Even if you are sorry dad I think you need some time alone after what's happened , and I mean a long time alone , Bye."
     Mia "Kiara , come quick!"
     stop music
 
@@ -3098,10 +3131,13 @@ label intro:
 
 
 label hotel:
-    "" "An Hour later avenue hotel"
+    scene blackscreen
+    show titletext "Avenue Hotel , Downtown New york" with dissolve
+    pause 1.0
+    window hide
     play music "audio/htlscns.ogg" loop
     show bg hotel 1 with Dissolve(0.8)
-    Kiara "Well I certainly didn't expect to end today this way."
+    Kiara "(Well I certainly didn't expect to end today this way.)"
     show bg hotel 2 with Dissolve(0.8)
     Kiara "And SPECIALLY not dressed like this!"
     show bg hotel 3 with Dissolve(0.8)
@@ -3111,29 +3147,28 @@ label hotel:
     show bg hotel 5 with Dissolve(0.8)
     Mia  "Hello there"
     show bg hotel 5 with Dissolve(0.8)
-    #Reception
-    "{i}Welcome to central avenue mam{/i}"
+    "Reception" "{i}Welcome to central avenue mam{/i}"
     show bg hotel 6 with Dissolve(0.8)
-    Mia  "Thank you , we'd like a room for two for tonight , could you please take us we're very tired."
+    Mia  "Thank you , we'd like a room for two for tonight , could you please hurry we're very tired."
     Dennis "Give me a moment mam"
     show bg hotel 8 with Dissolve(0.8)
     Dennis "Damn these are some babes , that girl is trying to hide her best but her thighs alone tell me she's got a juicy pussy under those shorts ."
     show bg hotel 9 with Dissolve(0.8)
-    Dennis "speaking of juicy tho the mother ain't so bad a thic asian with that cute face."
+    Dennis "Speaking of juicy tho the mother ain't so bad a thic asian with that cute face."
     show bg hotel 10 with Dissolve(0.8)
-    Dennis "Damn can even imagine how they look like uner that top too."
+    Dennis "Can even imagine how they look like uner that top too."
     show bg hotel 7 with Dissolve(0.8)
     Dennis "Sure mam , please come  with me."
     show bg mumgrop 1 with Dissolve(0.8)
-    Dennis "Lets see how she reacts to a little touch"
+    Dennis "(Lets see how she reacts to a little touch)"
     show bg mumgrop 2 with Dissolve(0.8)
-    Dennis "I'd love to bang em both but one should be good for dinner , here we go."
+    Dennis "(I'd love to bang em both but one should be good for dinner , here we go.)"
     show bg mumgrop 3 with Dissolve(0.8)
     Dennis "Here goes nothing!"
     stop music
     show bg mumgrop 4 with Dissolve(0.8)
     play music "/audio/surprisedgrop.ogg" noloop
-    Mia  "That's... a hand? No , it isn't an accident he's actually groping me... what the hell last thing I need now is this."
+    Mia  "(That's... a hand? No , it isn't an accident he's actually groping me... what the hell last thing I need now is this.)"
     stop music
     show bg mumgropdecide
     play music "/audio/choicmusic.ogg"
@@ -3151,9 +3186,9 @@ label accepthotelmom:
     stop music
     play music "/audio/htlscns.ogg"
     show bg mumacctdgrope 1 with Dissolve(0.8)
-    Mia  "Ugh whatever , we're just gonna go to the room and this will end I can endure this much."
+    Mia  "(Ugh whatever , we're just gonna go to the room and this will end I can endure this much.)"
     show bg mumacctdgrope 2 with Dissolve(0.8)
-    Dennis "Well well we got a submissive babe here I see , very well then I'll enjoy myself."
+    Dennis "(Well well we got a submissive babe here I see , very well then I'll enjoy myself.)"
     show bg mumacctdgrope 3 with Dissolve(0.8)
     Kiara "Mom you comin?"
     show bg mumacctdgrope 4 with Dissolve(0.8)
@@ -3280,7 +3315,7 @@ label rejecthotelmom:
     show bg momgroperjctd 4 with Dissolve(0.8)
     Dennis "Hey what the-"
     show bg momgroperjctd 4 with Dissolve(0.8)
-    Mia  "Oh my god are you okay? I'm so sorry ,take care"
+    Mia  "Oh my god are you okay? I'm so sorry , please get it checked"
     show bg momgroperjctd 5 with Dissolve(0.8)
     Mia  "Serves you right fucker."
     show bg momgroperjctd 4 with Dissolve(0.8)
@@ -3299,18 +3334,18 @@ label rejecthotelmom:
     show bg htlroom 3 with Dissolve(0.8)
     Mia  "Of course I am. That man abused me my whole married life, which I can handle, but today he crossed the line."
     show bg htlroom 4 with Dissolve(0.8)
-    Kiara "You're the boss, mom. I was trying to say what I felt."
+    Kiara "You're the boss mom. I was trying to say what I felt."
     show bg htlroom 5 with Dissolve(0.8)
     Mia  "I'm sorry honey, I've just been having a bad day already."
     show bg htlroom 6 with Dissolve(0.8)
     Mia "I've got to go.... I'm sorry for tonight. Please rest. I'll be late."
-    Kiara "I'll be okay, mom. Please take care too."
+    Kiara "I'll be okay mom. Please you take care too."
     show bg htlroom 7 with Dissolve(0.8)
     Kiara "She is not well. Why did dad do this."
     show bg htlroom 7 with Dissolve(0.8)
-    Kiara "Ah, well, I might as well take a shower. I feel disgusting. I don't know why."
+    Kiara "Ah well, I might as well take a shower. I feel disgusting. I don't know why."
     show bg htlroom 9 with Dissolve(0.8)
-    Kiara "God, I love a warm shower. It is like everything wrong fades away."
+    Kiara "God, I love a warm shower. It's like everything wrong fades away."
     show bg htlroom 11 with Dissolve(0.8)
     "Waitor""Room service, two bags for 162? "
     show bg htlroom 12 with Dissolve(0.8)
@@ -3320,7 +3355,7 @@ label rejecthotelmom:
     show bg htlroom 15 with Dissolve(0.8)
     Kiara "Did I hear something? Must've been the wind."
     show bg htlroom 16 with Dissolve(0.8)
-    Dennis "Stupid intern left the door open, heh, time to see that beauty , huh?"
+    Dennis "Stupid intern left the door open, hehe time to see that beauty , huh?"
     show bg htlroom 17 with Dissolve(0.8)
     Dennis "Aw shucks no one here damn room will be locked at night and they'll leave tomorrow, got to think of something."
     show bg htlroom 18 with Dissolve(0.8)
@@ -3332,7 +3367,7 @@ label rejecthotelmom:
     show bg htlroom 21 with Dissolve(0.8)
     Dennis "Lifting bags now then I'll lift their cheeks, later!"
     show bg htlroom 22 with Dissolve(0.8)
-    Kiara "Damn, they've grown a lot since I started uni , hopefully not much more since I like my back not in pain."
+    Kiara "They've grown a lot since I started uni , hopefully not much more since I like my neck not in pain."
     show bg htlroom 23 with Dissolve(0.8)
     Kiara "Now then where were we."
     show bg htlroom 24 with Dissolve(0.8)
@@ -3346,21 +3381,22 @@ label rejecthotelmom:
     show bg htlroom 27 with Dissolve(0.8)
     Kiara "Oh hey mom , everything okay?"
     show bg htlroom 27 with Dissolve(0.8)
-    Miaonphone  "It'll be okay , baby I need you to go to airport and take the flight to japan,its sudden I know but trust me this is what mason recommended."
+    Miaonphone  "It'll be okay , baby I need you to go to airport and take the flight to Oska , It's very sudden I know but it's what mason recommended and we have to act quick"
     show bg htlroom 28 with Dissolve(0.8)
     Kiara "Oh uh... Okay mom , what do I do then?"
     show bg htlroom 28 with Dissolve(0.8)
-    Miaonphone "You must have received two bags  it has your passport and ticket and stuff you need okay?"
+    Miaonphone "You must have received bags , they have your passport and ticket and stuff you need okay?"
     show bg htlroom 29 with Dissolve(0.8)
     Kiara "I see it mom , don't worry I'll handle it, you be safe okay?"
     show bg htlroom 29 with Dissolve(0.8)
-    Kiara "Ah my clothes aren't here , she said two bags, she sounded stressed and I forgot to notice.... I can't go to the lobby now, the flight is soon , what do I do?"
+    Kiara "Ah, my clothes aren't here. She said bags did she mean multiple?"
+    Kiara "She sounded stressed, and I forgot to notice. I can't go to the lobby now since the flight is soon. What should I do?"
     show bg htlroom 30 with Dissolve(0.8)
     Kiara "Oh wait yes! I can call lana to grab me one for the moment."
     show bg htlroom 31 with Dissolve(0.8)
-    Kiara "Lana?.... Hello, uh,I need some help!"
+    Kiara "Lana?.... Hello, I need some help!"
     stop music
-    ""
+
     jump lanastart
 
 label lanastart:
@@ -3377,16 +3413,20 @@ label lanastart:
     jump lanahotel
 
 label lanahotel:
+    scene blackscreen
+    show titletext "Avenue hotel , Abit later.." with dissolve
+    pause 1.0
+    window hide
     show bg lanahtl1 with Dissolve(0.8)
-    Lana "Yo, anyone here?"
+    Lana "Yo , anyone here?"
     show bg lanahtl2 with Dissolve(0.8)
     Dennis "My sincere apologies mam , my colleague was having stomach pain."
     show bg lanahtl3 with Dissolve(0.8)
     Lana "It's fine , sup?  I need this bag delivered to my friends room, I believe its 162."
     show bg lanahtl4 with Dissolve(0.8)
-    Dennis "Of course , I'll carry it, you don't have to burden yourself at all."
+    Dennis "Of course , I'll carry it.  You don't have to burden yourself at all."
     show bg lanahtl5 with Dissolve(0.8)
-    Dennis "Damn I'd love to carry this bitch on my dick too, what a hot blondie."
+    Dennis "( Damn I'd love to carry this bitch on my dick too, what a hot blondie.)"
     show bg lanahtl6 with Dissolve(0.8)
     Dennis "Upstairs mam."
     show bg lanahtl6 with Dissolve(0.8)
@@ -3400,8 +3440,6 @@ label lanahotel:
 
 label lanaelevator:
     play music "/audio/htlscns.ogg"
-    show bg lanadecidegrope with Dissolve(0.8)
-    Lana "**Hm mhm**"
     show bg lanalift1 with Dissolve(0.8)
     Dennis "Well then time to make my move."
     show bg lanalift2 with Dissolve(0.8)
@@ -3434,7 +3472,7 @@ label roomsegment2:
     Kiara "I swear I heard her voice..."
     MIB "Looking good, baby."
     show bg htlroom 35 with Dissolve(0.8)
-    Kiara "*gasp* oh my god I'm so sorry, I heard my friend and I –"
+    Kiara "*gasp* Oh my god I'm sorry, I heard my friend and I–"
     show bg htlroom 36 with Dissolve(0.8)
     MIB "Chill out what ya sorry for , I should thank you... speaking of favors tho how about we help each other take off towels heh?"
     show bg htlroom 37 with Dissolve(0.8)
@@ -3445,9 +3483,9 @@ label roomsegment2:
     show bg htlroom 39 with Dissolve(0.8)
     Kiara "Now then lets see what's in the bag."
     show bg htlroom 40 with Dissolve(0.8)
-    Kiara "Okay its very sweet of her to bring more food but this dress... what on earth , it'll never fit me and I can't wear it on a flight!"
+    Kiara "Okay, it's very sweet of her to bring more food, but this dress... what on earth? It'll never fit me, and I can't wear it on a flight!"
     show bg htlroom 41 with Dissolve(0.8)
-    Kiara "I don't have time to go to lobby, oh well , beggers can't be choosers."
+    Kiara "I don't have time to go to lobby. Oh well , beggers can't be choosers."
     show bg htlroom 42
     Kiara "I guess its not that bad.... the top won't close fully, but its just one flight and I'll then get my clothes the next day."
     stop music
@@ -3499,9 +3537,10 @@ label lanaAcpt1:
 label lanaRjt1:
     play music "/audio/takacton.ogg"
     show bg lanarjctgrp1 with Dissolve(0.8)
-    Lana "Hey honey, no need to rush, let's go to a room, and we'll continue, but how about I give you a good taste on your dick first? Come on, close your eyes."
+    Lana "Hold it there honey no need to rush, let's go to a room and we'll continue." 
+    Lana "How about I give you a good taste on your dick first? Come on, close your eyes."
     show bg lanarjctgrp2 with Dissolve(0.8)
-    Dennis "Now, you're talking, babe, alright closed, let's feel what you got."
+    Dennis "Now you're talking babe, alright closed. Let's feel what you got."
     show bg lanarjctgrp3 with Dissolve(0.8)
     Lana "This is what I got, you fucker."
     show bg lanarjctgrp4 with Dissolve(0.8)
@@ -3517,7 +3556,7 @@ label lanaRjt1:
     Lana "Fuck off"
     Dennis "Ugh!"
     show bg lanarjctgrp7 with Dissolve(0.8)
-    Lana "FFs, I'll meet her in japan. My mood is ruined."
+    Lana "Fucks sake i'm running late, I'll meet her in japan. My mood is ruined anyway."
     show bg lanarjctgrp8 with Dissolve(0.8)
     Lana "Your package Is here! baby~"
     stop music
@@ -3558,7 +3597,7 @@ label lanaAcpt2:
     show bg lanaelv 5 with Dissolve(0.8)
     Dennis "Lets unwrap you."
     show bg lanaelv 6 with Dissolve(0.8)
-    Lana "Jesus you can'tbe-"
+    Lana "Jesus you can't be-"
     show bg lanaelv 6 with Dissolve(0.8)
     Dennis "Shut up let me show you how much of a slut you are."
     show bg lanaelv 6 with Dissolve(0.8)
@@ -3566,7 +3605,7 @@ label lanaAcpt2:
     show bg lanaelv 8 with Dissolve(0.8)
     Dennis "Look at that face , those nipples and that pussy 10 minutes ago you didn't knew me and here I am spreading your holes."
     show bg lanaelv 8 with Dissolve(0.8)
-    Lana "God he's right I let him do this after all, but I should talk."
+    Lana "( God he's right I let him do this after all, but I should talk.)"
     show bg lanaelv 8 with Dissolve(0.8)
     Lana "Hey look I just didn't expect you to go all the way , please let me go this package is urgent."
     show bg lanaelv 9 with Dissolve(0.8)
@@ -3576,7 +3615,7 @@ label lanaAcpt2:
     show bg lanaelv 10 with Dissolve(0.8)
     Dennis "We'll deliver this to your friend and then have fun."
     show bg lanaelv 10 with Dissolve(0.8)
-    Lana "Hey wtf , my clothes!"
+    Lana "Hey the fuck , my clothes!"
     show bg lanaelv 11 with Dissolve(0.8)
     Dennis "You won't be needing those tonight don't worry."
     show bg lanaelv 11 with Dissolve(0.8)
@@ -3586,7 +3625,7 @@ label lanaAcpt2:
     show bg lanasex 1 with Dissolve(0.8)
     Dennis "Well you're the one who let me strip you and either way you had your fun , now I'll have mine."
     show bg lanasex 1 with Dissolve(0.8)
-    Lana "You can't just do this , I have a party to attend okay so can we talk about thi-"
+    Lana "You can't just do this , I have a party to attend okay. So can we talk about thi-"
     show bg lanasex 2 with Dissolve(0.8)
     Dennis "Up you go"
     show bg lanasex 2 with Dissolve(0.8)
@@ -3644,20 +3683,20 @@ label lanaAcpt2:
     show bg lanasex 20 with Dissolve(0.8)
     Dennis "Your turn now babe."
     show bg lanasex 21 with Dissolve(0.8)
-    Lana "Heh could've just told me to  lets see here."
+    Lana "Heh could've just told me to ,  lets see here."
     show bg lanasex 22 with Dissolve(0.8)
-    Lana "*smooch* , you've got quite a good one not gonna lie."
+    Lana "*smooch* , You've got quite a good one not gonna lie."
     show bg lanasex 23 with Dissolve(0.8)
-    Lana "*glurg* *lick*"
+    Lana "*glurg* *Lick*"
     show bg lanasex 24 with Dissolve(0.8)
     Dennis "Fuck you're good."
     show bg lanasex 25 with Dissolve(0.8)
-    Lana "heh *Slurp* I know you guys love it when a gal does it."
+    Lana "Heh *Slurp* I know you guys love it when a gal does it."
     show bg lanasex 26 with Dissolve(0.8)
     Dennis "Fuck yes..."
     Lana "*glurg* mmm."
     show bg lanasex 27 with Dissolve(0.8)
-    Dennis "ahh damn you're so good at this."
+    Dennis "Ahh damn you're so good at this."
     show bg lanasex 28 with Dissolve(0.8)
     Lana "*Spit and slurp* hehe."
     show bg lanasex 29 with Dissolve(0.8)
@@ -3684,7 +3723,7 @@ label lanaAcpt2:
 
     Lana "So big and warm."
     show bg lanasex 37 with Dissolve(0.8)
-    Lana "Your turn now hehe."
+    Lana "Your turn now baby."
     show bg lanasex 38 with Dissolve(0.8)
     Dennis "Oh with pleasure"
     show bg lanasex 39 with Dissolve(0.8)
@@ -3744,54 +3783,64 @@ label lanaAcpt2:
     jump roomsegment2
 
 label Momandlawyer:
-    #"" "Over atMason and veronica's."
+    scene blackscreen
+    show titletext "At M & V associates , Brooklyn" with dissolve
+    pause 1.0
+    window hide
     play music "/audio/lwscn.ogg"
     show bg mumlaw 1
     Mia  "Please take care, honey, and text me when you reach Japan, okay?"
-    Kiaraonphone "Don't worry, mom, I'll keep you updated. Love you, okay?"
-    Mia  "Love you too."
+    Kiaraonphone "Don't worry mom. I'll keep you updated, Love you okay?"
+    Mia  "Love you too. Be safe"
     show bg mumlaw 2 with Dissolve(0.8)
     Mason "Is she okay?... She's not had the easiest day."
-    Mia  "She's a tough girl. I don't know how to thank you for arranging all this on short notice. I'm so sorry."
+    Mia  "She's a tough girl. I don't know how to thank you for arranging all this on short notice.."
     show bg mumlaw 3 with Dissolve(0.8)
-    Mason "Don't be silly, Mia, you're my friend. We go way back, okay? \nI care for you, and Kiara, both don' thank me for what you deserve."
+    Mason "Don't be silly Mia, you're my friend. We go way back, okay?"
     show bg mumlaw 4 with Dissolve(0.8)
-    Mia  "It is just very rare, thanks, you're very sweet.... Let's perhaps talk about the other matter now?"
+    Mia  "It is just very rare, thanks, you're very sweet."
+    Mia " Let's perhaps talk about the other matter now ?"
     show bg mumlaw 6 with Dissolve(0.8)
     Mason "Sure."
     show bg mumlaw 7 with Dissolve(0.8)
     Mia  "What are my options here, mason? I am done with this man and don't want him in my life anymore."
     show bg mumlaw 8 with Dissolve(0.8)
-    Mason "Mia, I understand your emotional state right now, but we need to consider this legally too. In that context, the truth is that he was indeed drunk and intoxicated. It'll show in court, and then he has that defense."
+    Mason "Mia I understand your emotional state right now, but we need to consider this legally too."
+    Mason "In that context, the truth is that he was indeed drunk and intoxicated. It'll show in court as involuntary, and then he has that defense."
     show bg mumlaw 9 with Dissolve(0.8)
     Mia  "So what do we do? You said there was a way."
     show bg mumlaw 9 with Dissolve(0.8)
-    Mason "Yes, and there is. What we need to do now before even filing for divorce is to make sure all proof of him being drunk is gone so the forensic doctor who tests it, I'll take care of that, and also we'll need to erase footage or any proof of him being at the bar."
+    Mason "Yes, and there is. What we need to do now, before even filing for divorce, is to ensure that all evidence of him being drunk is eliminated, so that the forensic doctor who tests it won't find anything. I'll take care of that."
+    Mason "Additionally, we'll need to erase any footage or other evidence of him being at the bar in first place"
     show bg mumlaw 10 with Dissolve(0.8)
     Mia  "Okay, you said veronica could help with that, so that should be fine."
     show bg mumlaw 11 with Dissolve(0.8)
     Mason "As for the grounds that you assaulted him, we'll make those an exception in self-defense."
     Mia "I'm getting a headache..."
     show bg mumlaw 12 with Dissolve(0.8)
-    Mason "Mia, Calm down. I'm here for you, okay? You're not alone."
+    Mason "Mia Calm down. I'm here for you okay? You're not alone."
     show bg mumlaw 13 with Dissolve(0.8)
     Mason "However, you do need to understand, Mia, we're taking a big risk here... you should've done this much earlier, and we could've found a smarter way to do it."
     show bg mumlaw 14 with Dissolve(0.8)
     Mia  "I'm sorry. What are the risks, then?"
-    Mason "The risks are you may not get alimony or protection you need or custody of a child could be affected; however, Kiara isn't a minor, so that can be argued in court."
+    Mason "The risks are that you may not receive alimony or the necessary protection you need, and it could potentially impact the custody of your child. However, since Kiara isn't a minor, that can be argued in court"
+    Mason "However due to the medical procedure that might be challanged too.. we'll take this on carefully"
     Mia  "Not only have I wasted my life and risked the future, the property, and happiness I risk losing her too in one way...."
     show bg mumlaw 15 with Dissolve(0.8)
     Mason "Don't think that way. Try to see this as a new start, and you can have hope for the future."
-    Mia  "Yeah... new life, of course. I got so much ahead of me, don't I, Mason?... Sorry, ima go."
-    #loading a bit later...
+    Mia  "Yeah... a new life, of course. I have so much ahead of me, don't I, Mason?... Sorry, I'm going to go."
+    scene blackscreen
+    show titletext "Bit later.." with Dissolve (0.8)
+    pause 1.0
+    window hide
     show bg mumlawyer 16 with Dissolve(0.8)
     Mia  "Mason is right in one way. I need to cheer myself up, or Kiara won't have any confidence either."
     show bg mumlawyer 17 with Dissolve(0.8)
     Mia  "I need a shower... this is just too much to handle ."
     show bg mumlawyer 18 with Dissolve(0.8)
-    Mia  "Well, hot water should help..."
+    Mia  "Well some hot water should help..."
     show bg masonvero 1 with Dissolve(0.8)
-    Mason "Mia deserves so much better. I hope she doesn't think it's the end."
+    Mason "Mia deserves so much better , I hope she doesn't think it's the end."
     show bg masonvero 2 with Dissolve(0.8)
     Mason "Although john's going to come full force, I know what I have to do."
     show bg masonvero 3 with Dissolve(0.8)
@@ -3800,7 +3849,7 @@ label Momandlawyer:
     Mason "Hey V ? what's up?"
     Veronica "Hey.... How is she?"
     show bg masonvero 5 with Dissolve(0.8)
-    Mason "Well, not great, not terrible. We talked about the case, and she left upset."
+    Mason "Well not great, not terrible. We talked about the case, and she left upset."
     Veronica "Okay... what did you say?"
     show bg masonvero 6 with Dissolve(0.8)
     Mason "I told her life is still ahead for her, the lawsuit can be won, but she shouldn't be negative."
@@ -3810,16 +3859,16 @@ label Momandlawyer:
     Mason "Shit... didn't realize that... what do I do?"
     show bg masonvero 8 with Dissolve(0.8)
     Veronica "Go talk to her, you dummy!"
-    Mason "I'm Going...."
+    Mason "I'm Going , I'm going!"
     show bg mumlawyer 19 with Dissolve(0.8)
-    Mason "{i}I was too stupid with my words to her. I should at least think first, dammit.{/i}"
+    Mason "{i}I was too blatent with my words to her. I should at least think first, dammit.{/i}"
     show bg mumlawyer 20 with Dissolve(0.8)
     Mason "Mia, are you here? She's-"
     show bg mumlawyer 21 with Dissolve(0.8)
     Mason "I see. In the bathroom, she needs some time alone. I understand to cry, I guess..."
     show bg mumlawyer 22 with Dissolve(0.8)
-    Mason "What has life come to... why did you do this, john? You had everything, even Mia... the one person I never could have but always loved."
-    Mason "I've always sucked so badly, couldn't confess on to her, can't make her happy now either, what a joke."
+    Mason "( What has this life come to... why did you do this, john? You had everything, even Mia... the one person I never could have but always loved. )"
+    Mason "( I've always sucked at this so badly, couldn't confess on to her, can't make her happy now either, what a joke.)"
     show bg mumlawyer 23 with Dissolve(0.8)
     Mason "She hasn't responded. I hope she's not doing something stupid."
     show bg mumlawyer 24 with Dissolve(0.8)
@@ -3862,7 +3911,7 @@ label Momandlawyer:
         Mason "I know you want this... let me help , I love you..."
         stop music
         play music "/audio/choicmusic.ogg"
-        Mia "Love? What... is happening I should do something."
+        Mia "( Love? What... is happening I should do something.)"
 
     if _in_replay:
         jump ACCEPTEDLAW
@@ -3881,7 +3930,7 @@ label ACCEPTEDLAW:
     Mia "Who am I fooling... I want this badly."
     show bg mumlawyeraccpt 2 with Dissolve (0.8)
     Mia "Do you love me?..."
-    Mason "I know what this may seem to you, and I am sexually attracted, but believe me, I value you, I always have."
+    Mason "I know what this may seem to you, and I am sexually attracted but believe me, I value you, I always have."
     show bg mumlawyeraccpt 3 with Dissolve (0.8)
     Mia "Shush... let me help. Let us enjoy this moment."
     show bg mumlawyeraccpt 4 with Dissolve (0.8)
@@ -3893,11 +3942,11 @@ label ACCEPTEDLAW:
     show bg mumlawyeraccpt 7 with Dissolve (0.8)
     Mia "Wow... you’re... big."
     show bg mumlawyeraccpt 8 with Dissolve (0.8)
-    Mason " You think so?..."
+    Mason " You think so ?..."
     show bg mumlawyeraccpt 9 with Dissolve (0.8)
     Mia "Maybe I can make it bigger, huh?"
     show bg mumlawyeraccpt 10 with Dissolve (0.8)
-    Mason "Mia, you're so adorable but hot."
+    Mason "Mia, you're so adorable but so fucking hot."
     show bg mumlawyeraccpt 11 with Dissolve (0.8)
     Mia "*glug*"
     show bg mumlawyeraccpt 12 with Dissolve (0.8)
@@ -3918,31 +3967,33 @@ label ACCEPTEDLAW:
     Mason "Bend over Mia. I can't hold back anymore."
     Mia "Ah... um, are we?"
     show bg mumlawyeraccpt 20 with Dissolve(0.8)
-    pause
+    Mason "Yes we are.. you're mine now"
+    Mia "Yes , All yours"
     show bg mumlawyeraccpt 20pt2 with Dissolve(0.8)
     pause
     show bg mumlawyeraccpt 20pt3 with Dissolve(0.8)
-    pause
+    Mia "Ha.. he's really inside me"
     show bg mumlawyeraccpt 20pt4 with Dissolve(0.8)
-    pause
+    Mason "God i love your pussy mia"
     show bg mumlawyeraccpt 20pt5 with Dissolve(0.8)
-    pause
+    Mia "I love your dick too.. take me"
     show bg mumlawyeraccpt 20pt6 with Dissolve(0.8)
     pause
     show bg mumlawyeraccpt 20pt7 with Dissolve(0.8)
-    pause
+    Mia "*Moaning* Oh yes.. fuck me , fuck your college crush"
     show bg mumlawyeraccpt 20pt8 with Dissolve(0.8)
-    pause
+    Mason "You're so fucking hot mia , i love this ass and this body"
     show bg mumlawyeraccpt 21 with Dissolve(0.8)
-    pause
+    Mia "*Oh yes yes yes , fuck me.. arggh.."
+    Mason "I love you , holy shit you're so fucking good.. oh yeah"
     $ renpy.end_replay
     jump Momspyscene 
 
 label Momspyscene:
     show bg mumlawyerspy 1 with Dissolve(0.8)
-    JakeInvestigator "Heh, Mason, see even the best of best lawyers slide when the pussy is there, can't blame you, brother. That is one hot lady "
+    JakeInvestigator "Heh Mr.Mason, even the best of best minds slide when a babe is there, can't blame you brother. That is one hot lady "
     show bg mumlawyerspy 2 with Dissolve(0.8)
-    JakeInvestigator "Mr.john will be pleased with these... shame he's a sly dog, had quite the babe to himself hah."
+    JakeInvestigator "Mr.john will be pleased with these... shame he's a sly dog, had quite the perfect wife to him"
     stop music
 
     jump PLANESEGMENT
@@ -3965,22 +4016,22 @@ label REJECTEDLAW:
 
 label PLANESEGMENT:
     stop music
-    "" "Back at the international airport..."
+    scene blackscreen
+    show titletext "At the international airport , New york" with dissolve
+    pause 1.0
+    window hide
     show bg ontheplane 1 with Dissolve(0.8)
     "Plane Pilot" "This is your pilot with my lovely assistant Cassandra. The flight to Osaka will depart shortly. Please find your seats."
     play music "/audio/plnsc.ogg"
     show bg ontheplane 2 with Dissolve(0.8)
-    Kiara "Okay, that takes care of the luggage... now, Kiara, act normal and don't be a clown... it's just one trip."
+    Kiara "Okay, that takes care of the luggage. Now, Kiara, act normal and don't be a clown. It's just one trip.."
     show bg ontheplane 3 with Dissolve(0.8)
-    Kiara "Um, excuse me, I can't find 712 ... is it the one next to you? I'm sorry for bothering you."
+    Kiara "Um excuse me, I can't find 712 ... is it the one next to you? I'm sorry for bothering you."
     show bg ontheplane 4 with Dissolve(0.8)
-    Azumi "Please don't be sorry. Even if it weren't, I'd let you sit, but yes, this is 712. Feel free."
+    Azumi "Please don't be sorry. Even if it weren't, I'd let you sit since we are taking off but yes, this is 712 feel free."
     show bg ontheplane 6 with Dissolve(0.8)
-    Kiara "Thank you!"
-    Azumi "You're welcome. I'm Azumi."
-    show bg ontheplane 6pt2 with Dissolve(0.8)
-    Kiara "I'm Kiara. Sorry, but I want to say your hair and outfit look immaculate."
-    Azumi "You think so?... thank you."
+    Kiara "I'm Kiara. thanks again by the way I want to say your hair and outfit look immaculate."
+    Azumi "I'm azumi , also you think so?... thank you."
     show bg ontheplane 7 with Dissolve(0.8)
     Azumi "Speaking of dress though... I must say you have unique taste indeed."
     show bg ontheplane 8 with Dissolve(0.8)
@@ -3988,7 +4039,7 @@ label PLANESEGMENT:
     show bg ontheplane 9 with Dissolve(0.8)
     Kiara "Oh haha, this ... I had a situation and had to borrow a dress, so... yeah."
     show bg ontheplane 10 with Dissolve(0.8)
-    Azumi "Even tho she has a lovely body and that dress, I can't take my eyes off her pretty smile."
+    Azumi "( Even tho she has a lovely physique and that dress , I can't take my eyes off her pretty smile.)"
     show bg ontheplane 11 with Dissolve(0.8)
     Azumi "So japan, huh? How come? A trip?"
     Kiara "No, I'm actually moving there... can't say much but let us just say life has led me here."
@@ -4003,8 +4054,8 @@ label PLANESEGMENT:
     show bg ontheplane 14 with Dissolve(0.8)
     Kiara "Who knows... let's hope I find something."
     show bg ontheplane 15 with Dissolve(0.8)
-    Azumi "Um... well, all the power to you, but if not, I work at a school. Perhaps we could arrange something. Call me?"
-    Kiara "Thank you so much. I appreciate this."
+    Azumi "Um... well, all the power to you, but if not I work at a school. Perhaps we could arrange something?"
+    Kiara "Thank you so much. I appreciate this truly"
     show bg ontheplane 16 with Dissolve(0.8)
     Azumi "Wel-...(She's so pure...)"
     show bg ontheplane 17 with Dissolve(0.8)
