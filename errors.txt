@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter_1.rpy", line 3865: expected 'label_name' not found.
-    jump 
-        ^
+File "game/chapter_2.rpy", line 5710: expected statement.
+    Ichigo
+          ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri May 12 21:43:02 2023
+Thu May 18 17:21:26 2023

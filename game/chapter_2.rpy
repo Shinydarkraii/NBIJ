@@ -5430,56 +5430,73 @@ label chap_2_scene_29:
     Keisuke "Of course no need to ask , I'll get you to a good place i know."
     scene bg kiaaftrcsplaydaytwo 22 with Dissolve(0.8)
     Kiara "Alright, surprise me then."
-    # End 0.2
-    # $ renpy.save('quick-1')
-    # "End 0.2"
     scene bg ksukedatedytwo 1 with Dissolve(0.8)
-    pause
+    Keisuke "It's right around this corner , Don't worry"
+    Kiara "Oh I'm not worried really , just hungry"
+    Keisuke "Heh I know , just a sec"
     scene bg ksukedatedytwo 2 with Dissolve(0.8)
-    pause
+    Kiara "Ahh look at those pretty lanterns , I bet it looks lovely at night time"
+    Keisuke "It does , you should visit it sometime with your friends"
     scene bg ksukedatedytwo 3 with Dissolve(0.8)
-    pause
+    Kiara "Well if food is decent , we'll definitely come again"
+    Keisuke "It is , anyway go on enjoy your food . I'll wait"
     scene bg ksukedatedytwo 4 with Dissolve(0.8)
-    pause
+    Kiara "What do you mean enjoy the food? Aren't you coming?"
+    Keisuke "Uh me? .. I mean actually-"
+    Keisuke "I already have my sandwich with me in the car so.."
     scene bg ksukedatedytwo 5 with Dissolve(0.8)
-    pause
+    Kiara "What do you mean? We are at a restro and you want to eat a sandwich outside in car?"
+    Keisuke "Well actually , I mean i'm just a driver and not really dressed properly & besides i'm sure you'd want to enjoy your food in peace"
     scene bgchckskedtfst with Dissolve(0.8)
+    Kiara "(What? why is he being this way?)"
     menu:
         "Insist on it":
             jump .part_1
-        "Accept":
+        "Accept his reason":
             jump .part_2
 
     label .part_1:
         scene keisukedateyes1 with Dissolve(0.8)
-        pause
+        Kiara "Okay fine , I'm not eating either then!"
+        Keisuke "What? but why?"
         scene keisukedateyes2 with Dissolve(0.8)
-        pause
+        Kiara "I don't wanna eat alone firstly and secondly i don't want you to sit in car while i sit in ac"
+        Keisuke "But kiara I-"
         scene keisukedateyes3 with Dissolve(0.8)
-        pause
+        Keisuke "Ah alright , let's go eat"
+        Kiara "Yay thank you! , cmon it'll be fun"
         scene keisukedateyes4 with Dissolve(0.8)
-        pause
+        Kiara "Place looks lovely , don't you think?"
+        Keisuke "It's one of the finest korean restros here so yeah"
         scene keisukedateyes5 with Dissolve(0.8)
-        pause
+        Kiara "I see , well come on let's get this done"
+        Keisuke "I think that table looks good , let's sit there"
         scene keisukedateyes6 with Dissolve(0.8)
-        pause
+        Keisuke "We probably need to talk to reception first"
         scene keisukedateyes7 with Dissolve(0.8)
-        pause
+        "Reception Lady" "Hello sir and mam , what can we help you with?"
+        Kiara "Food!"
+        Keisuke "Uhm , we would like a table"
         scene keisukedateyes8 with Dissolve(0.8)
-        pause
+        "Reception lady" "I'll send someone to get your order shortly , please enjoy the ambiance"
         scene keisukedateyes9 with Dissolve(0.8)
-        pause
+        Keisuke "Thank you"
+        Kiara "Thanks!"
         scene keisukedateyes10 with Dissolve(0.8)
-        pause
+        Kiara "Hey , why are you sitting there?"
+        Keisuke "Um i thought probably would want enough room to sit"
         scene keisukedateyes11 with Dissolve(0.8)
-        pause
+        Kiara "I'm no model but i'm pretty sure i'm not that fat so just come , it looks odd anyway"
+        Keisuke "No that's not what i - , um yeah alright"
         scene keisukedateyes12 with Dissolve(0.8)
-        pause
+        Kiara "This place is really nice , I'll definitely visit it again"
+        Keisuke "( Ah don't stare at her , don't stare at her..)"
         scene keisukedateyes13 with Dissolve(0.8)
-        pause
+        Kiara "I'm not that scary you know , you can relax a little bit"
         scene keisukedateyes14 with Dissolve(0.8)
-        pause
+        Keisuke "No , not at all! . I'm just a bit shy because i usually eat alone hence i'm not too confident in conversation"
         scene bgksukedtyschcfstaftrfourteen with Dissolve(0.8)
+        Kiara "( Why would we think like that about himself? I should -)"
         menu:
             "Say Simply":
                 jump .part_4
@@ -5488,98 +5505,133 @@ label chap_2_scene_29:
         
     label .part_4:
         scene bg saysmplykske 1 with Dissolve(0.8)
-        pause
+        Kiara "Well it's alright to be shy and reserved , I am too but don't lose confidence okay? It's all we got nowadays"
         scene bg saysmplykske 2 with Dissolve(0.8)
-        pause
+        Keisuke "Yes , you're right i'm confident just a bit scared"
+        Kiara "Which is completely fine, nothing wrong with it"
         scene bg saysmplykske 3 with Dissolve(0.8)
-        pause
-        $ keisuke_rom.adjust_romance(1)
+        Kiara "You're human too , no pressure to be perfect"
+        Keisuke "Thank you , Kiara"
         jump .part_3
         
     label .part_5:
         scene bg cmplmntkske 1 with Dissolve(0.8)
-        pause
+        Kiara "Shy? First that mask and now this"
+        Kiara "You look very good , don't just lose confidence over one girl rejecting you . You're alot more than that"
         scene bg cmplmntkske 2 with Dissolve(0.8)
-        pause
+        Keisuke "Thanks ,  but i don't think everyone around me thinks the same"
+        Kiara "So what if they don't?"
         scene bg cmplmntkske 3 with Dissolve(0.8)
-        pause
+        Kiara "I think so , and i'm here right now aren't i? deosn't that count?"
+        Keisuke "Y-yeah , it does count.. I appreciate it"
         scene bg cmplmntkske 4 with Dissolve(0.8)
-        pause
+        Kiara "Don't appreciate it , get used to it instead okay it's the easiest life hack to be happy hehe"
+        Keisuke "( You are all that matters to me.. , thank you kiara)"
+        $ keisuke_rom.adjust_romance(1)
         jump .part_3
             
 
 
     label .part_2:
-        scene bg Keidateno 1 with Dissolve(0.8)
-        pause
-        scene bg Keidateno 2 with Dissolve(0.8)
-        pause
-        scene bg Keidateno 3 with Dissolve(0.8)
-        pause
-        scene bg Keidateno 4 with Dissolve(0.8)
-        pause
-        scene bg Keidateno 5 with Dissolve(0.8)
-        pause
+        scene gone with Dissolve(0.8)
+        Kiara "Okay i get it , I'll try to finish up fast so you don't have to wait long"
+        Keisuke "Don't worry about it , take your time and eat well"
+        scene gtwo with Dissolve(0.8)
+        Kiara "Alright , well i'll grab some food for you at least tell me your full name? I mean for the order."
+        Keisuke "It's Keisuke takahashi , you really don't have to trouble yourself for this"
+        scene gthree with Dissolve(0.8)
+        Kiara "Too bad i will ! , stay put okay i'll see you in a bit"
+        scene gfour with Dissolve(0.8)
+        Keisuke "Enjoy your food okay? and thanks!"
+        scene gfive with Dissolve(0.8)
+        Keisuke "(I don't want to make her uncomfortable , this is fine..)"
         jump .part_3
         
     label .part_3:
-        $ keisuke_rom.adjust_romance(1)
         scene keisukedateyes15 with Dissolve(0.8)
-        pause
+        "Lady" "Hello sir and mam , what can we bring you?"
+        Keisuke "Some udon noodles and watermelon juice with extra spice"
         scene keisukedateyes16 with Dissolve(0.8)
-        pause
+        "Lady" "Perfect , what about you mam?"
+        Kiara "Oh- um.. same actually haha"
+        "Lady" "Please give us a moment"
         scene keisukedateyes17 with Dissolve(0.8)
-        pause
+        Keisuke "( *Humming music*)"
+        Kiara "Um hey.."
         scene keisukedateyes18 with Dissolve(0.8)
-        pause
+        Kiara "Hey!"
+        Keisuke "Ah yeah ? what happened?"
+        Kiara "How did you know i was gonna order the same thing?"
         scene keisukedateyes19 with Dissolve(0.8)
-        pause
+        Keisuke "Well i uh didn't know really . I mean everyone loves watermleon right and a quick snack is noodles"
+        Kiara "Um yeah i suppose so.. , okay"
+        Keisuke " ( Dammit i should be careful , will let her order next times)"
         scene keisukedateyes20 with Dissolve(0.8)
-        pause
+        Kiara "Well anyway so i only know your initial name as Kei , is it or kay?"
+        Kiara "I mean what is your name really? Since you know mine it's only fair to ask"
+        Keisuke "Oh yes it is , It's keisuke takahashi"
         scene keisukedateyes21 with Dissolve(0.8)
-        pause
+        Kiara "Wow , that's.. a nice name. I mean-"
+        Kiara "Sorry If i'm rude here just the last one is kinda scary"
+        Keisuke "No don't be  , It's abit overwhelming i know"
         scene keisukedateyes22 with Dissolve(0.8)
-        pause
+        Kiara "So keisuke , other than this cab thing do you have any plans for future?"
+        Keisuke "Yeah my father has a small business , probably handle that or get into it"
         scene keisukedateyes23 with Dissolve(0.8)
-        pause
+        Kiara "Wait , then why the cab thing?"
+        Keisuke "Oh it's just i kind of wanted to be a little independent and not rely on family"
         scene keisukedateyes24 with Dissolve(0.8)
-        pause
+        Kiara "Oh  well ditto on that i suppose"
+        Keisuke "Yeah was wondering about why you're doing this too despite that house , I guess i have my answer."
         scene keisukedateyes25 with Dissolve(0.8)
-        pause
+        Kiara "I want to be known as.. you know , someone people remember"
+        Kiara "Someone who did everything herself , i want them to remmeber my first name , not my last"
         scene keisukedateyes26 with Dissolve(0.8)
-        pause
+        Kiara "I know i'm alone in that path , and hey maybe i'll fail and fall several times"
+        Keisuke "( Kiara..)"
         scene keisukedateyes27 with Dissolve(0.8)
-        pause
+        Kiara "Though i won't give up , we only fall to get up again and become stronger right?"
+        Keisuke "( You are not alone.. I-)"
         scene keisukedateyes28 with Dissolve(0.8)
-        pause
+        Kiara "If i still don't make it.. then that's on me but i won't give up , even if i have to do it all on my own"
         scene keisukedateyes29 with Dissolve(0.8)
-        pause
+        Keisuke "( I am on your side.. , i won't let it happ-)"
         scene keisukedateyes30 with Dissolve(0.8)
-        pause
+        Kiara "Oh hey our food's here"
+        Keisuke "Oh yeah.. ( Kiara one day i'll let you know , for now i just want to spend time with you)"
         scene keisukedateyes31 with Dissolve(0.8)
-        pause
+        Keisuke "These are definitely very hot , but are nice"
+        Kiara "The spice is so good!"
         scene keisukedateyes32 with Dissolve(0.8)
-        pause
+        Keisuke "( How do you make something so silly as noodle eating look so cute?)"
         scene keisukedateyes33 with Dissolve(0.8)
-        pause
+        Kiara "*Slurrrrp* Haa , mamma mia these are good!"
         scene keisukedateyes34 with Dissolve(0.8)
-        pause
+        Kiara "Haaaa , I'm so full those were good but i beat em"
+        Keisuke "You definitely showed those noodles alright"
         scene keisukedateyes35 with Dissolve(0.8)
-        pause
+        Kiara "So don't mind me asking this but , why did the girl say no to you anyawy? I mean was it because of your job?"
+        Keisuke "Well that and i felt i wasn't good enough anyway , so not the best combo also she loved someone else.. so yeah."
+        Kiara "I'm sorry for that"
         scene keisukedateyes36 with Dissolve(0.8)
-        pause
+        Keisuke "No you shouldn't be , If it's meant to happen it will i can't really force a bond with someone"
+        Kiara "Well I'm sure you'll find someone again , you're a good guy in my opinion"
         scene keisukedateyes37 with Dissolve(0.8)
-        pause
+        Keisuke "what if i don't though? I mean i failed at my first so badly"
+        Kiara "Well I'm the best wingman remember? So don't worry i'll help somehow"
         scene keisukedateyes38 with Dissolve(0.8)
-        pause
+        Keisuke "Okay then , what about you though? If i'm allowed to ask do you like anyone?"
+        Kiara "Oh , um.."
         scene keisukedateyes39 with Dissolve(0.8)
-        pause
+        Kiara "Don't mean to sound like a bummer but i kinda never found anyone who loved me , they all just cared about the money"
+        Keisuke "You're not a bummer , It's hard to find a genuine comppasioante bond nowadays so i understand."
         scene keisukedateyes40 with Dissolve(0.8)
-        pause
+        Kiara "Well hopefully i'll end up with someone i can grow old with , someone nice and kind"
+        Keisuke "Well I wish you the best on that too , one day you'll be sucessful as well honestly , probably will forget this little driver on the side"
         scene bgkskedtdytwoscndchcaftrforty with Dissolve(0.8)
-        
+        Kiara "( On the side? Um -)"
         menu:
-            "Respond Flirty":
+            "Cheer him up":
                 jump .part_6
             "Respond friendly":
                 jump .part_7
@@ -5587,56 +5639,75 @@ label chap_2_scene_29:
     label .part_6:
 
         scene bg rspndkskeflirt 1 with Dissolve(0.8)
-        pause
+        Kiara "Well you could just end up with me too"
+        Keisuke "Wh- what do you mean?"
         scene bg rspndkskeflirt 2 with Dissolve(0.8)
-        pause
+        Kiara "Like if i'm successful you could just stick with me still , not like you're moving out"
+        Keisuke "Oh uh , ye- Yeah yeah definitely i can do that"
         scene bg rspndkskeflirt 3 with Dissolve(0.8)
-        pause
+        Keisuke "Sorry for stuttering , I kinda got spookedfor a second"
+        Kiara "It was intentional , I wanted to see what you'd say haha"
         scene bg rspndkskeflirt 4 with Dissolve(0.8)
-        pause
+        Keisuke "R- right , sorry i'm just silly so got scared"
+        Kiara "Scared or happy? heh"
         scene bg rspndkskeflirt 5 with Dissolve(0.8)
-        pause
+        Keisuke "N- no comment ( Argh dmamit i'm blushing now too)"
+        Kiara "( He really is a simple guy , I hope i didn't make him uncomfortable)"
         $ keisuke_rom.adjust_romance(1)
-        scene keisukedateyes40 with Dissolve(0.8)
-        pause
         jump chap_2_scene_30
 
     label .part_7:
         scene bg rspndkskefrnd 1 with Dissolve(0.8)
-        pause
-        scene bg rspndkskefrnd 1 with Dissolve(0.8)
-        pause
-        scene keisukedateyes40 with Dissolve(0.8)
-        pause
+        Kiara "Of course i won't , I'm way too picky with people i trust so i'm keeping you for sure"
+        Keisuke "Keeping me as the tour guide or the driver?"
+        scene bg rspndkskefrnd 2 with Dissolve(0.8)
+        Kiara "Keeping you as a friend i trust , always"
+        Keisuke "Heh , thank you i appreciate it."
         jump chap_2_scene_30
     
 label chap_2_scene_30:
+    scene keisukedateyes41 with Dissolve(0.8)
+    Kiara "Well I'll go sit in the car , can you grab the juice please?"
+    Keisuke "Of course , I'll get them safely too don't worry"
+    scene blackscreen
+    show titletext "Abit later outside.." with dissolve
+    pause 1.0
+    window hide
     scene bg kiadytwoskool 1 with Dissolve(0.8)
-    pause
+    Kiara "Okay Mr. Keisuke , Let us head to school shall we?"
+    Keisuke "As you say Mrs. Kiara!"
     scene bg kiadytwoskool 2 with Dissolve(0.8)
-    pause
+    Natsuko "Why?! , Why won't he just leave us the fuck alone??!"
+    Xia "Natsuko honey , calm yourself"
     scene bg kiadytwoskool 3 with Dissolve(0.8)
-    pause
+    Natsuko "I cannot mother! He ruined aunt mia's life first and now kiara-"
+    Xia "I understand but paining yourself will not solve this natsuko"
     scene bg kiadytwoskool 4 with Dissolve(0.8)
-    pause
+    Natsuko "I don't want her to go back again.."
+    Xia "Natsuko it isn't in our hands , but your father and everyone is trying so please-"
     scene bg kiadytwoskool 5 with Dissolve(0.8)
-    pause
+    Natsuko "Trying is not enough mother , we have to figure something out"
+    Xia " I understand you are frustrated , but we have to consider all things"
+    Xia "Let's give her the best life we can here for now , let mia and others take care of new york"
     scene bg kiadytwoskool 6 with Dissolve(0.8)
-    pause
+    Natsuko "Okay.. i will go with her tommorow , let her enjoy and relax"
+    Xia "Good , I will do my best too to make her capable"
     scene bg kiadytwoskool 7 with Dissolve(0.8)
-    pause
+    Xia "I'll go ahead and make some food that she likes , let's treat her well alright?"
+    Natsuko "Okay mother , I'll get some rest. I think i need it"
     scene bg kiadytwoskool 8 with Dissolve(0.8)
-    pause
+    Xia "Stay strong natsuko , if we won't be she can't either"
+    Natsuko "Understood mother , I will try.."
     scene bg kiadytwoskool 9 with Dissolve(0.8)
-    pause
+    Natsuko "( Kiara.. you-)"
     scene bg kiadytwoskool 10 with Dissolve(0.8)
-    pause
+    Natsuko "I need to do something.. I can't let it happen again"
     scene bg kiadytwoskool 11 with Dissolve(0.8)
-    pause
+    Natsuko "I should ask dad first , what the situation is"
     scene bg kiadytwoskool 12 with Dissolve(0.8)
-    pause
+    Natsuko "Dad? Dad hello?"
     scene bg kiadytwoskool 13 with Dissolve(0.8)
-    pause
+    Ichigo
     scene bg kiadytwoskool 14 with Dissolve(0.8)
     pause
     scene bg kiadytwoskool 15 with Dissolve(0.8)
@@ -5933,8 +6004,6 @@ label chap_2_scene_32:
     pause
     scene bg kiadytwosalon 39 with Dissolve(0.8)
     pause
-    scene bg kiadytwosalon 40 with Dissolve(0.8)
-    pause
     scene bg kiadytwosalondcdfrstaftrthirtynine with Dissolve(0.8)
     menu:
         "Should I stop him?"
@@ -6036,6 +6105,8 @@ label chap_2_scene_32:
         jump chap_2_scene_33
 
 label chap_2_scene_33:
+    scene bg kiadytwosalon 40 with Dissolve(0.8)
+    pause
     scene bg kiadaytworosermnc 1 with Dissolve(0.8)
     pause
     scene bg kiadaytworosermnc 2 with Dissolve(0.8)
@@ -6072,7 +6143,7 @@ label chap_2_scene_33:
     pause
     menu:
         
-        "Cut [rose]'s hair":
+        "Cut Rose's hair":
             #block of code to run
             jump .part_1
         "Suggest otherwise":
@@ -6117,7 +6188,7 @@ label chap_2_scene_33:
         $ rose_rom.adjust_romance(1)
         menu:
             
-            "Accept [rose]'s offer":
+            "Accept Rose's offer":
                 #block of code to run
                 jump .part_3
             "Don't":
