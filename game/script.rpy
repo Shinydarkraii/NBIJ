@@ -13,6 +13,6 @@ label start:
     show screen fondness_screen
     #jump intro
     #Game end
-    jump chap_2_scene_29
+    jump intro
     
     return
