@@ -73,4 +73,8 @@ define Stenographer = Character("Strenographer")
 define Customer = Character("Customer")
 define Yamazakl = Character("Yamazakl")
 define Model = Character("Model")
+define Olivia = Character("Olivia")
+define Saya = Character("Saya")
+define Alicia = Character("Alicia")
+define Jinshi = Character("Jinshi")
 #Game dev 

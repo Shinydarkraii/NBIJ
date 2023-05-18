@@ -6157,7 +6157,7 @@ label chap_2_scene_33:
         pause
         scene bg kiadytwosalonroseno 3 with Dissolve(0.8)
         pause
-        jump .part_3
+        jump chap_2_scene_34
 
     label .part_1:
 
@@ -6225,6 +6225,7 @@ label chap_2_scene_33:
             scene bg kiarmncdaytworoseyes 14 with Dissolve(0.8)
             pause
             $ rose_rom.adjust_romance(1)
+            jump chap_2_scene_34
 
         label .part_4:
 
@@ -6234,3 +6235,988 @@ label chap_2_scene_33:
             pause
             scene bg kiarmncdaytworoseno 3 with Dissolve(0.8)
             pause
+            jump chap_2_scene_34
+
+label chap_2_scene_34:
+
+
+    scene bg daytwoassinscn 1 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 2 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 3 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 4 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 5 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 6 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 7 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 8 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 9 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 10 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 11 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 12 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 13 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 14 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 15 with Dissolve(0.8)
+    pause
+    scene bg daytwoassinscn 16 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_35
+
+label chap_2_scene_35:
+    scene bg daytwoygajoinin 1 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 2 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 3 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 4 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 5 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 6 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 7 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 8 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 9 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 10 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 11 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 12 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 13 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 14 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 15 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 16 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 17 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 18 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 19 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 20 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 21 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 22 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 23 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 24 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 25 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 26 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 27 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 28 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 29 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 30 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 31 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 32 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 33 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 34 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 35 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 36 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 37 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 38 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 39 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 40 with Dissolve(0.8)
+    pause
+    scene bg daytwoygajoinin 41 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwoygadcd with Dissolve(0.8)
+    menu:
+        
+        "Go with saya":
+            #block of code to run
+            jump .part_1
+        "Go with Alicia and jinshi" if mc_stats.current_corruption >= 45:
+            #block of code to run
+            jump .part_2
+        "Go with Olivia" if mc_stats.current_corruption >= 50:
+            jump .part_3
+
+    label .part_1:
+        scene bg dytwoyogasaya 1 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 2 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 3 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 4 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 5 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 6 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 7 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 8 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 9 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 10 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 11 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 12 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 13 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 14 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 15 with Dissolve(0.8)
+        pause
+        scene bg dytwoyogasaya 16 with Dissolve(0.8)
+        pause
+        jump chap_2_scene_36
+
+    label .part_2:
+        scene bg dytwoygaaliciandjinshi 1 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 2 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 3 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 4 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 5 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 6 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 7 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 8 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 9 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 10 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 11 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 12 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 13 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 14 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 15 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 16 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 17 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 18 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 19 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 20 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 21 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 22 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 23 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 24 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 25 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 26 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 27 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 28 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 29 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 30 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 31 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 32 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 33 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 34 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 35 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 36 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 37 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 38 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 39 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 40 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 41 with Dissolve(0.8)
+        pause
+        scene bg dytwoygaaliciandjinshi 42 with Dissolve(0.8)
+        pause
+        $ mc_stats.adjust_corruption(5)
+        jump chap_2_scene_36
+
+    label .part_3:
+    
+        scene bg dayywoygaolivia 1 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 2 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 3 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 4 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 5 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 6 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 7 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 8 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 9 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 10 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 11 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 12 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 13 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 14 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 15 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 16 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 17 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 18 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 19 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 20 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 21 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 22 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 23 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 24 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 25 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 26 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 27 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 28 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 29 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 30 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 31 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 32 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 33 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 34 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 35 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 36 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 37 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 38 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 39 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 40 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 41 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 42 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 43 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 44 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 45 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 46 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 47 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 48 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 49 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 50 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 51 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 52 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 53 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 54 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 55 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 56 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 57 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 58 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 59 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 60 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 61 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 62 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 63 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 64 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 65 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 66 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 67 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 68 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 69 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 70 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 71 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 72 with Dissolve(0.8)
+        pause
+        scene bg dayywoygaolivia 73 with Dissolve(0.8)
+        pause
+        $ mc_stats.adjust_corruption(5)
+        jump chap_2_scene_36
+
+label chap_2_scene_36:
+
+    scene bg daytwohedinhome 1 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 2 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 3 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 4 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 5 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 6 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 7 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 8 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 9 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 10 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 11 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 12 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 13 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 14 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 15 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 16 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 17 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 18 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 19 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 20 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 21 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 22 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 23 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 24 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 25 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 26 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 27 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 28 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 29 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 30 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 31 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 32 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 33 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 34 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 35 with Dissolve(0.8)
+    pause
+    scene bg daytwohedinhome 36 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_37
+
+label chap_2_scene_37:
+
+
+    scene bg daytwodmianscn 1 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 2 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 3 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 4 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 5 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 6 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 7 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 8 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 9 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 10 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 11 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 12 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 13 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 14 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 15 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 16 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 17 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 18 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 19 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 20 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 21 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 22 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 23 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 24 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 25 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 26 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 27 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 28 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 29 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 30 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 31 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 32 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 33 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 34 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 35 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 36 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 37 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 38 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 39 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 40 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 41 with Dissolve(0.8)
+    pause
+    scene bg daytwodmianscn 42 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_38
+
+label chap_2_scene_38:
+
+    scene bg kiadaytwostrmrsgmnt 1 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwostrmrsgmnt 2 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwostrmrsgmnt 3 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwostrmrsgmnt 4 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwostrmrsgmnt 5 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwostrmrsgmnt 6 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwostrmrsgmnt 7 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwostrmrsgmnt 8 with Dissolve(0.8)
+    pause
+    scene bg kiadaytwostrmrsgmnt 9 with Dissolve(0.8)
+    pause
+    menu:
+        "Stream in Tanktop?"
+        "It's fine" if mc_stats.current_corruption >= 50:
+            #block of code to run
+            jump .part_1
+        "No, I should change":
+            #block of code to run
+            jump .part_2
+
+    label .part_1:
+        
+        scene bg kiadaystrmintank 1 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 2 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 3 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 4 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 5 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 6 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 7 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 8 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 9 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 10 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 11 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 12 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 13 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 14 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 15 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 16 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 17 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 18 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 19 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 20 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 21 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 22 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 23 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 24 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 25 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 26 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 27 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 28 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 29 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 30 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 31 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 32 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 33 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 34 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 35 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 36 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 37 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 38 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 39 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 40 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 41 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 42 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 43 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 44 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 45 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 46 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 47 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 48 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 49 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 50 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 51 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 52 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 53 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 54 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 55 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 56 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 57 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 58 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 59 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 60 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 61 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 62 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 63 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 64 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 65 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 66 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 67 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 68 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 69 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 70 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 71 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 72 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 73 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 74 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 75 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 76 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 77 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 78 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 79 with Dissolve(0.8)
+        pause
+        scene bg kiadaystrmintank 80 with Dissolve(0.8)
+        pause
+        $ mc_stats.adjust_corruption(5)
+        jump chap_2_scene_39
+
+    label .part_2:
+        scene bg kiadaytwostrmcloth 1 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 2 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 3 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 4 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 5 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 6 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 7 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 8 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 9 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 10 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 11 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 12 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 13 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 14 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 15 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 16 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 17 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 18 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 19 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 20 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 21 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 22 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 23 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 24 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 25 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 26 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 27 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 28 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 29 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 30 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 31 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 32 with Dissolve(0.8)
+        pause
+        scene bg kiadaytwostrmcloth 33 with Dissolve(0.8)
+        pause
+        jump chap_2_scene_39
+
+label chap_2_scene_39:
+
+    scene bg keisukereturdhomedytwo 1 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 2 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 3 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 4 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 5 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 6 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 7 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 8 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 9 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 10 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 11 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 12 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 13 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 14 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 15 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 16 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 17 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 18 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 19 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 20 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 21 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 22 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 23 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 24 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 25 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 26 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 27 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 28 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 29 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 30 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 31 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 32 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 33 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 34 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 35 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 36 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 37 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 38 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 39 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 40 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 41 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 42 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 43 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 44 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 45 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 46 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 47 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 48 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 49 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 50 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 51 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 52 with Dissolve(0.8)
+    pause
+    scene bg keisukereturdhomedytwo 53 with Dissolve(0.8)
+    pause
+    #ADD NY LOADING
+    jump chap_2_scene_40
+
+label chap_2_scene_40:
+    scene bg dytwoveroevestrt 1 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 2 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 3 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 4 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 5 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 6 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 7 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 8 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 9 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 10 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 11 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 12 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 13 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 14 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 15 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 16 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 17 with Dissolve(0.8)
+    pause
+    $ renpy.save("quick-1")
+    "0.3 END"
+    $ renpy.quit()

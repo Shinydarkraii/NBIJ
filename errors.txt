@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter_2.rpy", line 5710: expected statement.
-    Ichigo
-          ^
+File "game/chapter_2.rpy", line 6494: expected ':' not found.
+    label .part_3;
+                 ^
 
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Thu May 18 17:21:26 2023
+Ren'Py Version: Ren'Py 7.4.5.1648
+Thu May 18 18:09:18 2023

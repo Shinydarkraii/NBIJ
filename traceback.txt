@@ -1,38 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter_1.rpy", line 3457, in script call
-    call lanaAcpt1 from _call_lanaAcpt1
-  File "game/chapter_1.rpy", line 3516, in script call
-    call lanaRjt2 from _call_lanaRjt2
-  File "game/chapter_1.rpy", line 3921, in script call
-    call ACCEPTEDLAW from _call_ACCEPTEDLAW
-  File "game/chapter_1.rpy", line 1383, in script call
-    call natsugropaccpt from _call_natsugropaccpt
-  File "game/chapter_2.rpy", line 5441, in script
-    kiara "Well if food is decent , we'll definitely come again"
-Exception: Sayer 'kiara' is not defined.
+  File "game/chapter_2.rpy", line 7183, in script
+    jump chap_2_scene_40
+ScriptError: could not find label 'chap_2_scene_40'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter_1.rpy", line 3457, in script call
-    call lanaAcpt1 from _call_lanaAcpt1
-  File "game/chapter_1.rpy", line 3516, in script call
-    call lanaRjt2 from _call_lanaRjt2
-  File "game/chapter_1.rpy", line 3921, in script call
-    call ACCEPTEDLAW from _call_ACCEPTEDLAW
-  File "game/chapter_1.rpy", line 1383, in script call
-    call natsugropaccpt from _call_natsugropaccpt
-  File "game/chapter_2.rpy", line 5441, in script
-    kiara "Well if food is decent , we'll definitely come again"
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'kiara' is not defined.
+  File "game/chapter_2.rpy", line 7183, in script
+    jump chap_2_scene_40
+  File "renpy/ast.py", line 1711, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 910, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'chap_2_scene_40'.
 
-Windows-10-10.0.22621 AMD64
-Ren'Py 8.0.3.22090809
- 0.2
-Thu May 18 11:32:22 2023
+Windows-10-10.0.19041
+Ren'Py 7.4.5.1648
+ 0.3
+Thu May 18 18:24:43 2023
