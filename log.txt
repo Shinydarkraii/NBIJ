@@ -1,35 +1,91 @@
+<<<<<<< HEAD
 Thu May 18 18:26:44 2023
+=======
+<<<<<<< HEAD
+Thu May 18 18:12:48 2023
+Windows-10-10.0.22621
+Ren'Py 8.0.3.22090809
+=======
+Thu May 18 18:12:35 2023
+>>>>>>> ec53b9b990f21888671827c39af8e71685a7e227
 Windows-10-10.0.19041
 Ren'Py 7.4.5.1648
+>>>>>>> 1eb5657991962e975f4895d6c0a58322021e51e5
  
 
 Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
+<<<<<<< HEAD
+Loader init took 0.14s
+Loading error handling took 0.11s
+Loading script took 0.24s
+Loading save slot metadata. took 0.05s
+=======
 Loader init took 0.04s
 Loading error handling took 0.02s
+<<<<<<< HEAD
 Loading script took 0.39s
 Loading save slot metadata. took 0.02s
+=======
+Loading script took 1.06s
+Loading save slot metadata. took 0.01s
+>>>>>>> 1eb5657991962e975f4895d6c0a58322021e51e5
+>>>>>>> ec53b9b990f21888671827c39af8e71685a7e227
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.08s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
+<<<<<<< HEAD
 Dump and make backups. took 0.04s
+=======
+<<<<<<< HEAD
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.16s
+=======
+Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
+Dump and make backups. took 0.05s
+>>>>>>> ec53b9b990f21888671827c39af8e71685a7e227
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.07s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
+<<<<<<< HEAD
 Creating interface object took 0.18s
+=======
+Creating interface object took 0.20s
+>>>>>>> 1eb5657991962e975f4895d6c0a58322021e51e5
+>>>>>>> ec53b9b990f21888671827c39af8e71685a7e227
 Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.00s
+<<<<<<< HEAD
 Load screen analysis took 0.08s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
 Prepare screens took 0.04s
+=======
+<<<<<<< HEAD
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.03s
+=======
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.05s
+>>>>>>> 1eb5657991962e975f4895d6c0a58322021e51e5
+>>>>>>> ec53b9b990f21888671827c39af8e71685a7e227
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.04s
 Running _start took 0.00s
@@ -46,4 +102,282 @@ Version: '4.6.0 NVIDIA 531.61'
 Display Info: None
 Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
+<<<<<<< HEAD
 Total time until interface ready: 1.54199790955s
+=======
+<<<<<<< HEAD
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+=======
+Total time until interface ready: 2.19952011108s
+Can't find a place to rollback to. Not rolling back.
+Can't find a place to rollback to. Not rolling back.
+Can't find a place to rollback to. Not rolling back.
+Resetting cache.
+Bootstrap to the start of init.init took 304.33s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.98s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 3060/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 531.61'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Total time until interface ready: 306.184067011s
+Can't find a place to rollback to. Not rolling back.
+Resetting cache.
+Bootstrap to the start of init.init took 393.34s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.01s
+Loading script took 1.05s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.09s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.21s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 3060/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 531.61'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Total time until interface ready: 395.353730917s
+Can't find a place to rollback to. Not rolling back.
+Can't find a place to rollback to. Not rolling back.
+Can't find a place to rollback to. Not rolling back.
+Can't find a place to rollback to. Not rolling back.
+Can't find a place to rollback to. Not rolling back.
+Can't find a place to rollback to. Not rolling back.
+Can't find a place to rollback to. Not rolling back.
+
+Full traceback:
+  File "game/chapter_2.rpy", line 7072, in script
+    jump chap_2scene_38
+  File "renpy/ast.py", line 1711, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 910, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'chap_2scene_38'.
+
+While running game code:
+  File "game/chapter_2.rpy", line 7072, in script
+    jump chap_2scene_38
+ScriptError: could not find label 'chap_2scene_38'.
+Resetting cache.
+Bootstrap to the start of init.init took 709.58s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.01s
+Loading script took 1.08s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.13s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.20s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.06s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 3060/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 531.61'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Total time until interface ready: 711.650201082s
+Resetting cache.
+Bootstrap to the start of init.init took 718.99s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.01s
+Loading script took 1.05s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.06s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 3060/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 531.61'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Total time until interface ready: 720.97073698s
+
+Full traceback:
+  File "game/chapter_2.rpy", line 7183, in script
+    jump chap_2_scene_40
+  File "renpy/ast.py", line 1711, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 910, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'chap_2_scene_40'.
+
+While running game code:
+  File "game/chapter_2.rpy", line 7183, in script
+    jump chap_2_scene_40
+ScriptError: could not find label 'chap_2_scene_40'.
+Resetting cache.
+Bootstrap to the start of init.init took 749.47s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.01s
+Loading script took 1.06s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.12s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.20s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce RTX 3060/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 531.61'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Total time until interface ready: 751.413049936s
+>>>>>>> 1eb5657991962e975f4895d6c0a58322021e51e5
+>>>>>>> ec53b9b990f21888671827c39af8e71685a7e227
