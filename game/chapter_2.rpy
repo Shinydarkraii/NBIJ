@@ -5707,7 +5707,7 @@ label chap_2_scene_30:
     scene bg kiadytwoskool 12 with Dissolve(0.8)
     Natsuko "Dad? Dad hello?"
     scene bg kiadytwoskool 13 with Dissolve(0.8)
-    Ichigo
+    pause
     scene bg kiadytwoskool 14 with Dissolve(0.8)
     pause
     scene bg kiadytwoskool 15 with Dissolve(0.8)
