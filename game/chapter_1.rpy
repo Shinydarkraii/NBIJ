@@ -1920,6 +1920,7 @@ label natsufindingkiara2:
 label Johnandjake:
     play music "/audio/jnmrngscn.ogg"
     show bg johnafterintro 1 with Dissolve(0.8)
+    "John's house.. "
     John "Ugh my head...how long was I out for? "
     show bg johnafterintro 2 with Dissolve(0.8)
     John "Mia... Kiara... Man what a mess. "
@@ -2071,9 +2072,13 @@ label kiarateashop:
     jump natsufindingkiara2
 
 label miafterintro:
+    scene blackscreen
+    show titletext "10 Hours later , Early morning.." with dissolve
+    pause 1.0
+    window hide
     play music "/audio/miamsnntlk.ogg"
     show bg lawafterintro 1 with Dissolve(0.8)
-    Veronica "Mason, you here? "
+    Veronica "Mason , you here? "
     show bg lawafterintro 2 with Dissolve(0.8)
     "Maso&Mia" "You're even more beautiful when you smile. "
     Veronica "*quietly* What do we have here? "
@@ -2085,7 +2090,7 @@ label miafterintro:
     "Mason&Mia" "*leaning for a kiss* "
     show bg lawafterintro 6 with Dissolve(0.8)
     Veronica "Ehm ehm, Enjoying ourselves, are we? "
-    "Mason&Mia" "Ah shit , V , * Gasp* Veronica I- "
+    "Mason&Mia" "Ah shit  V , * Gasp* Veronica I- "
     show bg lawafterintro 7 with Dissolve(0.8)
     Veronica "So what's happening? "
     Mia "Veronica, I can explain... "
@@ -2093,7 +2098,7 @@ label miafterintro:
     Veronica "Heh, Explain what exactly, Mia. With you wearing his shirt and him in his boxers only a little left to interpret here. "
     Mason "V, She means to say. "
     show bg lawafterintro 9 with Dissolve(0.8)
-    Veronica "Relax, guys, it's not like I walked in on you fucking. Calm down. "
+    Veronica "Relax guys, it's not like I walked in on you fucking. Calm down. "
     show bg lawafterintro 9pt2 with Dissolve(0.8)
     Veronica "Was just here to wake my cousin up but friendly to see you here, I guess. "
     show bg lawafterintro 10 with Dissolve(0.8)
@@ -2109,6 +2114,10 @@ label miafterintro:
     jump Johnandjake
 
 label lanaafterintro:
+    scene blackscreen
+    show titletext "Movesesian estate , Queens.." with dissolve
+    pause 1.0
+    window hide
     play music "/audio/lnamrng.ogg"
     show bg lanaafterintro 1 with Dissolve(0.8)
     Lana "I wonder how she's doing. I can't wait to go there soon. "
@@ -2435,7 +2444,7 @@ label kiaraandtaka:
 
 label kiarainstreets:
     scene blackscreen
-    show titletext "Nit later , Home street.." with dissolve
+    show titletext "Bit later , Home street.." with dissolve
     pause 1.0
     window hide
     play music "/audio/kiastrts1.ogg"
@@ -2566,13 +2575,13 @@ label johnandassistant:
     show bg johnandassistant 9 with Dissolve(0.8)
     Patricia "Is there anything else you need, sir? "
     John "Call Ms. Wong. I'll tell you the details later."
-    Patricia "Alright, sir, goodnight. "
+    Patricia "Alright sir, goodnight. "
     show bg johnandassistant 10 with Dissolve(0.8)
     John "Patricia... One more thing. "
     show bg johnandassistant 11 with Dissolve(0.8)
     John "Thank you, I appreciate this. "
     show bg johnandassistant 12 with Dissolve(0.8)
-    Patricia "Just doing my job, sir, have a good sleep. "
+    Patricia "Just doing my job sir, have a good sleep. "
     show bg johnandassistant 13 with Dissolve(0.8)
     Patricia "I guess even billionaires feel lonely in the end. "
     show bg johnandassistant 14 with Dissolve(0.8)
@@ -2582,6 +2591,10 @@ label johnandassistant:
     jump miafterintro
 
 label miamasonnighttalk:
+    scene blackscreen
+    show titletext "Mason's House , Late night.." with dissolve
+    pause 1.0
+    window hide
     play music "/audio/miamsnntlk.ogg"
     show bg miamasonnighttalk 1 with Dissolve(0.8)
     Mia "Kiara I hope you're alright , So much has been thrown to you , stay strong. "
@@ -2624,17 +2637,17 @@ label miamasonnighttalk:
     show bg miamasonnighttalk 16 with Dissolve(0.8)
     Mason "No, don't be. You and I both grew up, realized our flaws, and tried to mend them... I know what happened earlier in the bathroom may make you feel otherwise, and I'm sorry. I do care about you, Mia. "
     show bg miamasonnighttalk 17 with Dissolve(0.8)
-    Mia "But going through this will be tough. I am wonder if I can do it. "
+    Mia "But going through this will be tough. I am not sure if I can do it. "
     Mason "As I said, you're not going to be alone. Yes, it's a challenging mountain to climb, but I'll be with you, and the least I can do is until you're at the top. I won't let you fall. "
     show bg miamasonnighttalk 18 with Dissolve(0.8)
-    Mia "Thank you, Mason. I needed to hear that. "
+    Mia "Thank you Mason , I needed to hear that. "
     Mason "No, you need one more thing. Cmon get up. "
     show bg miamasonnighttalk 19 with Dissolve(0.8)
     Mason "There you go, feel better? "
     Mia "Yes, It does... Thank you. "
     Mason "Don't thank me for what you deserve, Mia. "
     show bg miamasonnighttalk 20 with Dissolve(0.8)
-    Mia "I'm sorry, Kiara, I took this feeling from you... I hope Damian finds you again. "
+    Mia "I'm sorry Kiara, I took this feeling from you... I hope Damian finds you again. "
     Mason "Don't worry about Kiara, okay? She's got your older sister. "
     show bg miamasonnighttalk 21 with Dissolve(0.8)
     Mason "She's the strongest woman I ever met. You know that, too, right? "
@@ -3784,12 +3797,12 @@ label lanaAcpt2:
 
 label Momandlawyer:
     scene blackscreen
-    show titletext "At M & V associates , Brooklyn" with dissolve
+    show titletext "M and V associates , New york" with dissolve
     pause 1.0
     window hide
     play music "/audio/lwscn.ogg"
     show bg mumlaw 1
-    Mia  "Please take care, honey, and text me when you reach Japan, okay?"
+    Mia  "Please take care honey, and text me when you reach Japan, okay?"
     Kiaraonphone "Don't worry mom. I'll keep you updated, Love you okay?"
     Mia  "Love you too. Be safe"
     show bg mumlaw 2 with Dissolve(0.8)
