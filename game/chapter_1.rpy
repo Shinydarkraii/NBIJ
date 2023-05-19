@@ -502,7 +502,7 @@ label aidenrevealscene:
     Aiden "Old man... what are you planning. "
     ""
     stop music
-    jump investigatevng
+    jump wongandjohn
 
 
 label valntdamimomscn:
@@ -712,7 +712,7 @@ label jakemeetsevelyn:
     Jake "Mom... I think I found the girl you were talking about , I'll do my best to be a better person. "
     ""
     stop music
-    jump wongandjohn
+    jump aidenrevealscene
 
 label assistantevngscn:
     play music "/audio/asstntscn2.ogg"
