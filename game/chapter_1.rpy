@@ -266,7 +266,7 @@ label endingofchaptrpart2:
     Damian "( Kiara , you were right... I really never found anyone like you again) "
     ""
     stop music
-    jump endingofchaptr1
+    jump chap_2_scene_1
 
 
 label endingofchaptr1:
