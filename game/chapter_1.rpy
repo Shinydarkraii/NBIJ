@@ -313,7 +313,6 @@ label endingofchaptr1:
     Damian "Hey, I'm sorry for real I don't want any trouble, please. "
     stop music
     show bg endingchpt 17 with Dissolve(0.8)
-    play music "/audio/choicmusic.ogg"
     Rin "Oh c'mon don't be shy let's have some fun... "
     
     jump endingofchaptr1choice2
