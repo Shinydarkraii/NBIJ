@@ -6100,7 +6100,7 @@ label chap_2_scene_32:
     Kiara "( Yes they are! , Okay.. this what do i do?)"
     scene bg kiadytwosalondcdfrstaftrthirtynine with Dissolve(0.8)
     menu:
-        "Stop him now (Requires Strength 2)" if mc_stats.current_strength > 2:
+        "Stop him now (Requires Strength 2)" if mc_stats.current_strength >= 2:
             #block of code to run
             jump .part_1
         "Let him continue" if mc_stats.current_corruption > 45:
