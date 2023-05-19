@@ -34,7 +34,7 @@ screen gallery():
     zorder 100
     tag menu
 
-    text "Page [cg_page_a] of [cg_page_a_max]" xalign 0.5 yalign 0.01 text_align 0.5 color "#0099cc" size gui.interface_text_size
+    text "Page [cg_page_a] of [cg_page_a_max]" xalign 0.5 yalign 0.01 text_align 0.5 color "#ffa237" size gui.interface_text_size
     text "Total Scenes: [total_scenes]" xalign 0.99 yalign 0.01
 
     hbox:
@@ -70,7 +70,7 @@ screen gallery():
         ## range(1, 10) gives the numbers from 1 to 9.
         for page in range(1, cg_page_a_max+1):
             if page == cg_page_a:
-                textbutton "{color=#0099cc}{b}[page]{/b}{/color}"  action SetLocalVariable("cg_page_a", page) text_outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
+                textbutton "{color=#ffa237}{b}[page]{/b}{/color}"  action SetLocalVariable("cg_page_a", page) text_outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
             else:
                 textbutton "[page]" action SetLocalVariable("cg_page_a", page) text_outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
 
