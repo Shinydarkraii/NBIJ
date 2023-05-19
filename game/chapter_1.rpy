@@ -208,7 +208,7 @@ label veronicaevidencedel:
     Jake  "Sure... alright. "
     ""
     stop music
-    jump chap_2_scene_1
+    jump endingofchaptrpart2
     return
 
 
@@ -266,7 +266,7 @@ label endingofchaptrpart2:
     Damian "( Kiara , you were right... I really never found anyone like you again) "
     ""
     stop music
-    jump endingofchaptr1final
+    jump endingofchaptr1
 
 
 label endingofchaptr1:
@@ -361,6 +361,7 @@ label endingofchaptr1choice2:
     ""
     stop music
     jump endingofchaptrpart2
+
 label endingofchaptr1choice1:
     show bg endingchptdcd with Dissolve(0.8)
     play music "/audio/damiccpt.ogg"
