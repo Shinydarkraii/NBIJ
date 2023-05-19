@@ -208,7 +208,7 @@ label veronicaevidencedel:
     Jake  "Sure... alright. "
     ""
     stop music
-    jump endingofchaptrpart2
+    jump endingofchaptr1
     return
 
 
