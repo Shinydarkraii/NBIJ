@@ -4162,11 +4162,11 @@ label chap_2_scene_21:
     scene bg valevenitscn 2 with Dissolve(0.8)
     pause
     scene bg valevenitscn 3 with Dissolve(0.8)
-    Valentina "(I can't decide on anything , am i that selfish or scared?)"
+    Veronica "(I can't decide on anything , am i that selfish or scared?)"
     scene bg valevenitscn 4 with Dissolve(0.8)
-    Valentina "(Even if i lose , it's still a better life for everyone)"
+    Veronica "(Even if i lose , it's still a better life for everyone)"
     scene bg valevenitscn 5 with Dissolve(0.8)
-    Valentina "(At this point I don't know but i have to decide soon)"
+    Veronica "(At this point I don't know but i have to decide soon)"
     scene bg valevenitscn 6 with Dissolve(0.8)
     pause
     scene bg valevenitscn 7 with Dissolve(0.8)
@@ -4183,7 +4183,7 @@ label chap_2_scene_21:
     scene bg valevenitscn 12 with Dissolve(0.8)
     pause
     scene bg valevenitscn 13 with Dissolve(0.8)
-    Valentina "Eve.. Hey I uh-"
+    Veronica "Eve.. Hey I uh-"
     Evelyn "I didn't know who else i could go to"
     scene bg valevenitscn 14 with Dissolve(0.8)
     Evelyn "I'm sorry for leaving the way i did"
@@ -4900,7 +4900,10 @@ label chap_2_scene_26:
     jump chap_2_scene_27
 
 label chap_2_scene_27:
-    # SCENE -> rinsxscndytwo ->
+    scene blackscreen
+    show titletext "Osaka central hotel , Early noon" with dissolve
+    pause 1.0
+    window hide
     scene bg rinsxscndytwo 1  with Dissolve(0.8)
     Rin "When will you be back exactly?"
     Lana "Uh don't know , I'm with damain so it might a little bit time"
@@ -5545,7 +5548,7 @@ label chap_2_scene_29:
         Keisuke "Enjoy your food okay? and thanks!"
         scene gfive with Dissolve(0.8)
         Keisuke "(I don't want to make her uncomfortable , this is fine..)"
-        jump .part_3
+        jump chap_2_scene_30
         
     label .part_3:
         scene keisukedateyes15 with Dissolve(0.8)
@@ -5654,6 +5657,9 @@ label chap_2_scene_29:
         Keisuke "N- no comment ( Argh dmamit i'm blushing now too)"
         Kiara "( He really is a simple guy , I hope i didn't make him uncomfortable)"
         $ keisuke_rom.adjust_romance(1)
+        scene keisukedateyes41 with Dissolve(0.8)
+        Kiara "Well I'll go sit in the car , can you grab the juice please?"
+        Keisuke "Of course , I'll get them safely too don't worry"
         jump chap_2_scene_30
 
     label .part_7:
@@ -5663,12 +5669,12 @@ label chap_2_scene_29:
         scene bg rspndkskefrnd 2 with Dissolve(0.8)
         Kiara "Keeping you as a friend i trust , always"
         Keisuke "Heh , thank you i appreciate it."
+        scene keisukedateyes41 with Dissolve(0.8)
+        Kiara "Well I'll go sit in the car , can you grab the juice please?"
+        Keisuke "Of course , I'll get them safely too don't worry"
         jump chap_2_scene_30
     
 label chap_2_scene_30:
-    scene keisukedateyes41 with Dissolve(0.8)
-    Kiara "Well I'll go sit in the car , can you grab the juice please?"
-    Keisuke "Of course , I'll get them safely too don't worry"
     scene blackscreen
     show titletext "Abit later outside.." with dissolve
     pause 1.0
@@ -5707,35 +5713,45 @@ label chap_2_scene_30:
     scene bg kiadytwoskool 12 with Dissolve(0.8)
     Natsuko "Dad? Dad hello?"
     scene bg kiadytwoskool 13 with Dissolve(0.8)
-    pause
+    Ichigo "Natsuko hear me out for a second"
+    Natsuko "No Dad! , I want this to be over , just tell me everything"
     scene bg kiadytwoskool 14 with Dissolve(0.8)
-    pause
+    Ichigo "Natsu I cannot explain the entire ordeal on the phone even if i wanted to"
+    Natsuko "Then promise me something"
     scene bg kiadytwoskool 15 with Dissolve(0.8)
-    pause
+    Ichigo "What can i do for you?"
+    Natsuko "Promise me she'll come back here after going there at least"
     scene bg kiadytwoskool 16 with Dissolve(0.8)
-    pause
+    Ichigo "Yes she will , have faith in me natsuko i am trying to get her here permanently"
+    Natsuko "Okay.. I miss you by the way when are you coming?"
+    Ichigo "We'll meet on monday don't worry , take care of your mother too"
     scene bg kiadytwoskool 17 with Dissolve(0.8)
-    pause
+    Ichigo "( Mia.. why didn't you do this sooner)"
     scene bg kiadytwoskool 18 with Dissolve(0.8)
-    pause
+    Ichigo "(Everything is happening quite fast , I need to do something before he grasps the plan I've had for a while)"
     scene bg kiadytwoskool 19 with Dissolve(0.8)
-    pause
+    Ichigo "( Kiara , Stay strong i and mason will find a way to get you home forever.)"
+    scene blackscreen
+    show titletext "Shibamsura University , Osaka.." with dissolve
+    pause 1.0
+    window hide
     scene bg kiadytwoskool 20 with Dissolve(0.8)
-    pause
+    Kiara "( Just the introductory class , I got this and i was good with juniors anyway)"
     scene bg kiadytwoskool 21 with Dissolve(0.8)
     pause
     scene bg kiadytwoskool 22 with Dissolve(0.8)
     pause
     scene bg kiadytwoskool 23 with Dissolve(0.8)
-    pause
+    Kiara "Ahh cmon why am i getting nervous , It's just kids a bit younger than me cmon"
     scene bg kiadytwoskool 24 with Dissolve(0.8)
-    pause
+    Kiara "(I should probably ask azumi for tips later on too)"
     scene bg kiadytwoskool 25 with Dissolve(0.8)
-    pause
+    "???" "May we come in?"
+    Kiara "Please yes , come in"
     scene bg kiadytwoskool 26 with Dissolve(0.8)
-    pause
+    "???" " Ohayō Gozaimasu"
     scene bg kiadytwoskool 27 with Dissolve(0.8)
-    pause
+    Kiara "They really are my juniors age it seems"
     scene bg kiadytwoskool 28 with Dissolve(0.8)
     pause
     scene bg kiadytwoskool 29 with Dissolve(0.8)
@@ -5743,36 +5759,51 @@ label chap_2_scene_30:
     scene bg kiadytwoskool 30 with Dissolve(0.8)
     pause
     scene bg kiadytwoskool 31 with Dissolve(0.8)
-    pause
+    Kiara "Um is it only four of you ? where are the rest ?"
+    Hodaka "Unfortunately yes mam , for now only us"
+    Kiryu "We tried bringing them but they weren't interested mam , they're also kinda bigots so yeah"
     scene bg kiadytwoskool 32 with Dissolve(0.8)
-    pause
+    Kiara "Well alright , Um fine sit let's get started"
     scene bg kiadytwoskool 33 with Dissolve(0.8)
-    pause
+    Kiara "Uh well  Hi everyone I'm kiara your new english teacher , let's get started with some introductions perhaps?"
     scene bg kiadytwoskool 34 with Dissolve(0.8)
-    pause
+    Kiryu "Kiryu moroshima"
     scene bg kiadytwoskool 35 with Dissolve(0.8)
-    pause
+    Hodaka "Hodaka Matsui"
     scene bg kiadytwoskool 36 with Dissolve(0.8)
-    pause
+    Uno "Uno Hasegawa"
     scene bg kiadytwoskool 37 with Dissolve(0.8)
-    pause
+    Chiyo "Chiyo Suzuki"
     scene bg kiadytwoskool 38 with Dissolve(0.8)
-    pause
+    Kiara "Lovely names all of you , so why don't people want to learn english exactly? What did you mean?"
     scene bg kiadytwoskool 39 with Dissolve(0.8)
-    pause
+    Chiyo "Some have a backward mindset of learning english being abandoning your roots and culture"
+    Kiryu "Some like i said are bigots and lazy , they don't want to bother since they won't move out"
+    Kiara "I see , well that's their loss anyway just a small question what do you all want to be?"
     scene bg kiadytwoskool 40 with Dissolve(0.8)
-    pause
+    Chiyo "I want to be a teacher like you!"
+    Kiara "( Heh cute)"
     scene bg kiadytwoskool 41 with Dissolve(0.8)
-    pause
+    Hodaka "I want to be a singer or pop star!"
+    Kiara "Would love to hear you sing sometime"
     scene bg kiadytwoskool 42 with Dissolve(0.8)
-    pause
+    Kiryu "I want to be a undercover spy , be all secretive"
+    Kiara "( Someone's been watching too many movies)"
     scene bg kiadytwoskool 43 with Dissolve(0.8)
-    pause
+    Uno "I want to be a pilot! , commercial i mean"
+    Kiara "Fly in the sky huh , good goal"
     scene bg kiadytwoskool 44 with Dissolve(0.8)
-    pause
+    Uno "Kiara-san , do you like being a teacher?"
+    Kiara "I do , i was very good in school and liked helping everyone so yeah"
     scene bg kiadytwoskool 45 with Dissolve(0.8)
-    pause
+    Uno "Yes , if we all succeed together it's faster and better"
+    Kiara "Precisely , you're very smart"
     scene bg kiadytwoskolchcfrst with Dissolve(0.8)
+    Hodaka "Kiara- san , what do you think about our other english teacher? She's quite good in my opinion"
+    Kiryu "Ahh Azumi-san is very good yeah"
+    Chiyo "She's sooo pretty"
+    Uno "She's verrry cute!"
+    Kiara "Well  I-"
     menu:
         "Compliment":
             jump .part_1
@@ -5781,80 +5812,98 @@ label chap_2_scene_30:
 
     label .part_1:
         scene bg dytwoskoolazmicmplmnt 1 with Dissolve(0.8)
-        pause
+        Kiara "Azumi is.. wonderful , she's quite nice and kind in a world like this where everyone else seeks benifit"
         scene bg dytwoskoolazmicmplmnt 2 with Dissolve(0.8)
-        pause
+        Kiara "She helped me too , so yes she's a really good soul"
         scene bg dytwoskoolazmicmplmnt 3 with Dissolve(0.8)
-        pause
+        Azumi "heh.."
         scene bg dytwoskoolazmicmplmnt 4 with Dissolve(0.8)
-        pause
+        Azumi "I think the same about you kiara"
         jump .part_3
 
     label .part_2:
         scene bg dytwoskoolazmisaysmply 1 with Dissolve(0.8)
-        pause
+        Kiara "She's a great friend , she helped me where not many other would"
         scene bg dytwoskoolazmisaysmply 2 with Dissolve(0.8)
-        pause
+        Kiara "Secondly i can tell by how you all are , she's a great teacher too right?"
         scene bg dytwoskoolazmisaysmply 3 with Dissolve(0.8)
-        pause
+        Azumi "A great friend , a great teacher.. certainly nice to hear"
         scene bg dytwoskoolazmisaysmply 4 with Dissolve(0.8)
-        pause
+        Azumi "I consider you my equal too , hope we'll stay good friends kiara"
         jump .part_3
 
     label .part_3:
         scene bg kiadytwoskool 46 with Dissolve(0.8)
-        pause
+        Chiyo "Kiara-san , so will azumi-san not teach us anymore?"
+        Kiara "Oh um i actually don't know , but i think it'll probably be rotational"
         scene bg kiadytwoskool 47 with Dissolve(0.8)
-        pause
+        Hodaka "I don't really mind it , you are american so obviously you'd do it better"
+        Kiara "Thank you hodaka but teaching has its skillset , so that doesn't apply"
         scene bg kiadytwoskool 48 with Dissolve(0.8)
-        pause
+        Kiryu "What he probably meant was that you're going to be a great teacher as well"
+        Kiara "I appreciate it , I'll do my best but please be a little patient with me guys haha"
         scene bg kiadytwoskool 49 with Dissolve(0.8)
-        pause
+        Chiyo "I will be! , you seem like a very good person"
+        Kiara "Thank you agian , so shall we get started?"
         scene bg kiadytwoskool 50 with Dissolve(0.8)
-        pause
+        "*Bell rings*"
+        Kiara "Ah.."
         scene bg kiadytwoskool 51 with Dissolve(0.8)
-        pause
+        Kiara "Suppose that's all we have for today , it's a shame would've liked a demo class at least"
+        Uno "It's fine kiara- san we'll see you next week too"
         scene bg kiadytwoskool 52 with Dissolve(0.8)
-        pause
+        Kiara "Have a great evening all of you!"
+        Kiryu "Thank you!"
         scene bg kiadytwoskool 53 with Dissolve(0.8)
-        pause
+        Kiara "( Alright , suppose i'll pack up for salon)"
         scene bg kiadytwoskool 54 with Dissolve(0.8)
-        pause
+        Kiara "Hm ?.."
         scene bg kiadytwoskool 55 with Dissolve(0.8)
-        pause
+        Kiara "Chiyo? Is there anything you wanted to ask?"
         scene bg kiadytwoskool 56 with Dissolve(0.8)
-        pause
+        Chiyo "Kiara-san can i please say something , i didn't want to in front of others"
         scene bg kiadytwoskool 57 with Dissolve(0.8)
-        pause
+        Kiara "Yeah go on , don't worry speak your mind"
+        Chiyo "Well um- you aren't much older than us right?"
         scene bg kiadytwoskool 58 with Dissolve(0.8)
-        pause
+        Kiara "Um yes , roughly 4 / 5 years i suppose why?"
+        Chiyo "Well you just look very beautiful so i was making sure"
         scene bg kiadytwoskool 59 with Dissolve(0.8)
-        pause
+        Kiara "Aha  that's very sweet of you chiyo , you look cute as well"
         scene bg kiadytwoskool 60 with Dissolve(0.8)
-        pause
+        Chiyo "One more thing , Can i please call you big sister after class?.. I don't have one and you seem very nice so"
+        Kiara "Awe.. you can , Matter of fact let's hangout like sisters on sunday okay?"
         scene bg kiadytwoskool 61 with Dissolve(0.8)
-        pause
+        Chiyo "Thank you! , I'll see you later have a great rest of the day kiara-san"
+        Kiara "You too ( That was quite adorable , little sister huh feels funny since i am one)"
         scene bg kiadytwoskool 62 with Dissolve(0.8)
-        pause
+        Kiara "Alright , I'll put these here and i should be fine"
         scene bg kiadytwoskool 63 with Dissolve(0.8)
-        pause
+        Azumi "Ehm ehm , may i come in mam?"
         scene bg kiadytwoskool 64 with Dissolve(0.8)
-        pause
+        Kiara "Aheh , Hey azumi!"
+        Azumi "Hi.. I was watching your class , that was very formal"
         scene bg kiadytwoskool 65 with Dissolve(0.8)
-        pause
+        Kiara "Sorry haha , just wanted to know them first before i just blast them with studies you know"
+        Azumi "No don't apologize  , It's what i did too so you did great"
         scene bg kiadytwoskool 66 with Dissolve(0.8)
-        pause
+        Kiara "If you say so , the kids are great and seems i'll fit right in"
+        Azumi "They'll have more of your company than i do which is a bit unfair"
         scene bg kiadytwoskool 67 with Dissolve(0.8)
-        pause
+        Kiara "Well they don't get to have lunch or hangout with me , so there you go!"
+        Azumi "That is fair , I've got the best exclusive company when it comes to sharing tea"
         scene bg kiadytwoskool 68 with Dissolve(0.8)
-        pause
+        Kiara "So anything you wanted to say? I was just packing up"
         scene bg kiadytwoskool 69 with Dissolve(0.8)
-        pause
+        Azumi "Oh yes actually i wanted to ask-"
         scene bg kiadytwoskool 70 with Dissolve(0.8)
-        pause
+        Azumi "Ah.. aw cmon"
         scene bg kiadytwoskool 71 with Dissolve(0.8)
-        pause
+        Azumi "Um.. sorry , I guess not today"
+        Kiara "What happened?"
         scene bg kiadytwoskool 72 with Dissolve(0.8)
+        Azumi "I wanted to have some ice cream with you , but i think uncle fell on stairs i have to go"
+        Azumi "This sucks.. I barely get to see you anyway.."
         menu:
             "Comfort her":
                 #block of code to run
@@ -5866,148 +5915,192 @@ label chap_2_scene_30:
         label .part_4:
         
             scene bg daytwoskoolazmicmfrt 1 with Dissolve(0.8)
-            pause
+            Kiara "Don't worry , we'll hangout tommorow anyway right?"
+            Azumi "Yes i suppose so"
             scene bg daytwoskoolazmicmfrt 2 with Dissolve(0.8)
-            pause
+            Kiara "We'll have plenty of time don't worry , laters okay?"
+            Azumi "Y-yeah laters.. ( I hope tommorow i'll have plenty of time)"
             jump chap_2_scene_31
         
         label .part_5:
 
             scene bg daytwoskoolazmicheerup 1 with Dissolve(0.8)
-            pause
+            Kiara "Azumi it's okay , actually bofore you go can you close your eyes real quick?"
+            Azumi "My eyes?.. um okay i trust you"
             scene bg daytwoskoolazmicheerup 2 with Dissolve(0.8)
             pause
             scene bg daytwoskoolazmicheerup 3 with Dissolve(0.8)
             pause
             scene bg daytwoskoolazmicheerup 4 with Dissolve(0.8)
-            pause
+            Kiara "Mwwaaah.."
+            Azumi "Ah! *Gasp*"
             scene bg daytwoskoolazmicheerup 5 with Dissolve(0.8)
-            pause
+            Kiara "Happy now?"
+            Azumi "Yeah that- that'll suffice.. thanks"
             scene bg daytwoskoolazmicheerup 6 with Dissolve(0.8)
-            pause
+            Kiara "Bye cutie pie!"
+            Azumi "Y- you too!"
             scene bg daytwoskoolazmicheerup 7 with Dissolve(0.8)
-            pause
+            Azumi "Cutie pie.., she kissed my forehead"
             scene bg daytwoskoolazmicheerup 8 with Dissolve(0.8)
-            pause
+            Azumi "Yay!!!! best start to weekend!"
             jump chap_2_scene_31
 
 
 label chap_2_scene_31:
-
+    scene blackscreen
+    show titletext "Aiden's apartment , Mid noon" with dissolve
+    pause 1.0
+    window hide
     scene aidendaytwojpn 1 with Dissolve(0.8)
-    pause
+    Aiden "Christ almighty i gotta get a faster way to set this up , at least it's done"
     scene aidendaytwojpn 2 with Dissolve(0.8)
-    pause
+    Aiden "Now let's a look at what the assistant sent"
     scene aidendaytwojpn 3 with Dissolve(0.8)
-    pause
+    Aiden "Hm.. So the account john transfered this to was a btc offshore , Name says wong.."
     scene aidendaytwojpn 4 with Dissolve(0.8)
-    pause
+    Aiden "Secret service agent.. I wonder if she's already here or near kiara"
     scene aidendaytwojpn 5 with Dissolve(0.8)
-    pause
+    Aiden "If she is she's probably already operating.. I'd have to trace where these funds are being spent"
     scene aidendaytwojpn 6 with Dissolve(0.8)
-    pause
+    Aiden "Val?.. why is she calling at this time"
     scene aidendaytwojpn 7 with Dissolve(0.8)
-    pause
+    Aiden "Yeah , what is it?"
+    Valentina "Sorry i just wanted to ask if you found anything else.. I'm on a dead end here"
     scene aidendaytwojpn 8 with Dissolve(0.8)
-    pause
+    Aiden "I did or at least some of  it , what about you? and how's nick?"
+    Valentina "He's alright..I am kind of just being secretive when we text "
+    Valentina "Anyway , what did you find about that agent?"
     scene aidendaytwojpn 9 with Dissolve(0.8)
-    pause
+    Aiden "Not much except a last name, she's apparaently special ops too only works for high paying clients , i'm guessing it's a protection job or overseeing one"
+    Valentina "Protection.. of kiara? why?"
     scene aidendaytwojpn 10 with Dissolve(0.8)
-    pause
+    Aiden "I don't know  , but my guess is even here till case settles he doesn't want her befriending anyone or too close"
+    Valentina "Okay but.. won't she come after you as well then?"
+    Aiden "Probably will , but i'm just a collegue employee can just remain anon for now"
     scene aidendaytwojpn 11 with Dissolve(0.8)
-    pause
+    Aiden "Though yes ,  seems like there are multiple homicides right around the places wherever kiara went"
+    Valentina "W-what? murders?"
     scene aidendaytwojpn 12 with Dissolve(0.8)
-    pause
+    Aiden "A guy outside shibamishura station , Some one around the park area , One near an office building.."
+    Valentina "You think they.. they're-"
     scene aidendaytwojpn 13 with Dissolve(0.8)
-    pause
+    Aiden "Dead yeah .. this woman ain't playing around . I'll have to be careufl"
     scene aidendaytwojpn 14 with Dissolve(0.8)
-    pause
+    Valentina "Please be careful.."
+    Aiden "I will , you do too catch you later."
     jump chap_2_scene_32
 
 label chap_2_scene_32:
-
+    scene blackscreen
+    show titletext "Style like none , late noon.." with dissolve
+    pause 1.0
+    window hide
     scene bg kiadytwosalon 1 with Dissolve(0.8)
-    pause
+    Kiara "No one at work.. I wonder where the others are?"
     scene bg kiadytwosalon 2 with Dissolve(0.8)
-    pause
+    Asa "Hey kiara , good eve how come you're here?"
     scene bg kiadytwosalon 3 with Dissolve(0.8)
-    pause
+    Kiara "Hey asa , Oh i uh came to do some clients.. what's going on?"
+    Asa "Oh we close early on weekends , rose is in office and others are home"
     scene bg kiadytwosalon 4 with Dissolve(0.8)
-    pause
+    Kiara "Aw.. I thought i'd get started or practice today."
+    Asa "Um well i don't think any booking are here  for today ,  I'm sorry really"
     scene bg kiadytwosalon 5 with Dissolve(0.8)
-    pause
+    Asa "It's alright really , you can hangout with rose or just come with me we'll have some milkshakes"
+    Kiara "Yes.. but i did want to start at least something today"
     scene bg kiadytwosalon 6 with Dissolve(0.8)
-    pause
+    Asa "Um well , we do have dummys if you want those"
+    Kiara "No I've done those enough on internship , ah well.."
     scene bg kiadytwosalon 7 with Dissolve(0.8)
-    pause
+    Asa "Oh sir hello , we're closing actually"
+    "Fatguy" "But i wanted a haircut only"
     scene bg kiadytwosalon 8 with Dissolve(0.8)
-    pause
+    "Fatguy" "No barbors at all? It's just a small cut i need"
+    Asa "I'm sorry sir but we are basically just leaving so"
+    Kiara "W-wait asa-"
     scene bg kiadytwosalon 9 with Dissolve(0.8)
-    pause
+    Kiara "Um sir , I'm new here but do you mind if i do it?"
+    "Fatguy" "Yeah why not it's just just simple trimming after all"
+    Asa "Um are you sure about this kiara?"
     scene bg kiadytwosalon 10 with Dissolve(0.8)
-    pause
+    Kiara "Yeah i'm sure i can handle it , don't worry you can go"
+    Asa "If you say so , I'll see you next week then okay?"
     scene bg kiadytwosalon 11 with Dissolve(0.8)
-    pause
+    Asa "Bye! , have a good evening and meet rose before you leave okay?"
+    Kiara "You too! , take care and yeah i will!"
     scene bg kiadytwosalon 12 with Dissolve(0.8)
-    pause
+    Kiara "Alright let's see what this is about"
     scene bg kiadytwosalon 13 with Dissolve(0.8)
-    pause
+    Kiara "Just to confirm , what would you like exactly?"
+    "Fatguy" "Just an trim of sideburns and my neck area to be clear"
     scene bg kiadytwosalon 14 with Dissolve(0.8)
-    pause
+    Kiara "Um.. Okay (He's already balding and he wants sideburns removed?.. Whatever i guess)"
     scene bg kiadytwosalon 15 with Dissolve(0.8)
-    pause
+    "Fatguy" "You new here , studies in japan then?"
+    Kiara "Oh no , my studies have finished i'm just here for some family matters but no working visa so yeah"
     scene bg kiadytwosalon 16 with Dissolve(0.8)
-    pause
+    "Fatguy" "Many people move here without any plan , I hope you got one girl"
+    Kiara "I mean i guess i do have a roadmap but i'll just see where the road leads me"
     scene bg kiadytwosalon 17 with Dissolve(0.8)
-    pause
+    "Fatguy" "You should get japanese citizenship then , would help you alot"
+    Kiara "That would help but naturalization is often quite slow so can't really do it"
     scene bg kiadytwosalon 18 with Dissolve(0.8)
-    pause
+    "Fatguy" "You can also marry someone , that also gives it to you automatically"
+    Kiara "Hah , that's not happening anytime soon for sure"
     scene bg kiadytwosalon 19 with Dissolve(0.8)
-    pause
+    "fatguy" "Well I'm sure a girl like you could definitely move up ranks wherever she goes.."
     scene bg kiadytwosalon 20 with Dissolve(0.8)
-    pause
+    Kiara "Um.. what do you mean?"
+    "Fatguy" "Oh nothing nothing , just your sharp mind.. let's get started"
     scene bg kiadytwosalon 21 with Dissolve(0.8)
-    pause
+    Kiara "Alrgiht , let me just put this over-"
     scene bg kiadytwosalon 22 with Dissolve(0.8)
-    pause
+    Kiara "*Gasp* Ah! , oh my god!"
+    "Fatguy" "What the-!"
     scene bg kiadytwosalon 23 with Dissolve(0.8)
-    pause
+    Kiara "I got it , I got it . I'm so sorry are you okay?"
     scene bg kiadytwosalon 24 with Dissolve(0.8)
-    pause
+    "Fatguy" "Ugh! , my neck!"
     scene bg kiadytwosalon 25 with Dissolve(0.8)
-    pause
+    Kiara "Please wait ! ub hold on"
     scene bg kiadytwosalon 26 with Dissolve(0.8)
-    pause
+    "Fatguy" "What the hell is this? Who keeps such a weak base chair"
     scene bg kiadytwosalon 27 with Dissolve(0.8)
-    pause
+    Kiara "It=It's not weak i think because this is made for women and so your weight-"
+    "Fatguy" "Are you calling me fat? what-"
+    Kiara "No I'm not! , m-maybe it was my fault"
     scene bg kiadytwosalon 28 with Dissolve(0.8)
-    pause
+    "Fatguy" "Fine you stand and i'll take you as support ok?"
+    Kiara "Um alright.. i suppose that's fair"
     scene bg kiadytwosalon 29 with Dissolve(0.8)
-    pause
+    Kiara "( Better finish this fast or my ocd will kill me)"
+    "Fatguy" "( She's very squishy hehe)"
     scene bg kiadytwosalon 30 with Dissolve(0.8)
-    pause
+    Kiara "( Okay .. let me just try this here..)"
+    "Fatguy" "(Time to have a little fun)"
     scene bg kiadytwosalon 31 with Dissolve(0.8)
-    pause
+    Kiara "( Why is he squeezing my waist?.. Ugh it's not even the chair's fault he's just fat)"
     scene bg kiadytwosalon 32 with Dissolve(0.8)
-    pause
+    "Fatguy" "( I almost want to rip her top open and milk those babies)"
     scene bg kiadytwosalon 33 with Dissolve(0.8)
-    pause
+    "Fatguy" "(Let's see how she reacts..)"
     scene bg kiadytwosalon 34 with Dissolve(0.8)
-    pause
+    Kiara "Kya ! um sir..your head.."
+    "Fatguy" "Oh sorry i was just relaxed so didn't realize"
     scene bg kiadytwosalon 35 with Dissolve(0.8)
-    pause
+    Kiara "( He's doing this intentionally i can tell.. i should hurry up)"
     scene bg kiadytwosalon 36 with Dissolve(0.8)
-    pause
+    Kiara "( Great now he's grabbing my legs.. good thing i wore pants today)"
     scene bg kiadytwosalon 37 with Dissolve(0.8)
     pause
     scene bg kiadytwosalon 38 with Dissolve(0.8)
-    pause
+    Kiara "( Ar-Are his ahnds going up?)"
     scene bg kiadytwosalon 39 with Dissolve(0.8)
-    pause
+    Kiara "( Yes they are! , Okay.. this what do i do?)"
     scene bg kiadytwosalondcdfrstaftrthirtynine with Dissolve(0.8)
     menu:
-        "Should I stop him?"
-        "Stop him now" if mc_stats.current_strength > 2:
+        "Stop him now (Requires Strength 2)" if mc_stats.current_strength > 2:
             #block of code to run
             jump .part_1
         "Let him continue" if mc_stats.current_corruption > 45:
@@ -6016,39 +6109,43 @@ label chap_2_scene_32:
 
     label .part_1:
         scene kiadytwosalonbeat 1 with Dissolve(0.8)
-        pause
+        Kiara "Okay screw this.. I'm not letting some creep do this over his fat ass"
         scene kiadytwosalonbeat 2 with Dissolve(0.8)
-        pause
+        Kiara "There it is.. you're done"
         scene kiadytwosalonbeat 3 with Dissolve(0.8)
-        pause
+        "Fatguy" "Ah.. wh-"
         scene kiadytwosalonbeat 4 with Dissolve(0.8)
-        pause
+        Kiara "Move your hand you cunt"
+        "Fatguy" "W-what did you sa-"
         scene kiadytwosalonbeat 5 with Dissolve(0.8)
-        pause
+        Kiara "I said move your disgusting hands you cunt!"
+        "Fatguy" "Aaaah!"
         scene kiadytwosalonbeat 6 with Dissolve(0.8)
-        pause
+        Kiara "What the.. did i kick that hard?"
+        "fatguy" "Ugh, my head..."
         jump chap_2_scene_33
 
 
     label .part_2:
         scene bg kiadytwosalonletgrope 1 with Dissolve(0.8)
-        pause
+        Kiara "Ugh.. I don't want to cause a scene on first client.. It's fine i'm sure he won't go too far"
         scene bg kiadytwosalonletgrope 2 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 3 with Dissolve(0.8)
-        pause
+        "Fatguy" "(Either this girl isn't realizing or she's letting me.. hehe)"
         scene bg kiadytwosalonletgrope 4 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 5 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 6 with Dissolve(0.8)
-        pause
+        Kiara "( What the.. his hands are on my ass?)"
+        "Fatguy" "( You're mine now baby)"
         scene bg kiadytwosalonletgrope 7 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 8 with Dissolve(0.8)
-        pause
+        Kiara "( Just a bit longer , I can endure this)"
         scene bg kiadytwosalonletgrope 9 with Dissolve(0.8)
-        pause
+        "Fatguy" "( Oh you wanna act innocent huh?.. Let's see)"
         scene bg kiadytwosalonletgrope 10 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 11 with Dissolve(0.8)
@@ -6062,87 +6159,102 @@ label chap_2_scene_32:
         scene bg kiadytwosalonletgrope 15 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 16 with Dissolve(0.8)
-        pause
+        Kiara "( He-He's groping my ass! , what the hell?!)"
         scene bg kiadytwosalonletgrope 17 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 18 with Dissolve(0.8)
-        pause
+        "Fatguy" "You let everyone do this to you hun?"
         scene bg kiadytwosalonletgrope 19 with Dissolve(0.8)
-        pause
+        Kiara "No- no! , don't get the wrong idea I just don't want my first client to have a compalain on me.. could you please stop?"
         scene bg kiadytwosalonletgrope 20 with Dissolve(0.8)
-        pause
+        "Fatguy" "Stop?.. baby i'm gonna take advantage of this opportunity instead.."
         scene bg kiadytwosalonletgrope 21 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 22 with Dissolve(0.8)
-        pause
+        Kiara "Ah.. ( His hands are inside my shirt?)"
         scene bg kiadytwosalonletgrope 23 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 24 with Dissolve(0.8)
-        pause
+        Kiara "( M-my pants?.. what is he thinking?)"
         scene bg kiadytwosalonletgrope 25 with Dissolve(0.8)
-        pause
+        "Fatguy" "( Let's see this bitch's ass)"
         scene bg kiadytwosalonletgrope 26 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 27 with Dissolve(0.8)
-        pause
+        Kiara "( N-no! , what the.. what is he)"
         scene bg kiadytwosalonletgrope 28 with Dissolve(0.8)
-        pause
+        "Fatguy" "Now these panties.."
         scene bg kiadytwosalonletgrope 29 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 30 with Dissolve(0.8)
-        pause
+        "Fatguy" "Hehe.. soft skin"
+        Kiara "(No! , I gotta stop this.. he's not)"
         scene bg kiadytwosalonletgrope 31 with Dissolve(0.8)
-        pause
+        "Fatguy" "( Ah it won't slide any down further cuz her ass is so big.. that's alright)"
         scene bg kiadytwosalonletgrope 32 with Dissolve(0.8)
-        pause
+        "Fatguy" "Hey baby.. I'm gonna finger your asshole now.. let's see how tight it is"
+        Kiara "(No ! , enough of this)"
         scene bg kiadytwosalonletgrope 33 with Dissolve(0.8)
-        pause
+        Kiara "Move! , what the fuck are you doing!"
         scene bg kiadytwosalonletgrope 34 with Dissolve(0.8)
         pause
         scene bg kiadytwosalonletgrope 35 with Dissolve(0.8)
-        pause
+        "Fatguy" "Ugh.."
+        Kiara "I did it.. but why did i let him go that far?.."
         $ mc_stats.adjust_corruption(5)
         jump chap_2_scene_33
 
 label chap_2_scene_33:
     scene bg kiadytwosalon 40 with Dissolve(0.8)
-    pause
+    "Fatguy" "Hey! , Why did you do that what the fuck!"
+    Kiara "You were fucking groping me! The hell is wrong with you?!"
     scene bg kiadaytworosermnc 1 with Dissolve(0.8)
-    pause
+    "Fatguy" "I was taking support , you were the one who said it!"
+    Kiara "Support doesn't mean squeezng my body you twisted fuck!"
     scene bg kiadaytworosermnc 2 with Dissolve(0.8)
-    pause
+    Rose "What on earth is going on here ?"
     scene bg kiadaytworosermnc 3 with Dissolve(0.8)
-    pause
+    Kiara "R-rose , he this guy was-"
     scene bg kiadaytworosermnc 4 with Dissolve(0.8)
-    pause
+    "Fatguy" "I guess you're the owner , what the hell is this she just hit me!"
+    Kiara "I didn't ! , you were doing it first I just-"
     scene bg kiadaytworosermnc 5 with Dissolve(0.8)
-    pause
+    "Fatguy" "Shut up lying bitch , you hit me i didn't do anything"
     scene bg kiadaytworosermnc 6 with Dissolve(0.8)
-    pause
+    "Fatguy" "Argh! , ouch!"
+    Rose "Who the fuck are you calling slurs you fat pig!"
     scene bg kiadaytworosermnc 7 with Dissolve(0.8)
-    pause
+    Rose "Get out of my salon you fucking incel"
+    "Fatguy" "Ugh.. uh , I'll get you both!"
     scene bg kiadaytworosermnc 8 with Dissolve(0.8)
-    pause
+    Rose "Out now or the next thing that hits your face will be my shoe!"
     scene bg kiadaytworosermnc 9 with Dissolve(0.8)
-    pause
+    "Fatguy" "Urgh! , Fuck this salon!"
+    Rose "Screw off fat pig"
     scene bg kiadaytworosermnc 10 with Dissolve(0.8)
-    pause
+    Rose "Kiara?.. are you okay?"
     scene bg kiadaytworosermnc 11 with Dissolve(0.8)
-    pause
+    Kiara "I didn't mean to , he was groping me and i just-"
+    Rose "Hey hey-!"
     scene bg kiadaytworosermnc 12 with Dissolve(0.8)
-    pause
+    Rose "You don't have to explain yourslef.. It's okay , please come sit"
     scene bg kiadaytworosermnc 13 with Dissolve(0.8)
-    pause
+    Rose "Kiara , don't look so down.. everyone's first clients can be assholes.."
+    Kiara "But i really wanted to practice today.. ugh why does this happen to me"
     scene bg kiadaytworosermnc 14 with Dissolve(0.8)
-    pause
+    Rose "It's not your fault sweety , you did the right thing despite off hours"
+    Kiara "Yeah.. but now i have to wait till next week just to start.. this sucks"
     scene bg kiadaytworosermnc 15 with Dissolve(0.8)
-    pause
+    Kiara "I just have terrible luck don't i?.. It just sucks"
+    Rose "( I Should cheer her up)"
     scene bg kiadaytworosermnc 16 with Dissolve(0.8)
-    pause
+    Rose "Why don't you try on me?"
     scene bg kiadaytworosermnc 17 with Dissolve(0.8)
+    Kiara "W-what? .. No I don't wanna ruin your hair"
+    Rose "You won't kiara , come on let's give this a try"
     pause
     menu:
-        
+        "Um.."
         "Cut Rose's hair":
             #block of code to run
             jump .part_1
@@ -6152,40 +6264,52 @@ label chap_2_scene_33:
 
     label .part_2:
         scene bg kiadytwosalonroseno 1 with Dissolve(0.8)
-        pause
+        Kiara "Um.. can i do it next week? .. Please i don't want to ruin anything more today"
+        Rose "Ah okay , I undertand.. I'll await you then oki?"
         scene bg kiadytwosalonroseno 2 with Dissolve(0.8)
-        pause
+        Kiara "Thanks for.. being kind , I need it nowadays"
+        Rose "You can always have it , have a great evening okay?"
         scene bg kiadytwosalonroseno 3 with Dissolve(0.8)
-        pause
+        Rose "(Heh.. bit shy isn't she , that's alright we'l have plenty of time.)"
         jump chap_2_scene_34
 
     label .part_1:
 
         scene bg kiadytwosalonroseyes 1 with Dissolve(0.8)
-        pause
+        Kiara "Um alright , I'll do my best"
+        Rose "You can go on the pace you like , Don't worry too much"
         scene bg kiadytwosalonroseyes 2 with Dissolve(0.8)
-        pause
+        Kiara "Are you really sure about this?.. I don't know if i-"
+        Rose "I am sure , and i have faith you'll give me a better one than my current"
         scene bg kiadytwosalonroseyes 3 with Dissolve(0.8)
-        pause
+        Kiara "Okay let's start.. I think i have something"
+        Rose "I can't wait ! , Let your hands run!"
         scene bg kiadytwosalonroseyes 4 with Dissolve(0.8)
-        pause
+        Kiara "You're already beautiful but i'll try"
         scene bg kiadytwosalonroseyes 5 with Dissolve(0.8)
-        pause
+        Rose "You cut very well by the way , I can almost sleep"
+        Kiara "Kindly don't , it's almost done"
         scene bg kiadytwosalonroseyes 6 with Dissolve(0.8)
-        pause
+        Kiara "So.. what do you think?"
+        Rose "Kiara.. I"
         scene bg kiadytwosalonroseyes 7 with Dissolve(0.8)
-        pause
+        Kiara "D-do you not like it? I'm sorry i , i think i just"
+        Rose "No you goof , what are you saying? Like?"
         scene bg kiadytwosalonroseyes 8 with Dissolve(0.8)
-        pause
+        Rose "I love it!"
+        Kiara "Wait , really?"
         scene bg kiadytwosalonroseyes 9 with Dissolve(0.8)
-        pause
+        Kiara "Um , I kinda mixed my cousin and mw own style so itd suit you well"
         scene bg kiadytwosalonroseyes 10 with Dissolve(0.8)
-        pause
+        Rose "Well i got the best of both worlds then , this looks exquisite"
+        Kiara "Thanks rose , I'm glad you like it"
         scene bg kiadytwosalonroseyes 11 with Dissolve(0.8)
-        pause
-        scene bg kiadytwosalonroseyes 12 with Dissolve(0.8)
-        pause
+        Rose "I never thought id look good in short ones but here you are proving me wrong"
+        Kiara "Well i think you look great , I mean very beautiful"
         $ rose_rom.adjust_romance(1)
+        scene bg kiadytwosalonroseyes 12 with Dissolve(0.8)
+        Rose "Mind if we play with your hair a bit? No cutting just some styles"
+        Kiara "Oh um.. I mean-"
         menu:
             
             "Accept Rose's offer":
@@ -6197,167 +6321,209 @@ label chap_2_scene_33:
             
         label .part_3:
             scene bg kiarmncdaytworoseyes 1 with Dissolve(0.8)
-            pause
+            Kiara "Um okay i have to go soon but why not"
             scene bg kiarmncdaytworoseyes 2 with Dissolve(0.8)
-            pause
+            Kiara "So what are we trying?"
+            Rose "Let's try your hair flipped , sometimes side changes can do wonders"
             scene bg kiarmncdaytworoseyes 3 with Dissolve(0.8)
-            pause
+            Rose "By the way your hair is so smooth"
+            Kiara "I just shampoo it daily , and i think yours is smoother"
             scene bg kiarmncdaytworoseyes 4 with Dissolve(0.8)
-            pause
+            Rose "See looks different but good right?"
+            Kiara "Yea.. i might go for it tommorow , seems kinda cool"
             scene bg kiarmncdaytworoseyes 5 with Dissolve(0.8)
-            pause
+            Rose "Let's try this as well.."
             scene bg kiarmncdaytworoseyes 6 with Dissolve(0.8)
-            pause
+            Kiara "Wait no don't lean in!"
+            Rose "Ah!"
             scene bg kiarmncdaytworoseyes 7 with Dissolve(0.8)
-            pause
+            Kiara "Aah.. i'm falling wa-"
+            Rose "No no , wait! I got you!"
             scene bg kiarmncdaytworoseyes 8 with Dissolve(0.8)
-            pause
+            Rose "that was close.. sorry for that"
+            Kiara "Not your fault.. I think it happens on backside pressure"
             scene bg kiarmncdaytworoseyes 9 with Dissolve(0.8)
-            pause
+            Kiara "I guess that guy was right about it being a little loose.."
+            Rose "Heh.."
             scene bg kiarmncdaytworoseyes 10 with Dissolve(0.8)
-            pause
+            Rose "If what i'm seeing now is the sight that i get for having broken seats , then i'm never changing them"
+            Kiara "Oh.. uhm I-"
             scene bg kiarmncdaytworoseyes 11 with Dissolve(0.8)
-            pause
+            Rose "Are you blushing? How cute are you gonna get?"
+            Kiara "No i just.. i meaen i have to go"
             scene bg kiarmncdaytworoseyes 12 with Dissolve(0.8)
-            pause
+            Rose "As your boss i almost want some overtime.. but hey we got enough time.. so lets get you up"
+            Kiara "(I'm looking away because her eyes are so pretty.. ah gosh)"
             scene bg kiarmncdaytworoseyes 13 with Dissolve(0.8)
-            pause
+            Kiara "Thanks again.. for standing up earlier for me.. I appreciate it"
+            Rose "Don't be , that guy was a loser you're my new stylist hehe"
+            Rose "Have a good evening okay? Laters"
             scene bg kiarmncdaytworoseyes 14 with Dissolve(0.8)
-            pause
+            Kiara "Bye! , see ya"
+            Rose "Shy aren't you.. that's alright we'll have enough time"
             $ rose_rom.adjust_romance(1)
             jump chap_2_scene_34
 
         label .part_4:
 
             scene bg kiarmncdaytworoseno 1 with Dissolve(0.8)
-            pause
+            Kiara "Um , i actually need to go soon since my aunt's gonna get mad otherwise.. can we do it later?"
+            Rose "Oh yeah no problem , thanks again for the haircut!"
             scene bg kiarmncdaytworoseno 2 with Dissolve(0.8)
-            pause
+            Kiara "Your welcome , and thanks agian for earlier.. i appreciate it"
+            Rose "Dont be , I know you're amazing that fat guy can burn in fire for all i care"
+            Rose "You take care okay? Have a great evening"
             scene bg kiarmncdaytworoseno 3 with Dissolve(0.8)
-            pause
+            Rose "A bit shy i suppose , We'll continue some other time kiara"
             jump chap_2_scene_34
 
 label chap_2_scene_34:
-
-
+    scene blackscreen
+    show titletext "Side market street , Osaka.." with dissolve
+    pause 1.0
+    window hide
     scene bg daytwoassinscn 1 with Dissolve(0.8)
-    pause
+    "Fatguy" "Fuckin bitches.. next time i'll strip both of them nude"
     scene bg daytwoassinscn 2 with Dissolve(0.8)
-    pause
+    "???" "Psst.. come here"
     scene bg daytwoassinscn 3 with Dissolve(0.8)
-    pause
+    "Fatguy" "Huh?.. who?"
     scene bg daytwoassinscn 4 with Dissolve(0.8)
-    pause
+    AgentWong "Come over here.. I got something fun to show you"
     scene bg daytwoassinscn 5 with Dissolve(0.8)
-    pause
+    "Fatguy" "You gonna let me cum in your ass?"
+    AgentWong "Anything you want hun.."
     scene bg daytwoassinscn 6 with Dissolve(0.8)
-    pause
+    "Fatguy" "Wh- hey ! what are you doing hey!"
     scene bg daytwoassinscn 7 with Dissolve(0.8)
-    pause
+    AgentWong "Like touching women huh? these hands.."
+    "Fatguy" "Wait no , I won't ever , I'm gay uh please!"
     scene bg daytwoassinscn 8 with Dissolve(0.8)
-    pause
+    "fatguy" "Arrghghgh!!!  MY ARM!"
     scene bg daytwoassinscn 9 with Dissolve(0.8)
-    pause
+    "Fatguy" "Someone! , Someone help!"
     scene bg daytwoassinscn 10 with Dissolve(0.8)
-    pause
+    AgentWong "Nuh uh .. you aren't going anywhere.."
+    "Fatguy" "Wait , WAit! , please stop !"
     scene bg daytwoassinscn 11 with Dissolve(0.8)
-    pause
+    AgentWong "Quiet.. , shhh"
+    "fatguy" "MMMMPGH , HE... MMPPH!"
     scene bg daytwoassinscn 12 with Dissolve(0.8)
-    pause
+    AgentWong "I said... quiet!"
+    "Fatguy" "Ulgh!..."
     scene bg daytwoassinscn 13 with Dissolve(0.8)
-    pause
+    AgentWong "Would've left at a broken arm and a leg but he had to shout didn't he.."
     scene bg daytwoassinscn 14 with Dissolve(0.8)
-    pause
+    AgentWong "Whatever.. One less filth from this planet"
     scene bg daytwoassinscn 15 with Dissolve(0.8)
     pause
     scene bg daytwoassinscn 16 with Dissolve(0.8)
-    pause
+    AgentWong "(Now for that cab driver.. , Let's see who you are)"
     jump chap_2_scene_35
 
 label chap_2_scene_35:
     scene bg daytwoygajoinin 1 with Dissolve(0.8)
-    pause
+    Kiara "After this we can go home , I hope you're not tired"
+    Keisuke "Not at all , also yoga club is a great idea"
     scene bg daytwoygajoinin 2 with Dissolve(0.8)
-    pause
+    Kiara "By the way are you free tommorow ? I wanted to explore the city abit and who better than you"
+    Keisuke "Heh , sure why not I'll show you some nice places too"
     scene bg daytwoygajoinin 3 with Dissolve(0.8)
-    pause
+    Keisuke "( Hm?.. Ayane's phone?)"
     scene bg daytwoygajoinin 4 with Dissolve(0.8)
     pause
     scene bg daytwoygajoinin 5 with Dissolve(0.8)
-    pause
+    Keisuke "( Why could she be calling ?)"
     scene bg daytwoygajoinin 6 with Dissolve(0.8)
-    pause
+    Keisuke "( Another one?.. ah i can't attend it now.)"
     scene bg daytwoygajoinin 7 with Dissolve(0.8)
     pause
     scene bg daytwoygajoinin 8 with Dissolve(0.8)
-    pause
+    Kiara "Who is it?.. do you need to talk to someone but can't because of privacy?"
     scene bg daytwoygajoinin 9 with Dissolve(0.8)
-    pause
+    Keisuke "No no , It's just my little sister , I kinda promised her a gift and i'm kinda short on money right now"
     scene bg daytwoygajoinin 10 with Dissolve(0.8)
-    pause
+    Kiara "Um.. how short? what was the gift?"
+    Keisuke "It's just a teddy bear that has her name in it , but don't worry i'll handle it"
     scene bg daytwoygajoinin 11 with Dissolve(0.8)
-    pause
+    Keisuke "She'll be a little angry by a day delay but it's alright haha , I can manage it"
     scene bg daytwoygajoinin 12 with Dissolve(0.8)
-    pause
+    Kiara "( Hm..) Alright i understand"
+    scene blackscreen
+    show titletext "Value self yoga , Home street" with dissolve
+    pause 1.0
+    window hide
     scene bg daytwoygajoinin 13 with Dissolve(0.8)
-    pause
+    Kiara "Alright the last stop , I got this"
     scene bg daytwoygajoinin 14 with Dissolve(0.8)
-    pause
+    Kiara "This place is close too , just what i needed"
     scene bg daytwoygajoinin 15 with Dissolve(0.8)
-    pause
+    Kiara "Excuse me , I'd like to register for a membership"
     scene bg daytwoygajoinin 16 with Dissolve(0.8)
-    pause
+    "Reception girl" "Of course, Please provide us an ID and documentation"
     scene bg daytwoygajoinin 17 with Dissolve(0.8)
-    pause
+    "Reception girl" "While i submit everything , my collegue here will guide you to the instructor rooms"
     scene bg daytwoygajoinin 18 with Dissolve(0.8)
-    pause
+    Kiara "Alright sure , Lets get going"
+    "Reception guy" "Certainly , please follow me"
     scene bg daytwoygajoinin 19 with Dissolve(0.8)
-    pause
+    "Reception guy" "We are one of the safest and most hygenic centers in osaka , Quality will to be your liking"
+    Kiara "Thanks , I have OCD so trust me that is a relief"
     scene bg daytwoygajoinin 20 with Dissolve(0.8)
-    pause
+    "Reception guy" "Understandable , please go left from here and on the straight path you shall find the room with your trainer"
+    Kiara "Alright thank you again"
     scene bg daytwoygajoinin 21 with Dissolve(0.8)
-    pause
+    Kiara "From here to left corridor , okay so that one"
     scene bg daytwoygajoinin 22 with Dissolve(0.8)
     pause
     scene bg daytwoygajoinin 23 with Dissolve(0.8)
-    pause
+    Kiara "Wow , talk about a palette change , at least it's better than yamazaki's office"
     scene bg daytwoygajoinin 24 with Dissolve(0.8)
     pause
     scene bg daytwoygajoinin 25 with Dissolve(0.8)
-    pause
+    Kiara "I suppose this room is for the guys , so the one next to it is my side"
     scene bg daytwoygajoinin 26 with Dissolve(0.8)
-    pause
+    "???" "Keep stretching! , You got this , try to maintain balance"
     scene bg daytwoygajoinin 27 with Dissolve(0.8)
-    pause
+    Kiara "(Oh wow , they are fit alright)"
     scene bg daytwoygajoinin 28 with Dissolve(0.8)
-    pause
+    "???" "(Well well , new yoga mate it seems)"
     scene bg daytwoygajoinin 29 with Dissolve(0.8)
-    pause
+    "???" "Oh my , quite easy on the eyes"
     scene bg daytwoygajoinin 30 with Dissolve(0.8)
-    pause
+    "???" "Hmm.. that face and that body"
     scene bg daytwoygajoinin 31 with Dissolve(0.8)
-    pause
+    "???" "I definitely wouldn't mind sharing a shower"
     scene bg daytwoygajoinin 32 with Dissolve(0.8)
-    pause
+    "???" "What are you all distracted by? Hello?"
+    "???" "Look behind you saya , we've got a new guest"
     scene bg daytwoygajoinin 33 with Dissolve(0.8)
-    pause
+    Saya "New guest? Who are you refe-"
     scene bg daytwoygajoinin 34 with Dissolve(0.8)
-    pause
+    Saya "Oh , hello there! sorry we were just focused so didn't notice you"
+    Kiara "I apologize , I'm new so thought i'd just meet everyone"
     scene bg daytwoygajoinin 35 with Dissolve(0.8)
-    pause
+    Kiara "Hi to all , I'm kiara , Um I kind of want to get into a toned physique so thought i'd go for this"
+    Saya "You're definitely at the right place , We can certainly get you to it"
     scene bg daytwoygajoinin 36 with Dissolve(0.8)
-    pause
+    Kiara "Could you please introduce others? .. I kind of feel odd now"
+    Saya "Oh! sorry , Um I am saya  , the trainer as you can see"
     scene bg daytwoygajoinin 37 with Dissolve(0.8)
-    pause
+    Saya "Behind me are , Jinshi and alicia"
+    Alicia "Hello!"
+    Jinshi "Hey cutie"
     scene bg daytwoygajoinin 38 with Dissolve(0.8)
-    pause
+    Saya "The lady in gray is-"
+    Olivia "Olivia , nice to meet you kiara"
     scene bg daytwoygajoinin 39 with Dissolve(0.8)
-    pause
+    Saya "There we go , now how do you want to get started?"
+    Kiara "Well I'd like to get an outfit firstly , am i allowed to bring mine or?"
     scene bg daytwoygajoinin 40 with Dissolve(0.8)
-    pause
+    Saya "Actually we'd recommend the ones we use , since they're all elastic but you can bring yours too"
     scene bg daytwoygajoinin 41 with Dissolve(0.8)
-    pause
+    Kiara "But in case you do want to pick ours , just go with any of the girls and they'll get you your gear"
     scene bg kiadaytwoygadcd with Dissolve(0.8)
+    Kiara "Um well i prefer to-"
     menu:
         
         "Go with saya":
@@ -6371,465 +6537,620 @@ label chap_2_scene_35:
 
     label .part_1:
         scene bg dytwoyogasaya 1 with Dissolve(0.8)
-        pause
+        Kiara "Actually i like your outfit alot , can i please go for that one?"
         scene bg dytwoyogasaya 2 with Dissolve(0.8)
-        pause
+        Saya "S-sure! , please come with me we'll get it sorted for you"
         scene bg dytwoyogasaya 3 with Dissolve(0.8)
-        pause
+        Kiara "Is this area usually empty?"
+        Saya "Mostly yes , it's staff only but i'm bringing you here since i didn't want you to change in the stalls"
         scene bg dytwoyogasaya 4 with Dissolve(0.8)
-        pause
+        Kiara "Well thank you , I appreciate that alot actually"
+        Saya "Don't mention it , It's something i know is comfortable anyway so"
         scene bg dytwoyogasaya 5 with Dissolve(0.8)
-        pause
+        Kiara "Wow this is fancy"
+        Saya "Yeah it's very nice and we have temperature control here so it's never bad regardless of season"
         scene bg dytwoyogasaya 6 with Dissolve(0.8)
-        pause
+        Saya "Anyway though you go ahead and take a shower , your clothes are on the left isle on there"
+        Kiara "Alright um can i ask for a favor?"
         scene bg dytwoyogasaya 7 with Dissolve(0.8)
-        pause
+        Saya "Sure , what is it?"
+        Kiara "Could you please wait outside or watch over so no one comes?"
         scene bg dytwoyogasaya 8 with Dissolve(0.8)
-        pause
+        Saya "Oh yeah no problem , I can do that feel free"
+        Kiara "Thank you"
         scene bg dytwoyogasaya 9 with Dissolve(0.8)
         pause
         scene bg dytwoyogasaya 10 with Dissolve(0.8)
-        pause
+        Saya "She's very beautiful , hope the other girls treat her well"
         scene bg dytwoyogasaya 11 with Dissolve(0.8)
         pause
         scene bg dytwoyogasaya 12 with Dissolve(0.8)
-        pause
+        Kiara "This water is almost as clean as home , quite surprising for a public one"
         scene bg dytwoyogasaya 13 with Dissolve(0.8)
-        pause
+        Kiara "Hey , I'm ready"
+        Saya "Let's take a look"
         scene bg dytwoyogasaya 14 with Dissolve(0.8)
-        pause
+        Saya "Well look at that , we vibe check pretty nicely"
         scene bg dytwoyogasaya 15 with Dissolve(0.8)
-        pause
+        Kiara "What are those!"
+        Saya "Haha , well do you like it?"
         scene bg dytwoyogasaya 16 with Dissolve(0.8)
-        pause
+        Kiara "It's very comfortable , thank you for this"
+        Saya "Well let's get going then"
+        scene bg dytwoyogasaya 17 with Dissolve(0.8)
+        Saya "Now we just need to do small dips and you can go then"
+        Kiara "Alright sure!"
+        scene bg dytwoyogasaya 18 with Dissolve(0.8)
+        Saya "By the way , this suits you better than it does me"
+        Kiara "Not really true , i picked it after looking at you in it haha"
         jump chap_2_scene_36
 
     label .part_2:
         scene bg dytwoygaaliciandjinshi 1 with Dissolve(0.8)
-        pause
+        Kiara "Um Alicia's outfit seems nice , Jinshi too.. could you guys get me one of a different color?"
         scene bg dytwoygaaliciandjinshi 2 with Dissolve(0.8)
-        pause
+        Jinshi "Sure the lockers have all schemes , but you'd have to come with us"
+        Alicia "Are you comfortable with that?"
+        Kiara "Of course , let's go"
         scene bg dytwoygaaliciandjinshi 3 with Dissolve(0.8)
         pause
         scene bg dytwoygaaliciandjinshi 4 with Dissolve(0.8)
-        pause
+        Jinshi "So you wanted red and black right?"
+        Kiara "Yes , they're my favorite colors"
+        Alicia "Good choice kiara , it'll suit your skin alot"
         scene bg dytwoygaaliciandjinshi 5 with Dissolve(0.8)
         pause
         scene bg dytwoygaaliciandjinshi 6 with Dissolve(0.8)
-        pause
+        Kiara "Um.. why are we in the showers?"
+        Jinshi "Oh shower time is for us , you just need to grab it from the lockers"
         scene bg dytwoygaaliciandjinshi 7 with Dissolve(0.8)
-        pause
+        Kiara "Oh.. I thought you'd ask me to shower with-"
         scene bg dytwoygaaliciandjinshi 8 with Dissolve(0.8)
-        pause
+        Alicia "Do you want to?"
+        Jinshi "I certainly won't complain about it"
         scene bg dytwoygaaliciandjinshi 9 with Dissolve(0.8)
-        pause
+        Kiara "Uhm no i meant like , I thought you guys wanted me to do it"
         scene bg dytwoygaaliciandjinshi 10 with Dissolve(0.8)
-        pause
+        Jinshi "So if we wanted you to do it , you'd get here with us?"
+        Kiara "Um.."
+        Alicia "Well kiara?.."
         scene bg dytwoygaaliciandjinshi 11 with Dissolve(0.8)
-        pause
+        Alicia "Does that make you comfortable?"
+        Jinshi "I think she needs more motivation"
+        Kiara "Um guys.. I-"
         scene bg dytwoygaaliciandjinshi 12 with Dissolve(0.8)
-        pause
+        Jinshi "You're bisexual?"
+        Kiara "How did you?-.."
+        Alicia "Oh cmon kiara , i caught you staring at my ass hehe"
         scene bg dytwoygaaliciandjinshi 13 with Dissolve(0.8)
-        pause
+        Kiara "Uhm.. it's jsut because you have a toned body so i just-"
         scene bg dytwoygaaliciandjinshi 14 with Dissolve(0.8)
-        pause
+        Alicia "No need to justify sweetheart , we're staring at you too aren't we?"
+        Jinshi "Yeah ask her , my nipples are hard too.."
+        Kiara "( What the hell , am i dreaming or something)"
         scene bg dytwoygaaliciandjinshi 15 with Dissolve(0.8)
-        pause
+        Alicia "You wanna squeeze em? they're super soft"
+        Jinshi "I bet her's are softer"
         scene bg dytwoygaaliciandjinshi 16 with Dissolve(0.8)
-        pause
+        Alicia "Do you wanna perhaps skip the formality?.."
+        Kiara "Is she... uh"
         scene bg dytwoygaaliciandjinshi 17 with Dissolve(0.8)
         pause
         scene bg dytwoygaaliciandjinshi 18 with Dissolve(0.8)
-        pause
+        Kiara "I , I don't know what to-"
+        Alicia "You're still staring by the way hehe"
         scene bg dytwoygaaliciandjinshi 19 with Dissolve(0.8)
-        pause
+        Jinshi "Just give her the full show"
+        Kiara "Oh my god.."
         scene bg dytwoygaaliciandjinshi 20 with Dissolve(0.8)
-        pause
+        Alicia "Cmon Kiara , a little shower never hurt anybody"
         scene bg dytwoygaaliciandjinshi 21 with Dissolve(0.8)
-        pause
+        Kiara "No um i'm good you guys.. carry on.. (What the fuck.. i couldn't take my eyes off of them)"
         scene bg dytwoygaaliciandjinshi 22 with Dissolve(0.8)
-        pause
+        Kiara "Okay it's fine.. maybe open relationships are this way whatever"
         scene bg dytwoygaaliciandjinshi 23 with Dissolve(0.8)
-        pause
+        Kiara "Hm.. I see the red and black , is this it?"
         scene bg dytwoygaaliciandjinshi 24 with Dissolve(0.8)
         pause
         scene bg dytwoygaaliciandjinshi 25 with Dissolve(0.8)
-        pause
+        Kiara "It's a bit tight"
         scene bg dytwoygaaliciandjinshi 26 with Dissolve(0.8)
         pause
         scene bg dytwoygaaliciandjinshi 27 with Dissolve(0.8)
-        pause
+        Kiara "But i definitely love it , plus the sleeves are great too why weren't they wearing them?"
         scene bg dytwoygaaliciandjinshi 28 with Dissolve(0.8)
-        pause
+        Kiara "I guess i'll just say bye and leave.."
         scene bg dytwoygaaliciandjinshi 29 with Dissolve(0.8)
         pause
         scene bg dytwoygaaliciandjinshi 30 with Dissolve(0.8)
-        pause
+        Kiara "Oh my-.."
         scene bg dytwoygaaliciandjinshi 31 with Dissolve(0.8)
-        pause
+        Kiara "This can't be happening for real"
         scene bg dytwoygaaliciandjinshi 32 with Dissolve(0.8)
-        pause
+        Jinshi "You saw her right? I bet she's yummy"
+        Alicia "I think we should go a little slow for starters"
         scene bg dytwoygaaliciandjinshi 33 with Dissolve(0.8)
-        pause
+        Jinshi "Bit late for that don't you think"
+        Alicia "Well she seems shy but i think she's secretly way hornier than even me"
         scene bg dytwoygaaliciandjinshi 34 with Dissolve(0.8)
-        pause
+        Jinshi "If she is then i'm definitely not letting a single drop of her pussy go to waste"
+        Alicia "Oh yeah , you wanna just keep her naked don't you?"
         scene bg dytwoygaaliciandjinshi 35 with Dissolve(0.8)
-        pause
+        Jinshi "Hehe , how can you tell?"
+        Alicia "Your dripping cunt kinda is like a open book right now"
         scene bg dytwoygaaliciandjinshi 36 with Dissolve(0.8)
-        pause
+        Jinshi "I think she'd love your chocolaty body too"
+        Alicia "Maybe so , some white ones do like some brown"
         scene bg dytwoygaaliciandjinshi 37 with Dissolve(0.8)
-        pause
+        Jinshi "Gimme those lips , I am hella horny now"
+        Jinshi "Sure but one thing before that.."
         scene bg dytwoygaaliciandjinshi 38 with Dissolve(0.8)
-        pause
+        Alicia "You know staring at us makes you the pervert babe?"
+        Jinshi "Why stare when you can join love?"
         scene bg dytwoygaaliciandjinshi 39 with Dissolve(0.8)
-        pause
+        Jinshi "I promise i'll make you squirt"
+        Alicia "Jinshii i said slowww"
         scene bg dytwoygaaliciandjinshi 40 with Dissolve(0.8)
-        pause
+        Kiara " I= uh ,  no i was just- I gotta go!"
+        Alicia "Hey wait! haha"
         scene bg dytwoygaaliciandjinshi 41 with Dissolve(0.8)
-        pause
+        Kiara "No , no!  I'm sorry i wasn't in the best state of mind sorry guys!"
         scene bg dytwoygaaliciandjinshi 42 with Dissolve(0.8)
-        pause
+        Kiara "Best state of mind?.. I was totally staring at them agh"
         $ mc_stats.adjust_corruption(5)
         jump chap_2_scene_36
 
     label .part_3:
     
         scene bg dayywoygaolivia 1 with Dissolve(0.8)
-        pause
+        Kiara "I like olivia's , do you mind helping me get it?"
         scene bg dayywoygaolivia 2 with Dissolve(0.8)
-        pause
+        Olivia "Not at all , come along"
         scene bg dayywoygaolivia 3 with Dissolve(0.8)
-        pause
+        Kiara "So this area is seperate from the main one?"
+        Olivia "It's a female only one , the other one is mixed"
         scene bg dayywoygaolivia 4 with Dissolve(0.8)
-        pause
+        Kiara "I Like your hair by the way , not many can nail the bobby classic style"
+        Olivia "Thanks , I've been trying way too many and finally settled with this"
         scene bg dayywoygaolivia 5 with Dissolve(0.8)
-        pause
+        Kiara "How long have you been here by the way? , I mean japan"
+        Olivia "Roughly 3 years , I go back home occassionaly though"
         scene bg dayywoygaolivia 6 with Dissolve(0.8)
-        pause
+        Olivia "We've reached!"
+        Kiara "Um-.. this is open?"
         scene bg dayywoygaolivia 7 with Dissolve(0.8)
-        pause
+        Kiara "I thouught we'd have privacy or individual slots"
+        Olivia "It's just female only , why privacy then?"
         scene bg dayywoygaolivia 8 with Dissolve(0.8)
-        pause
+        Kiara "Uh , I don't wanna make this weird but actually I'm bi-sexual so.."
+        Olivia "Oh , I understand well um you go ahead and shower and i'll keep an eye out"
         scene bg dayywoygaolivia 9 with Dissolve(0.8)
-        pause
+        Kiara "Alright thanks , I'll get started then"
+        Olivia "No worries , I'll go get your gear"
         scene bg dayywoygaolivia 10 with Dissolve(0.8)
-        pause
+        Olivia "Bi-sexual huh.. , I wonder if she's a wild or a soft one"
         scene bg dayywoygaolivia 11 with Dissolve(0.8)
-        pause
+        Olivia "Although she seemed uncomfortable , I think there's a side in her inside that wants to get out"
         scene bg dayywoygaolivia 12 with Dissolve(0.8)
-        pause
+        Olivia "Maybe I should intiate to see her response"
         scene bg dayywoygaolivia 13 with Dissolve(0.8)
         pause
         scene bg dayywoygaolivia 14 with Dissolve(0.8)
-        pause
+        Olivia "I'll place these here i suppose"
         scene bg dayywoygaolivia 15 with Dissolve(0.8)
-        pause
+        Olivia "Kiara I've put your clothes here!"
         scene bg dayywoygaolivia 16 with Dissolve(0.8)
-        pause
+        Kiara "Okay! , I'll get out soon just give me few minutes"
         scene bg dayywoygaolivia 17 with Dissolve(0.8)
         pause
         scene bg dayywoygaolivia 18 with Dissolve(0.8)
-        pause
+        Kiara "Hmm.. cold water can be nice after workout too"
         scene bg dayywoygaolivia 19 with Dissolve(0.8)
         pause
         scene bg dayywoygaolivia 20 with Dissolve(0.8)
-        pause
+        Olivia "Heh even through the glass , i can tell she's a lovely sight to look at"
         scene bg dayywoygaolivia 21 with Dissolve(0.8)
-        pause
+        Olivia "Why is she wearing a bra though?.. She should be comfortbale here"
         scene bg dayywoygaolivia 22 with Dissolve(0.8)
-        pause
+        Olivia "Hmm.. Maybe she-"
         scene bg dayywoygaolivia 23 with Dissolve(0.8)
-        pause
+        Olivia "Maybe i can help her open up.."
         scene bg dayywoygaolivia 24 with Dissolve(0.8)
-        pause
+        Kiara "I should come here in evening only , don't want to share the shower with too many people"
         scene bg dayywoygaolivia 25 with Dissolve(0.8)
-        pause
+        Olivia "Yeah you should , so only you and me can have this time"
         scene bg dayywoygaolivia 26 with Dissolve(0.8)
-        pause
+        Kiara "Uh.. um olivia , I was just getting out actually ."
+        Olivia "Oh no i got in here to have tou stay a bit longer actually"
         scene bg dayywoygaolivia 27 with Dissolve(0.8)
-        pause
+        Kiara "Um i don't really get what you mea-"
+        Olivia "Kiara , the reason you're afraid of girls in company isn't if someone sees you"
         scene bg dayywoygaolivia 28 with Dissolve(0.8)
-        pause
+        Olivia "It's so if someone discovers a hidden side of you"
+        Kiara "I um , well I'm just a bit shy.. is that wrong?"
         scene bg dayywoygaolivia 29 with Dissolve(0.8)
-        pause
+        Olivia "Shy? Or secretly explorative?"
+        Kiara "Um olivia I-"
         scene bg dayywoygaolivia 30 with Dissolve(0.8)
-        pause
+        Kiara "Ah.. what are you doing"
+        Olivia "You'd have stopped me if you wanted to kiara"
         scene bg dayywoygaolivia 31 with Dissolve(0.8)
-        pause
+        Olivia "You're fit enough already , joining yoga is just an excuse to have a little appreciation from otehrs isn't it?"
+        Kiara "I guess so but .. not this kind , I mean-"
         scene bg dayywoygaolivia 32 with Dissolve(0.8)
-        pause
+        Olivia "Then this kind?.. do you enjoy our bodies colliding together in this shower?"
+        Kiara "I think , i don't know how to - it's just so sudden"
         scene bg dayywoygaolivia 33 with Dissolve(0.8)
-        pause
+        Olivia "Just let it happen.. you and i both want it"
+        Kiara "But i can't get into relationships olivia.. not this way"
         scene bg dayywoygaolivia 34 with Dissolve(0.8)
-        pause
+        Olivia "Who said anything about relationships? Me and you can just explore.. that's what you want right"
+        Kiara "Explore?.. what do you mean?"
         scene bg dayywoygaolivia 35 with Dissolve(0.8)
-        pause
+        Olivia "No strings attached , we can just workout and have fun here"
+        Kiara "Do- do you mean friends with beneifits?"
         scene bg dayywoygaolivia 36 with Dissolve(0.8)
-        pause
+        Olivia "Exactly , No one else has to know really . It'll just be the two of us"
+        Kiara "Um , I've never done it.. I just don't know if you'd"
         scene bg dayywoygaolivia 37 with Dissolve(0.8)
-        pause
+        Olivia "Just tell me.. do you want it?"
+        Kiara "Um , Abit but nothing extreme"
         scene bg dayywoygaolivia 38 with Dissolve(0.8)
-        pause
+        Olivia "Ligthen up kiara , It's just a bit of fun"
+        Kiara "So.. what do you want me to do?"
+        Olivia "I want you to stop worrying and just grab this.."
         scene bg dayywoygaolivia 39 with Dissolve(0.8)
-        pause
+        Kiara "Ah.. what is-"
+        Olivia "Do you like it?"
         scene bg dayywoygaolivia 40 with Dissolve(0.8)
-        pause
+        Kiara "Yeah , I'ts actually very soft.."
+        Olivia "Well go on grab em both love"
         scene bg dayywoygaolivia 41 with Dissolve(0.8)
-        pause
+        Kiara "( She has very nice breasts , I really want to just)"
+        Olivia "Your hands are very soft by the way , I like them too"
         scene bg dayywoygaolivia 42 with Dissolve(0.8)
-        pause
+        Kiara "Can i squeeze them?.. abit?"
+        Olivia "They're all yours , feel free sweetheart"
         scene bg dayywoygaolivia 43 with Dissolve(0.8)
         pause
         scene bg dayywoygaolivia 44 with Dissolve(0.8)
-        pause
+        Kiara "Wow , they fit so firmly in my palms"
+        Olivia "I guess you should be my bra then hehe"
         scene bg dayywoygaolivia 45 with Dissolve(0.8)
-        pause
+        Kiara "Hehe , Um wow.. what is this feeling"
+        Olivia "It's what you've been supressing , worried about judgements"
         scene bg dayywoygaolivia 46 with Dissolve(0.8)
-        pause
+        Olivia "I won't judge you , like i said only between us"
+        Kiara "Yeah , only between us.. god these are so nice to grasp"
         scene bg dayywoygaolivia 47 with Dissolve(0.8)
-        pause
+        Olivia "You really are a cutie , let's move abit further shall we"
+        Kiara "Um further?"
         scene bg dayywoygaolivia 48 with Dissolve(0.8)
-        pause
+        Olivia "Let me make you feel good too"
+        Kiara "Ah!.. I um-"
         scene bg dayywoygaolivia 49 with Dissolve(0.8)
-        pause
+        Olivia "That's alright , I can use my leg too"
+        Kiara "I really have never expirienced this feeling before"
         scene bg dayywoygaolivia 50 with Dissolve(0.8)
-        pause
+        Olivia "How about now?"
+        Kiara "I-.. i really want this"
         scene bg dayywoygaolivia 51 with Dissolve(0.8)
-        pause
+        Olivia "I know you do love"
         scene bg dayywoygaolivia 52 with Dissolve(0.8)
-        pause
+        Olivia "I do too , just hadn't found the right one yet"
         scene bg dayywoygaolivia 53 with Dissolve(0.8)
-        pause
+        Olivia "Let's get these off.. i want to feel your skin"
+        Kiara "( Wow I've always wanted someone dominating she's so good at this)"
         scene bg dayywoygaolivia 54 with Dissolve(0.8)
         pause
         scene bg dayywoygaolivia 55 with Dissolve(0.8)
-        pause
+        Olivia "Much better now heh , how do you feel?"
+        Kiara "I feel.. free"
         scene bg dayywoygaolivia 56 with Dissolve(0.8)
-        pause
+        Kiara "Um.. wait i'ma  bit sensitive there please"
+        Olivia "Don't worry i won't touch there yet , I just want you to be comfortable first"
         scene bg dayywoygaolivia 57 with Dissolve(0.8)
-        pause
+        Olivia "What i'm interested in first is that pretty face of yours"
+        Kiara "You - You're pretty too"
         scene bg dayywoygaolivia 58 with Dissolve(0.8)
-        pause
+        Kiara "I'm claiming you here , let me taste your body a little"
+        Kiara "Ha.. this feels so good"
         scene bg dayywoygaolivia 59 with Dissolve(0.8)
-        pause
+        Olivia "It does , your body is just perfect you know that?"
+        Kiara "Thanks , you're lovely to look at too"
         scene bg dayywoygaolivia 60 with Dissolve(0.8)
-        pause
+        Olivia "Feel the wartmh between our legs kiara , despite the cold water it's obvious"
+        Kiara "I feel it.. I want this"
         scene bg dayywoygaolivia 61 with Dissolve(0.8)
-        pause
+        Kiara "No strings attached , just exploring.."
+        Olivia "That's right , no judgements.. just some fun"
         scene bg dayywoygaolivia 62 with Dissolve(0.8)
-        pause
+        Olivia "Give me those lips now.."
+        Kiara "Um.."
         scene bg dayywoygaolivia 63 with Dissolve(0.8)
-        pause
+        Kiara "Olivia , please wait.."
         scene bg dayywoygaolivia 64 with Dissolve(0.8)
-        pause
+        Kiara "I can't , I'can't do a kiss.. sorry"
         scene bg dayywoygaolivia 65 with Dissolve(0.8)
-        pause
+        Olivia "Why so? , what's wrong?"
         scene bg dayywoygaolivia 66 with Dissolve(0.8)
-        pause
+        Kiara "I'm sorry , i love this but i really don't want to share a kiss with someone i don't love.. Please"
+        Olivia "Heh you're one funny girl , gonna let me take your panties off but not kiss you"
         scene bg dayywoygaolivia 67 with Dissolve(0.8)
-        pause
+        Kiara "I know.. I'm sorry it's just personal"
+        Olivia "Hey no worries , I got plenty of other places to appreciate.. besides we can take it step by step"
         scene bg dayywoygaolivia 68 with Dissolve(0.8)
-        pause
+        Kiara "You're okay with this then?.. I'd love to explore a little butt i am afraid of others"
+        Olivia "You can trust me , like i said before really . No strings , just abit of fun"
+        scene blackscreen
+        show titletext "Few minutes later.. , Changing rooms" with dissolve
+        pause 1.0
+        window hide
         scene bg dayywoygaolivia 69 with Dissolve(0.8)
-        pause
-        scene bg dayywoygaolivia 70 with Dissolve(0.8)
-        pause
-        scene bg dayywoygaolivia 71 with Dissolve(0.8)
-        pause
-        scene bg dayywoygaolivia 72 with Dissolve(0.8)
-        pause
-        scene bg dayywoygaolivia 73 with Dissolve(0.8)
-        pause
         $ mc_stats.adjust_corruption(5)
+        Olivia "So what do you think?"
+        Kiara "It looks great, although after what we did i doubt i care about clothes much"
+        scene bg dayywoygaolivia 70 with Dissolve(0.8)
+        Kiara "Though , I do like it. I think the colors are perfect"
+        scene bg dayywoygaolivia 71 with Dissolve(0.8)
+        Olivia "You look good with or without , hehe so don't worry everything suits you"
+        Kiara "Heh , i guess you're right about that"
+        scene bg dayywoygaolivia 72 with Dissolve(0.8)
+        Olivia "There we go , finally confident in your sexuality a little"
+        Kiara "Helps when someone so exquisite is complimenting it"
+        scene bg dayywoygaolivia 73 with Dissolve(0.8)
+        Olivia "Well get used ot it , anyway shall we go then?"
+        Kiara "Yeah , let's get going"
         jump chap_2_scene_36
 
 label chap_2_scene_36:
-
+    scene blackscreen
+    show titletext "Outside yoga center, late evening.." with dissolve
+    pause 1.0
+    window hide
     scene bg daytwohedinhome 1 with Dissolve(0.8)
-    pause
+    Keisuke "( She didn't pick up , I wonder what it was?)"
     scene bg daytwohedinhome 2 with Dissolve(0.8)
-    pause
+    Keisuke "(I can't hide this forever from her , I should just tell her)"
+    Kiara "Hey! I'm back!"
     scene bg daytwohedinhome 3 with Dissolve(0.8)
-    pause
+    Keisuke "Come on in! , Let's head home"
     scene bg daytwohedinhome 4 with Dissolve(0.8)
-    pause
+    Kiara "I guess we'll reach abit late still , I'm sorrya gain"
+    Keisuke "Don't worry , at least all of it got done relatively quickly"
     scene bg daytwohedinhome 5 with Dissolve(0.8)
-    pause
+    Kiara "Let's head home!"
+    Keisuke "Off we go!"
     scene bg daytwohedinhome 6 with Dissolve(0.8)
-    pause
+    Kiara "I made new friends today too"
+    Keisuke "That's great , the more the better when you're new here"
     scene bg daytwohedinhome 7 with Dissolve(0.8)
-    pause
+    Keisuke "Here we are , message me tommorow when you want to go okay?"
+    Kiara "I will , but i do have something to tell you hold on"
     scene bg daytwohedinhome 8 with Dissolve(0.8)
-    pause
+    Kiara "So before i do , I want you to close your eyes"
+    Keisuke "Close my eyes?.. why?"
     scene bg daytwohedinhome 9 with Dissolve(0.8)
-    pause
+    Kiara "Please? , It'll be quick i promise"
+    Keisuke "But , alright sure let's see what you have"
     scene bg daytwohedinhome 10 with Dissolve(0.8)
     pause
     scene bg daytwohedinhome 11 with Dissolve(0.8)
-    pause
+    Kiara "Here you go.."
+    Keisuke "Hm?.."
     scene bg daytwohedinhome 12 with Dissolve(0.8)
-    pause
+    Keisuke "W-what is this?"
+    Kiara "I sold my pendent that my dad got me  , this is 1000$ , I hope you can buy that teddy now"
     scene bg daytwohedinhome 13 with Dissolve(0.8)
-    pause
+    Keisuke "Kiara , I - I can't take this no-"
+    Kiara "You can and you will , It's your little sister cmon treat her better and make her happy"
     scene bg daytwohedinhome 14 with Dissolve(0.8)
-    pause
+    Kiara "Oh also I'd lvoe to meet her if you don't mind"
+    Keisuke "No- not at all.. I'll get you to meet her soon"
     scene bg daytwohedinhome 15 with Dissolve(0.8)
-    pause
+    Kiara "Thanks! , Let me know how she reacted to it okay?"
+    Keisuke "I will.."
     scene bg daytwohedinhome 16 with Dissolve(0.8)
-    pause
+    Kiara "Bye! , goodnight keisuke!"
+    Keisuke "Goodnight.. sleep well"
     scene bg daytwohedinhome 17 with Dissolve(0.8)
-    pause
+    Keisuke "Did she just-.."
     scene bg daytwohedinhome 18 with Dissolve(0.8)
-    pause
+    Keisuke "( She just proved everything i've ever thought of her as)"
     scene bg daytwohedinhome 19 with Dissolve(0.8)
-    pause
+    Keisuke "I don't deserve you kiara .. I don't"
     scene bg daytwohedinhome 20 with Dissolve(0.8)
-    pause
+    Keisuke "She just did that selflessly , and for who? someone that she thinks is a taxi driver?"
     scene bg daytwohedinhome 21 with Dissolve(0.8)
-    pause
+    Keisuke "Kiara , I will be good enough one day.. maybe not as much as you deserve but i'll try my best"
     scene bg daytwohedinhome 22 with Dissolve(0.8)
-    pause
+    Kiara "Everyone , I'm home!"
     scene bg daytwohedinhome 23 with Dissolve(0.8)
-    pause
+    Natsuko "Kiara! .. I'm coming"
     scene bg daytwohedinhome 24 with Dissolve(0.8)
-    pause
+    Xia "Kiara.. i should go"
     scene bg daytwohedinhome 25 with Dissolve(0.8)
     pause
     scene bg daytwohedinhome 26 with Dissolve(0.8)
-    pause
+    Kiara "Grandfather , I am doing my best don't you worry"
     scene bg daytwohedinhome 27 with Dissolve(0.8)
     pause
     scene bg daytwohedinhome 28 with Dissolve(0.8)
-    pause
+    Kiara "Ah! .. natsu?"
+    Natsuko "I'm so glad you're back.."
     scene bg daytwohedinhome 29 with Dissolve(0.8)
-    pause
+    Kiara "I was only gone for 6 hours silly , what's wrong"
     scene bg daytwohedinhome 30 with Dissolve(0.8)
-    pause
+    Natsuko "Nothing is wrong , I just missed you.. 6 hours without you is still 6 hours alone"
+    Kiara "Well I'm here now , so don't worry"
     scene bg daytwohedinhome 31 with Dissolve(0.8)
-    pause
+    Xia "I agree with her , home without you in it now feels a little empty"
     scene bg daytwohedinhome 32 with Dissolve(0.8)
-    pause
+    Kiara "Thank you auntie , I feel way more home here than i ever did back in NY"
+    Xia "Glad to hear that , your food is ready by the way"
     scene bg daytwohedinhome 33 with Dissolve(0.8)
-    pause
+    Kiara "Could you please send it to natsuko's room? I need to just start a stream and login for work"
+    Natsuko "Do you need any help?"
     scene bg daytwohedinhome 34 with Dissolve(0.8)
-    pause
+    Kiara "No  , I'll be fine don't worry you guys have dinner okay"
+    Natsuko "Alright i'll send it along with nobi"
     scene bg daytwohedinhome 35 with Dissolve(0.8)
     pause
     scene bg daytwohedinhome 36 with Dissolve(0.8)
-    pause
+    Natsuko "When do we tell her?"
+    Xia "Not yet, let her relax for a week.. then we can try to"
     jump chap_2_scene_37
 
 label chap_2_scene_37:
-
-
+    scene blackscreen
+    show titletext "Hotel room , Osaka central.." with dissolve
+    pause 1.0
+    window hide
     scene bg daytwodmianscn 1 with Dissolve(0.8)
-    pause
+    Lana "Thank you so much for helping with the bags damian"
     scene bg daytwodmianscn 2 with Dissolve(0.8)
-    pause
+    Damian "Don't mention it , It was the least i could do for you improving my hair haha"
+    Lana "It looks great on you trust me , Let it dry for a bit"
     scene bg daytwodmianscn 3 with Dissolve(0.8)
     pause
     scene bg daytwodmianscn 4 with Dissolve(0.8)
     pause
     scene bg daytwodmianscn 5 with Dissolve(0.8)
-    pause
+    Rin "That was fun , you going tommorow too right?"
     scene bg daytwodmianscn 6 with Dissolve(0.8)
-    pause
+    Lana "Yeah but that'll just be me , need to meet my mom's friends here actually"
     scene bg daytwodmianscn 7 with Dissolve(0.8)
-    pause
+    Rin "You're gonna go meet some boomers while a cutie like this is in your hotel room?"
+    Lana "There you go again.. can you not?"
+    Rin "Speaking of bags , hey damain i wouldn't mind you unpacking me"
     scene bg daytwodmianscn 8 with Dissolve(0.8)
-    pause
+    Damian "Um.."
+    Lana "Rin! , stop that!"
     scene bg daytwodmianscn 9 with Dissolve(0.8)
-    pause
+    Rin "I'm just saying what i feel , I would love to sit on his face if he let me"
+    Damian "Christ you really are something"
+    Lana "Rin stop! do you want him out of here or something?"
     scene bg daytwodmianscn 10 with Dissolve(0.8)
-    pause
+    Rin "I don't! , I want him in me"
+    Lana "Okay enough of that , you go shower and take care of your mood there"
     scene bg daytwodmianscn 11 with Dissolve(0.8)
-    pause
+    Rin "By the way i'm keeping the shower door open , if any of you feel like coming in feel free"
     scene bg daytwodmianscn 12 with Dissolve(0.8)
-    pause
+    Damian "Your friend really just says what's in her mind doesn't she , quite direct"
+    Lana "She's.. yeah one of a kind, anyway come let's chat for a bit"
     scene bg daytwodmianscn 13 with Dissolve(0.8)
-    pause
+    Lana "So you enjoyed hanging today i hope?"
+    Damian "Yeah thanks , probably did need that as a breather"
     scene bg daytwodmianscn 14 with Dissolve(0.8)
-    pause
+    Lana "I'm glad , look i know you're here to meet natsuko regarding something but please let's have a bit fun too here"
+    Damian "Alright i'll stay with you guys as long as it's comfortable"
     scene bg daytwodmianscn 15 with Dissolve(0.8)
-    pause
+    Lana "Oh it's comfortable , I mean you and I always had trips during uni days "
+    Damian "That was fun yeah , but a different time really and a different me"
     scene bg daytwodmianscn 16 with Dissolve(0.8)
-    pause
+    Lana "Do- do you still miss her?.. I mean kiara-"
     scene bg daytwodmianscn 17 with Dissolve(0.8)
-    pause
+    Damian "Of course i do , I'll never forget her lana , She made me better .. she healed me"
+    Lana "I didn't mean it that way I just-"
     scene bg daytwodmianscn 18 with Dissolve(0.8)
-    pause
+    Lana "I'm here for you.. and i want you to know that"
+    Damian "I know you are lana , I need friends around me and i appreciate one i know from long ago"
     scene bg daytwodmianscn 19 with Dissolve(0.8)
-    pause
+    Lana "Can i ask you something?.. Why not try the things you did with kiara with someone else? Maybe you just-"
     scene bg daytwodmianscn 20 with Dissolve(0.8)
-    pause
+    Damian "That's what you all don't get lana.."
     scene bg daytwodmianscn 21 with Dissolve(0.8)
-    pause
+    Lana "What do you mean?.. I mean a new-"
     scene bg daytwodmianscn 22 with Dissolve(0.8)
-    pause
+    Damian "Mom , friends, everyone else.. you guys don't get it"
     scene bg daytwodmianscn 23 with Dissolve(0.8)
-    pause
+    Damian "I don't miss doing things with kiara.."
     scene bg daytwodmianscn 24 with Dissolve(0.8)
-    pause
+    Damian "I miss doing nothing with her , I didn't have to try.. I could just be happy."
     scene bg daytwodmianscn 25 with Dissolve(0.8)
-    pause
+    Damian "It's not easy.. It never will be and i have to accept that but it's so hard"
     scene bg daytwodmianscn 26 with Dissolve(0.8)
-    pause
+    Lana "Please getup.. for once"
+    Damian "Um okay , What is it?"
     scene bg daytwodmianscn 27 with Dissolve(0.8)
-    pause
+    Lana "I know what you mean to say damian I do , but you don't deserve to be sad all the time either"
+    Damian "I'm trying lana , it's just not easy.."
     scene bg daytwodmianscn 28 with Dissolve(0.8)
-    pause
+    Lana "Can you please let me do this one thing?"
+    Damian "What is it?"
     scene bg daytwodmianscn 29 with Dissolve(0.8)
-    pause
+    Damian "Ah.. Lana."
+    Lana "I hate this , you are a great guy and you don't deserve this"
     scene bg daytwodmianscn 30 with Dissolve(0.8)
-    pause
+    Lana "I've been there since the start ,I know what you feel and i'm sorry but i hate seeing you sad"
     scene bg daytwodmianscn 31 with Dissolve(0.8)
-    pause
+    Damian "It's okay lana , I know you don't like it.. hence i try my best to just be cheerful around you"
     scene bg daytwodmianscn 32 with Dissolve(0.8)
-    pause
+    Lana "But you have to fake it for me and i don't like that.. I want you to be happy truly"
+    Damian "It's not all fake lana .. and i have to say sadly that truly happy will take time."
     scene bg daytwodmianscn 33 with Dissolve(0.8)
-    pause
+    Lana  "Do you promise me you'll try at least ?"
+    Damian "I will , once i meet up with natsuko then i'll try to open up more"
     scene bg daytwodmianscn 34 with Dissolve(0.8)
-    pause
+    Lana "No i mean..you can try with.. us"
+    Damian "Lana I-.. You're"
     scene bg daytwodmianscn 35 with Dissolve(0.8)
     pause
     scene bg daytwodmianscn 36 with Dissolve(0.8)
-    pause
+    Lana "We were once together too.. maybe some of still exists?"
+    Damian "Lana that was long ago-"
+    Lana "Just one kiss.. please"
     scene bg daytwodmianscn 37 with Dissolve(0.8)
-    pause
+    Damian "I can't do this lana , I'm sorry.. I promised myself never again after kiara"
+    Lana "But We.. Okay I understand."
     scene bg daytwodmianscn 38 with Dissolve(0.8)
-    pause
+    Damian "I'm sorry lana , you're very beautiful and a great person but i can't replace her , I just can't"
+    Lana "I know.. Can i at least hug you again?"
     scene bg daytwodmianscn 39 with Dissolve(0.8)
-    pause
+    Lana "I'm sorry for everything , you will find purpose again damian. IF not with me then i hope someone at least"
     scene bg daytwodmianscn 40 with Dissolve(0.8)
-    pause
+    Damian "I appreciate it lana but i think enough time has passed to be sure that i'll never be the same again"
     scene bg daytwodmianscn 41 with Dissolve(0.8)
-    pause
+    Damian "I will try but i can't promise you or anyone anything"
+    Lana "It's okay.. ( I hate lying to him so much..)"
     scene bg daytwodmianscn 42 with Dissolve(0.8)
-    pause
+    Damian "( Kiara , i'll never break my promise.. I'll wait for you till the next life)"
     jump chap_2_scene_38
 
 label chap_2_scene_38:
-
+    scene blackscreen
+    show titletext "Natsuko's room , Late night.." with dissolve
+    pause 1.0
+    window hide
     scene bg kiadaytwostrmrsgmnt 1 with Dissolve(0.8)
-    pause
+    Kiara "Okay this is on , what else do i need to do?"
+    Yamazaki "Simply just input the stream key in the tab above there"
     scene bg kiadaytwostrmrsgmnt 2 with Dissolve(0.8)
-    pause
+    Kiara "Alright so now it's asking me to setup a gamertag, what's that?"
+    Yamazaki "A gamer tag is like your name but online , Kind of username on how people would find you"
     scene bg kiadaytwostrmrsgmnt 3 with Dissolve(0.8)
-    pause
+    Kiara "Okay alright um , I want to mix my favorites.. so since i'm catholic i'll take saint"
+    Yamazaki "Okay saaint for intial , what color do you like?"
     scene bg kiadaytwostrmrsgmnt 4 with Dissolve(0.8)
-    pause
+    Kiara "Saintblack then!"
+    Yamazaki "PRetty good but something is missing , you ever had any pets?"
     scene bg kiadaytwostrmrsgmnt 5 with Dissolve(0.8)
-    pause
+    Kiara "I haven't had any but if i ever get a cat i'd like to name it moor"
+    Yamazaki "Saintblackmoor then?"
     scene bg kiadaytwostrmrsgmnt 6 with Dissolve(0.8)
-    pause
+    Kiara "Perfect!"
+    Yamazaki "Doesn't really sound very girly though"
     scene bg kiadaytwostrmrsgmnt 7 with Dissolve(0.8)
-    pause
+    Kiara "Girly? Did i come into your office wearing a pink skirt?"
+    Yamazaki "Ahaah , I suppose that's fair alright."
+    Yamazaki "Saintblackmoor it is then , Okay now turn on webcam and let's get started"
     scene bg kiadaytwostrmrsgmnt 8 with Dissolve(0.8)
-    pause
+    Kiara "W-webcam? why?"
+    Yamazaki "How else will people see you? Kiara you need to make sure you have an idendity"
     scene bg kiadaytwostrmrsgmnt 9 with Dissolve(0.8)
-    pause
+    Yamazaki "I mean we do have vtubers as well but i don't think it'd fit your style"
+    Kiara "Yeah thank's alright but - (This tank top is pretty exposing and loose , Should i change?)"
     menu:
-        "Stream in Tanktop?"
         "It's fine" if mc_stats.current_corruption >= 50:
             #block of code to run
             jump .part_1
@@ -6840,231 +7161,346 @@ label chap_2_scene_38:
     label .part_1:
         
         scene bg kiadaystrmintank 1 with Dissolve(0.8)
-        pause
+        Kiara "Um , alright let's get started then"
         scene bg kiadaystrmintank 2 with Dissolve(0.8)
-        pause
+        Kiara "So i just click on cam icon?"
+        Yamazaki "Yeah click is enough , no need to hold it"
         scene bg kiadaystrmintank 3 with Dissolve(0.8)
-        pause
+        Yamazaki "Y-yeah i see you"
+        Kiara "Oh nothing you just look great"
         scene bg kiadaystrmintank 4 with Dissolve(0.8)
-        pause
+        Yamazaki "Is the green light on your camrea blinking or constant?"
+        Kiara "It's constant"
         scene bg kiadaystrmintank 5 with Dissolve(0.8)
-        pause
+        Kiara "So is quality fine?"
+        Yamazaki "Yeah yeah.. it's fine (Holy shit she looks like a dream girl)"
         scene bg kiadaystrmintank 6 with Dissolve(0.8)
-        pause
+        Nobi "Kiara-san , Dinner"
+        Kiara "Oh hi nobi , please put that over there"
         scene bg kiadaystrmintank 7 with Dissolve(0.8)
-        pause
+        Nobi "Anything else you requiore?"
+        Kiara "No please get some rest , I'll be late"
         scene bg kiadaystrmintank 8 with Dissolve(0.8)
-        pause
+        Yamazaki "Wow , your boyfriend cooks for you? Damn"
+        Kiara "B-boyfriend? No.. He's just a servant"
         scene bg kiadaystrmintank 9 with Dissolve(0.8)
-        pause
+        Yamazaki "Wait.. you're single?"
+        Kiara "Yeah , why? haha"
+        Yamazaki "Oh , no nothing just a bit surprised"
         scene bg kiadaystrmintank 10 with Dissolve(0.8)
-        pause
+        Kiara "Surprised? I'm not that pretty"
+        Yamazaki "Easy to say good genes amigo ( What is she talking about? She's a fucking godess)"
         scene bg kiadaystrmintank 11 with Dissolve(0.8)
-        pause
+        Kiara "Oh cmon , It's alright besides dating is a commitment so i prefer long term"
+        Yamazaki "That i true ( She's not wrong , way too hot for anyone in osaka)"
         scene bg kiadaystrmintank 12 with Dissolve(0.8)
-        pause
+        Yamazaki "So let's set up the games now"
+        Kiara "I'm on it , which one do i start?"
         scene bg kiadaystrmintank 13 with Dissolve(0.8)
-        pause
+        "Chat member" "Hey , cool hair!"
+        Kiara "Hello there , thank you"
         scene bg kiadaystrmintank 14 with Dissolve(0.8)
-        pause
+        "Chat member 2" "You should try Butcher 3 , really good rpg"
+        Yamazaki "Oh yeah that's a good one kiara"
+        Kiara "Okay if you guys say so"
         scene bg kiadaystrmintank 15 with Dissolve(0.8)
-        pause
+        Kiara "I hope the quality is okay for you guys"
+        "Chat member 1" "All good here!"
+        "Chat member 2" "Bit stuttery but not too bad"
+        "Chat member 3" "Crystal clear saint! , keep playing"
+        Yamazaki "Don't worry about quality it'll balance eventually"
         scene bg kiadaystrmintank 16 with Dissolve(0.8)
-        pause
+        Natsuko "Kiara! , I'm sleeping in you room okay?"
+        Kiara "Oh! okay sure! that's fine"
+        Natsuko "You look lovely Cousin!"
         scene bg kiadaystrmintank 17 with Dissolve(0.8)
-        pause
+        Kiara "Thank you! you look better!"
+        "Chat member 2 " "Cousin?"
+        Yamazaki "Cousin?.. "
         scene bg kiadaystrmintank 18 with Dissolve(0.8)
-        pause
+        Kiara "Goodnight natsu , see you tommorow"
         scene bg kiadaystrmintank 19 with Dissolve(0.8)
-        pause
+        Yamazaki "(Man she's got such nice skin)"
         scene bg kiadaystrmintank 20 with Dissolve(0.8)
-        pause
+        Yamazaki "(God i wish that top showed more cleavage)"
         scene bg kiadaystrmintank 21 with Dissolve(0.8)
-        pause
+        Yamazaki "(What the?.. Did it slide down a bit when she moved?)"
         scene bg kiadaystrmintank 22 with Dissolve(0.8)
-        pause
+        Kiara "Sorry guys just my cousin , let's continue"
+        Yamazaki "( Holy shit.. it did! , I gotta make her move more..)"
         scene bg kiadaystrmintank 23 with Dissolve(0.8)
-        pause
+        Kiara "Hmm i wonder where i can find the quest marker here"
         scene bg kiadaystrmintank 24 with Dissolve(0.8)
-        pause
+        Kiara "What do you guys think?"
+        "Chat member 2" "Go to the right side corner!"
+        Yamazaki "( I have an idea)"
         scene bg kiadaystrmintank 25 with Dissolve(0.8)
-        pause
+        Kiara "(Ah! , sorry wait-)"
+        Yamazaki "Whoa is the cam okay? ( Bless these remote controls)"
         scene bg kiadaystrmintank 26 with Dissolve(0.8)
         pause
         scene bg kiadaystrmintank 27 with Dissolve(0.8)
-        pause
+        Kiara "I'm fixing it hold on"
+        "Chatmember" "Wow.."
+        Yamazaki "(Cmon cmon..)"
         scene bg kiadaystrmintank 28 with Dissolve(0.8)
         pause
         scene bg kiadaystrmintank 29 with Dissolve(0.8)
-        pause
+        Yamazaki "(Yes! , it is! okay.. nice)"
         scene bg kiadaystrmintank 30 with Dissolve(0.8)
-        pause
+        Kiara "Is it fixed now?"
+        "Chatmember 2 " "Um no it's not a bit more down we can't see your face"
+        Yamazaki "( This fucker really had to say it , dammit)"
         scene bg kiadaystrmintank 31 with Dissolve(0.8)
-        pause
+        Kiara "Thanks guys , I am sorry it fell suddenly"
         scene bg kiadaystrmintank 32 with Dissolve(0.8)
-        pause
+        "Anon donated 50 $ !"
+        Kiara "What?.. 50 bucks?"
+        Yamazaki "Kiara congrats on your first ever donation!"
         scene bg kiadaystrmintank 33 with Dissolve(0.8)
-        pause
+        Kiara "Hey thanks anon , much appreciated"
+        Yamazaki "Anon just means anonynmus kiara"
         scene bg kiadaystrmintank 34 with Dissolve(0.8)
-        pause
+        Kiara "Oh okay , let's keep going"
+        "Anon donated 100 $ stretch!"
         scene bg kiadaystrmintank 35 with Dissolve(0.8)
-        pause
+        Yamazaki "Someone redeemed 100 $ for a stretch kiara! It's like a simple yawn pose"
+        Kiara "Why would someone donate 100 $ for that?.. Well okay sure"
         scene bg kiadaystrmintank 36 with Dissolve(0.8)
         pause
         scene bg kiadaystrmintank 37 with Dissolve(0.8)
-        pause
+        Kiara "How much longer?"
+        Yamazaki "I think it's about 10 seconds"
         scene bg kiadaystrmintank 38 with Dissolve(0.8)
-        pause
+        Kiara "Okay!"
+        Yamazaki "( Mamma mia , look at that waist i could ride a f1 on those curves)"
         scene bg kiadaystrmintank 39 with Dissolve(0.8)
-        pause
+        Kiara "( I don't get why would someone pay to just see me stretch)"
+        Yamazaki "( Man i would jsut kiss that belly all day)"
         scene bg kiadaystrmintank 40 with Dissolve(0.8)
         pause
         scene bg kiadaystrmintank 41 with Dissolve(0.8)
-        pause
+        Yamazaki "( Hehe yes.. It's working , this money is worth every penny spent)"
         scene bg kiadaystrmintank 42 with Dissolve(0.8)
         pause
         scene bg kiadaystrmintank 43 with Dissolve(0.8)
-        pause
+        Kiara "Alrgiht that's done , now let's continue"
+        Yamazaki "Oh look kiara your viewers have increased!"
         scene bg kiadaystrmintank 44 with Dissolve(0.8)
-        pause
+        Kiara "Oh yeah , hi everyone I'm kiara in case the user is hard to remmeber"
+        "Several chat members" "Wow you look beautiful! , cool new streamer! , You look very nice! , Good hair!"
         scene bg kiadaystrmintank 45 with Dissolve(0.8)
-        pause
+        Kiara "Um well thanks guys I'm new actually so sorry i'm slow at replying ( They're awfully sweet for no reason)"
         scene bg kiadaystrmintank 46 with Dissolve(0.8)
-        pause
+        "Anon donated 120 $!"
+        Yamazaki "It's a redeem for an uWu pose kiara!"
+        Kiara "What the hell is that?"
         scene bg kiadaystrmintank 47 with Dissolve(0.8)
-        pause
+        Yamazaki "Just follow my instructions"
         scene bg kiadaystrmintank 48 with Dissolve(0.8)
-        pause
+        Yamazaki "Get your arms in front of you with fists clenched"
+        Kiara "Alright , afrer that?"
         scene bg kiadaystrmintank 49 with Dissolve(0.8)
-        pause
+        Yamazaki "Thumbs up"
+        Kiara "Okay.."
+        "Chat member 16" "She's really doing it!"
         scene bg kiadaystrmintank 50 with Dissolve(0.8)
-        pause
+        Yamazaki "(Fall a bit more damn you..)"
+        Kiara "Yama?"
         scene bg kiadaystrmintank 51 with Dissolve(0.8)
-        pause
+        Yamazaki "(Oh yess..)"
+        Kiara "Yama?? Hello?"
         scene bg kiadaystrmintank 52 with Dissolve(0.8)
-        pause
+        Kiara "Hurry up i don't want to waste the entire stream on it"
+        Yamazaki "Yeah yeah uh , just join your index finger and then say uwu"
         scene bg kiadaystrmintank 53 with Dissolve(0.8)
-        pause
+        Kiara "Like this?"
+        Yamazaki "No no , uh like joining as if they're both touching their tips"
         scene bg kiadaystrmintank 54 with Dissolve(0.8)
-        pause
+        Yamazaki "Perfect!"
         scene bg kiadaystrmintank 55 with Dissolve(0.8)
-        pause
+        Yamazaki "Yes.. now say it (God look at those titties)"
         scene bg kiadaystrmintank 56 with Dissolve(0.8)
-        pause
+        Kiara "Okay so.. here we go"
         scene bg kiadaystrmintank 57 with Dissolve(0.8)
-        pause
+        "Chat member 11" "Don't point it out anyone , let her be.."
+        Yamazaki "( Damn chat is filling with perverts too , can't blame em though that is a good sight . I'ma grab a lotion)"
         scene bg kiadaystrmintank 58 with Dissolve(0.8)
-        pause
+        Kiara "UwU"
         scene bg kiadaystrmintank 59 with Dissolve(0.8)
-        pause
+        "Chat member 1" "Donated 10$!"
+        "Chat member 2" "Donated 25$!"
+        "Anon donated 50$!"
+        "Chat member 5 donated 35$!"
+        Kiara "( Is uwu something bad? I hope not)"
         scene bg kiadaystrmintank 60 with Dissolve(0.8)
-        pause
+        "Chat member 5" "Don't talk about it"
+        "Chat member 2" "We should tell her it's not good"
+        "Chat membeer 9" "Shhh!"
+        Kiara "(What are they talking about?)"
         scene bg kiadaystrmintank 61 with Dissolve(0.8)
-        pause
+        "Chat member 8 " "But they look so good!"
+        "Chat member 14 " "Shut up!"
+        Kiara "They? look good?.. wh-"
+        "Chat member 2" "Hey loko down!"
         scene bg kiadaystrmintank 62 with Dissolve(0.8)
-        pause
+        Kiara "Down?"
+        "Chat member 14 " "This fucking white knight"
+        "Chat member 5" "Dude cmon!"
         scene bg kiadaystrmintank 63 with Dissolve(0.8)
-        pause
+        Kiara "What the!-- hey i"
         scene bg kiadaystrmintank 64 with Dissolve(0.8)
         pause
         scene bg kiadaystrmintank 65 with Dissolve(0.8)
-        pause
+        Kiara "No! - how did it get so loose?"
         scene bg kiadaystrmintank 66 with Dissolve(0.8)
-        pause
+        Kiara "OKay fuck this , what one earth"
+        "Chat member 11" "Aw man i almost saw her cleavage properly!"
+        "Chat member 6" "Fuck you dude!"
+        "Chat member 2" "Glad she noticed"
         scene bg kiadaystrmintank 67 with Dissolve(0.8)
         pause
         scene bg kiadaystrmintank 68 with Dissolve(0.8)
-        pause
+        Yamazaki "Wait kiara! I didn't know!"
+        Kiara "What the hell do you mean you didn't know?"
         scene bg kiadaystrmintank 69 with Dissolve(0.8)
-        pause
+        Yamazaki "I was afk , and i just didn't notice!"
+        Kiara "Do you have any idea what impression that gave for my first stream?"
         scene bg kiadaystrmintank 70 with Dissolve(0.8)
-        pause
+        Yamazaki "I understand , but look so many people were there and they paid!"
+        Kiara "You think that makes it okay fo rme to almost flash strangers? & they were just discussing my body what were you doing?"
         scene bg kiadaystrmintank 71 with Dissolve(0.8)
-        pause
+        Yamazaki "No! that's not what i meant , look i'm sorry really"
+        Kiara "I don't wanna do this anymore.. you can take your computer back"
         scene bg kiadaystrmintank 72 with Dissolve(0.8)
-        pause
+        Yamazaki "No! look kiara as an apology just keep the computer.. I paid for it anyway"
+        Kiara "You paid for it?.. Why?"
         scene bg kiadaystrmintank 73 with Dissolve(0.8)
-        pause
+        Yamazaki "Well taka told me you wanted to start new and i wanted to help anyway i could"
+        Kiara "Um.. alright I'm sorry"
+        Yamazaki "No! don't be... look we'll try again okay? next time i'll moderate it properly"
         scene bg kiadaystrmintank 74 with Dissolve(0.8)
-        pause
+        Kiara "Well i'm only free next weeek then.. "
+        Yamazaki "That's okay! , I'll wait for you and i promise it won't happen again"
         scene bg kiadaystrmintank 75 with Dissolve(0.8)
-        pause
+        Yamazaki "Look I'm really sorry alright , If you want i'll just go and get someone you're comfy with to moderate"
+        Kiara "(I shouldn't be so hard on him , it wasn't his fault)"
         scene bg kiadaystrmintank 76 with Dissolve(0.8)
-        pause
+        Kiara "Okay.. I'll do it , thanks again.. goodnight"
+        Yamazaki "Thank you so much and you did great today okay? , goodnight!"
         scene bg kiadaystrmintank 77 with Dissolve(0.8)
-        pause
+        Kiara "I should've just been careful about my top , he's right though i did get alot of viewers"
         scene bg kiadaystrmintank 78 with Dissolve(0.8)
-        pause
+        Kiara "Uhm what am i thinking no , I'wont do that it again... I should just rest"
         scene bg kiadaystrmintank 79 with Dissolve(0.8)
         pause
+        $ mc_stats.adjust_corruption(5)
         scene bg kiadaystrmintank 80 with Dissolve(0.8)
         pause
-        $ mc_stats.adjust_corruption(5)
         jump chap_2_scene_39
 
     label .part_2:
         scene bg kiadaytwostrmcloth 1 with Dissolve(0.8)
-        pause
+        Kiara "Um can you give me a moment? I need to change actually"
+        Yamazaki "Oh yeah um are you not dressed properly? I'm sorry i didn't know"
         scene bg kiadaytwostrmcloth 2 with Dissolve(0.8)
-        pause
+        Kiara "No it's just a tanktop bud i'd rather not let people have a wromg impression"
+        Yamazaki "That's totally fine , take your time"
         scene bg kiadaytwostrmcloth 3 with Dissolve(0.8)
-        pause
+        Kiara "I'll be quick just a sec"
         scene bg kiadaytwostrmcloth 4 with Dissolve(0.8)
-        pause
+        Kiara "Back!"
+        Yamazaki "Okay! , start it up now"
         scene bg kiadaytwostrmcloth 5 with Dissolve(0.8)
-        pause
+        Yamazaki "Wow the sweater looks great!"
+        Kiara "Thank you , Um.. is it on?"
+        Yamazaki "Yeah i see you clear and fine , let's start"
         scene bg kiadaytwostrmcloth 6 with Dissolve(0.8)
-        pause
+        Nobi "Kiara-san , Dinner"
+        Kiara "Oh hi nobi , please put that over there"
         scene bg kiadaytwostrmcloth 7 with Dissolve(0.8)
-        pause
+        Nobi "Anything else you requiore?"
+        Kiara "No please get some rest , I'll be late"
         scene bg kiadaytwostrmcloth 8 with Dissolve(0.8)
-        pause
+        Yamazaki "Wow , your boyfriend cooks for you? Damn"
+        Kiara "B-boyfriend? No.. He's just a servant"
         scene bg kiadaytwostrmcloth 9 with Dissolve(0.8)
-        pause
+        Yamazaki "Wait.. you're single?"
+        Kiara "Yeah , why? haha"
+        Yamazaki "Oh , no nothing just a bit surprised"
         scene bg kiadaytwostrmcloth 10 with Dissolve(0.8)
-        pause
+        Kiara "Surprised? I'm not that pretty"
+        Yamazaki "Easy to say good genes amigo"
         scene bg kiadaytwostrmcloth 11 with Dissolve(0.8)
-        pause
+        Kiara "Oh cmon , It's alright besides dating is a commitment so i prefer long term"
+        Yamazaki "That i true , if you're gonna find one better find a permanent one"
         scene bg kiadaytwostrmcloth 12 with Dissolve(0.8)
-        pause
+        Yamazaki "So let's set up the games now"
+        Kiara "I'm on it , which one do i start?"
         scene bg kiadaytwostrmcloth 13 with Dissolve(0.8)
-        pause
+        "Chat member" "Hey , cool hair!"
+        Kiara "Hello there , thank you"
         scene bg kiadaytwostrmcloth 14 with Dissolve(0.8)
-        pause
+        Kiara "Umm.. wait what is this"
         scene bg kiadaytwostrmcloth 15 with Dissolve(0.8)
-        pause
+        Kiara "I hope the quality is okay for you guys"
+        "Chat member 1" "All good here!"
+        "Chat member 2" "Bit stuttery but not too bad"
+        "Chat member 3" "Crystal clear saint! , keep playing"
+        Yamazaki "Don't worry about quality it'll balance eventually"
         scene bg kiadaytwostrmcloth 16 with Dissolve(0.8)
-        pause
+        Natsuko "Kiara! , I'm sleeping in you room okay?"
+        Kiara "Oh! okay sure! that's fine"
+        Natsuko "You look lovely Cousin!"
         scene bg kiadaytwostrmcloth 17 with Dissolve(0.8)
-        pause
+        Kiara "Thanks you!"
+        "Chat member 2 " "Cousin?"
+        Yamazaki "Cousin?.. "
         scene bg kiadaytwostrmcloth 18 with Dissolve(0.8)
-        pause
+        Kiara "You look better! , goodnight okay?"
+        Natsuko "Goodnight! , I love you!"
+        Kiara "Love you too! , Sleep well!"
         scene bg kiadaytwostrmcloth 19 with Dissolve(0.8)
-        pause
+        Kiara "Sorry guys "
+        Yamazaki "(Maybe i can date her cousin? Taka did say she's very beautiful too)"
+        "Chat member 1" "Is she your cousin?"
+        "Chat member 3" "She has a nice name"
         scene bg kiadaytwostrmcloth 20 with Dissolve(0.8)
-        pause
+        Kiara "Yes , she's my cousin she let me use her room for this stream too"
+        "Chat member 3" "Next stream lets bring her on camera!"
+        Yamazaki "If you're comfortable onyl then kiara"
         scene bg kiadaytwostrmcloth 21 with Dissolve(0.8)
-        pause
+        Kiara "I'll have to ask her..-  wait someone donated?"
+        Yamazaki "Oh wow your first donation 35 $ !"
         scene bg kiadaytwostrmcloth 22 with Dissolve(0.8)
-        pause
+        Yamazaki "Second donation 50 $!"
+        Kiara "Wh.. why? I've barely played the game"
         scene bg kiadaytwostrmcloth 23 with Dissolve(0.8)
-        pause
+        "Chat member 2 " "We just like your vibe!"
+        Yamazaki "Sometimes that's enough too kiara"
+        Kiara "Thank you so much guys"
         scene bg kiadaytwostrmcloth 24 with Dissolve(0.8)
-        pause
+        Yamazaki "Someone just donated 80 $ more!"
+        Kiara "What on earth who was that..?"
         scene bg kiadaytwostrmcloth 25 with Dissolve(0.8)
-        pause
+        Kiara "Who was that? it says anon?"
+        Yamazaki "Oh that refers to anonymus kiara , they want to stay hidden"
+        Kiara "Well thanks anon"
         scene bg kiadaytwostrmcloth 26 with Dissolve(0.8)
-        pause
+        Kiara "Okay guys um.. thanks again i need to get some rest though"
+        "Chat member 3" "See you later kiara-san!"
+        "Chat member 2" "Bye goodnight!"
+        Yamazaki " (That anon donation was me.. good thing she dind't ask too many details)"
         scene bg kiadaytwostrmcloth 27 with Dissolve(0.8)
         pause
         scene bg kiadaytwostrmcloth 28 with Dissolve(0.8)
-        pause
+        Kiara "Okay , lets get some shut eye"
         scene bg kiadaytwostrmcloth 29 with Dissolve(0.8)
-        pause
+        Kiara "This streaming thing is nice.. but i don't want to just stay home either"
         scene bg kiadaytwostrmcloth 30 with Dissolve(0.8)
-        pause
+        Kiara "At least i got options now , no more locked to just getting fed at home"
         scene bg kiadaytwostrmcloth 31 with Dissolve(0.8)
-        pause
+        Kiara "I hope you're alright mom.. , I miss you"
         scene bg kiadaytwostrmcloth 32 with Dissolve(0.8)
         pause
         scene bg kiadaytwostrmcloth 33 with Dissolve(0.8)
@@ -7072,151 +7508,196 @@ label chap_2_scene_38:
         jump chap_2_scene_39
 
 label chap_2_scene_39:
-
+    scene blackscreen
+    show titletext "Takahashi Estate , Osaka downtown.." with dissolve
+    pause 1.0
+    window hide
     scene bg keisukereturdhomedytwo 1 with Dissolve(0.8)
-    pause
+    Keisuke "Tommorow she'll have plenty of her friends and day with me.. I hope i can fit in?"
     scene bg keisukereturdhomedytwo 2 with Dissolve(0.8)
-    pause
+    Keisuke "Why isn't ayane picking up?"
     scene bg keisukereturdhomedytwo 3 with Dissolve(0.8)
     pause
     scene bg keisukereturdhomedytwo 4 with Dissolve(0.8)
     pause
     scene bg keisukereturdhomedytwo 5 with Dissolve(0.8)
-    pause
+    Keisuke "I should just go and check up"
     scene bg keisukereturdhomedytwo 6 with Dissolve(0.8)
-    pause
+    Keisuke "Ayane? hello?"
     scene bg keisukereturdhomedytwo 7 with Dissolve(0.8)
-    pause
+    Keisuke "Not here either?.. where is she?"
     scene bg keisukereturdhomedytwo 8 with Dissolve(0.8)
-    pause
+    Keisuke "Ayane! , are you in the basement?"
     scene bg keisukereturdhomedytwo 9 with Dissolve(0.8)
-    pause
+    Keisuke "Ayane?! , are you here I-"
     scene bg keisukereturdhomedytwo 10 with Dissolve(0.8)
-    pause
+    Keisuke "Where is she?.. She's mostly in ktichen around this time"
     scene bg keisukereturdhomedytwo 11 with Dissolve(0.8)
-    pause
+    Keisuke "AYANE! , can you hear me? hello?"
     scene bg keisukereturdhomedytwo 12 with Dissolve(0.8)
-    pause
+    Keisuke "(What on earth.. where is the chef?)"
     scene bg keisukereturdhomedytwo 13 with Dissolve(0.8)
-    pause
+    Keisuke "Not even at pool , Where is she?"
     scene bg keisukereturdhomedytwo 14 with Dissolve(0.8)
-    pause
+    Keisuke "Aya-... who-"
+    "???" "Took your time big brother , she was worried"
     scene bg keisukereturdhomedytwo 15 with Dissolve(0.8)
-    pause
+    Ayane "MMhhmph , mmhph"
+    "???" "I really don't like to be kept waiting , you're lucky she had no weapons"
+    Keisuke "W-what is this.. who are you?"
     scene bg keisukereturdhomedytwo 16 with Dissolve(0.8)
-    pause
+    AgentWong "Luxury of questions is upto me , Mr. Keisuke takahashi"
     scene bg keisukereturdhomedytwo 17 with Dissolve(0.8)
-    pause
+    AgentWong "Come sit Keisuke , Let us have a chat"
+    Keisuke "Okay .. okay just just please don't hurt her"
     scene bg keisukereturdhomedytwo 18 with Dissolve(0.8)
-    pause
+    Keisuke "Ayane.. It- It's going to be alright okay? I'm here"
+    Ayane "MMpph? mmmmmmmmmm! , mmmph!"
+    AgentWong "Making promises you can't keep huh?"
     scene bg keisukereturdhomedytwo 19 with Dissolve(0.8)
-    pause
+    Keisuke "Look - Please just don't hurt her.. I'll do whatever you want.. whoever is paying you i'll double- no Triple it"
     scene bg keisukereturdhomedytwo 20 with Dissolve(0.8)
-    pause
+    AgentWong "Stop testing my patience and come here , Or you won't have a sister to save"
+    Keisuke "Okay! okay! , fine.. fine I'm coming."
     scene bg keisukereturdhomedytwo 21 with Dissolve(0.8)
-    pause
+    Ayane "MMhh... mhhph *Crying*"
+    Keisuke "Ayane.. just relax.. I'm here"
+    AgentWong "Cmon cmon , nice and slow"
     scene bg keisukereturdhomedytwo 22 with Dissolve(0.8)
-    pause
+    Keisuke "What do you want?.. who  are you?"
+    AgentWong "Did you not hear me clearly?"
     scene bg keisukereturdhomedytwo 23 with Dissolve(0.8)
-    pause
+    AgentWong "I said I'm the one asking questions!"
+    Ayane "MMppph! mmmmmmmmmmphh! mmmph!"
+    Keisuke "Okay okay! I'm sorry alright.. just yes ask"
     scene bg keisukereturdhomedytwo 24 with Dissolve(0.8)
-    pause
+    "*Thud*"
+    Keisuke "What did you do!?"
     scene bg keisukereturdhomedytwo 25 with Dissolve(0.8)
-    pause
+    AgentWong "Giving her a good nap , don't worry by the time she'll be up i'll be long gone"
     scene bg keisukereturdhomedytwo 26 with Dissolve(0.8)
-    pause
+    AgentWong "However whether she'll find you alive or not is upto your answers"
+    Keisuke "I really don't know what you're talking about.."
     scene bg keisukereturdhomedytwo 27 with Dissolve(0.8)
-    pause
+    AgentWong "Of course you don't , It's regarding your new occupation and your customer kiara hall , let's head upstairs.. let us have that chat"
+    Keisuke "Fine.. Okay"
     scene bg keisukereturdhomedytwo 28 with Dissolve(0.8)
-    pause
+    AgentWong "Tell me everything , try not to be smart I'm loose on the trigger today"
+    Keisuke "I met Kiara when we were kids , I met her in Nara , she stayed here for 2 years and in that time i just"
+    AgentWong "Just what?"
     scene bg keisukereturdhomedytwo 29 with Dissolve(0.8)
-    pause
+    Keisuke "I fell for her , there was no person like her , it was as if she could sense every little thing id be sad about and make me happy immediately"
+    AgentWong "Continue.."
     scene bg keisukereturdhomedytwo 30 with Dissolve(0.8)
-    pause
+    Keisuke "When she was leaving japan she said she'd come back after her studies finish.. and then i found out"
+    AgentWong "Her memories got erased.."
     scene bg keisukereturdhomedytwo 31 with Dissolve(0.8)
-    pause
+    Keisuke "How do you know-"
+    AgentWong "Leave that to me.. so she doesn't remember you at all?"
     scene bg keisukereturdhomedytwo 32 with Dissolve(0.8)
-    pause
+    Keisuke "No.. no she doesn't"
+    AgentWong "I see"
     scene bg keisukereturdhomedytwo 33 with Dissolve(0.8)
-    pause
+    Keisuke "It hurts so fucking much.. because i remember everything , every little bit of her  , every moment we spent , even now meeting her again she's the same"
     scene bg keisukereturdhomedytwo 34 with Dissolve(0.8)
-    pause
+    Keisuke "I missed her so much , i never got to confess my love because i felt i wasn't good enough for her back then , so i worked hard and got to where i am.. but it was too late"
     scene bg keisukereturdhomedytwo 35 with Dissolve(0.8)
-    pause
+    Keisuke "Now that she's here all i want is to make sure she's safe and happy.. , If fate decides to get us back together then so be it , otherwise i'll remain the friend she needs"
     scene bg keisukereturdhomedytwo 36 with Dissolve(0.8)
-    pause
+    AgentWong "Do you know what happened to her in new york?"
+    Keisuke "I don't know everything , all i got to know was that memory erasure and her death being faked , Why? how? when? nothing else."
     scene bg keisukereturdhomedytwo 37 with Dissolve(0.8)
-    pause
+    AgentWong "Well.. so why this taxi facade? why not come out and say who you are?"
+    Keisuke "I don't know.. it might affect her in some way and i don't want to risk it.. "
     scene bg keisukereturdhomedytwo 38 with Dissolve(0.8)
-    pause
+    Keisuke "At least this way i get to meet the same person i did years ago.. To her im just a normal guy and to me she's that rich girl who has the humblest of heart it's just like our past "
+    AgentWong "So you're recreating what you had once.."
     scene bg keisukereturdhomedytwo 39 with Dissolve(0.8)
-    pause
+    AgentWong "I'm hired to kill anyone trying to get too close to her or harm her , So i'll ask you this.. What if she doesn't want to be with you again?"
+    Keisuke " Then i'll respect that but.. i'm not leaving , I won't let her be alone again."
     scene bg keisukereturdhomedytwo 40 with Dissolve(0.8)
-    pause
+    AgentWong "Ah!"
+    Keisuke "I love her and i always will , and i don't care who or what gets in the way.. , I'll never abandon her"
     scene bg keisukereturdhomedytwo 41 with Dissolve(0.8)
-    pause
+    Keisuke "So if what you want is me outside her life now , I'm afraid you're going to have to pull this trigger"
+    AgentWong "( He's..)"
     scene bg keisukereturdhomedytwo 42 with Dissolve(0.8)
-    pause
+    AgentWong "You're willing to die for this?"
+    Keisuke "Without her I'm dead anyway.. and honestly"
     scene bg keisukereturdhomedytwo 43 with Dissolve(0.8)
-    pause
+    Keisuke "Maybe i need her in my life more than you need that money in your account"
+    AgentWong "Sigh.."
     scene bg keisukereturdhomedytwo 44 with Dissolve(0.8)
-    pause
+    Keisuke "W-what.."
     scene bg keisukereturdhomedytwo 45 with Dissolve(0.8)
     pause
     scene bg keisukereturdhomedytwo 46 with Dissolve(0.8)
-    pause
+    AgentWong "Can i have some water please?"
+    Keisuke "O-okay.. sure"
     scene bg keisukereturdhomedytwo 47 with Dissolve(0.8)
-    pause
+    Keisuke "Why did she throw the gun?.. who is this girl?"
     scene bg keisukereturdhomedytwo 48 with Dissolve(0.8)
-    pause
+    "Keisuke's words" "I love her and i won't abandon her this time , not again.."
+    AgentWong "He really loves her.."
     scene bg keisukereturdhomedytwo 49 with Dissolve(0.8)
-    pause
+    AgentWong "I can't do this.. Dammit"
     scene bg keisukereturdhomedytwo 50 with Dissolve(0.8)
     pause
     scene bg keisukereturdhomedytwo 51 with Dissolve(0.8)
-    pause
+    Keisuke "Hey.. your wa-"
     scene bg keisukereturdhomedytwo 52 with Dissolve(0.8)
-    pause
+    Keisuke "She's gone.. did she spare me?"
     scene bg keisukereturdhomedytwo 53 with Dissolve(0.8)
-    pause
+    Keisuke "Kiara.. I hope you're sleeping peacefully"
     #ADD NY LOADING
     jump chap_2_scene_40
 
 label chap_2_scene_40:
+    scene blackscreen
+    show titletext "Veronica's house , Early morning.." with dissolve
+    pause 1.0
+    window hide
     scene bg dytwoveroevestrt 1 with Dissolve(0.8)
     pause
     scene bg dytwoveroevestrt 2 with Dissolve(0.8)
-    pause
+    Veronica "Hmm mhm , I hope she'll like this i haven't made pie in a while"
     scene bg dytwoveroevestrt 3 with Dissolve(0.8)
-    pause
+    Veronica "Though she'll probably go easy on me but i still want her to have a good breakfast"
     scene bg dytwoveroevestrt 4 with Dissolve(0.8)
-    pause
+    Veronica "Hmm mhm *Humming music*"
     scene bg dytwoveroevestrt 5 with Dissolve(0.8)
     pause
     scene bg dytwoveroevestrt 6 with Dissolve(0.8)
-    pause
+    Evelyn "( There you are..)"
     scene bg dytwoveroevestrt 7 with Dissolve(0.8)
-    pause
+    Evelyn "( She's cooking for me i think)"
     scene bg dytwoveroevestrt 8 with Dissolve(0.8)
-    pause
+    Evelyn "( Okay .. quiet and slow)"
     scene bg dytwoveroevestrt 9 with Dissolve(0.8)
-    pause
+    Veronica "It looks good , just a bit more-"
     scene bg dytwoveroevestrt 10 with Dissolve(0.8)
-    pause
+    Veronica "Aha hey-"
+    Evelyn "Guess who and you get a prize?"
     scene bg dytwoveroevestrt 11 with Dissolve(0.8)
-    pause
+    Veronica "The most beautiful person on thsi planet?"
+    Evelyn "Well your'e half right , you're the winner of that actually"
     scene bg dytwoveroevestrt 12 with Dissolve(0.8)
-    pause
+    Evelyn "Though i'm feeling quite good , so.. what prize would you like?"
+    Veronica "Oh it's standing in front of me right now"
     scene bg dytwoveroevestrt 13 with Dissolve(0.8)
-    pause
+    Evelyn "Well go on.. claim it then"
+    Veronica "I mean if you insis on it then-"
     scene bg dytwoveroevestrt 14 with Dissolve(0.8)
-    pause
+    Evelyn "mm.."
+    Veronica "Mmm.."
+    "*Bell rings*"
     scene bg dytwoveroevestrt 15 with Dissolve(0.8)
-    pause
+    Veronica "Ah that must be the mail , I'll go grab it before he runs away"
+    Evelyn "Awe.. what a douche he is"
     scene bg dytwoveroevestrt 16 with Dissolve(0.8)
-    pause
+    Evelyn "( Hmm.. I'm so glad last night happened )"
     scene bg dytwoveroevestrt 17 with Dissolve(0.8)
-    pause
+    Evelyn "( I love you so much V , can't wait for us to move on to the next step)"
     $ renpy.save("quick-1")
     "0.3 END"
     $ renpy.quit()
