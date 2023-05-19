@@ -2188,7 +2188,7 @@ label lanaafterintro:
         "Deliveryguy" "Should I maybe touch it?... this has to be intentional. "
         show bg lanaafterintro 26 with Dissolve(0.8)
         stop music
-        jump kiaraandtaka.part_2
+        jump .part_2
 
     label .part_2:
         show bg lanaafterintro 27 with Dissolve(0.8)
