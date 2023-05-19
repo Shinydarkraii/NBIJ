@@ -6691,7 +6691,7 @@ label chap_2_scene_35:
         Jinshi "I promise i'll make you squirt"
         Alicia "Jinshii i said slowww"
         scene bg dytwoygaaliciandjinshi 40 with Dissolve(0.8)
-        Kiara " I= uh ,  no i was just- I gotta go!"
+        Kiara " I- uh ,  no i was just- I gotta go!"
         Alicia "Hey wait! haha"
         scene bg dytwoygaaliciandjinshi 41 with Dissolve(0.8)
         Kiara "No , no!  I'm sorry i wasn't in the best state of mind sorry guys!"
@@ -6761,7 +6761,7 @@ label chap_2_scene_35:
         Olivia "Yeah you should , so only you and me can have this time"
         scene bg dayywoygaolivia 26 with Dissolve(0.8)
         Kiara "Uh.. um olivia , I was just getting out actually ."
-        Olivia "Oh no i got in here to have tou stay a bit longer actually"
+        Olivia "Oh no i got in here to have you stay a bit longer actually"
         scene bg dayywoygaolivia 27 with Dissolve(0.8)
         Kiara "Um i don't really get what you mea-"
         Olivia "Kiara , the reason you're afraid of girls in company isn't if someone sees you"
@@ -6775,7 +6775,7 @@ label chap_2_scene_35:
         Kiara "Ah.. what are you doing"
         Olivia "You'd have stopped me if you wanted to kiara"
         scene bg dayywoygaolivia 31 with Dissolve(0.8)
-        Olivia "You're fit enough already , joining yoga is just an excuse to have a little appreciation from otehrs isn't it?"
+        Olivia "You're fit enough already , joining yoga is just an excuse to have a little appreciation from others isn't it?"
         Kiara "I guess so but .. not this kind , I mean-"
         scene bg dayywoygaolivia 32 with Dissolve(0.8)
         Olivia "Then this kind?.. do you enjoy our bodies colliding together in this shower?"
@@ -7031,7 +7031,7 @@ label chap_2_scene_37:
     Damian "Christ you really are something"
     Lana "Rin stop! do you want him out of here or something?"
     scene bg daytwodmianscn 10 with Dissolve(0.8)
-    Rin "I don't! , I want him in me"
+    Rin "I don't! , Rather the opposite actually since I want him in me"
     Lana "Okay enough of that , you go shower and take care of your mood there"
     scene bg daytwodmianscn 11 with Dissolve(0.8)
     Rin "By the way i'm keeping the shower door open , if any of you feel like coming in feel free"
