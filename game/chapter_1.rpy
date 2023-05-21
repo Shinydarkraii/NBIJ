@@ -2393,7 +2393,7 @@ label kiaraandtaka:
         Kiara "( I didn't expect this... What do I do?)"
 
         if _in_replay:
-            call photoshootleatherchoice2
+            call photoshootleatherchoice2 from _call_photoshootleatherchoice2_1
             jump .part_1
         menu:
             "I can't do this , just because he's gay doesn't mean I can be in front of him like that.":
@@ -3175,9 +3175,9 @@ label hotel:
     show bg mumgrop 1 with Dissolve(0.8)
     Dennis "(Lets see how she reacts to a little touch)"
     show bg mumgrop 2 with Dissolve(0.8)
-    Dennis "(I'd love to bang em both but one should be good for dinner , here we go.)"
+    Dennis "(I'd love to bang em both,  but one should be good for dinner hehe.)"
     show bg mumgrop 3 with Dissolve(0.8)
-    Dennis "Here goes nothing!"
+    Dennis "( Here goes nothing!)"
     stop music
     show bg mumgrop 4 with Dissolve(0.8)
     play music "/audio/surprisedgrop.ogg" noloop
@@ -3276,7 +3276,7 @@ label accmumelv:
     show bg mumelv 12 with Dissolve(0.8)
     Dennis "My fingers feel good don't they?"
     show bg mumelv 12 with Dissolve(0.8)
-    Mia  "Sigh... just stay quiet..."
+    Mia  "Sigh... just stay quiet"
     Mia  "Look I did what you asked , you've seen me now can I go please?"
     show bg mumelv 12 with Dissolve(0.8)
     Dennis "Fair I suppose , but two things left , lets see you properly ."
@@ -3380,7 +3380,7 @@ label rejecthotelmom:
     show bg htlroom 21 with Dissolve(0.8)
     Dennis "Lifting bags now then I'll lift their cheeks, later!"
     show bg htlroom 22 with Dissolve(0.8)
-    Kiara "They've grown a lot since I started uni , hopefully not much more since I like my neck not in pain."
+    Kiara "They've grown a lot since I started uni. Hopefully, not much more, since I like my neck not in pain."
     show bg htlroom 23 with Dissolve(0.8)
     Kiara "Now then where were we."
     show bg htlroom 24 with Dissolve(0.8)
@@ -3612,7 +3612,7 @@ label lanaAcpt2:
     show bg lanaelv 6 with Dissolve(0.8)
     Lana "Jesus you can't be-"
     show bg lanaelv 6 with Dissolve(0.8)
-    Dennis "Shut up let me show you how much of a slut you are."
+    Dennis "Shut up , let me show you how much of a slut you are."
     show bg lanaelv 6 with Dissolve(0.8)
     Lana "What are you hey- ?"
     show bg lanaelv 8 with Dissolve(0.8)

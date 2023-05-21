@@ -7135,7 +7135,7 @@ label chap_2_scene_38:
     Kiara "Saintblack then!"
     Yamazaki "PRetty good but something is missing , you ever had any pets?"
     scene bg kiadaytwostrmrsgmnt 5 with Dissolve(0.8)
-    Kiara "I haven't had any but if i ever get a cat i'd like to name it moor"
+    Kiara "I haven't had any , but if i ever get a cat i'd like to name it moor"
     Yamazaki "Saintblackmoor then?"
     scene bg kiadaytwostrmrsgmnt 6 with Dissolve(0.8)
     Kiara "Perfect!"
@@ -7143,13 +7143,13 @@ label chap_2_scene_38:
     scene bg kiadaytwostrmrsgmnt 7 with Dissolve(0.8)
     Kiara "Girly? Did i come into your office wearing a pink skirt?"
     Yamazaki "Ahaah , I suppose that's fair alright."
-    Yamazaki "Saintblackmoor it is then , Okay now turn on webcam and let's get started"
+    Yamazaki "SaintBlackmoor it is, then. Okay, now turn on the webcam, and let's get started."
     scene bg kiadaytwostrmrsgmnt 8 with Dissolve(0.8)
     Kiara "W-webcam? why?"
     Yamazaki "How else will people see you? Kiara you need to make sure you have an idendity"
     scene bg kiadaytwostrmrsgmnt 9 with Dissolve(0.8)
-    Yamazaki "I mean we do have vtubers as well but i don't think it'd fit your style"
-    Kiara "Yeah thank's alright but - (This tank top is pretty exposing and loose , Should i change?)"
+    Yamazaki "I mean, we do have VTubers as well, but I don't think it would fit your style."
+    Kiara "Yeah thankss alright but - (This tank top is pretty exposing and loose , Should i change?)"
     menu:
         "It's fine" if mc_stats.current_corruption >= 50:
             #block of code to run
@@ -7256,7 +7256,7 @@ label chap_2_scene_38:
         scene bg kiadaystrmintank 32 with Dissolve(0.8)
         "Anon donated 50 $ !"
         Kiara "What?.. 50 bucks?"
-        Yamazaki "Kiara congrats on your first ever donation!"
+        Yamazaki "Kiara , congrats on your first ever donation!"
         scene bg kiadaystrmintank 33 with Dissolve(0.8)
         Kiara "Hey thanks anon , much appreciated"
         Yamazaki "Anon just means anonynmus kiara"
@@ -7265,7 +7265,7 @@ label chap_2_scene_38:
         "Anon donated 100 $ stretch!"
         scene bg kiadaystrmintank 35 with Dissolve(0.8)
         Yamazaki "Someone redeemed 100 $ for a stretch kiara! It's like a simple yawn pose"
-        Kiara "Why would someone donate 100 $ for that?.. Well okay sure"
+        Kiara "Why would someone-.. Well okay sure"
         scene bg kiadaystrmintank 36 with Dissolve(0.8)
         pause
         scene bg kiadaystrmintank 37 with Dissolve(0.8)
@@ -7287,10 +7287,10 @@ label chap_2_scene_38:
         Kiara "Alrgiht that's done , now let's continue"
         Yamazaki "Oh look kiara your viewers have increased!"
         scene bg kiadaystrmintank 44 with Dissolve(0.8)
-        Kiara "Oh yeah , hi everyone I'm kiara in case the user is hard to remmeber"
+        Kiara "Oh yeah, hi everyone! New here, I'm Kiara, in case the user name is hard to remember."
         "Several chat members" "Wow you look beautiful! , cool new streamer! , You look very nice! , Good hair!"
         scene bg kiadaystrmintank 45 with Dissolve(0.8)
-        Kiara "Um well thanks guys I'm new actually so sorry i'm slow at replying ( They're awfully sweet for no reason)"
+        Kiara "Um, well, thanks, guys. I'm new, actually, so sorry I'm slow at replying. (They're awfully sweet for no reason.)"
         scene bg kiadaystrmintank 46 with Dissolve(0.8)
         "Anon donated 120 $!"
         Yamazaki "It's a redeem for an uWu pose kiara!"
@@ -7368,7 +7368,7 @@ label chap_2_scene_38:
         Kiara "Do you have any idea what impression that gave for my first stream?"
         scene bg kiadaystrmintank 70 with Dissolve(0.8)
         Yamazaki "I understand , but look so many people were there and they paid!"
-        Kiara "You think that makes it okay fo rme to almost flash strangers? & they were just discussing my body what were you doing?"
+        Kiara "You think that makes it okay for me to almost flash strangers? And they were just discussing my body. What were you doing?"
         scene bg kiadaystrmintank 71 with Dissolve(0.8)
         Yamazaki "No! that's not what i meant , look i'm sorry really"
         Kiara "I don't wanna do this anymore.. you can take your computer back"
@@ -7383,15 +7383,15 @@ label chap_2_scene_38:
         Kiara "Well i'm only free next weeek then.. "
         Yamazaki "That's okay! , I'll wait for you and i promise it won't happen again"
         scene bg kiadaystrmintank 75 with Dissolve(0.8)
-        Yamazaki "Look I'm really sorry alright , If you want i'll just go and get someone you're comfy with to moderate"
+        Yamazaki "Look, I'm really sorry, alright? If you want, I'll just go and get someone you're comfortable with to moderate."
         Kiara "(I shouldn't be so hard on him , it wasn't his fault)"
         scene bg kiadaystrmintank 76 with Dissolve(0.8)
         Kiara "Okay.. I'll do it , thanks again.. goodnight"
         Yamazaki "Thank you so much and you did great today okay? , goodnight!"
         scene bg kiadaystrmintank 77 with Dissolve(0.8)
-        Kiara "I should've just been careful about my top , he's right though i did get alot of viewers"
+        Kiara "I should've just been careful about my top. He's right, though. I did get a lot of viewers."
         scene bg kiadaystrmintank 78 with Dissolve(0.8)
-        Kiara "Uhm what am i thinking no , I'wont do that it again... I should just rest"
+        Kiara "Uhm, what am I thinking? No, I won't do that again... I should just rest."
         scene bg kiadaystrmintank 79 with Dissolve(0.8)
         pause
         $ mc_stats.adjust_corruption(5)
@@ -7401,10 +7401,10 @@ label chap_2_scene_38:
 
     label .part_2:
         scene bg kiadaytwostrmcloth 1 with Dissolve(0.8)
-        Kiara "Um can you give me a moment? I need to change actually"
-        Yamazaki "Oh yeah um are you not dressed properly? I'm sorry i didn't know"
+        Kiara "Uhm can you give me a moment? I need to change actually"
+        Yamazaki "Oh yeah um, are you not dressed properly? I'm sorry I didn't know"
         scene bg kiadaytwostrmcloth 2 with Dissolve(0.8)
-        Kiara "No it's just a tanktop bud i'd rather not let people have a wromg impression"
+        Kiara "No, it's just a tank top,  but I'd rather not let people have the wrong impression."
         Yamazaki "That's totally fine , take your time"
         scene bg kiadaytwostrmcloth 3 with Dissolve(0.8)
         Kiara "I'll be quick just a sec"
@@ -7432,8 +7432,8 @@ label chap_2_scene_38:
         Kiara "Surprised? I'm not that pretty"
         Yamazaki "Easy to say good genes amigo"
         scene bg kiadaytwostrmcloth 11 with Dissolve(0.8)
-        Kiara "Oh cmon , It's alright besides dating is a commitment so i prefer long term"
-        Yamazaki "That i true , if you're gonna find one better find a permanent one"
+        Kiara "Oh, come on. It's alright. Besides, dating is a commitment, so I prefer long-term."
+        Yamazaki "That is true. If you're going to find one, better find a permanent one."
         scene bg kiadaytwostrmcloth 12 with Dissolve(0.8)
         Yamazaki "So let's set up the games now"
         Kiara "I'm on it , which one do i start?"
@@ -7451,9 +7451,9 @@ label chap_2_scene_38:
         scene bg kiadaytwostrmcloth 16 with Dissolve(0.8)
         Natsuko "Kiara! , I'm sleeping in you room okay?"
         Kiara "Oh! okay sure! that's fine"
-        Natsuko "You look lovely Cousin!"
+        Natsuko "You look lovely by the way sweet Cousin!"
         scene bg kiadaytwostrmcloth 17 with Dissolve(0.8)
-        Kiara "Thanks you!"
+        Kiara "Aheh , are you gonna make me blush on stream? thank you!"
         "Chat member 2 " "Cousin?"
         Yamazaki "Cousin?.. "
         scene bg kiadaytwostrmcloth 18 with Dissolve(0.8)
@@ -7462,11 +7462,11 @@ label chap_2_scene_38:
         Kiara "Love you too! , Sleep well!"
         scene bg kiadaytwostrmcloth 19 with Dissolve(0.8)
         Kiara "Sorry guys "
-        Yamazaki "(Maybe i can date her cousin? Taka did say she's very beautiful too)"
+        Yamazaki "(Maybe i can ask her cousin about something? Taka did say she's very beautiful too)"
         "Chat member 1" "Is she your cousin?"
         "Chat member 3" "She has a nice name"
         scene bg kiadaytwostrmcloth 20 with Dissolve(0.8)
-        Kiara "Yes , she's my cousin she let me use her room for this stream too"
+        Kiara "Yes, she's my cousin. She let me use her room for this stream too."
         "Chat member 3" "Next stream lets bring her on camera!"
         Yamazaki "If you're comfortable onyl then kiara"
         scene bg kiadaytwostrmcloth 21 with Dissolve(0.8)
@@ -7490,7 +7490,7 @@ label chap_2_scene_38:
         Kiara "Okay guys um.. thanks again i need to get some rest though"
         "Chat member 3" "See you later kiara-san!"
         "Chat member 2" "Bye goodnight!"
-        Yamazaki " (That anon donation was me.. good thing she dind't ask too many details)"
+        Yamazaki " ( That anon donation was me.. good thing she dind't ask too many details)"
         scene bg kiadaytwostrmcloth 27 with Dissolve(0.8)
         pause
         scene bg kiadaytwostrmcloth 28 with Dissolve(0.8)
@@ -7498,7 +7498,7 @@ label chap_2_scene_38:
         scene bg kiadaytwostrmcloth 29 with Dissolve(0.8)
         Kiara "This streaming thing is nice.. but i don't want to just stay home either"
         scene bg kiadaytwostrmcloth 30 with Dissolve(0.8)
-        Kiara "At least i got options now , no more locked to just getting fed at home"
+        Kiara "At least I have options now. No more being locked to just getting carried on a peddle"
         scene bg kiadaytwostrmcloth 31 with Dissolve(0.8)
         Kiara "I hope you're alright mom.. , I miss you"
         scene bg kiadaytwostrmcloth 32 with Dissolve(0.8)
@@ -7513,7 +7513,7 @@ label chap_2_scene_39:
     pause 1.0
     window hide
     scene bg keisukereturdhomedytwo 1 with Dissolve(0.8)
-    Keisuke "Tommorow she'll have plenty of her friends and day with me.. I hope i can fit in?"
+    Keisuke "Tommorow she'll have plenty of her friends and day with me.. I hope i can fit in"
     scene bg keisukereturdhomedytwo 2 with Dissolve(0.8)
     Keisuke "Why isn't ayane picking up?"
     scene bg keisukereturdhomedytwo 3 with Dissolve(0.8)
@@ -7539,25 +7539,25 @@ label chap_2_scene_39:
     scene bg keisukereturdhomedytwo 13 with Dissolve(0.8)
     Keisuke "Not even at pool , Where is she?"
     scene bg keisukereturdhomedytwo 14 with Dissolve(0.8)
-    Keisuke "Aya-... who-"
+    Keisuke "Aya-... what the-"
     "???" "Took your time big brother , she was worried"
     scene bg keisukereturdhomedytwo 15 with Dissolve(0.8)
     Ayane "MMhhmph , mmhph"
     "???" "I really don't like to be kept waiting , you're lucky she had no weapons"
     Keisuke "W-what is this.. who are you?"
     scene bg keisukereturdhomedytwo 16 with Dissolve(0.8)
-    AgentWong "Luxury of questions is upto me , Mr. Keisuke takahashi"
+    AgentWong "The luxury of questions is up to me, Mr. Keisuke Takahashi."
     scene bg keisukereturdhomedytwo 17 with Dissolve(0.8)
-    AgentWong "Come sit Keisuke , Let us have a chat"
-    Keisuke "Okay .. okay just just please don't hurt her"
+    AgentWong "Come sit Keisuke , Let us have a little chat"
+    Keisuke "Okay.. okay just just please don't hurt her"
     scene bg keisukereturdhomedytwo 18 with Dissolve(0.8)
     Keisuke "Ayane.. It- It's going to be alright okay? I'm here"
     Ayane "MMpph? mmmmmmmmmm! , mmmph!"
     AgentWong "Making promises you can't keep huh?"
     scene bg keisukereturdhomedytwo 19 with Dissolve(0.8)
-    Keisuke "Look - Please just don't hurt her.. I'll do whatever you want.. whoever is paying you i'll double- no Triple it"
+    Keisuke "Look, please just don't hurt her. I'll do whatever you want. Whoever is paying you, I'll double it—no, triple it."
     scene bg keisukereturdhomedytwo 20 with Dissolve(0.8)
-    AgentWong "Stop testing my patience and come here , Or you won't have a sister to save"
+    AgentWong "Stop testing my patience and come here. Or you won't have a sister to save."
     Keisuke "Okay! okay! , fine.. fine I'm coming."
     scene bg keisukereturdhomedytwo 21 with Dissolve(0.8)
     Ayane "MMhh... mhhph *Crying*"
@@ -7565,31 +7565,31 @@ label chap_2_scene_39:
     AgentWong "Cmon cmon , nice and slow"
     scene bg keisukereturdhomedytwo 22 with Dissolve(0.8)
     Keisuke "What do you want?.. who  are you?"
-    AgentWong "Did you not hear me clearly?"
+    AgentWong "Did i not make myself clear smartass?"
     scene bg keisukereturdhomedytwo 23 with Dissolve(0.8)
-    AgentWong "I said I'm the one asking questions!"
+    AgentWong "I'm the one asking questions!"
     Ayane "MMppph! mmmmmmmmmmphh! mmmph!"
-    Keisuke "Okay okay! I'm sorry alright.. just yes ask"
+    Keisuke "Okay, okay! I'm sorry, alright. Just ask"
     scene bg keisukereturdhomedytwo 24 with Dissolve(0.8)
     "*Thud*"
     Keisuke "What did you do!?"
     scene bg keisukereturdhomedytwo 25 with Dissolve(0.8)
-    AgentWong "Giving her a good nap , don't worry by the time she'll be up i'll be long gone"
+    AgentWong "Giving her a good nap. Don't worry, by the time she wakes up, I'll be long gone."
     scene bg keisukereturdhomedytwo 26 with Dissolve(0.8)
     AgentWong "However whether she'll find you alive or not is upto your answers"
     Keisuke "I really don't know what you're talking about.."
     scene bg keisukereturdhomedytwo 27 with Dissolve(0.8)
-    AgentWong "Of course you don't , It's regarding your new occupation and your customer kiara hall , let's head upstairs.. let us have that chat"
+    AgentWong "Of course, you don't. It's regarding your new occupation and your customer, Kiara Hall. Let's head upstairs. Let's have that chat"
     Keisuke "Fine.. Okay"
     scene bg keisukereturdhomedytwo 28 with Dissolve(0.8)
-    AgentWong "Tell me everything , try not to be smart I'm loose on the trigger today"
-    Keisuke "I met Kiara when we were kids , I met her in Nara , she stayed here for 2 years and in that time i just"
+    AgentWong "Tell me everything, try not to be smart. I'm trigger-happy today."
+    Keisuke "I met Kiara when we were kids. I met her in Nara. She stayed here for two years, and in that time, I just..."
     AgentWong "Just what?"
     scene bg keisukereturdhomedytwo 29 with Dissolve(0.8)
-    Keisuke "I fell for her , there was no person like her , it was as if she could sense every little thing id be sad about and make me happy immediately"
+    Keisuke "I fell for her. There was no one like her. It was as if she could sense every little thing I'd be sad about and make me happy immediately."
     AgentWong "Continue.."
     scene bg keisukereturdhomedytwo 30 with Dissolve(0.8)
-    Keisuke "When she was leaving japan she said she'd come back after her studies finish.. and then i found out"
+    Keisuke "When she was leaving Japan, she said she'd come back after her studies finished... and then I found out-"
     AgentWong "Her memories got erased.."
     scene bg keisukereturdhomedytwo 31 with Dissolve(0.8)
     Keisuke "How do you know-"
@@ -7598,32 +7598,34 @@ label chap_2_scene_39:
     Keisuke "No.. no she doesn't"
     AgentWong "I see"
     scene bg keisukereturdhomedytwo 33 with Dissolve(0.8)
-    Keisuke "It hurts so fucking much.. because i remember everything , every little bit of her  , every moment we spent , even now meeting her again she's the same"
+    Keisuke "It hurts so fucking much because I remember everything. Every little bit of her, every moment we spent together. Even now, meeting her again, she's the same."
     scene bg keisukereturdhomedytwo 34 with Dissolve(0.8)
-    Keisuke "I missed her so much , i never got to confess my love because i felt i wasn't good enough for her back then , so i worked hard and got to where i am.. but it was too late"
+    Keisuke "I missed her so much. I never got to confess to her because I felt I wasn't good enough for her back then. So, I worked hard and got to where I am now."
+    Keisuke "Hell, maybe I'm still not, but I can try this time."
     scene bg keisukereturdhomedytwo 35 with Dissolve(0.8)
-    Keisuke "Now that she's here all i want is to make sure she's safe and happy.. , If fate decides to get us back together then so be it , otherwise i'll remain the friend she needs"
+    Keisuke "Now that she's here, all I want is to make sure she's safe and happy"
+    Keisuke "If fate decides to bring us back together, then so be it. Otherwise, I'll remain the friend she needs."
     scene bg keisukereturdhomedytwo 36 with Dissolve(0.8)
     AgentWong "Do you know what happened to her in new york?"
-    Keisuke "I don't know everything , all i got to know was that memory erasure and her death being faked , Why? how? when? nothing else."
+    Keisuke "I don't know everything. All I have been told is that there was a memory erasure and her death was faked. Why? How? When? I don't know anything else."
     scene bg keisukereturdhomedytwo 37 with Dissolve(0.8)
     AgentWong "Well.. so why this taxi facade? why not come out and say who you are?"
-    Keisuke "I don't know.. it might affect her in some way and i don't want to risk it.. "
+    Keisuke "I don't know... it might affect her in some way, and I don't want to risk it.. "
     scene bg keisukereturdhomedytwo 38 with Dissolve(0.8)
-    Keisuke "At least this way i get to meet the same person i did years ago.. To her im just a normal guy and to me she's that rich girl who has the humblest of heart it's just like our past "
+    Keisuke "At least this way, I get to meet the same person I did years ago. To her, I'm just a normal guy, and to me, she's that rich girl who has the humblest of heart. It's just like our past. "
     AgentWong "So you're recreating what you had once.."
     scene bg keisukereturdhomedytwo 39 with Dissolve(0.8)
-    AgentWong "I'm hired to kill anyone trying to get too close to her or harm her , So i'll ask you this.. What if she doesn't want to be with you again?"
-    Keisuke " Then i'll respect that but.. i'm not leaving , I won't let her be alone again."
+    AgentWong "I'm hired to kill anyone trying to get too close to her or harm her. So, I'll ask you this... What if she doesn't want to be with you again"
+    Keisuke " Then I'll respect that, but I'm not leaving. I won't let her be alone again."
     scene bg keisukereturdhomedytwo 40 with Dissolve(0.8)
-    AgentWong "Ah!"
-    Keisuke "I love her and i always will , and i don't care who or what gets in the way.. , I'll never abandon her"
+    AgentWong "Ah! Hey-"
+    Keisuke "I love her, and I always will. I don't care who or what gets in the way. I'll never abandon her."
     scene bg keisukereturdhomedytwo 41 with Dissolve(0.8)
-    Keisuke "So if what you want is me outside her life now , I'm afraid you're going to have to pull this trigger"
+    Keisuke "So, if what you want is for me to be outside of her life now, I'm afraid you're going to have to pull this trigger."
     AgentWong "( He's..)"
     scene bg keisukereturdhomedytwo 42 with Dissolve(0.8)
     AgentWong "You're willing to die for this?"
-    Keisuke "Without her I'm dead anyway.. and honestly"
+    Keisuke "Without her I'm dead anyway.. and trutfully-"
     scene bg keisukereturdhomedytwo 43 with Dissolve(0.8)
     Keisuke "Maybe i need her in my life more than you need that money in your account"
     AgentWong "Sigh.."
@@ -7633,20 +7635,20 @@ label chap_2_scene_39:
     pause
     scene bg keisukereturdhomedytwo 46 with Dissolve(0.8)
     AgentWong "Can i have some water please?"
-    Keisuke "O-okay.. sure"
+    Keisuke "O-Okay.. sure"
     scene bg keisukereturdhomedytwo 47 with Dissolve(0.8)
     Keisuke "Why did she throw the gun?.. who is this girl?"
     scene bg keisukereturdhomedytwo 48 with Dissolve(0.8)
-    "Keisuke's words" "I love her and i won't abandon her this time , not again.."
+    "Keisuke's words" "I love her, and I won't abandon her this time. I won't let her be alone anymore, not again.."
     AgentWong "He really loves her.."
     scene bg keisukereturdhomedytwo 49 with Dissolve(0.8)
     AgentWong "I can't do this.. Dammit"
     scene bg keisukereturdhomedytwo 50 with Dissolve(0.8)
     pause
     scene bg keisukereturdhomedytwo 51 with Dissolve(0.8)
-    Keisuke "Hey.. your wa-"
+    Keisuke "Hey your wa-"
     scene bg keisukereturdhomedytwo 52 with Dissolve(0.8)
-    Keisuke "She's gone.. did she spare me?"
+    Keisuke "She's gone.. Wh- did she spare me?"
     scene bg keisukereturdhomedytwo 53 with Dissolve(0.8)
     Keisuke "Kiara.. I hope you're sleeping peacefully"
     #ADD NY LOADING
@@ -7660,9 +7662,9 @@ label chap_2_scene_40:
     scene bg dytwoveroevestrt 1 with Dissolve(0.8)
     pause
     scene bg dytwoveroevestrt 2 with Dissolve(0.8)
-    Veronica "Hmm mhm , I hope she'll like this i haven't made pie in a while"
+    Veronica "Hmm mhm  *Humming music* , I hope she'll like this i haven't made pie in a while"
     scene bg dytwoveroevestrt 3 with Dissolve(0.8)
-    Veronica "Though she'll probably go easy on me but i still want her to have a good breakfast"
+    Veronica "Though she'll probably go easy on me, I still want her to have a good breakfast."
     scene bg dytwoveroevestrt 4 with Dissolve(0.8)
     Veronica "Hmm mhm *Humming music*"
     scene bg dytwoveroevestrt 5 with Dissolve(0.8)
@@ -7674,16 +7676,16 @@ label chap_2_scene_40:
     scene bg dytwoveroevestrt 8 with Dissolve(0.8)
     Evelyn "( Okay .. quiet and slow)"
     scene bg dytwoveroevestrt 9 with Dissolve(0.8)
-    Veronica "It looks good , just a bit more-"
+    Veronica "It looks good enough, just a bit more -"
     scene bg dytwoveroevestrt 10 with Dissolve(0.8)
     Veronica "Aha hey-"
     Evelyn "Guess who and you get a prize?"
     scene bg dytwoveroevestrt 11 with Dissolve(0.8)
-    Veronica "The most beautiful person on thsi planet?"
-    Evelyn "Well your'e half right , you're the winner of that actually"
+    Veronica "The most beautiful person on this planet?"
+    Evelyn "Well, you're half right. You're the winner of that, actually, but I'll take the second spot"
     scene bg dytwoveroevestrt 12 with Dissolve(0.8)
-    Evelyn "Though i'm feeling quite good , so.. what prize would you like?"
-    Veronica "Oh it's standing in front of me right now"
+    Evelyn "Though I'm feeling quite forgiving this morning, so... what prize would you like?"
+    Veronica "Oh, it's standing in front of me right now."
     scene bg dytwoveroevestrt 13 with Dissolve(0.8)
     Evelyn "Well go on.. claim it then"
     Veronica "I mean if you insis on it then-"
@@ -7692,12 +7694,12 @@ label chap_2_scene_40:
     Veronica "Mmm.."
     "*Bell rings*"
     scene bg dytwoveroevestrt 15 with Dissolve(0.8)
-    Veronica "Ah that must be the mail , I'll go grab it before he runs away"
-    Evelyn "Awe.. what a douche he is"
+    Veronica "Ah, that must be the mail. I'll go grab it before it runs away again."
+    Evelyn "Awe.. did he really have to come now? What a douche"
     scene bg dytwoveroevestrt 16 with Dissolve(0.8)
-    Evelyn "( Hmm.. I'm so glad last night happened )"
+    Evelyn "( Heh.. I'm so glad last night happened )"
     scene bg dytwoveroevestrt 17 with Dissolve(0.8)
-    Evelyn "( I love you so much V , can't wait for us to move on to the next step)"
+    Evelyn "( I love you so much, V. I can't wait for us to move on to the next step.)"
     $ renpy.save("quick-1")
     "0.3 END"
     $ renpy.quit()
