@@ -82,3 +82,6 @@ screen gallery():
     # Alternative Return "Escape" and "Mouse Right Click"
     key "K_ESCAPE" action [Return(), Hide("gallery_navigation")]
     key "mouseup_3" action [Return(), Hide("gallery_navigation")]
+
+
+#TODO Fix gallery error: Some scenes are not ending properly It continues the story
