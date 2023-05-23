@@ -1375,6 +1375,9 @@ label natsugrop:
     Molester "Don't worry I'll just play with you a little baby. "
     Natsuko "I've got to be quick here , what do I do? "
     play music "/audio/choicmusic.ogg"
+    if _in_replay:
+        call natsugropaccpt
+        $ renpy.end_replay()
     menu:
         "I'm not letting this happen , he can't do this.":
             call natsugroprjct from _call_natsugroprjct
@@ -1481,6 +1484,7 @@ label natsugropaccpt:
     show bg natsugropaccpt 25 with Dissolve(0.8)
     Natsuko "I should dress up , I can't let anyone see me like this. "
     ""
+    $ renpy.end_replay()
     stop music
     jump aftersubway
 
@@ -2207,7 +2211,7 @@ label lanaafterintro:
         show bg lanaafterintro 32 with Dissolve(0.8)
         Lana "Kiara, I hope you allow yourself to open up and live a little, too. See you soon, babe. "
         ""
-        $ renpy.end_replay
+        $ renpy.end_replay()
         stop music
     jump introsachikorin
 
@@ -2436,6 +2440,7 @@ label kiaraandtaka:
         show bg photoshootaccpt 8 with Dissolve(0.8)
         Taka " Alright, that's a wrap. I'll be outside the shop getting changed and stuff ( Look at those babies, I bet they're softer than cotton)"
         stop music
+        $ renpy.end_replay()
         return
 
 
@@ -3791,7 +3796,7 @@ label lanaAcpt2:
     Lana "Kinda ironic how I was gonna bring kiara clothes and I'm the one naked... oh well hope your trip to japan is as fun as this was for me kiara <3."
     stop music
 
-    $ renpy.end_replay
+    $ renpy.end_replay()
 
     jump roomsegment2
 

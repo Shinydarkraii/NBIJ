@@ -268,7 +268,7 @@ label chap_2_scene_1:
         scene bg chptstrt 57  with Dissolve(0.8)
         Kiara "Definitely needed that, lets go."
         scene bg chptstrt 58 with Dissolve(0.8)
-        $ renpy.end_replay
+        $ renpy.end_replay()
         pause
         scene bg chptstrt 59  with Dissolve(0.8)
         Natsuko "Mom , why can't we take in a cat"
@@ -538,7 +538,7 @@ label chap_2_scene_2:
         Taka "(Fuck why does she wear thong in the game.. I almost wanna tear that off) Alright kiara , let's do one without the wig so they know its you!"
         scene bg kiaracrptcsply 25 with Dissolve(0.8)
         Taka "Perfect! that'll be all~"
-        $ renpy.end_replay
+        $ renpy.end_replay()
         $ mc_stats.adjust_corruption(5)
         $ inventory.add(100)
         jump chap_2_scene_3
@@ -677,7 +677,7 @@ label chap_2_scene_3:
         AgentWong "Aah-.. You're disgusting.."
         Molester "Your love hole says otherwise babe"
 
-        $ renpy.end_replay
+        $ renpy.end_replay()
         scene bg mtngwnggrpyes 34  with Dissolve(0.8)
         AgentWong "There's the tunnel.. finally"
         scene bg mtngwngtunnl  with Dissolve(0.8) 
@@ -1072,7 +1072,7 @@ label chap_2_scene_4:
         scene bg offccptwtch 16 with Dissolve(0.8)
         Kiara "Oh my god , he could've spotted me.. I- i gotta go now"
 
-        $ renpy.end_replay
+        $ renpy.end_replay()
         scene bg offccptwtch 17 with Dissolve(0.8)
         Kiara "This was.. what just happened?"
         scene bg offccptwtch 18 with Dissolve(0.8)
@@ -1726,7 +1726,7 @@ label chap_2_scene_6:
         Kiara "Sure , thank you (God i'm glad i was wearing bra)"
         scene bg msrmntaccpt 47 with Dissolve(0.8)
         Genji "Good day kiara-san (One day i'll measure your insides as well..)"
-        $ renpy.end_replay
+        $ renpy.end_replay()
         $ mc_stats.adjust_corruption(5)
         jump chap_2_scene_7
     
@@ -2187,7 +2187,7 @@ label chap_2_scene_9:
         scene bgbathkiagivepants 16 with Dissolve(0.8)
         Kiara "Whatever.. let's just go home"
 
-        $ renpy.end_replay
+        $ renpy.end_replay()
 
         $ mc_stats.adjust_corruption(5)
     jump .part_3
@@ -2563,7 +2563,7 @@ label chap_2_scene_10:
         scene azmitalkoncall  19 with Dissolve(0.8)
         Azumi "Definitely need that shower now.."
 
-        $ renpy.end_replay
+        $ renpy.end_replay()
         $ mc_stats.adjust_corruption(1)
         jump .part_3
     
@@ -3075,7 +3075,7 @@ label chap_2_scene_13:
         scene bg miamsnmrngscn 39  with Dissolve(0.8)
         Mason "Sorry I covered your face.."
         Mia "I love it , it's yummy.."
-        $ renpy.end_replay
+        $ renpy.end_replay()
         jump chap_2_scene_14
 
 
@@ -3551,7 +3551,7 @@ label chap_2_scene_17:
             Masseur "Oh yeah that's right , swallow that baby"
             scene bg lanamommsgaccpt 72  with Dissolve(0.8)
             Elizabeth "Ha.. um"
-            $ renpy.end_replay
+            $ renpy.end_replay()
             scene bg lanamommsgaccpt 73  with Dissolve(0.8)
             Masseur "Shit , you okay?"
             scene bg lanamommsgaccpt 74  with Dissolve(0.8)
@@ -4123,7 +4123,7 @@ label chap_2_scene_20:
     John "Ah i apologize please don't ruin your lovely face by anger , I am just worried"
     scene bg jhnbljhbscn 19 with Dissolve(0.8)
     AgentWong "I'll keep her safe don't worry, bye for now."
-    $ renpy.end_replay
+    $ renpy.end_replay()
     scene bg jhnbljhbscn 20 with Dissolve(0.8)
     John "Wait ! One thing ms wong"
     AgentWong "What?"
@@ -4521,7 +4521,7 @@ label chap_2_scene_23:
     Kiara "(I can manage this new life , just need to take one step at a time)"
     scene bg dytwobathscn 16 with Dissolve(0.8)
     Kiara "(There we go , I really stare at myself too much sometimes)"
-    $ renpy.end_replay
+    $ renpy.end_replay()
     jump chap_2_scene_24
 
 label chap_2_scene_24:
@@ -5068,7 +5068,7 @@ label chap_2_scene_27:
         scene bg rinsxscnstrt 45 with Dissolve(0.8)
         Rin "(Why does being a whore feel so good? heh)"
         "Hotel waiter" "(I am so fucking lucky!)"
-        $ renpy.end_replay
+        $ renpy.end_replay()
         scene bg rinsxscnstrt 46 with Dissolve(0.8)
         Lana "So that's why we couldn't do what we wanted"
         Damian "I see , well either way i'm sure we'll figure it out"
@@ -5367,7 +5367,7 @@ label .part_4:
         Taka "Sit simply with hands at back"
         scene bg dytwopntsoffcsply 14 with Dissolve(0.8)
         Taka "Alright that's a wrap! ( I'll nut in her as well , she's too good to let go )"
-        $ renpy.end_replay
+        $ renpy.end_replay()
         Kiara "Alright , I'ma go change go back to office"
         jump chap_2_scene_29
 
