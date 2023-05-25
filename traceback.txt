@@ -1,106 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "renpy/common/00start.rpy", line 278, in script
-    python:
-  File "renpy/common/00start.rpy", line 278, in script
-    python:
-  File "renpy/common/00start.rpy", line 282, in <module>
-    renpy.call_in_new_context("_main_menu")
-  File "renpy/common/00action_file.rpy", line 463, in __call__
-    renpy.load(fn)
-AttributeError: Can't get attribute 'Affection' on <renpy.python.StoreModule object at 0x00000000042d8700>
+After initialization, but before game start.
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\Renpy projects\\New Beginings In Japan\\game\\saves\\navigation.json.new' -> 'D:\\Renpy projects\\New Beginings In Japan\\game\\saves\\navigation.json'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
     renpy.main.main()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\main.py", line 660, in main
-    run(restart)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\main.py", line 146, in run
-    renpy.execution.run_context(True)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\execution.py", line 938, in run_context
-    context.run()
-  File "renpy/common/00start.rpy", line 278, in script
-    python:
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "renpy/common/00start.rpy", line 278, in script
-    python:
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00start.rpy", line 282, in <module>
-    renpy.call_in_new_context("_main_menu")
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\game.py", line 346, in call_in_new_context
-    return renpy.execution.run_context(False)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\execution.py", line 938, in run_context
-    context.run()
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 4258, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\transition.py", line 53, in event
-    return self.new_widget.event(ev, x, y, st) # E1101
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 743, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1399, in event
-    rv = super(Window, self).event(ev, x, y, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1399, in event
-    rv = super(Window, self).event(ev, x, y, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1073, in event
-    return handle_click(self.clicked)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1008, in handle_click
-    rv = run(action)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\behavior.py", line 329, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_file.rpy", line 463, in __call__
-    renpy.load(fn)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\loadsave.py", line 768, in load
-    roots, log = loads(location.load(filename))
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\compat\pickle.py", line 100, in loads
-    return load(io.BytesIO(s))
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\compat\pickle.py", line 97, in load
-    return up.load()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\compat\pickle.py", line 93, in find_class
-    return super().find_class(module, name)
-AttributeError: Can't get attribute 'Affection' on <renpy.python.StoreModule object at 0x00000000042d8700>
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\main.py", line 610, in main
+    renpy.dump.dump(False)
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\dump.py", line 262, in dump
+    os.rename(new, filename)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\Renpy projects\\New Beginings In Japan\\game\\saves\\navigation.json.new' -> 'D:\\Renpy projects\\New Beginings In Japan\\game\\saves\\navigation.json'
 
-Windows-10-10.0.22621 AMD64
+Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.3.22090809
  0.3
-Fri May 19 21:27:12 2023
+Thu May 25 23:10:58 2023

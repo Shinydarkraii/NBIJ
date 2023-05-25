@@ -2,6 +2,7 @@ default stats_screen_show = False
 default fond_screen_show = False
 default rose_stats_hidden = True
 default kaisuke_stats_hidden = True
+default inventory_screen_show = False 
 
 image titletext = ParameterizedText(size=90, align=(0.5, 0.5))
 
@@ -41,16 +42,30 @@ screen affection_display_test():
 screen Inventory_screen():
     $ money = str(inventory.money)
     $ items = inventory.items
-    frame:
-        xmaximum 500
-        ymaximum 300
-        xalign 1.0
-        yalign 0.5
-        vbox:
-            text "Main Money = [money]"
-            text "Rest of Items ---"
-            for item in items:
-                text item.name
+
+    imagebutton:
+        xalign 0.15
+        yalign 0.04
+        idle im.Scale("UI/handbag.png", 120, 120)
+        hover im.Scale("UI/handbag1.png", 120, 120)
+        if inventory_screen_show:
+            action SetLocalVariable("inventory_screen_show", False)
+        else:
+            action SetLocalVariable("inventory_screen_show", True)
+
+    if inventory_screen_show:
+        frame:
+            xmaximum 500
+            ymaximum 300
+            xalign 1.0
+            yalign 0.5
+            vbox:
+                hbox:
+                    text "Money"
+                    text "[money]" align(1.0, 0.0)
+                text "Rest of Items ---"
+                for item in items:
+                    text item.name
 
 #empty screen
 screen empty():
