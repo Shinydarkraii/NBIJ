@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/chapter_2.rpy", line 7407: Line is indented, but the preceding window hide statement statement does not expect a block. Please check this line's indentation.
-    scene bg kiadaytwostrmcloth 1 with Dissolve(0.8)
-    ^
+File "game/screens/main_screens.rpy", line 56: expected a keyword argument or end of line.
+    action SetLocalVariable("inventory_screen_show", False), Show("fondness_screen")]
+                                                                                    ^
+
+File "game/screens/main_screens.rpy", line 212: expected a keyword argument or end of line.
+    action SetLocalVariable("fond_screen_show", False), Show("Inventory_screen")]
+                                                                                ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri May 19 20:38:16 2023
+Sat May 27 00:00:40 2023
