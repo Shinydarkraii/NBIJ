@@ -2,6 +2,7 @@ default stats_screen_show = False
 default fond_screen_show = False
 default rose_stats_hidden = True
 default kaisuke_stats_hidden = True
+default inventory_screen_show = False 
 
 image titletext = ParameterizedText(size=90, align=(0.5, 0.5))
 
@@ -41,16 +42,56 @@ screen affection_display_test():
 screen Inventory_screen():
     $ money = str(inventory.money)
     $ items = inventory.items
-    frame:
-        xmaximum 500
-        ymaximum 300
-        xalign 1.0
-        yalign 0.5
-        vbox:
-            text "Main Money = [money]"
-            text "Rest of Items ---"
+    $ height = 3
+    $ padding = 5
+
+    tag side_screen
+
+    imagebutton:
+        xalign 0.15
+        yalign 0.04
+        idle im.Scale("UI/handbag.png", 120, 120)
+        hover im.Scale("UI/handbag1.png", 120, 120)
+        if inventory_screen_show:
+            action [SetLocalVariable("inventory_screen_show", False), Show("fondness_screen")]
+        else:
+            action [SetLocalVariable("inventory_screen_show", True), Hide("fondness_screen")]
+
+    if inventory_screen_show:
+        frame:
+            background None
+            xmaximum 500
+            ymaximum 300
+            xalign 0.147
+            yalign 0.15
+            has vbox
+            hbox:
+                text "Inventory" style "fond_screen_style" 
+                text "                   "
+                text "{font=gui/fonts/mangatb.ttf}{color=#9AEC7C}$[money]{/color}{/font}" 
+            
+            vbox:
+                align (0.5,0.5)
+                xsize 500
+                fixed:
+                    ysize height
+                    null height padding
+                    add "#f2f2f2"
+                    null height padding
+                # text "\n"
+
             for item in items:
-                text item.name
+                textbutton item.name:
+                    at to_right()
+                    action NullAction()
+                    text_style "inv_screen_style"
+                    
+
+transform to_right():
+    on idle:
+        xoffset 0
+    on hover:
+        linear 0.3 xoffset 20
 
 #empty screen
 screen empty():
@@ -168,9 +209,9 @@ screen fondness_screen:
         idle im.Scale("UI/fondness_icon_idle.png", 100, 100)
         hover im.Scale("UI/fondness_icon_hover.png", 100, 100)
         if fond_screen_show:
-            action SetLocalVariable("fond_screen_show", False)
+            action [SetLocalVariable("fond_screen_show", False), Show("Inventory_screen")]
         else:
-            action SetLocalVariable("fond_screen_show", True)
+            action [SetLocalVariable("fond_screen_show", True), Hide("Inventory_screen")]
 
     if fond_screen_show:
         frame:
@@ -191,3 +232,10 @@ style fond_screen_style is text:
 
     font "gui/fonts/mangatb.ttf"
     color "#f2f2f2"
+
+style inv_screen_style is text:
+    font "gui/fonts/mangatb.ttf"
+    color "#f2f2f2"
+    hover_color "#f2f2f2"
+    size 40
+    # transform "to_right"
