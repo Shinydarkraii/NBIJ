@@ -434,9 +434,9 @@ label chap_2_scene_2:
     # Cosplychctwo - 100 $ Cosplay ( +5 corruption , Money add 100 $ + )
     # Cosplychcno - No cosplay today. ( No corruption)
     menu:
-        "50$ Cosplay":
-            jump .part_1
         "100$ Cosplay":
+            jump .part_1
+        "250$ Cosplay":
             jump .part_2
         "No Cosplay":
             jump .part_3
@@ -475,7 +475,7 @@ label chap_2_scene_2:
         scene bg kiaranrmlcsply 15 with Dissolve(0.8)
         Taka "Annnd that's it , That was great kiara!"
 
-        $ inventory.earn(50)
+        $ inventory.earn(100)
 
         jump chap_2_scene_3
 
@@ -540,7 +540,7 @@ label chap_2_scene_2:
         Taka "Perfect! that'll be all~"
         $ renpy.end_replay()
         $ mc_stats.adjust_corruption(5)
-        $ inventory.add(100)
+        $ inventory.earn(250)
         jump chap_2_scene_3
 
     label .part_3:
@@ -1332,7 +1332,7 @@ label chap_2_scene_5:
         Azumi "(I could be in this moment forever..)"
         scene bg kiascooldtyes 3 with Dissolve(0.8)
         Kiara "(I can tell she doesn't wanna let go)"
-        $ azumi_rom.adjust_romance(5)
+        $ azumi_rom.adjust_romance(1)
         jump .part_2
     
     label .part_2:
@@ -1450,7 +1450,7 @@ label chap_2_scene_5:
         Kiara "You know i do"
         scene bg kiascooldteyes 36 with Dissolve(0.8)
         Azumi "Well , still i am a bit clingy i hope you don't find that annoying"
-        $ azumi_rom.adjust_romance(5)
+        $ azumi_rom.adjust_romance(1)
 
         scene bg kiascooldteyesflrtdcd with Dissolve(0.8)
 
@@ -1477,7 +1477,7 @@ label chap_2_scene_5:
             Kiara "Do you want me to drop you back at school?"
             Azumi "No i'll call my driver , you go ahead and best of luck"
             
-            $ azumi_rom.adjust_romance(5)
+            $ azumi_rom.adjust_romance(1)
             jump chap_2_scene_6
 
         label .part_6:
@@ -1914,7 +1914,7 @@ label chap_2_scene_7:
         Rose "It's just the beginning , you'll enjoy it trust me"
         Kiara "Thanks , I'll be on my way then have a great evening Rose"
         Rose "I will ( I hope i didn't make a fool of myself being too excited )"
-        $ rose_rom.adjust_romance(5)
+        $ rose_rom.adjust_romance(1)
         jump chap_2_scene_8
 
     label .part_2:
@@ -5146,7 +5146,7 @@ label chap_2_scene_28:
 # 80 $  ( + 5 CORRUPTION) , 
 # 120 $ ( +10 corruption , requires 35 Corruption)
 # ^ money add to all depending on options
-
+  
 menu:
     "Not Intrested":
         jump .part_1

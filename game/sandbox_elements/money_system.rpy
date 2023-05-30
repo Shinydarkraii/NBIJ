@@ -6,7 +6,7 @@ init python:
             
 
     class Inventory:
-        def __init__(self, money=500):
+        def __init__(self, money=0):
             self.money = money
             self.max_money = 9000
             self.items = []
@@ -23,6 +23,7 @@ init python:
         #When player does jobs and earns money
         def earn(self, amount):
             self.money = min(self.money + amount,self.max_money)
+            renpy.notify(" You got {}$".format(amount))
 
         #To check for an item in inventory return True or false
         def has_item(self, item):
@@ -45,7 +46,5 @@ label inventory_values:
 
     $ laptop = Item("Laptop", 600)
     $ dildo = Item("Plastic_dildo", 100) 
-    $ inventory.add(laptop)
-    $ inventory.add(dildo)
 
     return
