@@ -1307,7 +1307,7 @@ label Lanaliz:
     Lana "Okay, mom , off we go. "
     ""
     stop music
-    jump assistantevngscn
+    jump jakemeetsevelyn
 
 label miamasonmiday:
     show bg miamasonnoon 1 with Dissolve(0.8)
@@ -2270,9 +2270,9 @@ label kiaraandtaka:
     play music "/audio/choicmusic.ogg"
     Kiara "Hmm.... 350 for a simple shoot, if it's nothing stupid, doesn't sound too bad. "
     menu:
-        "Okay I'll do the 350$ one.":
+        "Okay I'll do the 150$ one.":
             jump .part_2
-        "I'll do the 500$ one":
+        "I'll do the 350$ one":
             $ mc_stats.adjust_corruption(5)
             jump .part_3
 
@@ -2325,13 +2325,12 @@ label kiaraandtaka:
         show bg kiaraandtaka 26 with Dissolve(0.8)
         Taka "Sweet! "
         show bg kiaraandtaka 27 with Dissolve(0.8)
-        Taka "Well done , impressive indeed. "
+        Taka "Well done, impressive indeed."
+        $ inventory.earn(150)
         stop music
     jump .part_1
 
     label .part_3:
-        
-        
         show bg kiaraandtaka 16 with Dissolve(0.8)
         stop music
         play music "/audio/lthrcsply.ogg"
@@ -2401,6 +2400,7 @@ label kiaraandtaka:
             jump .part_1
         menu:
             "I can't do this , just because he's gay doesn't mean I can be in front of him like that.":
+                $ inventory.earn(350)
                 call photoshootleatherchoice1 from _call_photoshootleatherchoice1
             "Okay... I trust you.":
                 $ mc_stats.adjust_corruption(5)
@@ -2440,6 +2440,7 @@ label kiaraandtaka:
         show bg photoshootaccpt 8 with Dissolve(0.8)
         Taka " Alright, that's a wrap. I'll be outside the shop getting changed and stuff ( Look at those babies, I bet they're softer than cotton)"
         stop music
+        $ inventory.earn(350)
         $ renpy.end_replay()
         return
 
