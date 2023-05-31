@@ -1,32 +1,4 @@
-<<<<<<< HEAD
-Tue May 30 22:36:22 2023
-=======
-<<<<<<< HEAD
-Tue May 30 23:02:53 2023
-=======
-<<<<<<< HEAD
-Sun May 28 15:37:19 2023
->>>>>>> 07426166a9697954a7fa325c8bb3d3f9a63e57c1
-Windows-10-10.0.22621
-Ren'Py 8.0.3.22090809
- 
-
-Bootstrap to the start of init.init took 0.02s
-Early init took 0.16s
-Loader init took 3.06s
-Loading error handling took 0.03s
-Loading script took 0.34s
-Loading save slot metadata. took 0.40s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-<<<<<<< HEAD
-Running init code took 0.07s
-=======
-Running init code took 0.08s
-Loading analysis data took 0.01s
-=======
-Sun May 28 21:16:48 2023
->>>>>>> dfe22c68a032758060740f640512cf0fe5aaa047
+Wed May 31 21:47:54 2023
 Windows-10-10.0.19045
 Ren'Py 8.0.3.22090809
  
@@ -39,201 +11,38 @@ Loading script took 0.40s
 Loading save slot metadata. took 0.10s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\Renpy projects\\New Beginings In Japan\\dialog data\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-<<<<<<< HEAD
 Running init code took 0.08s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-=======
-Running init code took 0.16s
->>>>>>> 07426166a9697954a7fa325c8bb3d3f9a63e57c1
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-<<<<<<< HEAD
-Dump and make backups. took 0.04s
-=======
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
->>>>>>> dfe22c68a032758060740f640512cf0fe5aaa047
 Dump and make backups. took 0.03s
->>>>>>> 07426166a9697954a7fa325c8bb3d3f9a63e57c1
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.02s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.11s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.02s
-<<<<<<< HEAD
-=======
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-=======
 Initial gc. took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.18s
+Creating interface object took 0.19s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.02s
+Load screen analysis took 0.01s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.04s
->>>>>>> 07426166a9697954a7fa325c8bb3d3f9a63e57c1
+Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-<<<<<<< HEAD
-Interface start took 0.05s
-=======
-<<<<<<< HEAD
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 531.61'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 32.56s
-Early init took 0.00s
-Loader init took 0.09s
-Loading error handling took 0.03s
-Loading script took 1.04s
-Loading save slot metadata. took 0.10s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\Renpy projects\\New Beginings In Japan\\dialog data\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.19s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.04s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 531.61'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/chapter_2.rpy", line 1457, in script call
-    menu:
-  File "game/after_load.rpy", line 2, in script
-    $ inventory.drop(dildo)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/after_load.rpy", line 2, in <module>
-    $ inventory.drop(dildo)
-  File "game/sandbox_elements/money_system.rpy", line 41, in drop
-    self.items.remove(item)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\revertable.py", line 97, in do_mutation
-    return method(self, *args, **kwargs)
-ValueError: list.remove(x): x not in list
-
-While running game code:
-  File "game/chapter_2.rpy", line 1457, in script call
-    menu:
-  File "game/after_load.rpy", line 2, in script
-    $ inventory.drop(dildo)
-  File "game/after_load.rpy", line 2, in <module>
-    $ inventory.drop(dildo)
-  File "game/sandbox_elements/money_system.rpy", line 41, in drop
-    self.items.remove(item)
-ValueError: list.remove(x): x not in list
-Resetting cache.
-Bootstrap to the start of init.init took 94.50s
-Early init took 0.00s
-Loader init took 0.09s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata. took 0.10s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\Renpy projects\\New Beginings In Japan\\dialog data\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Shubham Batra\\AppData\\Roaming/RenPy/backups\\New Beginings In Japan':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.19s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.06s
-=======
-Interface start took 0.10s
->>>>>>> ddfb0ad4b1a8305b2a80af80cb21a08d7481ddb9
->>>>>>> dfe22c68a032758060740f640512cf0fe5aaa047
->>>>>>> 07426166a9697954a7fa325c8bb3d3f9a63e57c1
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 531.79'
+Renderer: b'NVIDIA GeForce RTX 3060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 531.61'
 Display Info: None
 Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
