@@ -208,7 +208,7 @@ label veronicaevidencedel:
     Jake  "Sure... alright. "
     ""
     stop music
-    jump endingofchaptr1
+    jump chap_2_scene_1
     return
 
 
@@ -266,7 +266,7 @@ label endingofchaptrpart2:
     Damian "( Kiara , you were right... I really never found anyone like you again) "
     ""
     stop music
-    jump chap_2_scene_1
+    jump veronicaevidencedel
 
 
 label endingofchaptr1:
@@ -470,9 +470,13 @@ label wongandjohn:
     John "Ain't that right...? Lovely Veronica. "
     ""
     stop music
-    jump veronicaevidencedel
+    jump endingofchaptr1
 
 label aidenrevealscene:
+    scene blackscreen
+    show titletext "2 Hours Later, Unknown Location" with dissolve
+    pause 1.0
+    window hide
     play music "/audio/aidnrevl.ogg"
     scene bg aidenvalconvo 1 with Dissolve(0.8)
     "???""C'mon, pickup... "
@@ -545,6 +549,7 @@ label valntdamimomscn:
         jump valntdamimomscn2
     menu:
         "Leave! the last thing you need is this stuff right now.":
+            
             jump valntdamimomscn1 
         "I should wait , maybe she's done.":
             $ mc_stats.adjust_corruption(1)
@@ -559,6 +564,7 @@ label valntdamimomscn1:
     ""
     stop music
     #loading
+    jump aidenrevealscene
     jump veromeetsevlyn
 
 label valntdamimomscn2:
@@ -619,6 +625,7 @@ label valntdamimomscn2:
     ""
     $ renpy.end_replay
     stop music
+    jump aidenrevealscene
     jump veromeetsevlyn
 
 label jakemeetsevelyn:
@@ -712,7 +719,7 @@ label jakemeetsevelyn:
     Jake "Mom... I think I found the girl you were talking about , I'll do my best to be a better person. "
     ""
     stop music
-    jump aidenrevealscene
+    jump valntdamimomscn
 
 label assistantevngscn:
     play music "/audio/asstntscn2.ogg"
@@ -901,7 +908,7 @@ label Keisukereveal:
 
 label investigatevng:
     play music "/audio/invstaftrjke2.ogg"
-    show bg jakeinvestaftrevng 1 with Dissolve(0.8)
+    scene bg jakeinvestaftrevng 1 with Dissolve(0.8)
     Jake "He told me he'd be here , of course, he's late. "
     show bg jakeinvestaftrevng 2 with Dissolve(0.8)
     John "Hellooo there , Looking for a ride, buddy? "
@@ -959,7 +966,12 @@ label investigatevng:
     Jake "Mom I don't know if what I do is morally right , but I'll do whatever it takes to save you. "
     ""
     stop music
-    jump Lanaliz
+    window hide
+    scene blackscreen
+    show titletext "An Hour Later..." with dissolve
+    pause 1.0
+    
+    jump jakemeetsevelyn
 
 
 label miaveroeve:
@@ -996,7 +1008,7 @@ label miaveroeve:
     Mia "Thank you... ( I wish I were as positive as her ) "
     ""
     stop music
-    jump miamasonmiday
+    jump investigatevng
 
 label sachikohome:
     play music "/audio/schikobthscn.ogg"
@@ -1256,7 +1268,7 @@ label introsachikorin:
     Rin "Plus, I wonder what Lana's deal is. Her travel plans are more random than her mood swings. "
     show bg sachikandrinintro 17 with Dissolve(0.8)
     ""
-    jump valntdamimomscn
+    jump sachikohome
 
 label Lanaliz:
     play music "/audio/clthnshop.ogg"
@@ -1307,10 +1319,10 @@ label Lanaliz:
     Lana "Okay, mom , off we go. "
     ""
     stop music
-    jump jakemeetsevelyn
+    jump introsachikorin
 
 label miamasonmiday:
-    show bg miamasonnoon 1 with Dissolve(0.8)
+    scene bg miamasonnoon 1 with Dissolve(0.8)
     play music "/audio/miamsnntlk.ogg"
     News "Signs of a heavy storm in japan in the upcoming days , homeless shelters are advised to be evacuated. "
     Mia "This primarily will affect Tokyo, I think , but I hope kiara doesn't go out in the rain much. "
@@ -1350,7 +1362,7 @@ label Investigationafter:
     Jake "Hm, alright, john told me to be outside his office , suppose I'll go there. "
     ""
     stop music
-    jump sachikohome
+    jump Lanaliz
 
 label aftersubway:
     show bg kianatsuaftrsbway 1 with Dissolve(0.8)
@@ -2141,7 +2153,7 @@ label lanaafterintro:
             jump .part_1
         "Don't do it":
             Lana "Yeah not worth it."
-            jump introsachikorin
+            jump miamasonmiday
 
     label .part_1:
         show bg lanaafterintro 7 with Dissolve(0.8)
@@ -2213,7 +2225,7 @@ label lanaafterintro:
         ""
         $ renpy.end_replay()
         stop music
-    jump introsachikorin
+    jump miamasonmiday
 
 label kiarainstreets2:
     show bg kiaraandtaka 32 with Dissolve(0.8)
