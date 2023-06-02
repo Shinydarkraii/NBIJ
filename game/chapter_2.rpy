@@ -3570,11 +3570,20 @@ label chap_2_scene_18:
     window hide
     # SCENE -> courtril / ENDING OF V0.1 ->
     scene bgcourttrl 1  with Dissolve(0.8)
-    Stenographer "Attention all present in court"
+    Stenographer "Attention all present in court."
     scene bgcourttrl 2  with Dissolve(0.8)
     Stenographer "Honourable Judge Dominic Sr. Desiato gracing the court with his presense , please stand"
     scene bgcourttrl 3  with Dissolve(0.8)
-    Stenographer "Let the Proceedings begin"
+    Stenographer "Let the Proceedings begin."
+
+    menu: 
+        "Skip court Trial?"
+
+        "Yes":
+            jump .part_1
+        "No":
+            pass
+
     scene bgcourttrl 4  with Dissolve(0.8)
     "Judge Desiato" "This is a hearing for a divorce settlement between Mister Jonathan hall and Mrs. Mia watanabe"
     scene bgcourttrl 5  with Dissolve(0.8)
@@ -3885,100 +3894,101 @@ label chap_2_scene_18:
     scene bgcourttrl 124ptfive with Dissolve(0.8)
     Mason "What happened?"
     Mia "(Father..)"
-    scene bgcourttrl 125 with Dissolve(0.8)
-    Mason "(Mia , I'll fix this i promise)"
-    scene bgcourttrl 126 with Dissolve(0.8)
-    Veronica "Are you.. coming?"
-    Mason "No I'm taking her to hospital first , you go home"
-    scene bgcourttrl 127 with Dissolve(0.8)
-    Veronica "Mason are you alright?"
-    Mason "I don't know and i don't care about myself right now , go home we'll talk later"
-    scene bgcourttrl 128 with Dissolve(0.8)
-    Veronica "(Why did this go so wrong.. this was suppsoed to be a happy ending)"
-    scene bgcourttrl 129 with Dissolve(0.8)
-    Veronica "I don't even know where eve is , sigh what a mess"
-    scene bgcourttrl 130 with Dissolve(0.8)
-    John "Hello Ms. veronica! what a lovely evening , how are you?"
-    scene bgcourttrl 131 with Dissolve(0.8)
-    Veronica "You've got some nerve trying to talk after what you did today , fucking pathetic"
-    scene bgcourttrl 132 with Dissolve(0.8)
-    John "As far as it's concerned , I played by the law unlike your cousin and specially you"
-    Veronica "What do you mean?"
-    scene bgcourttrl 133 with Dissolve(0.8)
-    John "See I know about your little stunt you pulled at the bar of deleting the footage"
-    scene bgcourttrl 134 with Dissolve(0.8)
-    Veronica "What?.. How do you?"
-    scene bgcourttrl 135 with Dissolve(0.8)
-    John "That isn't the concern for now , all i want is conversation and ill drop you home as well so shall we?"
-    Veronica "(So he had someone spy me too)"
-    scene bgcourttrl 136 with Dissolve(0.8)
-    Veronica "Try anything funny and i'll break your face in"
-    John "I won't even touch you , I'll sit on the other side so you're comfortable , please come in"
-    scene bgcourttrl 137 with Dissolve(0.8)
-    John "Now then a bit more relaxed we are, you should take the jacket off too the car is temperature controlled"
-    Veronica "What is this?.. what are you thinking?"
-    scene bgcourttrl 138 with Dissolve(0.8)
-    Veronica "If you think you can blackmail me , you're in for a rude awakening"
-    John "Relax this is merely a conversation , we both want the best in intrests don't we?"
-    scene bgcourttrl 139 with Dissolve(0.8)
-    Veronica "Get to the point"
-    John "You see the reason i didn't file for evidence tamperning because mr mason would get his license suspended indefinitely and that would delay the case , wouldn't benefit your cousin or your friend mia right?"
-    Veronica "What are you implying?"
-    scene bgcourttrl 140 with Dissolve(0.8)
-    John "You see , it was very smart of you indeed to delete the footage even though on the outside it might've helped mia because-"
-    Veronica " Becausse you'd have bribed a fake witnes and call it non voluntary intoxication rather than voluntary , which would've resulted in us proving it and making the case longer"
-    scene bgcourttrl 141 with Dissolve(0.8)
-    John "Smart as ever , you're the best for a reason , so it is clear we want this to be resolved fast , correct?"
-    Veronica "Yes , cut to the chase already"
-    scene bgcourttrl 142 with Dissolve(0.8)
-    John "Fine then , here is my offer "
-    John "I will not present that evidence tamperning in court  nor will i bother mia or her family after it.. all i ask in return is a week of your company"
-    Veronica "What the fuck do you mean? I'm not someone you can ground that way , I know what you mean by this company"
-    scene bgcourttrl 143 with Dissolve(0.8)
-    John "Relax , realx , such a pretty face but so much anger. I  will not force myself upon you"
-    John "All i ask are two simple things , to attend a meeting with my arab friends , they are impressed by your style"
-    Veronica "What is the second?"
-    scene bgcourttrl 144 with Dissolve(0.8)
-    John "Second would be to play a round of poker with me and my few invester friends , the only caviat is.. It's strip poker."
-    Veronica "How dare you-"
-    scene bgcourttrl 145 with Dissolve(0.8)
-    John "Hear me out kindly"
-    John "If you win this , I will never ever look back at on mia , your cousin , you or my daughters ever again"
-    Veronica "Why would i trust you?"
-    scene bgcourttrl 146 with Dissolve(0.8)
-    John "I'm  a man of my words ask anyone , like i said we both want this over fast don't we?"
-    scene bgcourttrl 147 with Dissolve(0.8)
-    John "If i get the deal with the arabs , my business will grow in dubai as well , increasing my networth even more"  
-    scene bgcourttrl 148 with Dissolve(0.8)
-    Veronica "Is money really all that matters to you? don't you have enough?"
-    John "I do but even with it i can't get the best like you .. so what do you think?"
-    scene bgcourttrl 149 with Dissolve(0.8)
-    Veronica "Listen here you shithead , I am not doing anything you want here ., If you want to sue  me , go for it. I'll take on that bitch and you alone and destr-"
-    John "Now now , hear me out"
-    scene bgcourttrl 150 with Dissolve(0.8)
-    John "I know you can fight , it's what i love about you."
-    John "However due to your fragile ego here you'd be denying the life your cousin and mia have waited for so long and perhaps.. the life you want with evelyn as well"
-    scene bgcourttrl 151 with Dissolve(0.8)
-    Veronica "(Eve.. no) Sigh if i win , you leave.. forever?"
-    John "Cross my heart , I'll even sign a bond"
-    scene bgcourttrl 152 with Dissolve(0.8)
-    John "Let me make it better for you , even if you lose. I will still leave them , the only difference is that you and i will make lov-"
-    Veronica "Stop.. ugh"
-    scene bgcourttrl 153 with Dissolve(0.8)
-    Veronica "I need some time to think about it"
-    John "Take it! , we have a month after all so don't fret too much though sooner would be prefered"
-    scene bgcourttrl 154 with Dissolve(0.8)
-    John "Look at that we're at your home , you deserve so much better honestly"
-    scene bgcourttrl 155 with Dissolve(0.8)
-    John "The next time we meet , you will be sitting on my face sweetheart"
-    scene bgcourttrl 156 with Dissolve(0.8)
-    Veronica "What do i do..?"
-    scene bgcourttrl 157 with Dissolve(0.8)
-    Veronica "Evelyn , mia , mason"
-    scene bgcourttrl 158 with Dissolve(0.8)
-    Veronica "I can fix it all , but what if i lose?"
-    scene bgcourttrl 159 with Dissolve(0.8)
-    Veronica "This feels like a nightmare but i can't wake up"
+    label .part_1:
+        scene bgcourttrl 125 with Dissolve(0.8)
+        Mason "(Mia , I'll fix this i promise)"
+        scene bgcourttrl 126 with Dissolve(0.8)
+        Veronica "Are you.. coming?"
+        Mason "No I'm taking her to hospital first , you go home"
+        scene bgcourttrl 127 with Dissolve(0.8)
+        Veronica "Mason are you alright?"
+        Mason "I don't know and i don't care about myself right now , go home we'll talk later"
+        scene bgcourttrl 128 with Dissolve(0.8)
+        Veronica "(Why did this go so wrong.. this was suppsoed to be a happy ending)"
+        scene bgcourttrl 129 with Dissolve(0.8)
+        Veronica "I don't even know where eve is , sigh what a mess"
+        scene bgcourttrl 130 with Dissolve(0.8)
+        John "Hello Ms. veronica! what a lovely evening , how are you?"
+        scene bgcourttrl 131 with Dissolve(0.8)
+        Veronica "You've got some nerve trying to talk after what you did today , fucking pathetic"
+        scene bgcourttrl 132 with Dissolve(0.8)
+        John "As far as it's concerned , I played by the law unlike your cousin and specially you"
+        Veronica "What do you mean?"
+        scene bgcourttrl 133 with Dissolve(0.8)
+        John "See I know about your little stunt you pulled at the bar of deleting the footage"
+        scene bgcourttrl 134 with Dissolve(0.8)
+        Veronica "What?.. How do you?"
+        scene bgcourttrl 135 with Dissolve(0.8)
+        John "That isn't the concern for now , all i want is conversation and ill drop you home as well so shall we?"
+        Veronica "(So he had someone spy me too)"
+        scene bgcourttrl 136 with Dissolve(0.8)
+        Veronica "Try anything funny and i'll break your face in"
+        John "I won't even touch you , I'll sit on the other side so you're comfortable , please come in"
+        scene bgcourttrl 137 with Dissolve(0.8)
+        John "Now then a bit more relaxed we are, you should take the jacket off too the car is temperature controlled"
+        Veronica "What is this?.. what are you thinking?"
+        scene bgcourttrl 138 with Dissolve(0.8)
+        Veronica "If you think you can blackmail me , you're in for a rude awakening"
+        John "Relax this is merely a conversation , we both want the best in intrests don't we?"
+        scene bgcourttrl 139 with Dissolve(0.8)
+        Veronica "Get to the point"
+        John "You see the reason i didn't file for evidence tamperning because mr mason would get his license suspended indefinitely and that would delay the case , wouldn't benefit your cousin or your friend mia right?"
+        Veronica "What are you implying?"
+        scene bgcourttrl 140 with Dissolve(0.8)
+        John "You see , it was very smart of you indeed to delete the footage even though on the outside it might've helped mia because-"
+        Veronica " Becausse you'd have bribed a fake witnes and call it non voluntary intoxication rather than voluntary , which would've resulted in us proving it and making the case longer"
+        scene bgcourttrl 141 with Dissolve(0.8)
+        John "Smart as ever , you're the best for a reason , so it is clear we want this to be resolved fast , correct?"
+        Veronica "Yes , cut to the chase already"
+        scene bgcourttrl 142 with Dissolve(0.8)
+        John "Fine then , here is my offer "
+        John "I will not present that evidence tamperning in court  nor will i bother mia or her family after it.. all i ask in return is a week of your company"
+        Veronica "What the fuck do you mean? I'm not someone you can ground that way , I know what you mean by this company"
+        scene bgcourttrl 143 with Dissolve(0.8)
+        John "Relax , realx , such a pretty face but so much anger. I  will not force myself upon you"
+        John "All i ask are two simple things , to attend a meeting with my arab friends , they are impressed by your style"
+        Veronica "What is the second?"
+        scene bgcourttrl 144 with Dissolve(0.8)
+        John "Second would be to play a round of poker with me and my few invester friends , the only caviat is.. It's strip poker."
+        Veronica "How dare you-"
+        scene bgcourttrl 145 with Dissolve(0.8)
+        John "Hear me out kindly"
+        John "If you win this , I will never ever look back at on mia , your cousin , you or my daughters ever again"
+        Veronica "Why would i trust you?"
+        scene bgcourttrl 146 with Dissolve(0.8)
+        John "I'm  a man of my words ask anyone , like i said we both want this over fast don't we?"
+        scene bgcourttrl 147 with Dissolve(0.8)
+        John "If i get the deal with the arabs , my business will grow in dubai as well , increasing my networth even more"  
+        scene bgcourttrl 148 with Dissolve(0.8)
+        Veronica "Is money really all that matters to you? don't you have enough?"
+        John "I do but even with it i can't get the best like you .. so what do you think?"
+        scene bgcourttrl 149 with Dissolve(0.8)
+        Veronica "Listen here you shithead , I am not doing anything you want here ., If you want to sue  me , go for it. I'll take on that bitch and you alone and destr-"
+        John "Now now , hear me out"
+        scene bgcourttrl 150 with Dissolve(0.8)
+        John "I know you can fight , it's what i love about you."
+        John "However due to your fragile ego here you'd be denying the life your cousin and mia have waited for so long and perhaps.. the life you want with evelyn as well"
+        scene bgcourttrl 151 with Dissolve(0.8)
+        Veronica "(Eve.. no) Sigh if i win , you leave.. forever?"
+        John "Cross my heart , I'll even sign a bond"
+        scene bgcourttrl 152 with Dissolve(0.8)
+        John "Let me make it better for you , even if you lose. I will still leave them , the only difference is that you and i will make lov-"
+        Veronica "Stop.. ugh"
+        scene bgcourttrl 153 with Dissolve(0.8)
+        Veronica "I need some time to think about it"
+        John "Take it! , we have a month after all so don't fret too much though sooner would be prefered"
+        scene bgcourttrl 154 with Dissolve(0.8)
+        John "Look at that we're at your home , you deserve so much better honestly"
+        scene bgcourttrl 155 with Dissolve(0.8)
+        John "The next time we meet , you will be sitting on my face sweetheart"
+        scene bgcourttrl 156 with Dissolve(0.8)
+        Veronica "What do i do..?"
+        scene bgcourttrl 157 with Dissolve(0.8)
+        Veronica "Evelyn , mia , mason"
+        scene bgcourttrl 158 with Dissolve(0.8)
+        Veronica "I can fix it all , but what if i lose?"
+        scene bgcourttrl 159 with Dissolve(0.8)
+        Veronica "This feels like a nightmare but i can't wake up"
     jump chap_2_scene_19
 
 label chap_2_scene_19:
@@ -5151,14 +5161,14 @@ menu:
     "Not Intrested":
         jump .part_1
 
-    "50$":
+    "100$":
         
         jump .part_2
 
-    "80$":
+    "180$":
         
         jump .part_3
-    "120$" if mc_stats.current_corruption > 35:
+    "300$" if mc_stats.current_corruption > 35:
         
         jump .part_4
 
@@ -5193,7 +5203,7 @@ label .part_2:
     scene bg dtwoindin 8 with Dissolve(0.8)
     Taka "Just point like a teacher!"
     Taka "Bravo! all good shots kiara!"
-    $ inventory.earn(50)
+    $ inventory.earn(100)
     jump chap_2_scene_29
 
 label .part_3:
@@ -5227,7 +5237,7 @@ label .part_3:
     Taka "Last pose , just side amgle with looking at hand"
     scene bg dtwocoolcsply 13 with Dissolve(0.8)
     Taka "(I would eat that ass every day if i was with her)"
-    $ inventory.earn(80)
+    $ inventory.earn(180)
     $ mc_stats.adjust_corruption(3)
     jump chap_2_scene_29
 
@@ -5253,7 +5263,7 @@ label .part_4:
     scene bg dtwolewdcsply 7  with Dissolve(0.8)
     Taka "It's a shoot script kiara , they need you to be realistic it's a sleep suit not business, some like it abit unbuttoned"
     Kiara "But why in sleepwear? ( This is just odd.. what do i do? )"
-    $ inventory.earn(120)
+    $ inventory.earn(300)
     $ mc_stats.adjust_corruption(5)
     #Kiara (GIVE OPTION TO REFUSE HERE AND IF REFUSED USE RENDER OF rejectdtwocsplaymid ""
     #if not continue) (Optins 
