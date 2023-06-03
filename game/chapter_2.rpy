@@ -5244,7 +5244,7 @@ label .part_3:
 label .part_4:
     # IF 120 $ -> USE RENDERS OF - >dtwolewdcsply ->
     scene bg dtwolewdcsply 1  with Dissolve(0.8)
-    Kiara "What do i gotta do in the 120 $ ?"
+    Kiara "What do i gotta do in this one?"
     Taka "It's a script we need to follow , it's for an ad"
     scene bg dtwolewdcsply 2  with Dissolve(0.8)
     Kiara"Do people really buy sleep wear based off ads?"
