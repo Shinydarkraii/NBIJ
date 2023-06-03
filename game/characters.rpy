@@ -81,4 +81,6 @@ define Kiryu = Character("Kiryu")
 define Chiyo = Character("Chiyo")
 define Uno = Character("Uno")
 define Jinshi = Character("Jinshi")
+define Sofia = Character("Sofia")
+define Doctor = Character("Doctor")
 #Game dev 
