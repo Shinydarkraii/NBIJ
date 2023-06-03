@@ -7710,6 +7710,109 @@ label chap_2_scene_40:
     Evelyn "( Heh.. I'm so glad last night happened )"
     scene bg dytwoveroevestrt 17 with Dissolve(0.8)
     Evelyn "( I love you so much, V. I can't wait for us to move on to the next step.)"
-    $ renpy.save("quick-1")
-    "0.3 END"
-    $ renpy.quit()
+    
+    scene bg dytwoveroevestrt 18 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 19 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 20 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 21 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 22 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 23 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 24 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 25 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 26 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 27 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 28 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 29 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 30 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 31 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 32 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 33 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 34 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 35 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 36 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 37 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 38 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 39 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 40 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 41 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 42 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 43 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 44 with Dissolve(0.8)
+    pause
+    scene bg dytwoveroevestrt 45 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_41
+
+label chap_2_scene_41:
+
+
+    scene bg Johndytwonypwrscn 1 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 2 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 3 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 4 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 5 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 6 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 7 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 8 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 9 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 10 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 11 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 12 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 13 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 14 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 15 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 16 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 17 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 18 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 19 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 20 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 21 with Dissolve(0.8)
+    pause
+    scene bg Johndytwonypwrscn 22 with Dissolve(0.8)
+    pause
