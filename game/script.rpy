@@ -12,7 +12,7 @@ label start:
     show screen char_profile_button
     show screen fondness_screen
     show screen Inventory_screen
-    #jump intro
+    #jump chap_2_scene_45
     #Game end
     jump intro
     

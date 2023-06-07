@@ -7816,3 +7816,563 @@ label chap_2_scene_41:
     pause
     scene bg Johndytwonypwrscn 22 with Dissolve(0.8)
     pause
+    jump chap_2_scene_42
+
+
+label chap_2_scene_42:
+
+
+    scene bg jennifrhmdytwo 1 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 2 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 3 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 4 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 5 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 6 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 7 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 8 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 9 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 10 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 11 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 12 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 13 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 14 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 15 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 16 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 17 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 18 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 19 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 20 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 21 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 22 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 23 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 24 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 25 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 26 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 27 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 28 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 29 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 30 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 31 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 32 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 33 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 34 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 35 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 36 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 37 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 38 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 39 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 40 with Dissolve(0.8)
+    pause
+    scene bg jennifrhmdytwo 41 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_43
+
+
+label chap_2_scene_43:
+
+    scene bg miasofiatlkny 1 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 2 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 3 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 4 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 5 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 6 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 7 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 8 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 9 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 10 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 11 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 12 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 13 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 14 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 15 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 16 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 17 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 18 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 19 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 20 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 21 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 22 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 23 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 24 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 25 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 26 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 27 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 28 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 29 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 30 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 31 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 32 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 33 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 34 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 35 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 36 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 37 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 38 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 39 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 40 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 41 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 42 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 43 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 44 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 45 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 46 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 47 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 48 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 49 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 50 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 51 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 52 with Dissolve(0.8)
+    pause
+    scene bg miasofiatlkny 53 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_44
+
+label chap_2_scene_44:
+
+    scene bg nyjakendevehsptl 1 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 2 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 3 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 4 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 5 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 6 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 7 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 8 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 9 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 10 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 11 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 12 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 13 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 14 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 15 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 16 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 17 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 18 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 19 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 20 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 21 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 22 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 23 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 24 with Dissolve(0.8)
+    pause
+    scene bg nyjakendevehsptl 25 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_45
+
+label chap_2_scene_45:
+    scene bg vlntndytwony 1 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 2 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 3 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 4 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 5 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 6 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 7 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 8 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 9 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 10 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 11 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 12 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 13 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 14 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 15 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 16 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 17 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 18 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 19 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 20 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 21 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 22 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 23 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 24 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 25 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 26 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 27 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 28 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 29 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 30 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 31 with Dissolve(0.8)
+    pause
+    scene bg vlntndytwony 32 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_46
+
+
+
+label chap_2_scene_46:
+
+    scene bg eugnsxscn 1 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 2 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 3 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 4 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 5 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 6 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 7 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 8 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 9 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 10 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 11 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 12 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 13 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 14 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 15 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 16 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 17 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 18 with Dissolve(0.8)
+    pause
+    menu:
+        "Skip scene?"
+            
+        "Yes":
+            jump chap_2_scene_47
+        "No":
+            pass
+    scene bg eugnsxscn 19 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 20 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 21 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 22 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 23 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 24 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 25 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 26 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 27 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 28 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 29 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 30 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 31 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 32 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 33 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 34 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 35 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 36 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 37 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 38 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 39 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 40 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 41 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 42 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 43 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 44 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 45 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 46 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 47 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 48 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 49 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 50 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 51 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 52 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 53 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 54 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 55 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 56 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 57 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 58 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 59 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 60 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 61 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 62 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 63 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 64 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 65 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 66 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 67 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 68 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 69 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 70 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 71 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 72 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 73 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 74 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 75 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 76 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 77 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 78 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 79 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 80 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 81 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 82 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 83 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 84 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 85 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 86 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 87 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 88 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 89 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 90 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 91 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 92 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 93 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 94 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 95 with Dissolve(0.8)
+    pause
+    scene bg eugnsxscn 96 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_47
+
+label chap_2_scene_47:
+
+#masonmeetsjin
+    scene bg masonmeetsjin 1 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 2 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 3 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 4 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 5 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 6 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 7 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 8 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 9 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 10 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 11 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 12 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 13 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 14 with Dissolve(0.8)
+    pause
+    scene bg masonmeetsjin 15 with Dissolve(0.8)
+    pause

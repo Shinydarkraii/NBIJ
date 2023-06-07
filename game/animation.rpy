@@ -25,3 +25,7 @@ image bg_lanamsgsideang_anim_3 =  Movie(fps= 60, play= "images/Jpn/Ny/lanamommsg
 image bg rinsxscnstrt 43 =  Movie(fps= 60, play= "images/Jpn/day2jpn/rinsxscndytwo/rinsxscnstrt/bg rinsxscnstrt 43.webm", loop = True)
 image bg rinsxscnstrt 44 =  Movie(fps= 60, play= "images/Jpn/day2jpn/rinsxscndytwo/rinsxscnstrt/bg rinsxscnstrt 44.webm", loop = True)
 image bg rinsxscnstrt 45 =  Movie(fps= 60, play= "images/Jpn/day2jpn/rinsxscndytwo/rinsxscnstrt/bg rinsxscnstrt 45.webm", loop = True)
+
+## bg eugnsxscn  ANIMATIONS
+image bg eugnsxscn 89 =  Movie(fps= 60, play= "images/Jpn/Ny/DYtwoNY/eugnsxscn/bg eugnsxscn 89.webm", loop = True)
+image bg eugnsxscn 90 =  Movie(fps= 60, play= "images/Jpn/Ny/DYtwoNY/eugnsxscn/bg eugnsxscn 90.webm", loop = True)

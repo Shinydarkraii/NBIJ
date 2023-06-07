@@ -2153,7 +2153,98 @@ label lanaafterintro:
             jump .part_1
         "Don't do it":
             Lana "Yeah not worth it."
-            jump miamasonmiday
+            #label veromeetsevlyn:
+            play music "/audio/evlynvnca.ogg"
+            scene bg veromeetsevelyn 1 with Dissolve(0.8)
+            Veronica "Such a long trip , but I think it's about time. "
+            show bg veromeetsevelyn 2 with Dissolve(0.8)
+            Veronica "She's probably gonna be mad at me for this... "
+            show bg veromeetsevelyn 3 with Dissolve(0.8)
+            Veronica "Plus, it doesn't help that she's a diva as well. "
+            show bg veromeetsevelyn 4 with Dissolve(0.8)
+            Veronica "Though right now I have to do this , it's the only chance to fix this family. "
+            show bg veromeetsevelyn 5 with Dissolve(0.8)
+            Veronica "Welp , here goes nothing. "
+            show bg veromeetsevelyn 6 with Dissolve(0.8)
+            Veronica "Okay, deep breaths... Let's go. "
+            show bg veromeetsevelyn 6pt2 with Dissolve(0.8)
+            "Doorbell" "*Bell rings* "
+            "???""Who could it be this early? "
+            show bg veromeetsevelyn 7 with Dissolve(0.8)
+            "???""I'm sure I have paid the bills for the month already.   "
+            show bg veromeetsevelyn 8 with Dissolve(0.8)
+            Veronica "Should I ring the bell again?... no, she hates it. I'll wait. "
+            show bg veromeetsevelyn 9 with Dissolve(0.8)
+            "???""Alright, I don't look homeless. At least, let's go. "
+            show bg veromeetsevelyn 10 with Dissolve(0.8)
+            "???""Please wait! I'm coming. "
+            show bg veromeetsevelyn 11 with Dissolve(0.8)
+            "???""I hope it isn't some pranking kids. "
+            show bg veromeetsevelyn 12 with Dissolve(0.8)
+            Veronica "There she is... Alright. "
+            show bg veromeetsevelyn 13 with Dissolve(0.8)
+            Veronica "Hello there , natural beauty. "
+            show bg veromeetsevelyn 14 with Dissolve(0.8)
+            Evelyn "Veronica?... Hey. "
+            show bg veromeetsevelyn 15 with Dissolve(0.8)
+            Veronica "That all I get for traveling 100 miles? hey? "
+            Evelyn "Aheh, sorry, love, Just woke up. I didn't know you were coming. "
+            show bg veromeetsevelyn 16 with Dissolve(0.8)
+            Evelyn "Please come in , let's at least have a coffee. "
+            Veronica "Ahh, your handmade coffee is worth even 1000 miles. "
+            show bg veromeetsevelyn 17 with Dissolve(0.8)
+            Evelyn "So what brings new york's hottest lawyer into my little shed? "
+            Veronica "Look who's talking."
+            show bg veromeetsevelyn 18 with Dissolve(0.8)
+            Veronica "I've been trying to catch up to your beauty since we were teenagers. "
+            show bg veromeetsevelyn 19 with Dissolve(0.8)
+            Veronica "But... today I'm here for something serious."
+            Evelyn "Hm? is everything alright, V? "
+            Veronica "I-... I'm here to talk about Mia... "
+            show bg veromeetsevelyn 20 with Dissolve(0.8)
+            Evelyn "I don't know who that person is V , and I'd prefer you not to continue the conversation here. "
+            Veronica "Eve, hear me out, please, at least. "
+            show bg veromeetsevelyn 21 with Dissolve(0.8)
+            Veronica "Eve , Mia needs you right now. Please understand she's not the person you remember. "
+            Evelyn "Grandpa needed her too , what did she do? "
+            show bg veromeetsevelyn 22 with Dissolve(0.8)
+            Evelyn "I needed her too V , When I was 15 and I left that home she had the choice to save everyone but what did she do? "
+            Veronica "Eve , I know what- "
+            show bg veromeetsevelyn 23 with Dissolve(0.8)
+            Evelyn "No you don't V , she had the choice to save grandpa , fix our lives but she chose to stay with that man instead. "
+            Veronica "Eve , look... "
+            show bg veromeetsevelyn 24 with Dissolve(0.8)
+            Evelyn "As for that man... If I could rip my genes out I would , the fact that he's my father disgusts me. "
+            Veronica "Evelyn please listen , it's not just about Mia here. "
+            show bg veromeetsevelyn 25 with Dissolve(0.8)
+            Evelyn "What do you mean? "
+            Veronica "He tried to grope kiara , and it got very messy yesterday night. "
+            show bg veromeetsevelyn 26 with Dissolve(0.8)
+            Veronica "Before you lose it... Mia hit him in his junk and got kiara out and she's in japan now back at your aunt's house. "
+            Evelyn "Okay... so why are you here? I mean... what can I do? "
+            show bg veromeetsevelyn  27 with Dissolve(0.8)
+            Veronica "I'm here for my friend , a daughter and a sister that this family desperately needs. "
+            Evelyn "Do you mean Kiara?... She probably hates me V. "
+            show bg veromeetsevelyn 28 with Dissolve(0.8)
+            Evelyn "Even if  I go back , She'll just... not accept me or despise me and that'll break me V. "
+            Veronica "Eve... "
+            show bg veromeetsevelyn 29 with Dissolve(0.8)
+            Veronica "Maybe it's the opposite, maybe what she needs the most now is a older sister , and what Mia needs is the piece of her heart that she's never able to hold again. "
+            Evelyn "Do you really believe that?... "
+            show bg veromeetsevelyn 30 with Dissolve(0.8)
+            Veronica "I believe in you Evelyn , it's why I came here and I have faith you'll do the right thing. "
+            Evelyn "Thank you V , you're amazing. "
+            show bg veromeetsevelyn 31 with Dissolve(0.8)
+            Veronica "No you're the amazing one , I just copy you hehe. "
+            Evelyn "You're still the same... I'll get ready then. "
+            show bg veromeetsevelyn 32 with Dissolve(0.8)
+            Veronica "Be quick about it or I might join you in the shower nature beauty. Heh just kidding. "
+            Evelyn "You and your silly compliments.... "
+            ""
+            stop music
+            jump Lanaliz
+            
+            #jump miamasonmiday
 
     label .part_1:
         show bg lanaafterintro 7 with Dissolve(0.8)
@@ -2225,7 +2316,97 @@ label lanaafterintro:
         ""
         $ renpy.end_replay()
         stop music
-    jump miamasonmiday
+    #label veromeetsevlyn:
+        play music "/audio/evlynvnca.ogg"
+        scene bg veromeetsevelyn 1 with Dissolve(0.8)
+        Veronica "Such a long trip , but I think it's about time. "
+        show bg veromeetsevelyn 2 with Dissolve(0.8)
+        Veronica "She's probably gonna be mad at me for this... "
+        show bg veromeetsevelyn 3 with Dissolve(0.8)
+        Veronica "Plus, it doesn't help that she's a diva as well. "
+        show bg veromeetsevelyn 4 with Dissolve(0.8)
+        Veronica "Though right now I have to do this , it's the only chance to fix this family. "
+        show bg veromeetsevelyn 5 with Dissolve(0.8)
+        Veronica "Welp , here goes nothing. "
+        show bg veromeetsevelyn 6 with Dissolve(0.8)
+        Veronica "Okay, deep breaths... Let's go. "
+        show bg veromeetsevelyn 6pt2 with Dissolve(0.8)
+        "Doorbell" "*Bell rings* "
+        "???""Who could it be this early? "
+        show bg veromeetsevelyn 7 with Dissolve(0.8)
+        "???""I'm sure I have paid the bills for the month already.   "
+        show bg veromeetsevelyn 8 with Dissolve(0.8)
+        Veronica "Should I ring the bell again?... no, she hates it. I'll wait. "
+        show bg veromeetsevelyn 9 with Dissolve(0.8)
+        "???""Alright, I don't look homeless. At least, let's go. "
+        show bg veromeetsevelyn 10 with Dissolve(0.8)
+        "???""Please wait! I'm coming. "
+        show bg veromeetsevelyn 11 with Dissolve(0.8)
+        "???""I hope it isn't some pranking kids. "
+        show bg veromeetsevelyn 12 with Dissolve(0.8)
+        Veronica "There she is... Alright. "
+        show bg veromeetsevelyn 13 with Dissolve(0.8)
+        Veronica "Hello there , natural beauty. "
+        show bg veromeetsevelyn 14 with Dissolve(0.8)
+        Evelyn "Veronica?... Hey. "
+        show bg veromeetsevelyn 15 with Dissolve(0.8)
+        Veronica "That all I get for traveling 100 miles? hey? "
+        Evelyn "Aheh, sorry, love, Just woke up. I didn't know you were coming. "
+        show bg veromeetsevelyn 16 with Dissolve(0.8)
+        Evelyn "Please come in , let's at least have a coffee. "
+        Veronica "Ahh, your handmade coffee is worth even 1000 miles. "
+        show bg veromeetsevelyn 17 with Dissolve(0.8)
+        Evelyn "So what brings new york's hottest lawyer into my little shed? "
+        Veronica "Look who's talking."
+        show bg veromeetsevelyn 18 with Dissolve(0.8)
+        Veronica "I've been trying to catch up to your beauty since we were teenagers. "
+        show bg veromeetsevelyn 19 with Dissolve(0.8)
+        Veronica "But... today I'm here for something serious."
+        Evelyn "Hm? is everything alright, V? "
+        Veronica "I-... I'm here to talk about Mia... "
+        show bg veromeetsevelyn 20 with Dissolve(0.8)
+        Evelyn "I don't know who that person is V , and I'd prefer you not to continue the conversation here. "
+        Veronica "Eve, hear me out, please, at least. "
+        show bg veromeetsevelyn 21 with Dissolve(0.8)
+        Veronica "Eve , Mia needs you right now. Please understand she's not the person you remember. "
+        Evelyn "Grandpa needed her too , what did she do? "
+        show bg veromeetsevelyn 22 with Dissolve(0.8)
+        Evelyn "I needed her too V , When I was 15 and I left that home she had the choice to save everyone but what did she do? "
+        Veronica "Eve , I know what- "
+        show bg veromeetsevelyn 23 with Dissolve(0.8)
+        Evelyn "No you don't V , she had the choice to save grandpa , fix our lives but she chose to stay with that man instead. "
+        Veronica "Eve , look... "
+        show bg veromeetsevelyn 24 with Dissolve(0.8)
+        Evelyn "As for that man... If I could rip my genes out I would , the fact that he's my father disgusts me. "
+        Veronica "Evelyn please listen , it's not just about Mia here. "
+        show bg veromeetsevelyn 25 with Dissolve(0.8)
+        Evelyn "What do you mean? "
+        Veronica "He tried to grope kiara , and it got very messy yesterday night. "
+        show bg veromeetsevelyn 26 with Dissolve(0.8)
+        Veronica "Before you lose it... Mia hit him in his junk and got kiara out and she's in japan now back at your aunt's house. "
+        Evelyn "Okay... so why are you here? I mean... what can I do? "
+        show bg veromeetsevelyn  27 with Dissolve(0.8)
+        Veronica "I'm here for my friend , a daughter and a sister that this family desperately needs. "
+        Evelyn "Do you mean Kiara?... She probably hates me V. "
+        show bg veromeetsevelyn 28 with Dissolve(0.8)
+        Evelyn "Even if  I go back , She'll just... not accept me or despise me and that'll break me V. "
+        Veronica "Eve... "
+        show bg veromeetsevelyn 29 with Dissolve(0.8)
+        Veronica "Maybe it's the opposite, maybe what she needs the most now is a older sister , and what Mia needs is the piece of her heart that she's never able to hold again. "
+        Evelyn "Do you really believe that?... "
+        show bg veromeetsevelyn 30 with Dissolve(0.8)
+        Veronica "I believe in you Evelyn , it's why I came here and I have faith you'll do the right thing. "
+        Evelyn "Thank you V , you're amazing. "
+        show bg veromeetsevelyn 31 with Dissolve(0.8)
+        Veronica "No you're the amazing one , I just copy you hehe. "
+        Evelyn "You're still the same... I'll get ready then. "
+        show bg veromeetsevelyn 32 with Dissolve(0.8)
+        Veronica "Be quick about it or I might join you in the shower nature beauty. Heh just kidding. "
+        Evelyn "You and your silly compliments.... "
+        ""
+        stop music
+    jump Lanaliz
+    #jump miamasonmiday
 
 label kiarainstreets2:
     show bg kiaraandtaka 32 with Dissolve(0.8)
