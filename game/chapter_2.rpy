@@ -3241,59 +3241,59 @@ label chap_2_scene_16:
     scene bg vlntndctr 8 with Dissolve(0.8)
     pause
     scene bg vlntndctr 9  with Dissolve(0.8)
-    "Dr. Rachel" "(This is the only thing i can do now)"
+    Sofia "(This is the only thing i can do now)"
     scene bg vlntndctr 10  with Dissolve(0.8)
     pause
     scene bg vlntndctr 11  with Dissolve(0.8)
     Valentina "Excuse me.. Doctor rachel"
     scene bg vlntndctr 12  with Dissolve(0.8)
     Valentina "I'm here , we talked on-"
-    "Dr. Rachel" "Valentina i believe , please sit"
+    Sofia "Valentina i believe , please sit"
     scene bg vlntndctr 13  with Dissolve(0.8)
     Valentina "Doctor , I understand you can't share everything but i just want to know what happened.. she's alive i know that"
-    "Dr. Rachel" "I know you do"
+    Sofia "I know you do"
     scene bg vlntndctr 14 with Dissolve(0.8)
     Valentina "Why make the death certificate then?.. What exactly happened?"
-    "Dr. Rachel" "I believe saying it won't do it justice.. so i want you to just read it yourself"
+    Sofia "I believe saying it won't do it justice.. so i want you to just read it yourself"
     scene bg vlntndctr 15  with Dissolve(0.8)
-    "Dr. Rachel" "I know you're angry with me as well but maybe after this , you might understand my position too"
+    Sofia "I know you're angry with me as well but maybe after this , you might understand my position too"
     Valentina "I'm an understanding person , I give chances to everyone"
     scene bg vlntndctr 16  with Dissolve(0.8)
-    "Dr. Rachel" "Here take a look.."
+    Sofia "Here take a look.."
     Valentina "This is.. Her last note?"
     scene bg vlntndctr 17  with Dissolve(0.8)
     Valentina "What?..what is this she-"
-    "Dr. Rachel" "I'm sorry , I had no choice"
+    Sofia "I'm sorry , These were her last words.. and much like you , I was tricked too"
     scene bg vlntndctr 18  with Dissolve(0.8)
     Valentina "This?.. her mother knew about it as well?"
-    "Dr. Rachel" "She did , we did what was the best for her"
+    Sofia "She did , we were going to do only what was best for her.. but her father intervened"
     scene bg vlntndctr 19  with Dissolve(0.8)
     Valentina "Kiara , why didn't you tell us anything?"
-    "Dr. Rachel" "She couldn't have , she was going through all of that alone , as the note says tired of burdening everyone"
+    Sofia "She couldn't have , she was going through all of that alone , as the note says tired of burdening everyone"
     scene bg vlntndctr 20  with Dissolve(0.8)
     Valentina "I'm a useless friend, how could i have been so blind?"
     scene bg vlntndctr 21  with Dissolve(0.8)
     Valentina "Kiara , why did you.. *sobs*"
-    "Dr. Rachel" "Valentina , please calm yourself"
+    Sofia "Valentina , please calm yourself"
     scene bg vlntndctr 22  with Dissolve(0.8)
-    "Dr. Rachel"  "Drink some water please"
+    Sofia  "Drink some water please"
     scene bg vlntndctr 23  with Dissolve(0.8)
-    "Dr. Rachel" "Now you know why i agreed , it wasn't money , wasn't force , she needed it"
+    Sofia "Now you know why i agreed , it wasn't money , wasn't force , she needed it and then that man just took advantage of the situation as well.."
     scene bg vlntndctr 24  with Dissolve(0.8)
-    "Dr. Rachel"  "I can't give these files away.. but what i can say is making her remember the past isn't a good idea"
-    Valentina "But they erased more .. her father must've been involved i know it"
+    Sofia  "I can't give these files away.. but what i can say is making her remember the past without a procedure is a bad idea"
+    Valentina "They erased more , continously according to you .. so he really was the culprint behind it"
     scene bg vlntndctr 25  with Dissolve(0.8)
-    "Dr. Rachel" "I had to agree to the later drafts because her mother agreed too , she was unconcious"
+    Sofia "I had no contorl over the later drafts as they took the patient papers form me.. they took me away , she couldn't resist but because she was unconcious"
     Valentina "Is there really no way?"
     scene bg vlntndctr 26  with Dissolve(0.8)
     Valentina "She deserves the truth , if not all then at least some of it"
-    "Dr. Rachel" "Maybe might be doable..  parts of restoration can happen either through triggers or manually from here"
+    Sofia "Maybe might be doable..  parts of restoration can happen either through triggers or manually from here"
     scene bg vlntndctr 27  with Dissolve(0.8)
-    "Dr. Rachel" "Before you go, one more thing"
+    Sofia "Before you go, one more thing"
     Valentina "What?"
     scene bg vlntndctr 28  with Dissolve(0.8)
-    "Dr. Rachel" "Once you do, apologize to her from my side.. I made a grave mistake"
-    Valentina "I will but you have to live with it for now"
+    Sofia "Once you do, apologize to her from my side.. I made a grave mistake , I never should've accepted"
+    Valentina "I will but you have to live with it for now like all of us"
     scene bg vlntndctr 29  with Dissolve(0.8)
     Valentina "The trial starts soon , I pray it goes well aunt mia"
 
