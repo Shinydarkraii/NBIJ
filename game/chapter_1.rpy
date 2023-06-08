@@ -103,13 +103,13 @@ label azumiportbathroomchoice1:
     show azumiinvstgt 8 with Dissolve(0.8)
     "Girls" "Mmm... that's right , get that tongue swirling in there. "
     show azumiinvstgt 9 with Dissolve(0.8)
-    "Girls" "Haaa.... yes babe , you're so good at it. "
+    "Girls" "Mmmmawh.... yes babe , you're so good at it. "
     show azumiinvstgt 10 with Dissolve(0.8)
     ""
     show azumiinvstgt 11 with Dissolve(0.8)
     "Girls" "Ohh... fuck , yes eat it "
     show azumiinvstgt 12 with Dissolve(0.8)
-    "Blonde" "Aaaaaahhhh , yes... "
+    "Blonde" "Aaaaaahhhh yes... "
     show azumiinvstgt 13 with Dissolve(0.8)
     "Blonde" "Ha.... huh?... "
     show azumiinvstgt 14 with Dissolve(0.8)
@@ -122,12 +122,12 @@ label azumiportbathroomchoice1:
     show azumiinvstgt 17 with Dissolve(0.8)
     "Blonde" "Hiding doesn't do much when you're the pervert too you know cutie? "
     show azumiinvstgt 18 with Dissolve(0.8)
-    Azumi "No... I'm not , I'm sorry I checked to see if you were alright and I was shocked... so I couldn't mov- "
+    Azumi "Nu... I'm not , I'm sorry I checked to see if you were alright and I was shocked... so I couldn't mov- "
     show azumiinvstgt 19 with Dissolve(0.8)
-    "Asian girl" "Honey , we're not asking for a explanation. It's all good... how about you join us for more fun? "
+    "Asian girl" "Honey, we're not asking for an explanation. It's all good. How about you join us for more fun? "
     Azumi "No... I can't- sorry. "
     show azumiinvstgt 20 with Dissolve(0.8)
-    Azumi "I... I already like someone , I apologize I didn't intend to do that , I just froze. "
+    Azumi "I... I already like someone. I apologize; I didn't intend to do that. I just froze "
     "Girls" "Aw, that's okay. You can go then. You're really cute, by the way."
     show azumiinvstgt 21 with Dissolve(0.8)
     Azumi "Did...that just happen? "
@@ -169,15 +169,15 @@ label veronicaevidencedel:
 
     Bartender "Bit late for a drink. "
 
-    Veronica "As if you care... listen. "
+    Veronica "As if you care... now listen. "
 
     show bg veronicaevidencedel 4 with Dissolve(0.8)
 
-    Veronica "I need you to hear me , stay quiet, and follow... "
+    Veronica "I need you to hear me , stay quiet and follow... "
 
     show bg veronicaevidencedel 5 with Dissolve(0.8)
 
-    Veronica "Check your counter below, my assistant earlier here has dropped 10k there ... you don't need to know how , when, or why , just delete all of your CCTV footage since last week and remember... I wasn't here. "
+    Veronica "Check your counter below. My assistant earlier dropped 10k there... You don't need to know how, when, or why. Just delete all of your CCTV footage since last week and remember... I wasn't here."
 
     show bg veronicaevidencedel 6 with Dissolve(0.8)
 
@@ -185,23 +185,23 @@ label veronicaevidencedel:
 
     show bg veronicaevidencedel 7 with Dissolve(0.8)
 
-    Bartender "I don't know what footage you're talking about, but I remembered I had something to do with the computer. "
+    Bartender "I don't know what footage you're talking about Mam, but I remembered I had something to do with the computer. "
 
     show bg veronicaevidencedel 8 with Dissolve(0.8)
 
-    Veronica "Smart man... good , I'm waiting. "
+    Veronica "Smart kid... good , I'm waiting. "
 
     show bg veronicaevidencedel 9 with Dissolve(0.8)
 
-    Jake "Yo john... she's here like you said, what do I do? "
+    Jake "Yo john... she's here like you said, what do I do now? "
 
     show bg veronicaevidencedel 10 with Dissolve(0.8)
 
-    John "Record everything , and trail her , I got special plans. "
+    John "Record everything  and trail her , I got special plans. "
 
     Jake "Wouldn't this footage help you in case, though? "
 
-    John "Don't worry about it , as I said, I got plans for her. Just keep an eye out. "
+    John "Don't worry about it. As I said, I've got plans for her. Just keep an eye out."
 
     show bg veronicaevidencedel 11 with Dissolve(0.8)
 
@@ -220,20 +220,20 @@ label endingofchaptrpart2:
     Lana "D-Damian?... "
     show bg endingchpt 20 with Dissolve(0.8)
     Damian "Lana! , heh wow hi. "
-    Lana "Oh my god Damian! its nice to see you , how come you're here? "
-    Damian "Natsuko asked me to come to Osaka, seemed serious so I'm going. "
+    Lana "Oh my, Damian! It's so nice to see you. How come you're here?"
+    Damian "Natsuko asked me to come to Osaka. It seemed serious, so I'm going."
     show bg endingchpt 21 with Dissolve(0.8)
-    Lana "Natsuko told him?... Could she be? no... I shouldn't jump to conclusions. "
+    Lana "Natsuko told him?... Could she be? no... I should ask her before he meets her"
     show bg endingchpt 22 with Dissolve(0.8)
     Rin "Hello? how do you know him? "
-    Lana "Rin , he's... he's Damian he's an old friend from college , really nice guy. "
+    Lana "Rin, he's... he's Damian. He's an old friend from college, a really nice guy. "
     show bg endingchpt 23 with Dissolve(0.8)
-    Rin "Um... Remember the basketball tourney I told you about? he was the one who won it. "
+    Rin "Umm... Remember the basketball tourney I told you about? he was the one who won it. "
     show bg endingchpt 24 with Dissolve(0.8)
     Rin "Did you fuck him? "
     show bg endingchpt 25 with Dissolve(0.8)
-    Damian "Wh- no, we were just friends- "
-    Lana "Rin, shut up, will you , christ's sake. "
+    Damian "Whoa  no, we were just friends- "
+    Lana "Rin, shut up, will you? For Christ's sake."
     show bg endingchpt 26 with Dissolve(0.8)
     Damian "Hey Lana, cool outfit by the way. "
     Lana "You think so? I wanted to try something new. "
@@ -241,8 +241,8 @@ label endingofchaptrpart2:
     Rin "She looks better without it , trust me. "
     Lana "Rin! ZIP IT! "
     show bg endingchpt 28 with Dissolve(0.8)
-    Rin "Issa. Jokes, calm down. "
-    Damian "She reminds me of you in the early uni days, Lana. "
+    Rin "Issa. Joke , calm down. "
+    Damian "She reminds me of your early uni days lana , saying whatever she wants huh "
     Lana "Aheheh , I guess that's why she's my friend."
     show bg endingchpt 29 with Dissolve(0.8)
     "Announcement""{i}Attention all passengers , flight to Osaka will leave in 30 minutes , please board the plane immediately. {/i}"
@@ -250,17 +250,17 @@ label endingofchaptrpart2:
     stop music
     show bg endingchpt 30 with Dissolve(0.8)
     play music "/audio/dmnlanaairpot.ogg"
-    Lana "Damain, did you know Osaka is one of the oldest cities? "
+    Lana "Damian, did you know Osaka is one of the oldest cities? "
     show bg endingchpt 31 with Dissolve(0.8)
     Lana "Damian?... you okay? "
     show bg endingchpt 32 with Dissolve(0.8)
     Lana "Hm? what's this? "
     Damian "Take a look... "
     show bg endingchpt 33 with Dissolve(0.8)
-    Lana "Look at this world and its people , they're just words , while you ... poetry. ( that's Kiara's lips... I can't tell him) "
+    Lana "Look at this world and its people , they're just words , while you ... poetry. ( Kiara's lips.. Oh damian.. "
     show bg endingchpt 34 with Dissolve(0.8)
-    Lana "Damian, you'll be okay... I promise , give yourself a break , you deserve to be happy too. "
-    Damian "I hope so, Lana, because the last 3 years, all I've done is try and fail. "
+    Lana "Damian, you'll be okay... I promise. Give yourself a break. You deserve to be happy too. "
+    Damian "I hope so, Lana, because the last three years, all I've done is try and fail. "
     Lana "(Damian... no , I can't tell him. Natsuko I don't know what you're doing but be careful) "
     show bg endingchpt 35 with Dissolve(0.8)
     Damian "( Kiara , you were right... I really never found anyone like you again) "
@@ -276,40 +276,40 @@ label endingofchaptr1:
     show bg endingchpt 2 with Dissolve(0.8)
     Rin "Should've cut the nails properly. "
     show bg endingchpt 3 with Dissolve(0.8)
-    Rin "Laanaaa , hurry up. We'll be late otherwise! "
-    Lana "I'm coming! I'm sorry okay I didn't get time to fit it properly! "
+    Rin "Laanaaa , hurry up! We'll be late otherwise! "
+    Lana "I'm coming! I'm sorry, okay? I didn't get time to fit it properly! "
     show bg endingchpt 4 with Dissolve(0.8)
     Rin "Jesus this girl , how hard can it be to put on a dress? "
     show bg endingchpt 5 with Dissolve(0.8)
     Natsukoontext "Just come please , I can't say why but it's urgent. I need your help, and mom wanted to meet you too. "
     "???""I will , the flight is booked, don't worry, talk to you in a bit. "
     show bg endingchpt 6 with Dissolve(0.8)
-    Rin "Hey fuckface , do you not see the big woman outside, or are you just a massive pervert , either way, get the hell- "
+    Rin "Hey fuckface , do you not see the big woman sign outside, or are you just a massive pervert , either way, get the hell- "
     show bg endingchpt 7 with Dissolve(0.8)
-    "???""Ah... shit, I'm so sorry , I was reading my friend's text, and I- "
+    "???""Fu-shit, I'm so sorry. I was reading my friend's text, and I- "
     show bg endingchpt 8 with Dissolve(0.8)
     Rin "Oh my... he's easy on the eyes. "
     show bg endingchpt 9 with Dissolve(0.8)
-    "???""I'm truly sorry  , I didn't mean to- "
+    "???""I'm really sorry  , I didn't mean to- "
     Rin "It's all good... go on, finish your business. "
     "???""Uh... what? I'm sorry, I think I misheard."
     show bg endingchpt 10 with Dissolve(0.8)
-    Damian "Uh... I don't want any trouble. Look, I apologize. "
+    Damian "Uh... I don't want any trouble. Look, I apologize I'll just go- "
     Rin "Trouble? "
     show bg endingchpt 11 with Dissolve(0.8)
-    Rin "I'm just asking you to take a piss , that's why you entered, right? "
-    Damian "Uh, no, I'm good... I'ma go, actually. Sorry again. "
+    Rin "I'm just asking you to take a piss , that's why you are in a bathroom right? "
+    Damian "Uh, no, I'm good. I'm gonna go, actually. Sorry again. "
     show bg endingchpt 12 with Dissolve(0.8)
     show bg endingchpt 13 with Dissolve(0.8)
     Rin "Hey, wait! you dropped your wallet, look. "
     Damian "Oh, thanks I- "
     show bg endingchpt 14 with Dissolve(0.8)
     Damian "What the-... "
-    Rin "Like what you see, big boy? "
+    Rin "Like what you see, hotshot? "
     show bg endingchpt 15 with Dissolve(0.8)
-    Damian "Uh no , I mean, I am sorry you're okay, but I actually- "
+    Damian "Uh no , I mean, I am sorry you're beautiful but I actually- "
     show bg endingchpt 16 with Dissolve(0.8)
-    Rin "C'mon , come closer... I know you want this you, pervert. "
+    Rin "C'mon , come closer... I know you want this you pervert. "
     Damian "Hey, I'm sorry for real I don't want any trouble, please. "
     stop music
     show bg endingchpt 17 with Dissolve(0.8)
@@ -327,37 +327,36 @@ label endingofchaptr1choice2:
     show bg endingchptdcd with Dissolve(0.8)
     stop music
     play music "/audio/ndngscnmain.ogg"
-    "Kiara... No , I can't do this"
+    "Kiara... No , I-I can't do this"
     show bg endingrjctrin 1 with Dissolve(0.8)
     Damian "Ugh, sorry for pushing you look , I- "
-    Rin "Hey what's your deal? what am I not pretty enough for you? "
+    Rin "Hey what's your deal dude? what am I not pretty enough for you? "
     show bg endingrjctrin 2 with Dissolve(0.8)
-    Damian "No , Please I don't mean that... I have someone in my life. "
+    Damian "No , Please I don't mean that... I just have someone in my life. "
     show bg endingrjctrin 3 with Dissolve(0.8)
-    Rin "Ahh, you're one of the lover types... alright , care to tell me why? "
-    Damian "I will , but please do that first. "
+    Rin "Ahaa you're one of the lover types... alright , care to tell me who's the lucky one? "
+    Damian "I will , but please could you um.. fix that first. "
     show bg endingrjctrin 4 with Dissolve(0.8)
-    Rin "Do what? "
+    Rin "Fix what? "
     show bg endingrjctrin 5 with Dissolve(0.8)
-    Damian "Uh your top... could you please... fix it? "
+    Damian "Uh your top... could you please... just do it? "
     show bg endingrjctrin 6 with Dissolve(0.8)
     Rin "Heh , this?... Jesus how long has it been since you saw tits, dude? "
     Damian "Uh... I haven't in a while yeah , thanks. "
     show bg endingrjctrin 7 with Dissolve(0.8)
     Rin "With that handsome face , kinda hard to believe. "
     show bg endingrjctrin 8 with Dissolve(0.8)
-    Damian "Can I open, my eyes? "
+    Damian "Thanks i guess , um Can I open, my eyes? "
     Rin "Yes, yes you, can. "
     show bg endingrjctrin 9 with Dissolve(0.8)
-    Damian "Uh... I don't know if that's actually covered. "
-    Rin "Well maybe you shouldn't stare then. "
-    Damian "Right... sorry. "
+    Damian "Uh... I don't know if that's actually reallycovered. "
+    Rin "Well maybe you shouldn't stare then huh? "
+    Damian "Right Yeah , sorry. "
     show bg endingrjctrin 10 with Dissolve(0.8)
-    Rin "So , care to tell me who the lucky girl is?m "
-    Damian "Oh, actually she- "
+    Rin "So , care to tell me who that lucky gal is now? "
+    Damian "Um , actually she- "
     show bg endingrjctrin 11 with Dissolve(0.8)
     Lana "I'm ready! ugh, This stupid fucking lock. "
-    ""
     stop music
     jump endingofchaptrpart2
 
@@ -439,7 +438,7 @@ label wongandjohn:
     show bg wongjohn 13 with Dissolve(0.8)
     John "Of course , ask away. "
     show bg wongjohn 14 with Dissolve(0.8)
-    AgentWong "Why do you want her so bad?... No offense but it's not like she's miss universe or the best looker. "
+    AgentWong "Why do you want her so bad?... No offense but it's ain'tlike she's the miss universe or the best looker. "
     John "Ms. Wong , I've slept with celebrities. Looks aren't the reason here at all. "
     show bg wongjohn 15 with Dissolve(0.8)
     AgentWong "Well, what is it then? You can get any model you want with your money, so why her? Your daughter specifically. "
@@ -460,15 +459,14 @@ label wongandjohn:
     show bg wongjohn 21 with Dissolve(0.8)
     AgentWong "I didn't drink because I knew it was drugged... Mia only broke your balls , I'll cut em off and feed em to dogs if you try this shit with me again. "
     show bg wongjohn 22 with Dissolve(0.8)
-    John "Aha hah, Ms. Wong, it was. Merely a test of your awareness skills, you know... "
+    John "Aha, haha! Ms. Wong, it was merely a test of your awareness skills, you know... "
     AgentWong "Whatever, keep your bullshit. "
     show bg wongjohn 23 with Dissolve(0.8)
     AgentWong "I'll report when I land in Osaka, bye. "
     show bg wongjohn 24 with Dissolve(0.8)
     John "Fucking bitch... I'll make you gobble on my dick one day, for now... I have another plan, one much sweeter. "
     show bg wongjohn 25 with Dissolve(0.8)
-    John "Ain't that right...? Lovely Veronica. "
-    ""
+    John "Ain't that right...? Veronica. "
     stop music
     jump endingofchaptr1
 
@@ -485,14 +483,14 @@ label aidenrevealscene:
     show bg aidenvalconvo 3 with Dissolve(0.8)
     Valentinaonphone "Hello? who's this? "
     "???""Your lifesaver, dumbass. "
-    Valentinaonphone "Aiden! Oh my god, hi, I'm sorry I was ...just getting home. "
+    Valentinaonphone "Aiden! Oh my god, hi! I'm sorry, I was just getting home. "
     show bg aidenvalconvo 4 with Dissolve(0.8)
-    Aiden "Yeah, that's great pick up faster next time please , so... did you tell him? "
-    Valentinaonphone "I... Couldn't , Something happened, he was out for groceries. I'll just go tomorrow, it's okay. "
-    Aiden "What are you talking about? He's off to Japan."
+    Aiden "Yeah, that's great. Pick up faster next time, please. So... did you tell him? "
+    Valentinaonphone "I... couldn't. Something happened. He was out for groceries. I'll just go tomorrow. It's okay."
+    Aiden "What are you even talking about? He's already off to Japan."
     show bg aidenvalconvo 5 with Dissolve(0.8)
-    Valentinaonphone "Wait, what? the maid said he went out for- "
-    Aiden "No shit, he lied , I just saw his ticket being booked , why japan now? "
+    Valentinaonphone "Wait, what? but the maid said he went out for- "
+    Aiden "No shit, he lied! I just saw his ticket being booked. Why Japan now though? "
     Valentinaonphone "Are you thinking what I'm thinking? "
     show bg aidenvalconvo 6 with Dissolve(0.8)
     Aiden "I am , but uncertain still... anyway, the guy who called you yesterday, be careful of him, Val. "
@@ -500,7 +498,7 @@ label aidenrevealscene:
     Aiden "Far from it. As I said, be careful. "
     show bg aidenvalconvo 7 with Dissolve(0.8)
     Valentinaonphone "Alright... so what are you doing? "
-    Aiden "John's account has suspiciously high transfers into a BTC account. I'm trying to find to whom. "
+    Aiden "John's account has suspiciously high transfers into a BTC account. I'm trying to find out to whom. "
     Valentinaonphone "Okay, let me know later , you take care, okay! *call cuts* "
     show bg aidenvalconvo 8 with Dissolve(0.8)
     Aiden "Old man... what are you planning. "
@@ -512,7 +510,7 @@ label aidenrevealscene:
 label valntdamimomscn:
     play music "/audio/vlnthmscne1.ogg"
     show valntdamimomscn 1 with Dissolve(0.8)
-    "" "Arundel Household"
+    "" "Boyd Household"
     show valntdamimomscn 2 with Dissolve(0.8)
     Valentina "Once I'm done here, I'll get on tracking whoever it was last night. "
     show valntdamimomscn 3 with Dissolve(0.8)
@@ -524,7 +522,7 @@ label valntdamimomscn:
     show valntdamimomscn 6 with Dissolve(0.8)
     Valentina "Oh, Ana , no, it's alright. I just wanted to talk to Damian. Is he home? "
     show valntdamimomscn 7 with Dissolve(0.8)
-    Valentina "Master Damian left about an hour ago for groceries. However, the mistress is in her room. Do you think I should call her? "
+    MaidAna "Master Damian left about an hour ago for groceries. However, the mistress is in her room. Do you think I should call her? "
     show valntdamimomscn 8 with Dissolve(0.8)
     Valentina "No, it's fine , I'll meet her myself , thanks, Ana. "
     show valntdamimomscn 9 with Dissolve(0.8)
@@ -532,7 +530,7 @@ label valntdamimomscn:
     show valntdamimomscn 10 with Dissolve(0.8)
     MaidAna "Mrs. Valentina always has been kind to master Damian , I wonder why they never got together. "
     show valntdamimomscn 11 with Dissolve(0.8)
-    Valentina "Mrs. Arundel? It's me. When will Damian will be ba- "
+    Valentina "Mrs. Boyd? It's me. When will Damian will be ba- "
 
     label .part_1:
         show valntdamimomscn 12 with Dissolve(0.8)
@@ -560,7 +558,7 @@ label valntdamimomscn:
 label valntdamimomscn1:
 
     show valntdamimomscn 15 with Dissolve(0.8)
-    Valentina "I'll just tell him later by call... This is too embarrassing! "
+    Valentina "I'll just tell him later by phone... This is too embarrassing! "
     ""
     stop music
     #loading
@@ -571,11 +569,11 @@ label valntdamimomscn2:
     stop music
     show valntdamimomscn 16 with Dissolve(0.8)
     play music "/audio/vlnmummstrbt.ogg"
-    Valentina "I'll just call to her when she gets out in the towel... "
+    Valentina "I'll just call to her when she gets out of the shower.. "
     show valntdamimomscn 17 with Dissolve(0.8)
-    Valentina "She's got such an amazing body for a mother... , wait why am I staring ? "
+    Valentina "She's got such an amazing body for someone her age... , wait why am I staring ? "
     show valntdamimomscn 18 with Dissolve(0.8)
-    Valentina "Why is she turning the water off ?... "
+    Valentina "Why is she turning the water off? "
     show valntdamimomscn 19 with Dissolve(0.8)
     ""
     show valntdamimomscn 20 with Dissolve(0.8)
@@ -585,7 +583,7 @@ label valntdamimomscn2:
     show valntdamimomscn 22 with Dissolve(0.8)
     ""
     show valntdamimomscn 23 with Dissolve(0.8)
-    Valentina "Uh... what is she doing?...I can't stop looking. "
+    Valentina "Uhm... what is she doing?...I can't stop looking. "
     show valntdamimomscn 24 with Dissolve(0.8)
     Eugine "Mmm... they've gotten so big since my marriage , luke's usually busy but I've been craving and my son being so hot doesn't help. "
     Valentina "What the? is she talking about Damian? "
@@ -594,7 +592,7 @@ label valntdamimomscn2:
     show valntdamimomscn 26 with Dissolve(0.8)
     ""
     show valntdamimomscn 27 with Dissolve(0.8)
-    Valentina "I can't believe it... she's thinking of her son while masturbating? "
+    Valentina "I can't believe it... she's thinking of her step-son while masturbating? "
     show valntdamimomscn 28 with Dissolve(0.8)
     Valentina "It's wrong on so many levels but... it's so hot I don't know why. "
     show valntdamimomscn 29 with Dissolve(0.8)
@@ -602,20 +600,20 @@ label valntdamimomscn2:
     show valntdamimomscn 30 with Dissolve(0.8)
     Eugine "Mmm... Damian mommy will take care of you. "
     show valntdamimomscn 31 with Dissolve(0.8)
-    Valentina "God... I used to do this too, thinking about Damian, this is so wrong. "
+    Valentina "God... I used to do this too, thinking about Damian and getting wet.. this is so wrong. "
     show valntdamimomscn 32 with Dissolve(0.8)
     Valentina "What am I doing?... I like nick and yet... "
     show valntdamimomscn 33 with Dissolve(0.8)
     Eugine "Aaaahh , fuck me... I want you so bad. "
     show valntdamimomscn 34 with Dissolve(0.8)
-    Valentina "Mmm... god she's so hot too. "
+    Valentina "God she's so hot too. "
     show valntdamimomscn 35 with Dissolve(0.8)
     Eugine "Ahh! yess "
     show valntdamimomscn 36 with Dissolve(0.8)
     Eugine "Aaahhh... so good. "
     Valentina "I wanna share the shower now... "
     show valntdamimomscn 37 with Dissolve(0.8)
-    Valentina "Umph... I am about to cum too... "
+    Valentina "Umph... Damian , I wonder if you ever thought about me this way "
     show valntdamimomscn 38 with Dissolve(0.8)
     Luke "Honey I'm home! "
     Eugine "Perfect timing. "
@@ -631,25 +629,25 @@ label valntdamimomscn2:
 label jakemeetsevelyn:
     play music "/audio/jkeveone.ogg"
     show bg eveandjakepark 1 with Dissolve(0.8)
-    Jake "Mom , just a few more months then I'll get a good job and leave all this behind. "
+    Jake "Mom, just a few more months, and then I'll get a good job and leave all this behind."
     show bg eveandjakepark 2 with Dissolve(0.8)
-    Jake "Okay, gotta cheer me up a bit , these tacos should do the trick. "
+    Jake "Okay, gotta cheer myself up a bit , these tacos should do the trick. "
     show bg eveandjakepark 3 with Dissolve(0.8)
     Jake "Nice , seems like he did all the fillings. "
     show bg eveandjakepark 4 with Dissolve(0.8)
     Jake "Alright, let's open it up. "
     show bg eveandjakepark 5 with Dissolve(0.8)
-    Jake "Muchos gracias , this looks nice! "
+    Jake "Muchos gracias , these looks nice! "
     show bg eveandjakepark 6 with Dissolve(0.8)
     ""
     show bg eveandjakepark 7 with Dissolve(0.8)
-    Jake "WHAT THE FUCK! "
+    Jake "WHAT THE FU-! "
     show bg eveandjakepark 8 with Dissolve(0.8)
-    Jake "AAAAHHHHHHHHHH THE FUCK IS THAT SPICE , WATER! "
+    Jake "AAAAHHHHHHHHHH THE FUCK IS THIS SPICE , WATER! WATER PLEASE!"
     show bg eveandjakepark 9 with Dissolve(0.8)
     Jake "Urgh ah , water yes, good... "
     show bg eveandjakepark 10 with Dissolve(0.8)
-    Jake "Urgh ah , huh...huh.huu"
+    Jake "uH , huh...huh...gulp"
     show bg eveandjakepark 11 with Dissolve(0.8)
     Jake "Blugh, what the fuck is this ocean water salty as shit. "
     show bg eveandjakepark 12 with Dissolve(0.8)
@@ -678,43 +676,45 @@ label jakemeetsevelyn:
     Evelyn "Uhh well... "
     show bg eveandjakepark 20 with Dissolve(0.8)
     Evelyn "You're not entirely wrong , but new and old both. Get it? "
-    Jake "I don't, but it's fine , I suck at expressing myself too."
+    Jake "I don't but it's fine , I suck at expressing myself too."
     show bg eveandjakepark 21 with Dissolve(0.8)
-    Evelyn "So this your usual hang out spot? seems lonely. "
-    Jake "Well, not hangout, isolation rather, lonely, yes, but peaceful too. "
+    Evelyn "So this your usual hang out spot? seems quite...lonely. "
+    Jake "Well, not hangout. Rather, isolation. Lonely, yes, but peaceful too. "
     show bg eveandjakepark 22 with Dissolve(0.8)
     Evelyn "Peaceful it is , no doubt about that. "
     show bg eveandjakepark 23 with Dissolve(0.8)
     Jake "Hey, I'm sorry again for wasting your entire water , it was burning my eyes , hell, my mouth is still a mess. "
     Evelyn "Heh, it's alright. I can afford more. "
     show bg eveandjakepark 24 with Dissolve(0.8)
-    Evelyn "Here, by the way , this candy will help calm the mouth a bit. "
+    Evelyn "Here by the way , this candy should help calm the mouth a bit. "
+    Jake "Wh- Um"
     show bg eveandjakepark 25 with Dissolve(0.8)
     Jake "Am I hallucinating due to the spice, or are you actually real? "
     Evelyn "What? why would you think that? "
     Jake "Well , you're so kind... it's pretty rare in today's world. "
     show bg eveandjakepark 26 with Dissolve(0.8)
-    Evelyn "It's not rare , it should be the norm. Being kind isn't hard. It just takes a little bit of effort, but because people are afraid of getting attached to people or things and losing them."
+    Evelyn "It's not rare , it should be the norm."
+    Evelyn "Being kind isn't hard. It just takes a little bit of effort, but because people are afraid of getting attached to people or things and losing them."
     show bg eveandjakepark 27 with Dissolve(0.8)
-    Evelyn "Sure, there are exceptions, but I think everyone should be kind to each other , especially after us surviving a pandemic. "
+    Evelyn "Sure, there are exceptions but I think everyone should be kind to each other , specially after us surviving a pandemic. "
     Jake "Hm... ( these are mom's words... man, she's not just pretty outside but inside too) "
     show bg eveandjakepark 28 with Dissolve(0.8)
-    Jake "(Mom...!) "
+    Jake "(Mom... I'll make you proud one day) "
     show bg eveandjakepark 29 with Dissolve(0.8)
-    Evelyn "Hey ? you alright? sorry if I said something that upset you. "
+    Evelyn "Hey ? you alright? Sorry if I said something that upset you. "
     show bg eveandjakepark 30 with Dissolve(0.8)
     Jake "No, you're good , sorry anyway, I'm Jake , I'm a- "
     show bg eveandjakepark 31 with Dissolve(0.8)
     Jake "Ah shit... gotta go. "
     Evelyn "No worries , also I'm Evelyn. "
     show bg eveandjakepark 32 with Dissolve(0.8)
-    Jake "Cool name ! , Uh, meet me this weekend, I'll bring ice cream! "
+    Jake "Cool name ! , Uh meet me this weekend?, I'll bring ice cream! "
     Evelyn "Oh , okay, uhh... "
     show bg eveandjakepark 33 with Dissolve(0.8)
-    Evelyn "I like BUTTERSCOTCH! "
+    Evelyn "I like BUTTERSCOTCH! or strawberry! "
     Jake "Gotcha! Will bring a family size. "
     show bg eveandjakepark 34 with Dissolve(0.8)
-    Evelyn "That wasn't so bad... I suppose people have changed with time. "
+    Evelyn "That wasn't so bad... Heh.. family size , see you again hopefully  "
     show bg eveandjakepark 35 with Dissolve(0.8)
     Jake "Mom... I think I found the girl you were talking about , I'll do my best to be a better person. "
     ""
@@ -818,32 +818,32 @@ label natsunightbathroom:
 label azuminighttext:
     play music "/audio/azmihmscn.ogg"
     show bg azuminighttext 1 with Dissolve(0.8)
-    Azumi "One call... I need one call or message. "
+    Azumi "One call... I just need one call or message. "
     show bg azuminighttext 2 with Dissolve(0.8)
     Azumi "Even if we don't talk...  I hope she's safe. "
     show bg azuminighttext 3 with Dissolve(0.8)
-    Azumi "All I can do is wait and pray , Kiara, please be alright. "
+    Azumi "All I can do is wait and pray , Kiara please be alright. "
     show bg azuminighttext 4 with Dissolve(0.8)
     Azumi "Huh? * phone ring* please be her , please be her. "
     stop music
     show bg azuminighttext 5 with Dissolve(0.8)
     play music "/audio/azminttxtfull.ogg"
-    Kiaraonphone "Azumi! I just saw your texts. I'm so sorry , I lost my phone, and then it died... I'll explain, I promise. "
-    Azumi "No, it's completely fine , I was just worried. Sorry for the spam... So are you okay now? "
+    Kiaraonphone "Azumi! I just saw your texts. I'm so sorry. I lost my phone, and then it died... I'll explain, I promise. "
+    Azumi "No, it's completely fine. I was just worried. Sorry for the spam... So, are you okay now? "
     show bg azuminighttext 6 with Dissolve(0.8)
-    Kiaraonphone "Yes, I'm perfect , I really should've taken your offer of the ride instead of a cab tho, haha. "
+    Kiaraonphone "Yes, I'm perfect! I really should have taken your offer of the ride instead of a cab though. Haha. "
     Azumi "Told you , but it's okay... so are you coming tomorrow to school? "
     Kiaraonphone "Yes, definitely! "
     show bg azuminighttext 7 with Dissolve(0.8)
-    Azumi "Okay, sleep nice and let me know before you get there. I'll be waiting. "
+    Azumi "Okay, sleep well, and let me know before you get there. I'll be waiting. "
     Kiaraonphone "Yes, I will , gonna get some rest now, okay? Goodnight. "
     Azumi "Goodnight ,  I'll miss you. "
     show bg azuminighttext 8 with Dissolve(0.8)
-    Azumi "Mmmm, that felt good , I can sleep peacefully now ... see you tomorrow, Kiara. "
+    Azumi "Mmmm that felt good , I can sleep peacefully now.. see you tomorrow, Kiara. "
     stop music
     show bg azuminighttext 9 with Dissolve(0.8)
     play music "/audio/hmnitscn.ogg"
-    Kiara "Miss me? she is a cutie. "
+    Kiara "Miss me? Heh she is a cutie. "
     show bg azuminighttext 10 with Dissolve(0.8)
     Kiara "Alright, time for bed. "
     show bg azuminighttext 11 with Dissolve(0.8)
@@ -861,7 +861,7 @@ label Keisukereveal:
     show bg keisukereveal 1 with Dissolve(0.8)
     Ayane "Kei? Kei!? "
     show bg keisukereveal 2 with Dissolve(0.8)
-    Ayane "Here you are...? I've something important to tell you."
+    Ayane "Here you are...! I've something important to tell you."
     show bg keisukereveal 3 with Dissolve(0.8)
     Ayane "Kiara , She's back here in jap- "
     Keisuke "I'm aware of it. "
@@ -889,7 +889,7 @@ label Keisukereveal:
     Keisuke "What is it? "
     show bg keisukereveal 12 with Dissolve(0.8)
     Ayane "Kei, what if she made the wrong choice? You told me you were happy together, but you never confessed. "
-    Keisuke "I wanted to take it slow , not let her believe that was why i got close , I fucked up... I didn't want her to hate me. "
+    Keisuke "I wanted to take it slow , I didn't want her think that was why i got close , I fucked up... I didn't want her to hate me. "
     show bg keisukereveal 13 with Dissolve(0.8)
     Ayane "Kei , even if you feel you fucked up, which I don't think you did , you can fix it now.  "
     show bg keisukereveal 14 with Dissolve(0.8)
@@ -914,7 +914,7 @@ label investigatevng:
     John "Hellooo there , Looking for a ride, buddy? "
     Jake "I like how you told me to keep it under cover and you come in a limo. "
     show bg jakeinvestaftrevng 3 with Dissolve(0.8)
-    John "This instance calls for it , hop on in. I got something to tell you."
+    John "You know how i roll jakey , hop on in. I got something to tell you."
     show bg jakeinvestaftrevng 4 with Dissolve(0.8)
     John "Thanks to your evidence, my lawyer said the case could be in our favor eventually. "
     Jake "I don't understand the law, but great for you. "
@@ -932,7 +932,7 @@ label investigatevng:
     show bg investigatoraftermiamason 9 with Dissolve(0.8)
     John "So why did you wanna go to the hospital? "
     Jake "Been feeling a bit of a throat problem , nothing major. "
-    John "Do not get sick, and I will have a big party for you to post your hearing on social media. "
+    John "Do not get sick, I will have a big party for my staff  post the hearing . "
     stop music
     show bg investigatoraftermiamason 10 with Dissolve(0.8)
     John "How does a billionare act like such a child is beyond me. "
@@ -957,13 +957,13 @@ label investigatevng:
     Jake "You won't go anywhere , I'll make sure of that... besides I doubt any girl would like a guy that's barely even social. "
     Bailey "That's untrue and you know it , my son is very handsome too after all I'm sure you'll find a kind person. "
     show bg investigatoraftermiamason 18 with Dissolve(0.8)
-    Bailey "As long as you're doing something that's morally right ,I'm proud of you and someone who shares those morals will find you as well. "
+    Bailey "As long as you're doing something that's morally right I'm proud of you and someone who shares those morals will find you as well. "
     Jake "Yeah mom , I'll try my best. "
     show bg investigatoraftermiamason 19 with Dissolve(0.8)
     Jake "Okay mom , I'll get back to work you take your meds on time okay? I'll see you tomorrow. "
-    Bailey "Take care okay? and don't worry too much about me. "
+    Bailey "Take care alright ? and don't worry too much about me. "
     show bg investigatoraftermiamason 20 with Dissolve(0.8)
-    Jake "Mom I don't know if what I do is morally right , but I'll do whatever it takes to save you. "
+    Jake "(Mom I hate lying to you.. but i have to do this to save you)"
     ""
     stop music
     window hide
@@ -979,7 +979,7 @@ label miaveroeve:
     show bg miaveroeve 1 with Dissolve(0.8)
     Mia "Sachi? sachi? hello? "
     show bg miaveroeve 2 with Dissolve(0.8)
-    Mia "Did she just cut the call?... She yelled at something as well. "
+    Mia "Why Did she just cut the call?... She yelled at something as well. "
     show bg miaveroeve 3 with Dissolve(0.8)
     Mia "Should I call her again?... Maybe not, she didn't seem in the mood to talk. "
     show bg miaveroeve 4 with Dissolve(0.8)
@@ -1018,7 +1018,7 @@ label sachikohome:
     show bg sachikohome 2 with Dissolve(0.8)
     Sachiko "She needed some freedom anyway , it's fine. "
     show bg sachikohome 3 with Dissolve(0.8)
-    Sachiko "What I need right now is some rest and alone time. "
+    Sachiko "What I need right now is some rest and alone time "
     show bg sachikohome 4 with Dissolve(0.8)
     Sachiko "Let me get into something comfortable first. "
     show bg sachikohome 5 with Dissolve(0.8)
@@ -1026,15 +1026,15 @@ label sachikohome:
     show bg sachikohome 6 with Dissolve(0.8)
     Liu "Why's the door open? I bet it was Rin. "
     show bg sachikohome 7 with Dissolve(0.8)
-    Liu "Mom? I'm home, and I'm hungry. "
+    Liu "Mom? I'm home and I'm hungry! "
     show bg sachikohome 8 with Dissolve(0.8)
-    Liu "Darn it, this is all sweet stuff , I wanted something spicy. "
+    Liu "Darn it this is all sweet stuff , I wanted something spicy. "
     show bg sachikohome 9 with Dissolve(0.8)
     Liu "I'll just go ask mom to make some noodles."
     show bg sachikohome 10 with Dissolve(0.8)
     "*Phone rings* "
     show bg sachikohome 11 with Dissolve(0.8)
-    Sachiko "I had my favorite movie loaded. Alright, let's see who this is. "
+    Sachiko "Great had my favorite movie loaded. Alright, let's see who this is. "
     show bg sachikohome 12 with Dissolve(0.8)
     ""
     show bg sachikohome 13 with Dissolve(0.8)
@@ -1044,10 +1044,10 @@ label sachikohome:
     Sachiko "Oh, hi Mia , yes, tell me what I can help you with. "
     Miaonphone "I need some documents you have on john and the child support ... I'm sorry, but it can help my case. "
     show bg sachikohome 15 with Dissolve(0.8)
-    Sachiko "No, I understand , of course, please give me a moment. I have the soft copies in my laptop, I think."
+    Sachiko "No, I understand. Of course, please give me a moment. I have the soft copies on my laptop, I think."
     Miaonphone "Thank you so much. Take your time. "
     show bg sachikohome 16 with Dissolve(0.8)
-    Sachiko "Okay, okay... it was here, I think. "
+    Sachiko "Okay, okay... it was here I think. "
     show bg sachikohome 17 with Dissolve(0.8)
     Liu "Mom, could you make me some noo- "
     show bg sachikohome 18 with Dissolve(0.8)
@@ -1062,7 +1062,7 @@ label sachikohome:
     show bg sachikohome 22 with Dissolve(0.8)
     Sachiko "Well the usual , When's the hearing? I hope you get rid of john soon. "
     show bg sachikohome 23 with Dissolve(0.8)
-    Miaonphone "The hearing is 3 days from now , I wanted to also ask you who was the lawyer who fought for john in your case? "
+    Miaonphone "The hearing is 2 days from now , I wanted to also ask you who was the lawyer who fought for john in your case? "
     Sachiko "Oh it was this girl her- "
     show bg sachikohome 24 with Dissolve(0.8)
     Sachiko "*Gasp* What the f- "
@@ -1089,7 +1089,7 @@ label sachikohome:
     Sachiko "Back off ! "
     Liu "Woah *thud* "
     show bg sachikohome 32 with Dissolve(0.8)
-    Sachiko "What do you think you're doing young man? "
+    Sachiko "What do you think you're doing young man?! "
     Liu "Mom I'm sorry I couldn't control- "
     show bg sachikohome 33 with Dissolve(0.8)
     Sachiko "Not one word more! Out of the room now and we're gonna have a talk about this. "
