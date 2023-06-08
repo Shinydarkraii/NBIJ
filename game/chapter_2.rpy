@@ -7650,7 +7650,6 @@ label chap_2_scene_39:
     Keisuke "Why did she throw the gun?.. who is this girl?"
     scene bg keisukereturdhomedytwo 48 with Dissolve(0.8)
     "Keisuke's words" "I love her, and I won't abandon her this time. I won't let her be alone anymore, not again.."
-    AgentWong "He really loves her.."
     scene bg keisukereturdhomedytwo 49 with Dissolve(0.8)
     AgentWong "I can't do this.. Dammit"
     scene bg keisukereturdhomedytwo 50 with Dissolve(0.8)
@@ -7710,35 +7709,44 @@ label chap_2_scene_40:
     Evelyn "( Heh.. I'm so glad last night happened )"
     scene bg dytwoveroevestrt 17 with Dissolve(0.8)
     Evelyn "( I love you so much, V. I can't wait for us to move on to the next step.)"
-    
     scene bg dytwoveroevestrt 18 with Dissolve(0.8)
     pause
     scene bg dytwoveroevestrt 19 with Dissolve(0.8)
-    pause
+    Veronica "What's this- A gift?"
     scene bg dytwoveroevestrt 20 with Dissolve(0.8)
     pause
     scene bg dytwoveroevestrt 21 with Dissolve(0.8)
-    pause
+    Veronica "Not even the post guy is here.. man they run away so fast seriously"
     scene bg dytwoveroevestrt 22 with Dissolve(0.8)
-    pause
+    Evelyn "Hey , what is it?"
+    Veronica "Oh eve.. It's gifts actually , says chocolate cake on top "
     scene bg dytwoveroevestrt 23 with Dissolve(0.8)
-    pause
+    Evelyn "Chocolate cake? who could be sending that?"
+    Veronica "I don't know but everything i get does get taste checked so i doubt it's anything bad"
     scene bg dytwoveroevestrt 24 with Dissolve(0.8)
-    pause
+    Veronica "Oh wait no , it says here it's from my friend's at the work"
+    Evelyn "Well let's not waste them anymore then , cmon let's eat"
     scene bg dytwoveroevestrt 25 with Dissolve(0.8)
-    pause
+    Evelyn "These are really nice"
+    Veronica "I'm surprised she sent these , she doesn't know what my faovrite is but good guess i suppose"
     scene bg dytwoveroevestrt 26 with Dissolve(0.8)
-    pause
+    Veronica "Well i love em for sure hope they are also to your liking eve"
+    Evelyn "Yeah they are.."
     scene bg dytwoveroevestrt 27 with Dissolve(0.8)
-    pause
+    Veronica "Honestly i love the little waffle chocolate on it as well"
+    Evelyn "Yeah i suppose it's nice.."
     scene bg dytwoveroevestrt 28 with Dissolve(0.8)
-    pause
+    Veronica "What's up? something bugging you love?"
+    Evelyn "Yeah.. me and kiara used to eat chocolate cakes and share them , It's been so long since i even seen her"
     scene bg dytwoveroevestrt 29 with Dissolve(0.8)
-    pause
+    Veronica "I'm sorry , I didn't mean to-"
+    Evelyn "It's okay um-"
     scene bg dytwoveroevestrt 30 with Dissolve(0.8)
-    pause
+    Evelyn "V , I have some questions.."
+    Veronica "Um sure , what about?"
     scene bg dytwoveroevestrt 31 with Dissolve(0.8)
-    pause
+    Evelyn "This case.. I get the divorce hearing but what's with kiara's custody in question? Why can't she just move out? I mean she's an adult she-"
+    Veronica "Ah i suppose i should explain it since you're also involved now"
     scene bg dytwoveroevestrt 32 with Dissolve(0.8)
     pause
     scene bg dytwoveroevestrt 33 with Dissolve(0.8)
