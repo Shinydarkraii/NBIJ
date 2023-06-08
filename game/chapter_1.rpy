@@ -1844,16 +1844,16 @@ label veromeetsevlyn:
     Veronica "I'm here for my friend , a daughter and a sister that this family desperately needs. "
     Evelyn "Do you mean Kiara?... She probably hates me V. "
     show bg veromeetsevelyn 28 with Dissolve(0.8)
-    Evelyn "Even if  I go back , She'll just... not accept me or despise me and that'll break me V. "
+    Evelyn "Even if  I go back now it's too late , She'll just... maybe not accept me , It'll only break me further V "
     Veronica "Eve... "
     show bg veromeetsevelyn 29 with Dissolve(0.8)
-    Veronica "Maybe it's the opposite, maybe what she needs the most now is a older sister , and what Mia needs is the piece of her heart that she's never able to hold again. "
+    Veronica "Maybe it's the opposite, maybe what she needs the most now is a older sister , and what Mia needs is the piece of her heart that she hasn't been able to hold again. "
     Evelyn "Do you really believe that?... "
     show bg veromeetsevelyn 30 with Dissolve(0.8)
     Veronica "I believe in you Evelyn , it's why I came here and I have faith you'll do the right thing. "
-    Evelyn "Thank you V , you're amazing. "
+    Evelyn "Thank you , you're amazing. "
     show bg veromeetsevelyn 31 with Dissolve(0.8)
-    Veronica "No you're the amazing one , I just copy you hehe. "
+    Veronica "No you're the amazing one , I just copy you heh. "
     Evelyn "You're still the same... I'll get ready then. "
     show bg veromeetsevelyn 32 with Dissolve(0.8)
     Veronica "Be quick about it or I might join you in the shower nature beauty. Heh just kidding. "
