@@ -8904,18 +8904,18 @@ label chap_2_scene_50:
         pause
         menu:
             "Play with [Natsuko]" if mc_stats.current_corruption >= 40:
-                jump .part_1
+                jump .part_3
             "Let it be":
-                jump .part_2
+                jump .part_4
 
-        label .part_2:
+        label .part_4:
             scene bg daythreebathmsgnatsuno 1 with Dissolve(0.8)
             pause
             scene bg daythreebathmsgnatsuno 2 with Dissolve(0.8)
             pause
         jump chap_2_scene_51
 
-        label .part_1:
+        label .part_3:
 
             scene bg daythreebathmsgnatsu 1 with Dissolve(0.8)
             pause
