@@ -3597,19 +3597,20 @@ label chap_2_scene_18:
     scene bgcourttrl 9 with Dissolve(0.8)
     "Judge Desiato" "The prosecution may intiate their arguements"
     scene bgcourttrl 10 with Dissolve(0.8)
-    Mason "Thank you your honor , Mr. Jonathan hall has been in clear cases of repeated offences of sexual harssment , while none convicted the repeated accusations do show a pattern and nature"
+    Mason "Thank you, Your Honor. Mr. Jonathan Hall has been involved in clear cases of repeated offenses of sexual harassment."
+    Mason "While he hasn't been convicted, the repeated accusations do indicate a pattern and nature of such behavior."
     scene bgcourttrl 11 with Dissolve(0.8)
-    Mason "There are various attempts of mental and sexual abuse towards my client Mia watanabe"
+    Mason "There have been various instances of attempted mental and sexual abuse towards my client, Mia Watanabe."
     scene bgcourttrl 12 with Dissolve(0.8)
-    Mason "Mr jonathan also made advances towards her daughter 3 days ago due to which she had to run away from the home as well"
+    Mason "Mr jonathan also made advances towards their daughter 3 days ago due to which she had to run away from the home as well"
     scene bgcourttrl 13 with Dissolve(0.8)
-    Mason "Mr. Jonathan also had tried earlier to bribe one of my juniors on this case to give defence favorable claims to prepare , which needless to say failed"
+    Mason "Mr. Jonathan before the hearing had tried earlier to bribe one of my juniors on this case to give defence favorable claims to prepare , which needless to say failed"
     scene bgcourttrl 14 with Dissolve(0.8)
-    Mason "Your honor , Mr. Jonathan in past had attempted this with his older daughter who is with us and as notice provided to defence , we would like to get her testimony recorded with your permission"
+    Mason "Your Honor, in the past, Mr. Jonathan had made similar attempts with his older daughter, who is currently with us. As we have provided notice to the defense, we would like to request permission to record her testimony"
     scene bgcourttrl 15 with Dissolve(0.8)
     "Judge Desiato" "The court allows it , proceed"
     scene bgcourttrl 16 with Dissolve(0.8)
-    Mason "Thank you your honor , Please come evelyn"
+    Mason "Thank you   , Please come evelyn"
     Jennifer "(Ah i didn't expect her to come..)"
     scene bgcourttrl 17 with Dissolve(0.8)
     Mason "Ms Evelyn  , what has your relationship been with your father .. importantly why did you move a state away at the qge of 15"
@@ -3642,35 +3643,35 @@ label chap_2_scene_18:
     "Judge Desiato" "Defence may present their arguements"
     Jennifer "Thank you your honor"
     scene bgcourttrl 30 with Dissolve(0.8)
-    Jennifer "My fellow collegue here has said a wonderful thing your honor"
+    Jennifer "My fellow colleague here has said a wonderful thing, Your Honor."
     scene bgcourttrl 31 with Dissolve(0.8)
-    Jennifer "Facts , facts do matter and in their naiveness it has made them believe that accusations are facts and emotions are convictions"
+    Jennifer "Facts, facts do matter, and in their naivety, it has made them believe that accusations are facts and emotions are convictions."
     scene bgcourttrl 32 with Dissolve(0.8)
-    Jennifer "The fact however is my lordship that my client has never been convicted of a single case filed against him"
+    Jennifer "The fact, however, is, Your Lordship, that my client has never been convicted of a single case filed against him."
     scene bgcourttrl 33 with Dissolve(0.8)
-    Jennifer "It may be easy to present to the court only the cases that are in the nature of this suit , but there are alot of cases aginst my client due to his position of power"
+    Jennifer "It may be easy to present to the court only the cases that are in the nature of this suit, but there are a lot of cases against my client due to his position of power."
     scene bgcourttrl 34 with Dissolve(0.8)
-    Jennifer "Alot of individuals your honor clearly want to do wrong to my client and have tried several times playing by law behind his money"
+    Jennifer "A lot of individuals, Your Honor, clearly want to do wrong to my client and have tried several times, playing by law behind his money."
     scene bgcourttrl 35 with Dissolve(0.8)
-    Jennifer "They have tried to defame my client , damage his reputation and take assets that clearly belong to him as theirs in the retrospect of compensation"
+    Jennifer "They have tried to defame my client, damage his reputation, and take assets that clearly belong to him as theirs in the retrospect of compensation."
     scene bgcourttrl 36 with Dissolve(0.8)
-    Jennifer "If my client is the demon that the prosecution is trying to make him to be , the employyes of mr jonathan and offices are proof that no such behavior exists from my client"
+    Jennifer "If my client is the demon that the prosecution is trying to make him out to be, the employees of Mr. Jonathan and his offices are proof that no such behavior exists from my client."
     scene bgcourttrl 37 with Dissolve(0.8)
-    Jennifer " As per the testimony ms evelyn hall provided , I'm not going to deny the events hwever as per the annexure 3 attachment mr. jonathan was outside the country the night this supposed event took place"
+    Jennifer "As per the testimony Ms. Evelyn Hall provided, I'm not going to deny the events. However, as per the annexure 3 attachment, Mr. Jonathan was outside the country the night this supposed event took place."
     Evelyn "What..?"
     scene bgcourttrl 38 with Dissolve(0.8)
-    Jennifer "I apologize to ms evelyn and her expirience that she had go through , however she was in a asleep state and it was someone else that had sexually haraassed her as per the DNA report as well"
+    Jennifer "I apologize to Ms. Evelyn and the experience she had to go through. However, she was in an asleep state, and it was someone else who had sexually harassed her, as per the DNA report as well."
     scene bgcourttrl 39 with Dissolve(0.8)
-    Jennifer "As a woman i feel sad and sorry to hear it , However i apologize but i cannot let that be used against my client when he was not present at the time this occured"
+    Jennifer "As a woman, I feel sad and sorry to hear it. However, I apologize, but I cannot let that be used against my client when he was not present at the time this occurred."
     scene bgcourttrl 40 with Dissolve(0.8)
-    Jennifer "I apologize ms evelyn i hope nothing but good recoveries ahead for you but i cannot go against the facts , however you my sympathy"
+    Jennifer "I apologize, Ms. Evelyn. I hope nothing but good recoveries lie ahead for you, but I cannot go against the facts. However, you have my sympathy."
     Evelyn "(How.. I - no does money really absolve everything?)"
     scene bgcourttrl 41 with Dissolve(0.8)
-    Jennifer "Lordship the defence council eeks nothing more but for the court to see justice done and that the divorce plea to be accepted , law is above everyone"
+    Jennifer "Your Lordship, the defense council seeks nothing more than for the court to see justice done and for the divorce plea to be accepted. Law is above everyone."
     scene bgcourttrl 42 with Dissolve(0.8)
-    Jennifer "The defence would like the court to note that Ms. Mia did assault my client as per the medical records provided"
+    Jennifer "The defense would like the court to note that Ms. Mia did assault my client, as per the provided medical records."
     scene bgcourttrl 43 with Dissolve(0.8)
-    Jennifer "However we are happy to give the divorce she seeks , but my client deserves what he should , the custody of the children and alimony to be reduced as it is clear attempt to get money from my client"
+    Jennifer "However, we are happy to grant the divorce she seeks. But my client deserves what he should: custody of Ms. Kiara Hall and reduced alimony, as it is a clear attempt to extract money from my client."
     scene bgcourttrl 44 with Dissolve(0.8)
     "Judge Desiato" "Prosecution may continue"
     scene bgcourttrl 45 with Dissolve(0.8)
@@ -3708,25 +3709,25 @@ label chap_2_scene_18:
     scene bgcourttrl 56 with Dissolve(0.8)
     Mason "Between that exchange Mr. jonathan hit himself to claim an injury that didn't exist later and now is trying to blame my client because hd eson't want the world to see the vile man he is preying his daughters"
     scene bgcourttrl 57 with Dissolve(0.8)
-    Jennifer "I object your honor , character assasination of my client!"
+    Jennifer "I object, Your Honor! Character assassination of my client!"
     scene bgcourttrl 58 with Dissolve(0.8)
-    "Judge Desiato" "Aquitted , Mr masson please let the court decide the character and stick to point"
-    Mason "Apologies your honor , all i am saying is just the claims and evidence doesn't make sense"
+    "Judge Desiato" "Sustained, Mr masson please let the court decide the character and stick to point"
+    Mason "Apologies, Your Honor. All I am saying is that the claims and evidence don't make sense."
     scene bgcourttrl 59 with Dissolve(0.8)
-    Mason "Whatever the defence may claim , reality is Mr. jonathan attempted to do what he did with ms evelyn , she was a teenager who was drugged and that is why the facts are clouded sadly used by the defence in this way"
+    Mason "Whatever the defense may claim, the reality is that Mr. Jonathan attempted to do what he did with Ms. Evelyn. She was a teenager who was drugged, and that is why the facts are clouded, sadly used by the defense in this way."
     scene bgcourttrl 60 with Dissolve(0.8)
-    Mason "Ms. Kiara had mental health issues as well , and what Mr. Jonathan did only damaged it further that is why she ran away"
+    Mason "Ms. Kiara had mental health issues as well, and what Mr. Jonathan did only further damaged it. That is why she ran away."
     scene bgcourttrl 61 with Dissolve(0.8)
-    Mason "That is why this case happens , so he can continue to do it more and ruin her life like he has of my client"
+    Mason "That is why the reason why today this case exists, so he can continue to do it more and ruin her life, just as he has done to my client."
     scene bgcourttrl 62 with Dissolve(0.8)
-    Jennifer "I object your honor! my client is being lead on without eivdence and false claims"
+    Jennifer "I object, Your Honor! My client is being led on without evidence and false claims."
     "Judge Desiato" "Taken , Mr. Mason please wrap your arguement"
     scene bgcourttrl 63 with Dissolve(0.8)
-    Mason "Your honor  , my conclusion here is that Mr. jonathan knew what he was doing and why ,  so excusing it over past is not how the law works"
+    Mason "Your Honor, my conclusion here is that Mr. Jonathan knew what he was doing and why. Excusing it based on the past is not how the law works."
     scene bgcourttrl 64 with Dissolve(0.8)
-    Mason "We just want the custody of the children and.. are happy to recieve 0 alimony or compensation if that is what balances it"
+    Mason "We simply want custody of the children and are willing to receive 0 alimony or compensation if it balances the situation."
     scene bgcourttrl 65 with Dissolve(0.8)
-    "Judge Desiato " "Alright . Thirty minute recess , please maintain order"
+    "Judge Desiato " "Alright. Thirty-minute recess. Please maintain order"
     scene bgcourttrl 66 with Dissolve(0.8)
     pause
     scene bgcourttrl 67 with Dissolve(0.8)
@@ -3876,7 +3877,7 @@ label chap_2_scene_18:
     "Judge Desiato" "The court therefore allows Mrs. Mia's divorce to go through once proceedings and case settles , Mr jonathan will have to pay double the alimony  due to his repeated court endeavors"
     scene bgcourttrl 122 with Dissolve(0.8)
     "Judge Desiato" "With that said , Mr. Jonathan clearly has as per facts provided , tried to be a better man and law gives priority to facts"
-    "Judge Desiato" "Therefore , Children custody between the two parties will be shared on a month basis , upon agreed terms with security cameras in respective locations for future safety of the trial and the involved parties"
+    "Judge Desiato" "Therefore , child in question , Kiara hall's custody shall be shared between the two parties on a month basis , upon agreed terms with security cameras in respective locations for future safety of the trial and the involved parties"
     scene bgcourttrl 123 with Dissolve(0.8)
     "Judge Desiato" "As for the prosecutors , Mr mason after the trial has ended your license will be supspended for 15 months for this violation , and Ms. Jennifer please talk with decency to clients"
     Jennifer "I apologize your honor , I will keep it in mind"
@@ -7737,7 +7738,7 @@ label chap_2_scene_40:
     Evelyn "Yeah i suppose it's nice.."
     scene bg dytwoveroevestrt 28 with Dissolve(0.8)
     Veronica "What's up? something bugging you love?"
-    Evelyn "Yeah.. me and kiara used to eat chocolate cakes and share them , It's been so long since i even seen her"
+    Evelyn "Yeah.. Kiara and I used to eat chocolate cakes and share them. It's been so long since I've even seen her"
     scene bg dytwoveroevestrt 29 with Dissolve(0.8)
     Veronica "I'm sorry , I didn't mean to-"
     Evelyn "It's okay um-"
@@ -7745,7 +7746,7 @@ label chap_2_scene_40:
     Evelyn "V , I have some questions.."
     Veronica "Um sure , what about?"
     scene bg dytwoveroevestrt 31 with Dissolve(0.8)
-    Evelyn "This case.. I get the divorce hearing but what's with kiara's custody in question? Why can't she just move out? I mean she's an adult she-"
+    Evelyn "This case , I understand the divorce hearing, but why is Kiara's custody in question? Why can't she just move out? I mean, she's an adult she-"
     Veronica "Ah i suppose i should explain it since you're also involved now"
     scene bg dytwoveroevestrt 32 with Dissolve(0.8)
     pause
