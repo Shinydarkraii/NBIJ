@@ -7646,7 +7646,7 @@ label chap_2_scene_39:
     pause
     scene bg keisukereturdhomedytwo 46 with Dissolve(0.8)
     AgentWong "Can i have some water please?"
-    Keisuke "O-Okay.. sure"
+    Keisuke "O-uh Okay.. sure"
     scene bg keisukereturdhomedytwo 47 with Dissolve(0.8)
     Keisuke "Why did she throw the gun?.. who is this girl?"
     scene bg keisukereturdhomedytwo 48 with Dissolve(0.8)
@@ -7749,25 +7749,35 @@ label chap_2_scene_40:
     Evelyn "This case , I understand the divorce hearing, but why is Kiara's custody in question? Why can't she just move out? I mean, she's an adult she-"
     Veronica "Ah i suppose i should explain it since you're also involved now"
     scene bg dytwoveroevestrt 32 with Dissolve(0.8)
-    pause
+    Veronica "Eve, when Kiara got her memories erased, she wasn't stable or... rather, she was normal. She was suicidal and a risk to others around her."
+    Evelyn "W-what do you mean?"
     scene bg dytwoveroevestrt 33 with Dissolve(0.8)
-    pause
+    Veronica "She would wield knives, attack others, and attempt to jump off the roof. The multiple procedures John had done on her were taking a toll."
+    Evelyn "( Kiara.. my sweet litte sis )"
+    Veronica "It was all intentional. He recorded everything and made sure to portray Kiara as mentally unstable in order to gain custody and be alone. Consequently, the court granted him guardianship custody as well."
     scene bg dytwoveroevestrt 34 with Dissolve(0.8)
-    pause
+    Evelyn "So there is no way for us to save her from him?"
+    Veronica "Kiara's a lot better now, so we can challenge that custody when the next hearing comes. Till then, though, not much on our hands."
     scene bg dytwoveroevestrt 35 with Dissolve(0.8)
-    pause
+    Veronica "Look, I'll be there with her. He planned all of this very specifically to keep Kiara to himself."
+    Evelyn "I know, I just don't want her to suffer anymore. That's about it."
     scene bg dytwoveroevestrt 36 with Dissolve(0.8)
-    pause
+    Evelyn "I genuinely feel so useless as a big sister. I abandoned her when she needed me the most"
+    Veronica "You had your demons to fight too. Besides, she still misses you. So when you go there, make up for lost time, okay?"
     scene bg dytwoveroevestrt 37 with Dissolve(0.8)
-    pause
+    Veronica "C'mon now, don't let anything ruin that pretty smile of yours. Don't worry, I'll be right alongside you guys."
+    Evelyn "I don't care about myself anymore. I care about my little sister who deserves to be happy"
     scene bg dytwoveroevestrt 38 with Dissolve(0.8)
-    pause
+    Veronica "Well, I care about you too, and I always will. You're not getting rid of that anytime soon."
+    Evelyn "Heh.. Alright then"
     scene bg dytwoveroevestrt 39 with Dissolve(0.8)
-    pause
+    Veronica "There's that smile.. now how about we finish what we were intrupted on?"
     scene bg dytwoveroevestrt 40 with Dissolve(0.8)
-    pause
+    Evelyn "Sounds like a splendid idea"
+    Veronica "Don't mind me geting closer then"
     scene bg dytwoveroevestrt 41 with Dissolve(0.8)
-    pause
+    Veronica "I love you eve"
+    Evelyn "I love you more"
     scene bg dytwoveroevestrt 42 with Dissolve(0.8)
     pause
     scene bg dytwoveroevestrt 43 with Dissolve(0.8)
@@ -7775,12 +7785,14 @@ label chap_2_scene_40:
     scene bg dytwoveroevestrt 44 with Dissolve(0.8)
     pause
     scene bg dytwoveroevestrt 45 with Dissolve(0.8)
-    pause
+    "Investigator" "Package delievered , keeping an eye on target"
     jump chap_2_scene_41
 
 label chap_2_scene_41:
-
-
+    scene blackscreen
+    show titletext "The hall mansion , Outside brooklyn" with dissolve
+    pause 1.0
+    window hide
     scene johndytwonypwr 1 with Dissolve(0.8)
     pause
     scene johndytwonypwr 2 with Dissolve(0.8)
