@@ -1,17 +1,17 @@
-Sun Jun 11 10:32:51 2023
+Mon Jun 12 01:25:44 2023
 Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
 
 Bootstrap to the start of init.init took 0.02s
 Early init took 0.00s
-Loader init took 0.24s
-Loading error handling took 0.05s
-Loading script took 0.66s
-Loading save slot metadata. took 1.15s
+Loader init took 0.68s
+Loading error handling took 0.03s
+Loading script took 0.45s
+Loading save slot metadata. took 1.12s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.14s
+Running init code took 0.08s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -31,7 +31,7 @@ Analyze screens took 0.00s
 Save screen analysis took 0.00s
 Prepare screens took 0.02s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.04s
@@ -48,13 +48,701 @@ Screen sizes: virtual=(2560, 1440) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(2560, 1440) physical=(958, 1000) drawable=(958, 1000)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 301.16s
+Bootstrap to the start of init.init took 349.34s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.02s
+Loading script took 0.89s
+Loading save slot metadata. took 0.09s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 556.03s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.02s
+Loading script took 0.82s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 603.20s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 971.47s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.80s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.02s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 1062.25s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.19s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 1353.18s
 Early init took 0.00s
 Loader init took 0.19s
-Loading error handling took 0.03s
+Loading error handling took 0.01s
+Loading script took 0.85s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 1395.81s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.02s
+Loading script took 0.80s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3728, in script call
+    call lanaRjt2 from _call_lanaRjt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1395, in script call
+    call natsugroprjct from _call_natsugroprjct
+  File "game/chapter_2.rpy", line 7551, in script
+    Keisuke "Not even at pool , Where is she?"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 451, in visit_all
+    callback(self)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 462, in per_interact
+    self.update()
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 653, in update
+    self.screen.function(**self.scope)
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 60, in execute
+    if inventory_screen_show:
+  File "game/screens/main_screens.rpy", line 61, in execute
+    frame:
+  File "game/screens/main_screens.rpy", line 67, in execute
+    has vbox
+  File "game/screens/main_screens.rpy", line 83, in execute
+    for item in items:
+  File "game/screens/main_screens.rpy", line 84, in execute
+    textbutton item.name:
+  File "game/screens/main_screens.rpy", line 84, in <module>
+    textbutton item.name:
+AttributeError: 'int' object has no attribute 'name'
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3728, in script call
+    call lanaRjt2 from _call_lanaRjt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1395, in script call
+    call natsugroprjct from _call_natsugroprjct
+  File "game/chapter_2.rpy", line 7551, in script
+    Keisuke "Not even at pool , Where is she?"
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 60, in execute
+    if inventory_screen_show:
+  File "game/screens/main_screens.rpy", line 61, in execute
+    frame:
+  File "game/screens/main_screens.rpy", line 67, in execute
+    has vbox
+  File "game/screens/main_screens.rpy", line 83, in execute
+    for item in items:
+  File "game/screens/main_screens.rpy", line 84, in execute
+    textbutton item.name:
+  File "game/screens/main_screens.rpy", line 84, in <module>
+    textbutton item.name:
+AttributeError: 'int' object has no attribute 'name'
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3728, in script call
+    call lanaRjt2 from _call_lanaRjt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1395, in script call
+    call natsugroprjct from _call_natsugroprjct
+  File "game/chapter_2.rpy", line 7553, in script
+    Keisuke "Aya-... what the-"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 451, in visit_all
+    callback(self)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 462, in per_interact
+    self.update()
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 653, in update
+    self.screen.function(**self.scope)
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 60, in execute
+    if inventory_screen_show:
+  File "game/screens/main_screens.rpy", line 61, in execute
+    frame:
+  File "game/screens/main_screens.rpy", line 67, in execute
+    has vbox
+  File "game/screens/main_screens.rpy", line 83, in execute
+    for item in items:
+  File "game/screens/main_screens.rpy", line 84, in execute
+    textbutton item.name:
+  File "game/screens/main_screens.rpy", line 84, in <module>
+    textbutton item.name:
+AttributeError: 'int' object has no attribute 'name'
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3728, in script call
+    call lanaRjt2 from _call_lanaRjt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1395, in script call
+    call natsugroprjct from _call_natsugroprjct
+  File "game/chapter_2.rpy", line 7553, in script
+    Keisuke "Aya-... what the-"
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 60, in execute
+    if inventory_screen_show:
+  File "game/screens/main_screens.rpy", line 61, in execute
+    frame:
+  File "game/screens/main_screens.rpy", line 67, in execute
+    has vbox
+  File "game/screens/main_screens.rpy", line 83, in execute
+    for item in items:
+  File "game/screens/main_screens.rpy", line 84, in execute
+    textbutton item.name:
+  File "game/screens/main_screens.rpy", line 84, in <module>
+    textbutton item.name:
+AttributeError: 'int' object has no attribute 'name'
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3728, in script call
+    call lanaRjt2 from _call_lanaRjt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1395, in script call
+    call natsugroprjct from _call_natsugroprjct
+  File "game/chapter_2.rpy", line 7554, in script
+    "???" "Took your time big brother , she was worried"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\exports.py", line 1371, in say
+    renpy.store.say(who, what, *args, **kwargs)
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 451, in visit_all
+    callback(self)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 462, in per_interact
+    self.update()
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\screen.py", line 653, in update
+    self.screen.function(**self.scope)
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 60, in execute
+    if inventory_screen_show:
+  File "game/screens/main_screens.rpy", line 61, in execute
+    frame:
+  File "game/screens/main_screens.rpy", line 67, in execute
+    has vbox
+  File "game/screens/main_screens.rpy", line 83, in execute
+    for item in items:
+  File "game/screens/main_screens.rpy", line 84, in execute
+    textbutton item.name:
+  File "game/screens/main_screens.rpy", line 84, in <module>
+    textbutton item.name:
+AttributeError: 'int' object has no attribute 'name'
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3728, in script call
+    call lanaRjt2 from _call_lanaRjt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1395, in script call
+    call natsugroprjct from _call_natsugroprjct
+  File "game/chapter_2.rpy", line 7554, in script
+    "???" "Took your time big brother , she was worried"
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 60, in execute
+    if inventory_screen_show:
+  File "game/screens/main_screens.rpy", line 61, in execute
+    frame:
+  File "game/screens/main_screens.rpy", line 67, in execute
+    has vbox
+  File "game/screens/main_screens.rpy", line 83, in execute
+    for item in items:
+  File "game/screens/main_screens.rpy", line 84, in execute
+    textbutton item.name:
+  File "game/screens/main_screens.rpy", line 84, in <module>
+    textbutton item.name:
+AttributeError: 'int' object has no attribute 'name'
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 1730.88s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.10s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 1760.14s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 1771.10s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
 Loading script took 0.78s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
@@ -80,10 +768,10 @@ Analyze screens took 0.00s
 Save screen analysis took 0.01s
 Prepare screens took 0.02s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.04s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -93,19 +781,15 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(958, 539) drawable=(958, 539)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(2560, 1440) physical=(958, 1000) drawable=(958, 1000)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(2560, 1440) physical=(992, 1000) drawable=(992, 1000)
-Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 490.03s
+Bootstrap to the start of init.init took 1892.33s
 Early init took 0.00s
 Loader init took 0.17s
-Loading error handling took 0.02s
-Loading script took 0.77s
+Loading error handling took 0.01s
+Loading script took 0.80s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -117,16 +801,62 @@ Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\
 Dump and make backups. took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
 Creating interface object took 0.11s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 1901.84s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.82s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
 Save screen analysis took 0.01s
 Prepare screens took 0.02s
 Save pyanalysis. took 0.00s
@@ -143,21 +873,387 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(2560, 1440) physical=(992, 1000) drawable=(992, 1000)
-Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 598.83s
+Bootstrap to the start of init.init took 2007.53s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.76s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 2189.21s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 2259.31s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.02s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 2264.28s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 2273.74s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 2610.70s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.12s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 2793.58s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 2806.12s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 2817.11s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -178,7 +1274,99 @@ Analyze screens took 0.00s
 Save screen analysis took 0.01s
 Prepare screens took 0.02s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 3087.31s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.82s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 3113.43s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.02s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.03s
@@ -191,21 +1379,111 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(2560, 1440) physical=(992, 1000) drawable=(992, 1000)
-Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 703.71s
+Bootstrap to the start of init.init took 3189.26s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.74s
+Loading script took 0.81s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 3263.62s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.80s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 3310.81s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -223,7 +1501,53 @@ Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.00s
-Save screen analysis took 0.04s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 3368.62s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.80s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
 Prepare screens took 0.02s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
@@ -239,15 +1563,15 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Resetting cache.
-Bootstrap to the start of init.init took 731.47s
+Bootstrap to the start of init.init took 3421.90s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.76s
+Loading script took 0.79s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -263,19 +1587,615 @@ Initial gc. took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.11s
+Creating interface object took 0.10s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 3807.13s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 4210.50s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 4296.84s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.82s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8454, in script
+    Valetina "For fuck's sake , I can't locate them either.. this sucks"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Valetina' is not defined.
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8454, in script
+    Valetina "For fuck's sake , I can't locate them either.. this sucks"
+Exception: Sayer 'Valetina' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 4425.80s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 4463.94s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.02s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 4482.46s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.78s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8472, in script
+    Valetina "If only there was a way i could just know where everyone is"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Valetina' is not defined.
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8472, in script
+    Valetina "If only there was a way i could just know where everyone is"
+Exception: Sayer 'Valetina' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 4535.81s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.78s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8521, in script
+    Valentian "I..uh , It's nothing babe just a fucking troll"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Valentian' is not defined.
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8521, in script
+    Valentian "I..uh , It's nothing babe just a fucking troll"
+Exception: Sayer 'Valentian' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 4654.31s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 4731.53s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 4747.06s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.78s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 4768.59s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.78s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
 Save screen analysis took 0.03s
 Prepare screens took 0.02s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.04s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -285,15 +2205,15 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Resetting cache.
-Bootstrap to the start of init.init took 780.03s
+Bootstrap to the start of init.init took 4795.01s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.76s
+Loading script took 0.79s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -321,7 +2241,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.04s
+Interface start took 0.03s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -331,15 +2251,15 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Resetting cache.
-Bootstrap to the start of init.init took 845.49s
+Bootstrap to the start of init.init took 4843.77s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.75s
+Loading script took 0.78s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -352,6 +2272,82 @@ Dump and make backups. took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.02s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8623, in script
+    Damain "Heh.. wow."
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Damain' is not defined.
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8623, in script
+    Damain "Heh.. wow."
+Exception: Sayer 'Damain' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 4955.90s
+Early init took 0.00s
+Loader init took 0.18s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -367,7 +2363,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -377,61 +2373,15 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Resetting cache.
-Bootstrap to the start of init.init took 885.23s
+Bootstrap to the start of init.init took 5294.79s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.74s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.10s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.00s
-Save screen analysis took 0.01s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 535.98'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init took 965.62s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.01s
-Loading script took 0.75s
+Loading script took 0.80s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -443,292 +2393,16 @@ Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\
 Dump and make backups. took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.11s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.00s
-Save screen analysis took 0.01s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 535.98'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init took 1086.67s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.01s
-Loading script took 0.73s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
 Creating interface object took 0.10s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.00s
-Save screen analysis took 0.01s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 535.98'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init took 1361.28s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.01s
-Loading script took 0.74s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.10s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.00s
-Save screen analysis took 0.01s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 535.98'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init took 1387.40s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.01s
-Loading script took 0.76s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.11s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 535.98'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init took 1493.32s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.01s
-Loading script took 0.77s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.11s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.00s
-Save screen analysis took 0.01s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.03s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 535.98'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init took 1547.95s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.01s
-Loading script took 0.76s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.10s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.00s
-Save screen analysis took 0.01s
-Prepare screens took 0.02s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 535.98'
-Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Resetting cache.
-Bootstrap to the start of init.init took 1617.57s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.01s
-Loading script took 0.76s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
-Dump and make backups. took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.10s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.00s
 Save screen analysis took 0.01s
 Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
@@ -745,15 +2419,15 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Resetting cache.
-Bootstrap to the start of init.init took 1654.10s
+Bootstrap to the start of init.init took 5328.38s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.74s
+Loading script took 0.78s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -781,7 +2455,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.04s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -791,15 +2465,213 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8808, in script
+    xia "That plate over there , It's what your grandfather used to eat in"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'xia' is not defined.
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8808, in script
+    xia "That plate over there , It's what your grandfather used to eat in"
+Exception: Sayer 'xia' is not defined.
 Resetting cache.
-Bootstrap to the start of init.init took 1701.30s
+Bootstrap to the start of init.init took 5454.26s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.77s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8814, in script
+    XIa "All of these things , they stay with me.. I try my best to keep them intact always"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'XIa' is not defined.
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 8814, in script
+    XIa "All of these things , they stay with me.. I try my best to keep them intact always"
+Exception: Sayer 'XIa' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 5481.78s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 5914.96s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.08s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 6060.50s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -837,15 +2709,15 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Resetting cache.
-Bootstrap to the start of init.init took 1719.79s
+Bootstrap to the start of init.init took 6220.82s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.77s
+Loading script took 0.82s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -870,7 +2742,7 @@ Analyze screens took 0.00s
 Save screen analysis took 0.01s
 Prepare screens took 0.02s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.01s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.04s
@@ -883,15 +2755,45 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 9261, in script
+    Natusko "Nu- no , I mean yeah , no of course not."
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Natusko' is not defined.
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 9261, in script
+    Natusko "Nu- no , I mean yeah , no of course not."
+Exception: Sayer 'Natusko' is not defined.
 Resetting cache.
-Bootstrap to the start of init.init took 1834.54s
+Bootstrap to the start of init.init took 6301.52s
 Early init took 0.00s
 Loader init took 0.17s
 Loading error handling took 0.01s
-Loading script took 0.77s
+Loading script took 0.80s
 Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -907,7 +2809,7 @@ Initial gc. took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.11s
+Creating interface object took 0.10s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
@@ -929,6 +2831,174 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 535.98'
 Display Info: None
-Screen sizes: virtual=(2560, 1440) physical=(992, 558) drawable=(992, 558)
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+
+Full traceback:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 9306, in script
+    Natusko "N-no! , I mean it's just because it's cold."
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Natusko' is not defined.
+
+While running game code:
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 9306, in script
+    Natusko "N-no! , I mean it's just because it's cold."
+Exception: Sayer 'Natusko' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 6427.42s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.81s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 6634.41s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.82s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.11s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Resetting cache.
+Bootstrap to the start of init.init took 6640.93s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.01s
+Loading script took 0.79s
+Loading save slot metadata. took 0.07s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\DESKTOP\\Downloads\\Programs\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\DESKTOP\\AppData\\Roaming/RenPy/backups\\NBIJ':
+Dump and make backups. took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.10s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.00s
+Save screen analysis took 0.01s
+Prepare screens took 0.02s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4090/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 535.98'
+Display Info: None
+Screen sizes: virtual=(2560, 1440) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
