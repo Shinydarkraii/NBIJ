@@ -9448,84 +9448,81 @@ label chap_2_scene_51:
 label chap_2_scene_52:
 
     scene bg kiacallscn 1 with Dissolve(0.8)
-    Kiara "Okay , time to let everyone know."
+    Kiara "Okay, time to let everyone know."
     scene bg kiacallscn 2 with Dissolve(0.8)
-    Ayane "Kei?! , Keiiiii , Get ready fast!"
+    Ayane "Kei?! Keiiiii, get ready fast!"
     scene bg kiacallscn 3 with Dissolve(0.8)
-    Keisuke "I'm done , I'm done! , Just getting clothes on"
-    Ayane "Don't  be late okay??"
+    Keisuke "I'm done, I'm done! Just getting clothes on."
+    Ayane "Don't be late, okay?"
     scene bg kiacallscn 4 with Dissolve(0.8)
-    Keisuke "I won't! , Don't worry."
+    Keisuke "I won't! Don't worry."
     scene bg kiacallscn 5 with Dissolve(0.8)
-    Keisuke "What should i wear , can't be too fancy.. but has to look decent."
+    Keisuke "What should I wear? Can't be too fancy, but has to look decent."
     scene bg kiacallscn 6 with Dissolve(0.8)
-    Keisuke "Oh , It's kiara.."
-    Kiara "Keisuke! , Hope you're ready soon, my cousin and i will be waiting for you!"
+    Keisuke "Oh, it's Kiara..."
+    Kiara "Keisuke! Hope you're ready soon. My cousin and I will be waiting for you!"
     scene bg kiacallscn 7 with Dissolve(0.8)
-    Keisuke "( Cousin?.. natsuko? ) Um.. Okay sure i'll be there in half an hour."
+    Keisuke "(Cousin?... Natsuko?) Um... Okay, sure. I'll be there in half an hour."
     scene bg kiacallscn 8 with Dissolve(0.8)
-    Kiara "Thanks! , see you soon"
-    Keisuke "Yeah.. see ya."
+    Kiara "Thanks! See you soon."
+    Keisuke "Yeah... see ya."
     scene bg kiacallscn 9 with Dissolve(0.8)
-    Keisuke "It's been a while but, Ah dammit i hope natsuko doesn't recognize me"
+    Keisuke "It's been a while, but ah, dammit. I hope Natsuko doesn't recognize me."
     scene bg kiacallscn 10 with Dissolve(0.8)
-    Kiara "Azumi , I'll see you at the temple okay?"
-    Azumi "Okay! , I'll be outisde by afternoon!"
+    Kiara "Azumi, I'll see you at the temple, okay?"
+    Azumi "Okay! I'll be outside by afternoon!"
     scene bg kiacallscn 11 with Dissolve(0.8)
-    Azumi "This is what wore when we met , I hope she'll like it"
+    Azumi "This is what I wore when we met. I hope she'll like it."
     scene bg kiacallscn 12 with Dissolve(0.8)
-    Azumi "( Kiara , we finally have some alone time again.. I can't wait)"
+    Azumi "( Kiara, we finally have some alone time again... I can't wait. )"
     scene bg kiacallscn 13 with Dissolve(0.8)
-    Kiara "Hello? Daichi-san , If you aren't too occupied at the shop I'd love to meet"
-    Daichi "Of course kiara -san , I will be pleased to-"
+    Kiara "Hello? Daichi-san, if you aren't too occupied at the shop, I'd love to meet."
+    Daichi "Of course, Kiara-san. I will be pleased to-"
     scene bg kiacallscn 14 with Dissolve(0.8)
-    AgentWong "Teashop huh.. , Seems i'll hang out a bit with you too kiara"
+    AgentWong "Teashop, huh? Seems I'll hang out a bit with you too, Kiara."
     scene bg kiacallscn 15 with Dissolve(0.8)
-    Kiara "Okay daichi-san , see you at evening then!"
-    AgentWong "I should get going.. better have a heads up"
+    Kiara "Okay, Daichi-san. See you in the evening then!"
+    AgentWong "I should get going... better have a heads up."
     scene bg kiacallscn 16 with Dissolve(0.8)
-    AgentWong "Wong out , Helena back in.."
+    AgentWong "Wong out, Helena back in..."
     scene bg kiacallscn 17 with Dissolve(0.8)
-    Kiara "Lana , where do i come to pick you up?"
-    Lana "I'll meet you at the park , we'll decide from there then"
-    scene bg kiacallscn 18 with Dissolve(0.8)
-    Kiara "Okay , I've been waiting to see the dress you got too"
-    Lana "You'd love it , I think it looks lovely."
-    Kiara "Heh , alright bye!"
+    Kiara "Lana, where do I come to pick you up?"
+    Lana "I'll meet you at the park. We'll decide from there, then."
+    Kiara "Heh , can't wait to see it!"
     scene bg kiacallscn 19 with Dissolve(0.8)
-    Lana "Hm.. I have to make sure he doesn't leave the hotel till i'm back."
+    Lana "Hm... I have to make sure he doesn't leave the hotel till I'm back."
     scene bg kiacallscn 20 with Dissolve(0.8)
-    Lana "Rin! , could you come for a second?"
+    Lana "Rin! Could you come for a second?"
     scene bg kiacallscn 21 with Dissolve(0.8)
     pause
     scene bg kiacallscn 22 with Dissolve(0.8)
-    Rin "Yeah ? What is it?"
-    Lana "You know everything i do too now , can you take care of him?"
+    Rin "Yeah? What is it?"
+    Lana "You know everything I do too now. Can you take care of him?"
     scene bg kiacallscn 23 with Dissolve(0.8)
-    Rin "I can try but can't promise anything"
-    Lana "Just please don't try to be on him , He's not well."
+    Rin "I can try, but he most likely won't really be as formal with me"
+    Lana "Just please don't try to be on him. He's not well."
     scene bg kiacallscn 24 with Dissolve(0.8)
-    Rin "You can't lie to him forever you know? , he's gonna know eventually."
+    Rin "You can't lie to him forever, you know? He's going to know eventually."
     Lana "I'll decide what to do at that time then."
     scene bg kiacallscn 25 with Dissolve(0.8)
-    Rose "Mhmhm.. *Humming music*"
+    Rose "Mhmhm... Humming music"
     scene bg kiacallscn 26 with Dissolve(0.8)
     pause
     scene bg kiacallscn 27 with Dissolve(0.8)
-    Rose "( Now that's what i call a great latte )"
+    Rose "(Now that's what I call a great latte.)"
     scene bg kiacallscn 28 with Dissolve(0.8)
-    Kiara "Hello? rose? Kiara here , I was thinking we could meet up in evening?"
-    Rose "We certainly can , i definitely can for you"
+    Kiara "Hello, Rose? Kiara here. I was thinking we could meet up in the evening?"
+    Rose "We certainly can. I definitely can for you."
     scene bg kiacallscn 29 with Dissolve(0.8)
-    Kiara "Heh , Okay that's quite sweet of you but only if it's not too far for you"
-    Rose "I'll manage just fine , don't worry. See you at eve"
+    Kiara "Heh, okay. That's quite sweet of you, but only if it's not too far for you."
+    Rose "I'll manage just fine. Don't worry. See you in the evening."
     scene bg kiacallscn 30 with Dissolve(0.8)
-    Kiara "That takes care of that , now let's have some lunch"
+    Kiara "That takes care of that. Now let's have some lunch."
     scene bg kiacallscn 31 with Dissolve(0.8)
-    Kiara "I wonder when these swords were last used"
+    Kiara "I wonder when these swords were last used."
     scene bg kiacallscn 32 with Dissolve(0.8)
-    Xia "Kiara! come food is getting old"
-    Ichigo "Welcome kiara, free to take any seat"
+    Xia "Kiara! Come, the food is getting old."
+    Ichigo "Welcome, Kiara. Feel free to take any seat."
 
     "0.4 end"
 
