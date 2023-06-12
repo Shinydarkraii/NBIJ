@@ -1,6 +1,15 @@
 init python:
-    class Item:
-        def __init__(self, name, cost):
+    import types
+
+    def is_instance_userdefined_and_newclass(inst):
+        cls = inst.__class__
+        if hasattr(cls, '__class__'):
+            return ('__dict__' in dir(cls) or hasattr(cls, '__slots__'))
+        return False
+
+
+    class Item(object):
+        def __init__(self, name:str, cost:int):
             self.name = name
             self.cost = cost
             
@@ -34,14 +43,15 @@ init python:
         
         #add an item object into inventory
         def add(self, item):
-            self.items.append(item)
+            if is_instance_userdefined_and_newclass(item):
+                self.items.append(item)
 
         #remove an item from an inventory
         def drop(self, item):
             self.items.remove(item)
 
 default inventory = Inventory()
-
+default inventory_items_removed_once = False
 label inventory_values:
 
     $ laptop = Item("Laptop", 600)

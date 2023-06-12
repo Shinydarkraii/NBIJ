@@ -80,7 +80,7 @@ screen Inventory_screen():
                     null height padding
                 # text "\n"
 
-            for item in items:
+            for item in inventory.items:
                 textbutton item.name:
                     at to_right()
                     action NullAction()

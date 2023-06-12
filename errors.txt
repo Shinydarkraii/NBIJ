@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter_2.rpy", line 9199: expected statement.
-    Kiara
-         ^
+File "game/after_load.rpy", line 4: expected statement.
+    inventory.drop(100)
+                       ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Jun 11 20:47:49 2023
+Mon Jun 12 23:41:56 2023
