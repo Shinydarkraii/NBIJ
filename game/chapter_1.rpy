@@ -1388,7 +1388,7 @@ label natsugrop:
     Natsuko "I've got to be quick here , what do I do? "
     play music "/audio/choicmusic.ogg"
     if _in_replay:
-        call natsugropaccpt
+        call natsugropaccpt from _call_natsugropaccpt_1
         $ renpy.end_replay()
     menu:
         "I'm not letting this happen , he can't do this.":

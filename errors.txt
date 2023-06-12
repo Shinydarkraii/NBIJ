@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-The label chap_2_scene_50.part_2 is defined twice, at File "game/chapter_2.rpy", line 8876:
-    label .part_2:
-and File "game/chapter_2.rpy", line 8911:
-        label .part_2:
-
-
-The label chap_2_scene_50.part_1 is defined twice, at File "game/chapter_2.rpy", line 8860:
-    label .part_1:
-and File "game/chapter_2.rpy", line 8918:
-        label .part_1:
-
+File "game/chapter_2.rpy", line 9199: expected statement.
+    Kiara
+         ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sat Jun 10 23:18:26 2023
+Sun Jun 11 20:47:49 2023

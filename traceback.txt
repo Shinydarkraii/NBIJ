@@ -1,6 +1,7 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< HEAD
   File "game/chapter_2.rpy", line 6219, in script
     "Fatguy" "Hey! , Why did you do that what the fuck!"
   File "renpy/common/00library.rpy", line 303, in say
@@ -22,10 +23,24 @@ While running game code:
   File "game/screens/main_screens.rpy", line 84, in <module>
     textbutton item.name:
 AttributeError: 'int' object has no attribute 'name'
+=======
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 9306, in script
+    Natusko "N-no! , I mean it's just because it's cold."
+Exception: Sayer 'Natusko' is not defined.
+>>>>>>> aa188deb04e7157cd05f2a9773e64c61d2cf874a
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "game/chapter_2.rpy", line 6219, in script
     "Fatguy" "Hey! , Why did you do that what the fuck!"
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
@@ -77,8 +92,29 @@ Full traceback:
   File "game/screens/main_screens.rpy", line 84, in <module>
     textbutton item.name:
 AttributeError: 'int' object has no attribute 'name'
+=======
+  File "game/chapter_1.rpy", line 3669, in script call
+    call lanaAcpt1 from _call_lanaAcpt1
+  File "game/chapter_1.rpy", line 3731, in script call
+    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 4133, in script call
+    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 1398, in script call
+    call natsugropaccpt from _call_natsugropaccpt
+  File "game/chapter_2.rpy", line 9306, in script
+    Natusko "N-no! , I mean it's just because it's cold."
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Natusko' is not defined.
+>>>>>>> aa188deb04e7157cd05f2a9773e64c61d2cf874a
 
-Windows-10-10.0.19045 AMD64
+Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
  0.4
+<<<<<<< HEAD
 Mon Jun 12 22:55:14 2023
+=======
+Mon Jun 12 03:12:12 2023
+>>>>>>> aa188deb04e7157cd05f2a9773e64c61d2cf874a

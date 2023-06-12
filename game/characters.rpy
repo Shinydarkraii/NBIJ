@@ -83,4 +83,6 @@ define Uno = Character("Uno")
 define Jinshi = Character("Jinshi")
 define Sofia = Character("Sofia")
 define Doctor = Character("Doctor")
+define Luke = Character("Luke")
+define Nick = Character("Nick")
 #Game dev 
