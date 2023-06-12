@@ -1,19 +1,39 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Scale object at 0x0000000008a402b0>:
-  File "game/chapter_1.rpy", line 3057, in script
-    Kiara "(Shit , lost my train of thought.)"
-OSError: Couldn't find file 'images/UI/Elizabeh.png'.
+While running game code:
+  File "game/chapter_2.rpy", line 6219, in script
+    "Fatguy" "Hey! , Why did you do that what the fuck!"
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 60, in execute
+    if inventory_screen_show:
+  File "game/screens/main_screens.rpy", line 61, in execute
+    frame:
+  File "game/screens/main_screens.rpy", line 67, in execute
+    has vbox
+  File "game/screens/main_screens.rpy", line 83, in execute
+    for item in items:
+  File "game/screens/main_screens.rpy", line 84, in execute
+    textbutton item.name:
+  File "game/screens/main_screens.rpy", line 84, in <module>
+    textbutton item.name:
+AttributeError: 'int' object has no attribute 'name'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter_1.rpy", line 3057, in script
-    Kiara "(Shit , lost my train of thought.)"
+  File "game/chapter_2.rpy", line 6219, in script
+    "Fatguy" "Hey! , Why did you do that what the fuck!"
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
     renpy.exports.say(who, what, *args, **kwargs)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
-    who(what, *args, **kwargs)
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\exports.py", line 1371, in say
+    renpy.store.say(who, what, *args, **kwargs)
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
     self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
@@ -24,65 +44,41 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 3912, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 2602, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 495, in renpy.display.render.render_screen
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\screen.py", line 704, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\layout.py", line 1945, in render
-    place(pos, x, y, w, h)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\layout.py", line 1905, in place
-    rend = render(d, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\viewport.py", line 629, in render
-    surf = renpy.display.render.render(c, cw, ch, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\behavior.py", line 885, in render
-    rv = super(Button, self).render(width, height, st, at)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\layout.py", line 1334, in render
-    surf = render(child,
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 266, in renpy.display.render.render
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\im.py", line 627, in render
-    return cache.get(self, render=True)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\im.py", line 295, in get
-    surf = image.load()
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\im.py", line 890, in load
-    child = cache.get(self.image)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\im.py", line 295, in get
-    surf = image.load()
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\im.py", line 720, in load
-    raise e
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\im.py", line 685, in load
-    filelike = renpy.loader.load(self.filename)
-  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'images/UI/Elizabeh.png'.
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\screen.py", line 451, in visit_all
+    callback(self)
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\screen.py", line 462, in per_interact
+    self.update()
+  File "D:\Renpy projects\New Beginings In Japan\dialog data\renpy-8.0.3-sdk\renpy\display\screen.py", line 653, in update
+    self.screen.function(**self.scope)
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 42, in execute
+    screen Inventory_screen():
+  File "game/screens/main_screens.rpy", line 60, in execute
+    if inventory_screen_show:
+  File "game/screens/main_screens.rpy", line 61, in execute
+    frame:
+  File "game/screens/main_screens.rpy", line 67, in execute
+    has vbox
+  File "game/screens/main_screens.rpy", line 83, in execute
+    for item in items:
+  File "game/screens/main_screens.rpy", line 84, in execute
+    textbutton item.name:
+  File "game/screens/main_screens.rpy", line 84, in <module>
+    textbutton item.name:
+AttributeError: 'int' object has no attribute 'name'
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.3.22090809
- 0.3
-Wed May 31 21:47:48 2023
+ 0.4
+Mon Jun 12 22:55:14 2023
