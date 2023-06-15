@@ -3028,7 +3028,7 @@ label auntmeet:
     jump daybath
 
 label kiaraincab:
-    show bg cabjpn 1 with Dissolve(0.8) ()
+    show bg cabjpn 1 with Dissolve(0.8)
     Oldman "Hmm , I should initiate I suppose. "
     Kiara "All the other kids with the pumped up k-- "
     show bg cabjpn 2 with Dissolve(0.8)
@@ -3261,7 +3261,8 @@ label intro:
     John "
 Listen, Mia, can we not do this today? I had a fun night, hun, and it was great. Now, don't ruin my mood, alright?"
     show bg intro 8 with Dissolve(0.8)
-    Mia  "Not today? When does it stop, Jonathan? You and I agreed that we'll improve our lives after what happened with Kiara. How about you start doing that by not drinking and sleeping with sluts"
+    Mia  "Not today? When does it stop, Jonathan?"
+    Mia "You and I agreed that we'll improve our lives after what happened with Kiara. How about you start doing that by not drinking and sleeping with sluts!"
     show bg intro 9 with Dissolve(0.8)
     John " You just don't understand me. Though you're right about one thing, I should stop sleeping with sluts, starting from today bedroom is all yours"
     show bg intro 10 with Dissolve(0.8)

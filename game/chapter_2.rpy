@@ -9391,7 +9391,7 @@ label chap_2_scene_51:
     Ichigo "It's me.. do you remember?"
     scene bg kiameetsichigo 21 with Dissolve(0.8)
     Kiara "I- I don't , how do you know my name?"
-    Ichigo "(He erased everything..)"
+    Ichigo "( He really erased everything..)"
     scene bg kiameetsichigo 22 with Dissolve(0.8)
     Kiara "Okay , no sad faces allowed, you guys have to cheese okay?"
     scene bg kiameetsichigo 23 with Dissolve(0.8)
@@ -9401,7 +9401,7 @@ label chap_2_scene_51:
     scene bg kiameetsichigo 25 with Dissolve(0.8)
     Kiara "Ahan , uncle a bit wider more please"
     scene bg kiameetsichigo 26 with Dissolve(0.8)
-    Kiara "Aunty yuo never smile! , please for me just smile?"
+    Kiara "Aunty you never smile! , please for me just smile?"
     scene bg kiameetsichigo 27 with Dissolve(0.8)
     Xia "Okay honey , for you i will."
     Kiara "Thank you!"
@@ -9500,9 +9500,9 @@ label chap_2_scene_52:
     Lana "You know everything I do too now. Can you take care of him?"
     scene bg kiacallscn 23 with Dissolve(0.8)
     Rin "I can try, but he most likely won't really be as formal with me"
-    Lana "Just please don't try to be on him. He's not well."
+    Lana "Just please don't try to be too assertive on him. He's not well."
     scene bg kiacallscn 24 with Dissolve(0.8)
-    Rin "You can't lie to him forever, you know? He's going to know eventually."
+    Rin "I won't but.. You can't lie to him forever, you know? He's going to know eventually."
     Lana "I'll decide what to do at that time then."
     scene bg kiacallscn 25 with Dissolve(0.8)
     Rose "Mhmhm... Humming music"
@@ -9512,7 +9512,7 @@ label chap_2_scene_52:
     Rose "(Now that's what I call a great latte.)"
     scene bg kiacallscn 28 with Dissolve(0.8)
     Kiara "Hello, Rose? Kiara here. I was thinking we could meet up in the evening?"
-    Rose "We certainly can. I definitely can for you."
+    Rose "We certainly can. I mean i definitely can for you."
     scene bg kiacallscn 29 with Dissolve(0.8)
     Kiara "Heh, okay. That's quite sweet of you, but only if it's not too far for you."
     Rose "I'll manage just fine. Don't worry. See you in the evening."
