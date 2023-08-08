@@ -1,38 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/chapter_1.rpy", line 3670, in script call
-    call lanaAcpt1 from _call_lanaAcpt1
-  File "game/chapter_1.rpy", line 3729, in script call
-    call lanaRjt2 from _call_lanaRjt2
-  File "game/chapter_1.rpy", line 4134, in script call
-    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 3672, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter_1.rpy", line 4136, in script call
+    call REJECTEDLAW from _call_REJECTEDLAW
   File "game/chapter_1.rpy", line 1395, in script call
     call natsugroprjct from _call_natsugroprjct
-  File "game/chapter_2.rpy", line 9967, in script
-    taka "Alright guys uh , lose the headresses now! Kinda wanna show the stockings"
-Exception: Sayer 'taka' is not defined.
+  File "game/chapter_2.rpy", line 11395, in script
+    Agentwong "Keep your underwear on then , cmon i'm sure you wanna do this"
+Exception: Sayer 'Agentwong' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/chapter_1.rpy", line 3670, in script call
-    call lanaAcpt1 from _call_lanaAcpt1
-  File "game/chapter_1.rpy", line 3729, in script call
-    call lanaRjt2 from _call_lanaRjt2
-  File "game/chapter_1.rpy", line 4134, in script call
-    call ACCEPTEDLAW from _call_ACCEPTEDLAW
+  File "game/chapter_1.rpy", line 3672, in script call
+    call lanaRjt1 from _call_lanaRjt1
+  File "game/chapter_1.rpy", line 4136, in script call
+    call REJECTEDLAW from _call_REJECTEDLAW
   File "game/chapter_1.rpy", line 1395, in script call
     call natsugroprjct from _call_natsugroprjct
-  File "game/chapter_2.rpy", line 9967, in script
-    taka "Alright guys uh , lose the headresses now! Kinda wanna show the stockings"
+  File "game/chapter_2.rpy", line 11395, in script
+    Agentwong "Keep your underwear on then , cmon i'm sure you wanna do this"
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
     who = eval_who(self.who, self.who_fast)
   File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'taka' is not defined.
+Exception: Sayer 'Agentwong' is not defined.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
- 0.4
-Wed Jul 26 20:56:10 2023
+ V-0.4.1
+Wed Aug  2 20:37:18 2023

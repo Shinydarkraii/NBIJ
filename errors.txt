@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter_2.rpy", line 10666: expected statement.
-    pa
-      ^
+File "game/chapter_2.rpy", line 11785: expected statement.
+    pau
+       ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Jul 26 14:17:38 2023
+Thu Aug  3 03:04:00 2023
