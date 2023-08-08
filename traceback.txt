@@ -3,63 +3,36 @@
 While running game code:
   File "game/chapter_1.rpy", line 3670, in script call
     call lanaAcpt1 from _call_lanaAcpt1
-  File "game/chapter_1.rpy", line 3732, in script call
-    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 3729, in script call
+    call lanaRjt2 from _call_lanaRjt2
   File "game/chapter_1.rpy", line 4134, in script call
     call ACCEPTEDLAW from _call_ACCEPTEDLAW
-  File "game/chapter_1.rpy", line 1398, in script call
-    call natsugropaccpt from _call_natsugropaccpt
-  File "game/chapter_2.rpy", line 9480, in script
-    Daichi "Of course, Kiara-san. I will be pleased to-"
-IndexError: list index out of range
+  File "game/chapter_1.rpy", line 1395, in script call
+    call natsugroprjct from _call_natsugroprjct
+  File "game/chapter_2.rpy", line 9967, in script
+    taka "Alright guys uh , lose the headresses now! Kinda wanna show the stockings"
+Exception: Sayer 'taka' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/chapter_1.rpy", line 3670, in script call
     call lanaAcpt1 from _call_lanaAcpt1
-  File "game/chapter_1.rpy", line 3732, in script call
-    call lanaAcpt2 from _call_lanaAcpt2
+  File "game/chapter_1.rpy", line 3729, in script call
+    call lanaRjt2 from _call_lanaRjt2
   File "game/chapter_1.rpy", line 4134, in script call
     call ACCEPTEDLAW from _call_ACCEPTEDLAW
-  File "game/chapter_1.rpy", line 1398, in script call
-    call natsugropaccpt from _call_natsugropaccpt
-  File "game/chapter_2.rpy", line 9480, in script
-    Daichi "Of course, Kiara-san. I will be pleased to-"
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
-    display_say(who,
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\display\core.py", line 3846, in interact_core
-    renpy.audio.audio.interact()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1213, in interact
-    periodic()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
-    periodic_pass()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
-    c.periodic()
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\audio\audio.py", line 438, in periodic
-    force_stop = self.context.force_stop or (renpy.game.preferences.mute.get(self.mixer, False) and self.stop_on_mute)
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\audio\audio.py", line 316, in get_context
-    mcd = renpy.game.context().music
-  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\game.py", line 248, in context
-    return contexts[index]
-IndexError: list index out of range
+  File "game/chapter_1.rpy", line 1395, in script call
+    call natsugroprjct from _call_natsugroprjct
+  File "game/chapter_2.rpy", line 9967, in script
+    taka "Alright guys uh , lose the headresses now! Kinda wanna show the stockings"
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\DESKTOP\Downloads\Programs\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'taka' is not defined.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
  0.4
-Tue Jun 13 00:24:11 2023
+Wed Jul 26 20:56:10 2023

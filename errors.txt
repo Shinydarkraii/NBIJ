@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/after_load.rpy", line 4: expected statement.
-    inventory.drop(100)
-                       ^
+File "game/chapter_2.rpy", line 10666: expected statement.
+    pa
+      ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Jun 12 23:41:56 2023
+Wed Jul 26 14:17:38 2023

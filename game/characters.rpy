@@ -85,4 +85,5 @@ define Sofia = Character("Sofia")
 define Doctor = Character("Doctor")
 define Luke = Character("Luke")
 define Nick = Character("Nick")
+define Naomi = Character("Naomi")
 #Game dev 

@@ -5951,6 +5951,7 @@ label chap_2_scene_30:
             scene bg daytwoskoolazmicheerup 6 with Dissolve(0.8)
             Kiara "Bye cutie pie!"
             Azumi "Y- you too!"
+            $ azumi_rom.adjust_romance(1)
             scene bg daytwoskoolazmicheerup 7 with Dissolve(0.8)
             Azumi "Cutie pie.., she kissed my forehead"
             scene bg daytwoskoolazmicheerup 8 with Dissolve(0.8)
@@ -9166,7 +9167,7 @@ label chap_2_scene_50:
         scene bg baththirddayno 3 with Dissolve(0.8)
         Kiara "Don't mention it , I'll bring it hold on"
         scene bg baththirddayno 4 with Dissolve(0.8)
-        Natsuko "(Why was so shy?)"
+        Natsuko "(Why was she so shy?)"
         scene bg baththirddayno 5 with Dissolve(0.8)
         Natsuko "Ah.. I see"
         scene bg baththirddayno 6 with Dissolve(0.8)
@@ -9514,17 +9515,2903 @@ label chap_2_scene_52:
     Kiara "Hello, Rose? Kiara here. I was thinking we could meet up in the evening?"
     Rose "We certainly can. I mean i definitely can for you."
     scene bg kiacallscn 29 with Dissolve(0.8)
-    Kiara "Heh, okay. That's quite sweet of you, but only if it's not too far for you."
-    Rose "I'll manage just fine. Don't worry. See you in the evening."
+    Kiara "Heh, okay. That's quite sweet of you"
+    Rose "Hard to be not sweet to sugar , anyway See you in the evening."
     scene bg kiacallscn 30 with Dissolve(0.8)
     Kiara "That takes care of that. Now let's have some lunch."
     scene bg kiacallscn 31 with Dissolve(0.8)
     Kiara "I wonder when these swords were last used."
     scene bg kiacallscn 32 with Dissolve(0.8)
-    Xia "Kiara! Come, the food is getting old."
+    Xia "Kiara!, the food is getting old."
     Ichigo "Welcome, Kiara. Feel free to take any seat."
+    jump chap_2_scene_53
 
-    "0.4 end"
+label chap_2_scene_53:
 
+    scene bg mrnglnchscn 1 with Dissolve(0.8)
+    Xia "Come kiara , sit with me"
+    scene bg mrnglnchscn 2 with Dissolve(0.8)
+    Natsuko "What? No mother . You spent the morning with her already"
+    Xia "Well yes , what about it?"
+    scene bg mrnglnchscn 3 with Dissolve(0.8)
+    Natsuko "You have dad now too , let her sit next to me please?"
+    Kiara "Heh relax  natsu , I'm happy to be beside you all but i'll sit next to you oki?"
+    scene bg mrnglnchscn 4 with Dissolve(0.8)
+    Natsuko "Are you comfortable?"
+    Kiara "Yeah all good , also i can see you got me fried shrimp . Thank you"
+    scene bg mrnglnchscn 5 with Dissolve(0.8)
+    Natsuko "I knew you kinda craved it , so asked mother to make it"
+    Kiara "Thanks auntie"
+    Xia "Most welcome honey"
+    scene bg mrnglnchscn 6 with Dissolve(0.8)
+    Kiara "So um.. Uncle , aunt said earlier you gave me my name? That must've been so long ago right?"
+    Ichigo "Well yes , I am aware I'm quite old now mhm"
+    scene bg mrnglnchscn 7 with Dissolve(0.8)
+    Kiara "I didn't mean it that way haha , i mean like you know.."
+    Ichigo "Yes , yes i do. Well let me tell you about it i guess"
+    scene bg mrnglnchscn 8 with Dissolve(0.8)
+    Ichigo "Mia had something else for you but it wasn't so great , however she wanted something with K"
+    Ichigo "To which i suggested the name Kiara because of a manga i read once , I hope you like it?"
+    scene bg mrnglnchscn 9 with Dissolve(0.8)
+    Kiara "I've loved it , It's something everyone has told me is unique. So thank you"
+    scene bg mrnglnchscn 10 with Dissolve(0.8)
+    Natsuko "Imagine if you had some generic name like Karen haha"
+    Kiara "Jeez if i had that i'd be in some internet meme already with that awful haircut"
+    scene bg mrnglnchscn 11 with Dissolve(0.8)
+    Xia "So kiara , what are your plans for today?"
+    Kiara "Um , well-"
+    scene bg mrnglnchscn 12 with Dissolve(0.8)
+    Natsuko "Her plans are to spend the morning with me , after that meet some of her friends she's made here."
+    Kiara "Well yeah.. that."
+    scene bg mrnglnchscn 13 with Dissolve(0.8)
+    Kiara "I mean i also have some stuff in evening but mainly i kinda wanted to explore and shop a little"
+    Ichigo "Well i hope you have a good expirience kiara , city side is quite nice for shopping"
+    scene bg mrnglnchscn 14 with Dissolve(0.8)
+    Xia "Okay so what after that?"
+    Kiara "I was thinking of joining a language class to learn japanese"
+    scene bg mrnglnchscn 15 with Dissolve(0.8)
+    Ichigo "Oh you're learning japanese?"
+    Kiara "Yes uncle , I mean communication is kinda impossible otherwise , so not much point in delaying it"
+    scene bg mrnglnchscn 16 with Dissolve(0.8)
+    Natsuko "I mean i could've taught you japanese honestly"
+    Kiara "I know but i don't want to bug your studies right now , besides i've troubled you all enough already haha"
+    scene bg mrnglnchscn 17 with Dissolve(0.8)
+    Ichigo "It'll never be a trouble to have you here , It's your home kiara. It always will be"
+    Kiara "Thanks uncle.. it's my mom's home too.. I hope she gets here soon"
+    scene bg mrnglnchscn 18 with Dissolve(0.8)
+    Xia "She will , everyone will kiara.. as long as you remain okay"
+    Natsuko "Exactly"
+    scene bg mrnglnchscn 19 with Dissolve(0.8)
+    Natsuko "You just make sure you're happy , all else will fall in place"
+    Kiara "I will try my best to"
+    scene bg mrnglnchscn 20 with Dissolve(0.8)
+    Natsuko "I'll help too , once i graduate we'll shop , eat , hang out have fun together . I'ma be super clingy to you"
+    Kiara "More than happy to do the same natsu"
+    scene bg mrnglnchscn 21 with Dissolve(0.8)
+    Ichigo "Natusko is a little bubbly when it comes to company , so i hope you'll be alright"
+    scene bg mrnglnchscn 22 with Dissolve(0.8)
+    Kiara "Bubbly? heh in what sense?"
+    Natsuko "Me and bubbly? how so"
+    scene bg mrnglnchscn 23 with Dissolve(0.8)
+    Ichigo "Well you have a tendency to always shout at the things you want others to see and you get lost in crowds"
+    Natsuko "Oh , yeah i do that no excuse there."
+    scene bg mrnglnchscn 24 with Dissolve(0.8)
+    Kiara "Don't worry you won't get lost with me , I'll babysit you just fine"
+    Natsuko "Alright you better buy me candy as well then"
+    scene bg mrnglnchscn 25 with Dissolve(0.8)
+    Kiara "So shall we start eating?"
+    Xia "Ahm , wait honey"
+    scene bg mrnglnchscn 26 with Dissolve(0.8)
+    Xia "Remmeber we must pray to god before we eat"
+    scene bg mrnglnchscn 27 with Dissolve(0.8)
+    Kiara "Oh oh ! I'll start"
+    scene bg mrnglnchscn 28 with Dissolve(0.8)
+    Kiara "Blessing to the lord and savio-"
+    Xia "Kiara um.."
+    scene bg mrnglnchscn 29 with Dissolve(0.8)
+    Kiara "Yes?"
+    Xia "Sorry to intrupt but would you perhaps like to do it in japanese?"
+    scene bg mrnglnchscn 30 with Dissolve(0.8)
+    Kiara "Oh yes! , but um.. i don't know how to-"
+    Xia "That's okay , just follow alongside my words"
+    scene bg mrnglnchscn 31 with Dissolve(0.8)
+    Kiara "Okay but but , can we still hold hands? It's the one thing i really like.."
+    Xia "Yes.. you can hold natsu's hand"
+    scene bg mrnglnchscn 32 with Dissolve(0.8)
+    pause
+    scene bg mrnglnchscn 33 with Dissolve(0.8)
+    pause
+    scene bg mrnglnchscn 34 with Dissolve(0.8)
+    pause
+    scene bg mrnglnchscn 35 with Dissolve(0.8)
+    pause
+    scene bg mrnglnchscn 36 with Dissolve(0.8)
+    Xia "Kono tabemono o arigatō ( Thank you for this food)"
+    scene bg mrnglnchscn 37 with Dissolve(0.8)
+    Ichigo "Kono kazoku ni kansha shimasu ( Thank you for this family)"
+    scene bg mrnglnchscn 38 with Dissolve(0.8)
+    Natsuko "Kono jikan ni kansha shimasu (Thank you for these blessings)"
+    scene bg mrnglnchscn 39 with Dissolve(0.8)
+    Kiara "Kono tabemono o arigatō"
+    scene bg mrnglnchscn 40 with Dissolve(0.8)
+    Kiara "Kono kazoku ni kansha shimasu"
+    scene bg mrnglnchscn 41 with Dissolve(0.8)
+    Kiara "Kono jikan ni kansha shimasu"
+    scene bg mrnglnchscn 42 with Dissolve(0.8)
+    Xia "Anata no shukufuku ni kansha shimasu ( Thank you for the beautiful memories)"
+    scene bg mrnglnchscn 43 with Dissolve(0.8)
+    Kiara "Anata no shukufuku ni kansha shimasu"
+    scene bg mrnglnchscn 44 with Dissolve(0.8)
+    Xia "( Mia.. , father.. my family why did this-)"
+    scene bg mrnglnchscn 45 with Dissolve(0.8)
+    Xia "(Ah?)"
+    scene bg mrnglnchscn 46 with Dissolve(0.8)
+    Natsuko "Now repeat after me , Itadakmiasu!"
+    scene bg mrnglnchscn 47 with Dissolve(0.8)
+    Kiara "Itadakimasu!"
+    Natsuko "Nicely done!"
+    scene bg mrnglnchscn 48 with Dissolve(0.8)
+    Kiara "Psst.. natsu look there"
+    Natsuko "Hm?"
+    scene bg mrnglnchscn 49 with Dissolve(0.8)
+    Natsuko "Mom and dad , I know you love each other very much but food's getting cold"
+    scene bg mrnglnchscn 50 with Dissolve(0.8)
+    Kiara "Oh cmon natsu can't you feel the love in the air"
+    Xia "Oh you two pulling my leg now are you?"
+    scene bg mrnglnchscn 51 with Dissolve(0.8)
+    Natsuko "It's the only chance we're gonna get so yes"
+    Xia "Well i'll allow it.. he's too precious to not appreciate when around"
+    scene bg mrnglnchscn 52 with Dissolve(0.8)
+    Ichigo "You say that but i think i'm the lucky one here , what could one ever want again if they have you"
+    scene bg mrnglnchscn 53 with Dissolve(0.8)
+    Xia "Okay okay enough buttering me all of you , let's eat"
+    Kiara "Time to nom!"
+    scene blackscreen
+    show titletext "Abit later.." with dissolve
+    pause 1.0
+    window hide
+    scene bg mrnglnchscn 54 with Dissolve(0.8)
+    Natsuko "Nobi i'll let you know once she's dropped me off can you please come pick me up?"
+    Nobi "Certainly natsuko san , it would be the utmost pleasure of mine , have a great day"
+    scene bg mrnglnchscn 55 with Dissolve(0.8)
+    Kiara "Hey nobi! , come here for a second?"
+    Nobi "Just a moment Kiara-san"
+    scene bg mrnglnchscn 56 with Dissolve(0.8)
+    Kiara "Auntie and uncle probaby will be busy at home so when i drop her off , take her somewhere nice okay?"
+    Nobi "W-wh... where?"
+    scene bg mrnglnchscn 57 with Dissolve(0.8)
+    Kiara "I don't know , you guys grew up together i'm sure you know a location she likes , Y.. yes i think i know one."
+    scene bg mrnglnchscn 58 with Dissolve(0.8)
+    Kiara "Great , good luck okay?"
+    Nobi "Thank you kiara-san"
+    scene bg mrnglnchscn 59 with Dissolve(0.8)
+    Natsuko "Alright , I'm ready . What ya guys talkin about?"
+    Kiara "Nothing , just telling him to relax a little bit"
+    scene bg mrnglnchscn 60 with Dissolve(0.8)
+    Natsuko "Yes you should , come on smile for me?"
+    scene bg mrnglnchscn 61 with Dissolve(0.8)
+    Natsuko "There it isss , alright kiara now we can go"
+    scene bg mrnglnchscn 62 with Dissolve(0.8)
+    Nobi "( Telling me to smile.. not realizing how beautiful hers is.. )"
+    scene bg mrnglnchscn 63 with Dissolve(0.8)
+    Keisuke "There she is , alright just act normal"
+    scene bg mrnglnchscn 64 with Dissolve(0.8)
+    Natsuko "Oooh comfy seats!"
+    Kiara "Yeah i actually had a nice sleep on these when i was tired"
+    scene bg mrnglnchscn 65 with Dissolve(0.8)
+    Natsuko "Kiara ! you silly goose don't just fall asleep in taxis"
+    Kiara "He's a really good guy don't worry"
+    scene bg mrnglnchscn 66 with Dissolve(0.8)
+    Natsuko "Well Mr. taxi man thank you for not taking her kidneys"
+    Kiara "I said the same thing!"
+    scene bg mrnglnchscn 67 with Dissolve(0.8)
+    Natsuko "Heh , well you are my cousin and now we have undeniable proof"
+    Keisuke "Aheh.. "
+    scene bg mrnglnchscn 68 with Dissolve(0.8)
+    Kiara "Hey kei how come the mask again? cmon take it off"
+    Keisuke "Um..  i have a little cold today actually so"
+    scene bg mrnglnchscn 69 with Dissolve(0.8)
+    Kiara "Oh um alright.. are you sure you can drive today? If not let me know"
+    Keisuke "No no , it's nothing serious just rather not risk you guys getting sick"
+    scene bg mrnglnchscn 70 with Dissolve(0.8)
+    Kiara "Well I'm the only passanger today i'll be fine"
+    Natsuko "Oh cmon kiara , maybe he's just a little shy it's okay"
+    scene bg mrnglnchscn 71 with Dissolve(0.8)
+    Kiara "Alright alright that's fair , don't blame him you're quite the beauty"
+    Natsuko "Hehe sure , alright let's get going sir."
+    jump chap_2_scene_54
+
+label chap_2_scene_54:
+    
+    scene bg daythreecabtalk 1 with Dissolve(0.8)
+    Kiara "So natsu , how are your studies going?"
+    Natsuko "Oh they're quite well , I'm still two years away from being MD though"
+    scene bg daythreecabtalk 2 with Dissolve(0.8)
+    Kiara "That's great , can't wait to see you in a white coat and then just nag you for every little health issue i have"
+    scene bg daythreecabtalk 3 with Dissolve(0.8)
+    Natsuko "Oh i don't mind it at all , anything for you"
+    Kiara "Wait how about you help him ? He did say it's just normal cold . I'm sure you know something"
+    scene bg daythreecabtalk 4 with Dissolve(0.8)
+    Natsuko "Um yeah actually why not , hey um.. so when did you catch this cold?"
+    Keisuke "Uh.. I uh got wet in the rain a little bit , it's nothing major don't worry really."
+    scene bg daythreecabtalk 5 with Dissolve(0.8)
+    Natsuko "Hmm rain , most likely just standard flu then."
+    Natsuko "Take some paracetamols and be sure to have warm tea okay"
+    Keisuke "I will , thank you natsuko-san"
+    scene bg daythreecabtalk 6 with Dissolve(0.8)
+    Natsuko "( Kiara hasn't say my full name.. how does he know that?)"
+    Kiara "Natsuko , look!"
+    scene bg daythreecabtalk 7 with Dissolve(0.8)
+    Kiara "Isn't that the ancient emporer's temple or something?"
+    Natsuko "No kiara , that's just the monastery. The house of the emporer is in nara , not osaka."
+    scene bg daythreecabtalk 8 with Dissolve(0.8)
+    Kiara "Wait , how many did he build? I've seen so many"
+    Natsuko "Well you know in ancient times making huge houses and stuff was for well.. ego"
+    Kiara "Compensating for something heh?"
+    scene bg daythreecabtalk 9 with Dissolve(0.8)
+    Natsuko "Yeah definitely hahaha"
+    Keisuke "Do you dislike big homes kiara?"
+    scene bg daythreecabtalk 10 with Dissolve(0.8)
+    Kiara "Not dislike but , I just think a decent room , a living and something small but sutbtle life is way more beautiful than those lavish mansions"
+    Kiara "It's why i love home here so much , It's just the perfect space but not overwhelming"
+    Keisuke "I see.. makes sense"
+    scene bg daythreecabtalk 11 with Dissolve(0.8)
+    Natsuko "Well with you the home definitely feels more beautiful"
+    Kiara "I can say the same about you honestly"
+    scene bg daythreecabtalk 12 with Dissolve(0.8)
+    Natsuko "Oh cmon you always dodge compliments , Hey mr. taxi driver what do you think about kiara's looks?"
+    Keisuke "Uh.."
+    scene bg daythreecabtalk 13 with Dissolve(0.8)
+    Kiara "Natsu! , it's not somethng you ask someone . That's so narcisstic"
+    Natsuko "It's not if it's the truth , so Mr. driver please say it!"
+    scene bg daythreecabtalk 14 with Dissolve(0.8)
+    Keisuke "Uhm.. she's beautiful yes.. very gorgeous but i think she should smile more"
+    Natsuko "See?"
+    scene bg daythreecabtalk chc with Dissolve(0.8)
+    Natsuko "Now kiara , what do you think about him? Cmon this is how it works"
+
+    menu:
+        "Compliment Keisuke":
+            jump. part_1
+        "Be friendly":
+            jump. part_2
+
+    label .part_1:
+        scene bg cmplmntkei 1 with Dissolve(0.8)
+        Kiara "Oh keisuke is very good looking , I've no idea why he even drives a cab , could be easily doing model shoots"
+        scene bg cmplmntkei 2 with Dissolve(0.8)
+        Keisuke "That's very kind of you , I disagree though"
+        scene bg cmplmntkei 3 with Dissolve(0.8)
+        Kiara "Of course you do , you never take compliments either like me"
+        $ keisuke_rom.adjust_romance(1)
+        Natsuko "( Wait?.. Keisuke? )"
+        jump chap_2_scene_55         
+                        
+    label .part_2:
+        scene bg cmplmntkeisimply 1 with Dissolve(0.8)
+        Kiara "Oh keisuke? Heh he's yeah he's cute , I literally had to tell him to stop wearing the mask because he felt the opposite"
+        Keisuke "I'm just a little shy"
+        scene bg cmplmntkeisimply 2 with Dissolve(0.8)
+        Kiara "Nothing wrong with that goofball , it's the real you , why change it? You're don't need any validation on that"
+        Keisuke "Thank you.."
+        scene bg cmplmntkeisimply 3 with Dissolve(0.8)
+        Kiara "What did i say before? Don't appreciate it-"
+        Keisuke "Get used to it instead... heh "
+        Natsuko "( Keisuke?..)"
+        jump chap_2_scene_55
+
+label chap_2_scene_55:
+    scene bg daythreecsply 1 with Dissolve(0.8)
+    Natsuko "Well now i am definitely curious , you better get well soon Mr. Driver"
+    Keisuke "I - i will yeah , thank you"
+    scene bg daythreecsply 2 with Dissolve(0.8)
+    Kiara "Oh hey it's taka"
+    Taka "Hey kiara your first shoot's royalties have arrived!"
+    scene bg daythreecsply 3 with Dissolve(0.8)
+    Kiara "Oh uh well i'm actually going somewhere else with natsuko today though"
+    Taka "It'd just take a minute really? I'm at the shop as well"
+    scene bg daythreecsply 4 with Dissolve(0.8)
+    Taka "It's like a 1000$ and i can store it sure but i won't be at the shop on monday so"
+    Kiara "Alright fine , I'll see you in like 10 minutes"
+    scene bg daythreecsply 5 with Dissolve(0.8)
+    Kiara "Keisuke? could you please?"
+    Keisuke "On it"
+    scene blackscreen
+    show titletext "Outside Taka's shop , 10 minutes later.." with dissolve
+    pause 1.0
+    window hide
+    scene bg daythreecsply 6 with Dissolve(0.8)
+    Kiara "Okay natsu i'll be back real quick okay?"
+    Natsuko "Yeah , take your time"
+    scene bg daythreecsply 7 with Dissolve(0.8)
+    Natsuko "Mr driver , I wanted to ask something"
+    Keisuke "Yes? anything wrong?"
+    scene bg daythreecsply 8 with Dissolve(0.8)
+    Natsuko "Did you miss her too?"
+    Keisuke "Um.. I don't know what you-"
+    scene bg daythreecsply 9 with Dissolve(0.8)
+    Natsuko "Keisuke , I know it's you.. talk to me"
+    Keisuke "Ah , Natsuko I-"
+    scene bg daythreecsply 10 with Dissolve(0.8)
+    Keisuke "I did miss her.."
+    Natsuko "You're probably angry at me for hiding it.. I underst-"
+    scene bg daythreecsply 11 with Dissolve(0.8)
+    Keisuke "No . no I'm not.. I know it was the best for her , I'm just glad she's okay"
+    scene bg daythreecsply 12 with Dissolve(0.8)
+    Natsuko "Do you mind if we talk for a bit? we both owe each other that i suppose"
+    Keisuke "Yeah , we do.. Alright"
+    scene bg daythreecsply 13 with Dissolve(0.8)
+    $ inventory.earn(1000)
+    Taka "Okay there we go , transfered to your account. You should be set"
+    Kiara "Great , thanks taka"
+    scene bg daythreecsply 14 with Dissolve(0.8)
+    Taka "Don't mention it , soo where you goin? I mean wow the outfit is quite occasional"
+    Kiara "Actually just hanging out today , and auntie suggested me the outfit so i had to wear it , plus i like it honestly"
+    scene bg daythreecsply 15 with Dissolve(0.8)
+    Taka "Looks great yeah .. so natsuko is with you?"
+    Kiara "Yeah she is.. , what about ?"
+    scene bg daythreecsply 16 with Dissolve(0.8)
+    Taka "Well it's good timing actually , There's this duo cosplay that needs 2 girls and i was thinking  you could ask her?"
+    Kiara "Well i can't promise anything unless she's comfortable so let me text her"
+    scene bg daythreecsply 17 with Dissolve(0.8)
+    Kiara "Alright she's coming , so dual cosplay means more money i'm guessing"
+    Taka "Oh yeah royalty would be super high so probably double that"
+    scene bg daythreecsply dcd with Dissolve(0.8)
+    Kiara "Hey natsu , taka wants us to do a cosplay.. are you comfortable?"
+    Natsuko "Um.."
+
+    menu:
+        "Suggest otherwise"  :
+            jump. part_1
+        "Accept the proposal"if mc_stats.current_corruption >= 35:
+            jump. part_2
+    
+    label .part_1:
+        scene bg daythreenocsply 1 with Dissolve(0.8)
+        Natsuko "Well it's not bad but would you really want to? you have a long day ahead anyway why do more work?"
+        Kiara "I guess you're right , it's the weekend and not like i need to do it anyway"
+        scene bg daythreenocsply 2 with Dissolve(0.8)
+        Natsuko "Sorry taka , i guess not today then"
+        Taka "How about you solo? only she has to go right"
+        scene bg daythreenocsply 3 with Dissolve(0.8)
+        Natsuko "Nah I'd rather read books  , see ya"
+        Taka "Yeah.. see ya ( Dammit )"
+        jump chap_2_scene_56
+
+    label .part_2:
+        scene bg daythreecsplys 1 with Dissolve(0.8)
+        Natsuko "Um okay , sure (Better stay here if he tries something funny)"
+        Kiara "So what are our options?"
+        scene bg daythreecsplys 2 with Dissolve(0.8)
+        Taka "Uh well you have a duo nun cosplay or a anime cosplay"
+        scene bg daythreecsplys dcd with Dissolve(0.8)
+        Kiara "Oh i see ( Hmm.. what should i go for? )"
+
+        menu:
+            "Anime cosplay":
+                jump. part_3
+            "Custom photoshoot"if mc_stats.current_corruption >= 40:
+                jump. part_4
+        
+        label .part_3:
+            scene bg daythreeanimecsply 1 with Dissolve(0.8)
+            Kiara "I guess anime sounds fun"
+            Taka "Great! , let's get started"
+            scene bg daythreeanimecsply 2 with Dissolve(0.8)
+            Kiara "What even is this anime?"
+            Natsuko "Oh you haven't seen it?"
+            scene bg daythreeanimecsply 3 with Dissolve(0.8)
+            Kiara "I've alot of catch up to don't i"
+            Natsuko "It's a pretty great action manga , we're cosplaying the sisters i think"
+            scene bg daythreeanimecsply 4 with Dissolve(0.8)
+            Taka "Alright , let's begin!"
+            scene bg daythreeanimecsply 5 with Dissolve(0.8)
+            Taka "Give me a side looking pose same for both of you!"
+            scene bg daythreeanimecsply 6 with Dissolve(0.8)
+            Taka "Now do like a tsundere look!"
+            scene bg daythreeanimecsply 7 with Dissolve(0.8)
+            Taka "( Ah.. dammit natsu's wearing the leggings too.. )"
+            scene bg daythreeanimecsply 8 with Dissolve(0.8)
+            Taka "Natsu could you move a bit back?"
+            Natsuko "Like this?"
+            Taka "Yeah! ( Hmm.. i can make out her ass's shape still , let's see kiara now)"
+            scene bg daythreeanimecsply 9 with Dissolve(0.8)
+            Taka "(Oh tatsumaki.. I love you so much.. god those thighs )"
+            scene bg daythreeanimecsply 10 with Dissolve(0.8)
+            Taka "Kiara you too! (Fuck i wouldn't last a minute between those legs )"
+            scene bg daythreeanimecsply 11 with Dissolve(0.8)
+            Taka "Abit more! ( Oh a thong.. suits you so well kiara)"
+            scene bg daythreeanimecsply 12 with Dissolve(0.8)
+            Taka "Alright now move backwards for like a cool cover pose"
+            Kiara "Okay , gotcha"
+            scene bg daythreeanimecsply 13 with Dissolve(0.8)
+            pause
+            scene bg daythreeanimecsply 14 with Dissolve(0.8)
+            Taka "( There's that ass , man kiara i am so going to fuck you one day)"
+            scene bg daythreeanimecsply 15 with Dissolve(0.8)
+            Taka "Alright we're done! ( Imagine that.. that little piece of fabric is all that stops me from seeing her lovely pussy , so unfair)"
+            jump chap_2_scene_56
+        
+        label .part_4:
+            scene bg daythreenuncsply 1 with Dissolve(0.8)
+            Kiara "Alright nun it is i guess , let's go ahead with it"
+            Taka "Great choice! ( heh i think she's slowly growing to like this too)"
+            scene bg daythreenuncsply 2 with Dissolve(0.8)
+            Taka "Alright a moment guys , hope it's all comfortable"
+            Kiara "Yeah it's fine"
+            Natsuko "Somewhat yeah , fabric is decent"
+            scene bg daythreenuncsply 3 with Dissolve(0.8)
+            Kiara "You know i'm catholic , no nun wears this"
+            Taka "Well we obviously can't have copy exact , don't want the vatican to send snipers for me"
+            scene bg daythreenuncsply 4 with Dissolve(0.8)
+            Taka "Alright! , Arm above the head and give a smile"
+            scene bg daythreenuncsply 5 with Dissolve(0.8)
+            Taka "Be a little shy"
+            scene bg daythreenuncsply 6 with Dissolve(0.8)
+            Taka "Hold the skirt a bit! ( Man those legs.. nice)"
+            scene bg daythreenuncsply 7 with Dissolve(0.8)
+            Taka "One more kind of a shy smile!"
+            scene bg daythreenuncsply 8 with Dissolve(0.8)
+            Taka "Don't hold the feet but act like it ( Natsu's ass is long and kiara's big , such a good combo) "
+            scene bg daythreenuncsply 9 with Dissolve(0.8)
+            Taka "A subtle pose now ( What would i not give to creampie either of them )"
+            scene bg daythreenuncsply 10 with Dissolve(0.8)
+            Taka "One more smile with a head tilt!"
+            scene bg daythreenuncsply 11 with Dissolve(0.8)
+            Taka "Do a skirt hold but backwards this time!"
+            scene bg daythreenuncsply 12 with Dissolve(0.8)
+            Taka "An opposite standing look at camera shot! ( Those leggigns being see through is a blessing damn )"
+            scene bg daythreenuncsply 13 with Dissolve(0.8)
+            Taka "( Oh natsu.. a tight ass is always so good)"
+            scene bg daythreenuncsply 14 with Dissolve(0.8)
+            Taka " ( Kiara's butt is perfect though , I'd love to eat her out)"
+            scene bg daythreenuncsply 15 with Dissolve(0.8)
+            Taka "Alright guys uh , lose the headresses now! Kinda wanna show the stockings"
+            Kiara "Um okay but i think i'd ask natsu first as well"
+            scene bg daythreenuncsply 16 with Dissolve(0.8)
+            Kiara "Natsu you wanna do it? don't worry these pictures remain safe"
+            Natsuko "Umm.. well"
+            scene bg daythreenuncsply dcd with Dissolve(0.8)
+            menu:
+                "Not comfortable":
+                    jump .part_5
+                "Go ahead with it"if mc_stats.current_corruption >= 55:
+                    jump .part_6
+            
+            label .part_5:
+                scene bg nuncsplyno 1 with Dissolve(0.8)
+                Natsuko "I don't think we should , I mean kinda feel uncomfortable actually since they're see through a little"
+                Kiara "Oh , alright that's fair"
+                scene bg nuncsplyno 2 with Dissolve(0.8)
+                Kiara "Sorry taka , this 'll be it for now"
+                Taka "Okay! , no problem then"
+                jump chap_2_scene_56
+            
+            label .part_6:
+                scene bg nuncsplyys 1 with Dissolve(0.8)
+                Natsuko "Umm Sure i guess , it's just a shoot after all"
+                scene bg nuncsplyys 2 with Dissolve(0.8)
+                Kiara "Yeah it's just a shoot , nothing major really"
+                scene bg nuncsplyys 3 with Dissolve(0.8)
+                Taka "( Oh they're doing it! nice..)"
+                scene bg nuncsplyys 4 with Dissolve(0.8)
+                Taka "Bluffing to the gods ! ( Man look at those legs , mamma mia)"
+                scene bg nuncsplyys 5 with Dissolve(0.8)
+                Taka "Yep lookin good keep at it ( Sorry natsu , she clearly has the better ass but you ain't half bad)"
+                scene bg nuncsplyys 6 with Dissolve(0.8)
+                Taka "( There's one thing for sure though)"
+                scene bg nuncsplyys 7 with Dissolve(0.8)
+                Taka "( Both of them probably smell really nice down there hehe)"
+                scene bg nuncsplyys 8 with Dissolve(0.8)
+                Taka "Alright kiara you be the shy one and natsuko kinda point at her!"
+                scene bg nuncsplyys 9 with Dissolve(0.8)
+                Taka "Bit of elegance , look at each other!"
+                scene bg nuncsplyys 10 with Dissolve(0.8)
+                Taka "Alright we're done! , change up kiara"
+                Kiara "Yeah , see you outside natsu"
+                $ mc_stats.adjust_corruption(5)
+                Natsuko "Okay , I'll be there just a bit"
+                scene bg nuncsplyys 11 with Dissolve(0.8)
+                Taka "Hey natsu!"
+                Natsuko "Hm?"
+                scene bg nuncsplyys 12 with Dissolve(0.8)
+                Taka "I hope it was fun , maybe wanna do it again?"
+                Natsuko "I'll think about it , but yeah it was alright"
+                scene bg nuncsplyys 13 with Dissolve(0.8)
+                Natsuko "Alright , let's change got a long day ahed"
+                Taka "( No way i'm missing this )"
+                scene bg nuncsplyys 14 with Dissolve(0.8)
+                Taka "( Ohh wow.. , such a nice cake she has)"
+                scene bg nuncsplyys 15 with Dissolve(0.8)
+                Natsuko "Hm , at least this is air conditioned"
+                scene bg nuncsplyys 16 with Dissolve(0.8)
+                Natsuko "Okay , let's get ch-"
+                scene bg nuncsplyys 17 with Dissolve(0.8)
+                Natsuko "What's that soou-"
+                scene bg nuncsplyys 18 with Dissolve(0.8)
+                Natsuko "*Gasp* Ah!... wha?"
+                scene bg nuncsplyys 19 with Dissolve(0.8)
+                Taka "Ohh ! natsuko you have such a tasty ass!"
+                Natsuko "Hey! , what the hell are you-"
+                scene bg nuncsplyys 20 with Dissolve(0.8)
+                Taka "Oh please natsu! , let me eat it.. it's so fucking good"
+                Natsuko "What ? hey no! Taka cut it-"
+                scene bg nuncsplyys 21 with Dissolve(0.8)
+                Natsuko "Ah!.."
+                Taka "Mmmwah so soft.. "
+                scene bg nuncsplyys 22 with Dissolve(0.8)
+                Natsuko "Hey you stop! , what are you doing!"
+                scene bg nuncsplyys 23 with Dissolve(0.8)
+                Taka "Oh cmon natsu we've known each other for so long , let's have fun already"
+                Natsuko "No! hey you-"
+                scene bg nuncsplyys 24 with Dissolve(0.8)
+                Taka "I can smell your pussy , the scent is so nice.. mmm"
+                Natsuko "Okay no this is it"
+                scene bg nuncsplyys 25 with Dissolve(0.8)
+                Natsuko "You fucking pervert!"
+                Taka "Whoa . natsu i -"
+                scene bg nuncsplyys 26 with Dissolve(0.8)
+                Taka "Aaaah!"
+                Natsuko "Out of my face!"
+                scene bg nuncsplyys 27 with Dissolve(0.8)
+                Natsuko "I'm gonna tell mom about this , just you wait"
+                Taka "Wh-what?"
+                scene bg nuncsplyys 28 with Dissolve(0.8)
+                Taka "No no no , please don't! , I'm sorry i just couldn't control myself"
+                scene bg nuncsplyys 29 with Dissolve(0.8)
+                Natsuko "So what? that gives you an excuse to make it okay?"
+                Taka "No! , look i'm sorry i'll do anything please just dont tell aunt xia"
+                scene bg nuncsplyys 30 with Dissolve(0.8)
+                Natsuko "Anything huh?"
+                Taka "Yeah no problem at all"
+                scene bg nuncsplyys 31 with Dissolve(0.8)
+                Kiara "Fine , you're gonna pay 3 times of what you were paying to her for this shoot"
+                Taka "Th-three times?.."
+                scene bg nuncsplyys 32 with Dissolve(0.8)
+                Natsuko "You got a problem?"
+                Taka "N-no , fine.. yeah just please don't tell your mom"
+                Natsuko "Fine then , bye."
+                jump chap_2_scene_56
+
+    label chap_2_scene_56:
+    scene blackscreen
+    show titletext "15 minutes later.." with dissolve
+    pause 1.0
+    window hide
+    scene bg meetinglana 1 with Dissolve(0.8)
+    Kiara "Oh hey his mask is off , did you heal him doctor natsuko?"
+    scene bg meetinglana 2 with Dissolve(0.8)
+    Natsuko "No i think i just give the healing vibe without knowing , good doctor right?"
+    Kiara "Certainly you are aha"
+    scene bg meetinglana 3 with Dissolve(0.8)
+    Kiara "Alright keisuke , let's get to this... Tori gate street or park? My friend lana is supposed to be there"
+    scene bg meetinglana 4 with Dissolve(0.8)
+    Natsuko "( Lana.. i wonder if she met damian yet , maybe-)"
+    Kiara "Hey natsuko"
+    scene bg meetinglana 5 with Dissolve(0.8)
+    Natsuko "Yes?"
+    Kiara "Now that we have privacy , I was gonna ask you . When is uncle and auntie's anniversary?"
+    scene bg meetinglana 6 with Dissolve(0.8)
+    Natsuko "Oh why so?"
+    Kiara "Well I'm kinda decent at sketching , so i thought i'd gift them something like that you know"
+    scene bg meetinglana 7 with Dissolve(0.8)
+    Natsuko "Of course you think of it before me , it's the 14th of february"
+    Kiara "Valentines huh? that's nice"
+    scene bg meetinglana 8 with Dissolve(0.8)
+    Natsuko "Yeah dad is quite romantic when it comes to mom , so he made sure back then even to choose the right dates"
+    Kiara "That's very cute..  , Most guys can't even remember birthdays now"
+    scene bg meetinglana 9 with Dissolve(0.8)
+    Kiara "So i'm guessing you'll only accept a proposal on valentine's as well?"
+    Natsuko "I mean i would love it but i doubt any guy will go out of his way to commit to that haha"
+    Kiara "I see ( Now i know what date to tell nobi)"
+    scene bg meetinglana 10 with Dissolve(0.8)
+    Natsuko "Keisuke! , do you like any girl right now?"
+    Keisuke "Ah.."
+    Kiara "He did , actually the girl liked him too but rejected him just because of his job , can you believe that?"
+    scene bg meetinglana 11 with Dissolve(0.8)
+    Natsuko "Job?.. Oh this.. wow that's really rude!"
+    Kiara "I know right?"
+    scene bg meetinglana 12 with Dissolve(0.8)
+    Natsuko "Well Mr. Keisuke , I hope you find the right one for you"
+    Keisuke "Same goes to you Mrs. Natsuko"
+    scene bg meetinglana 13 with Dissolve(0.8)
+    Keisuke "Hey kiara , we're here"
+    Kiara "Sweet! alright then"
+    scene bg meetinglana 14 with Dissolve(0.8)
+    Natsuko "I'll meet you in a bit okay?"
+    Kiara "Sure kei will drop you at the library and then we'll go to the tea shop!"
+    scene bg meetinglana 15 with Dissolve(0.8)
+    Natsuko "I'll miss you"
+    Kiara "Oh cmon now don't make it harder , i love your company already"
+    scene bg meetinglana 16 with Dissolve(0.8)
+    Kiara "Kei , take care of my cousin okay?"
+    Keisuke "I will , you have fun take care"
+    jump chap_2_scene_57
+
+label chap_2_scene_57:
+    scene bg lanashopscn 1 with Dissolve(0.8)
+    Kiara "( I'm guessing this is the shop.. )"
+    scene bg lanashopscn 2 with Dissolve(0.8)
+    Lana "So please make sure it's the best quality , I want her to look her best"
+    scene bg lanashopscn 3 with Dissolve(0.8)
+    "Shopkeeper" "Understood mam , do not worry you'll be satisfied with the quality"
+    scene bg lanashopscn 4 with Dissolve(0.8)
+    Lana "Great , it's not about me really.. she just is gorgeous . You'll see"
+    scene bg lanashopscn 5 with Dissolve(0.8)
+    Kiara "Hey there beautiful blonde"
+    Lana "Kiara! hey!"
+    scene bg lanashopscn 6 with Dissolve(0.8)
+    Lana "It really is you.. , it's so nice to see you again kia"
+    Kiara "You too , also nice dress hun"
+    scene bg lanashopscn 7 with Dissolve(0.8)
+    Lana "I can say the same for you really , blue and that glowing skin can't go wrong"
+    scene bg lanashopscn 8 with Dissolve(0.8)
+    Lana "Anyway , let's get some new stuff.. i got the best model finally"
+    Kiara "Look who's talking  , but sure right behind you"
+    scene bg lanashopscn 9 with Dissolve(0.8)
+    "Shopkeeper" "It's plesure to have you both here"
+    Lana "We'd love to try something modern.. and some of what i selected earlier"
+    scene bg lanashopscn 10 with Dissolve(0.8)
+    Kiara "I kinda want asian clothing too , but sure let's see what you selected lana"
+    scene bg lanashopscn 11 with Dissolve(0.8)
+    Lana "Asian ? you embracing those that half asian side huh"
+    Kiara "Well yeah why not , they're all so comfy but i do need some other clothes for work and stuff"
+    scene bg lanashopscn 12 with Dissolve(0.8)
+    Lana "Well i hope it's not too hard to do multi jobs"
+    Kiara "Oh no , it's more like several temporary jobs so i can choose shifts and timings"
+    scene bg lanashopscn 13 with Dissolve(0.8)
+    Lana "So you liking it here so far?"
+    Kiara "I love it really , alot better than brooklyn and honestly it's.. easier"
+    scene bg lanashopscn 14 with Dissolve(0.8)
+    Lana "I get that , family here has been helpful too probably to you"
+    Kiara "Yeah over there it was just you and mom.. I couldn't even talk properly"
+    scene bg lanashopscn 15 with Dissolve(0.8)
+    Lana "Well that's why i'm here now , you can add one extra to that list"
+    Kiara "Believe me you're pretty close to the top hun but hey so you're staying here then?"
+    scene bg lanashopscn 16 with Dissolve(0.8)
+    Lana "Oh no no , I have to go after 2 weeks . Doubt it's that hard to get an visa here though"
+    Kiara "I mean it kinda is!"
+    scene bg lanashopscn 17 with Dissolve(0.8)
+    Kiara "Well unless you marry someone here or stuff , I guess that is one exception"
+    scene bg lanashopscn 18 with Dissolve(0.8)
+    Lana "See told you we could find a way.. but i'll need your approval so"
+    scene bg lanashopscn 19 with Dissolve(0.8)
+    Lana "Sooooo...?"
+    Kiara "So what?"
+    scene bg lanashopscn 20 with Dissolve(0.8)
+    Lana "Know anyone? heh"
+    Kiara "Oh uh--"
+    scene bg lanashopscn chc with Dissolve(0.8)
+
+    menu:
+        "No clue on it":
+            jump .part_1  
+        "Mention keisuke":
+            jump .part_2
+    
+    label .part_1:
+        scene bg replynromally 1 with Dissolve(0.8)
+        Kiara "Not really , I mean i doubt anyone is good enough for you. I'll find someone though don't worry"
+        Lana "Well i can't stay single forever hun!"
+        scene bg replynromally 2 with Dissolve(0.8)
+        Kiara "Might take my sweet time though , my bestie deserves the best"
+        Lana "I hope the same for you hun"
+        scene bg replynromally 3 with Dissolve(0.8)
+        Kiara "Thanks lana , you really should come home next time , auntie , all of them will love you"
+        Lana "I'll do next weekend , promise"
+        jump chap_2_scene_58
+    
+    label .part_2:
+        scene bg mntnkske 1 with Dissolve(0.8)
+        Kiara "Well he's not rich like you but.. i think he's a great guy personally. Name's keisuke"
+        Lana "Even better! , I'd prefer someone humble and one that's kinda your choice for me than some random asshole in Ny"
+        scene bg mntnkske 2 with Dissolve(0.8)
+        Lana "Keisuke huh , nice name . Is he cute?"
+        Kiara "Kinda? I mean.. i guess adorable would be more suitable"
+        scene bg mntnkske 3 with Dissolve(0.8)
+        Lana "Well i hope i get to meet him too then"
+        Kiara "You will , I'm sure he'll think the same"
+        jump chap_2_scene_58
+
+label chap_2_scene_58:
+    scene bg lanachangingroom 1 with Dissolve(0.8)
+    Kiara "So what do you wanna do after this?"
+    Lana "Oh there's a spa nearby , they're done solo usually but you and i are kinda the same so i booked it for us"
+    scene bg lanachangingroom 2 with Dissolve(0.8)
+    Kiara "Oh , i did shower this morning but hey a good spa hurt nobody"
+    Lana "Yes... it'll be perfect for your pretty skin too"
+    scene bg lanachangingroom 3 with Dissolve(0.8)
+    "Shopkeeper" "Hello Mrs. , your clothes are ready , please take your time to check them out"
+    Lana "Let's go!"
+    scene bg lanachangingroom 4 with Dissolve(0.8)
+    pause
+    scene bg lanachangingroom 5 with Dissolve(0.8)
+    Lana "Fancy isn't it?"
+    scene bg lanachangingroom 6 with Dissolve(0.8)
+    Kiara "It sure is"
+    scene bg lanachangingroom 7 with Dissolve(0.8)
+    Kiara "I hope no one walks in though"
+    Lana "Oh no i told her that you have OCD , don't worry"
+    scene bg lanachangingroom 8 with Dissolve(0.8)
+    Kiara "Yeah , you're right . though i do wanna do something first"
+    Lana "Oh , what might that be?"
+    scene bg lanachangingroom 9 with Dissolve(0.8)
+    Kiara "Before you try asian , can you sit down for a minute and keep your eyes closed?"
+    Lana "Um... okay. I trust you , sure."
+    scene bg lanachangingroom 10 with Dissolve(0.8)
+    Lana "Don't draw a moustache on me okay kia?"
+    Kiara "Hehe This is not high school , don't worry you'll like what i'm gonna do"
+    scene bg lanachangingroom 11 with Dissolve(0.8)
+    Lana "I hear scissor sounds , what are ya doin?"
+    Kiara "Just stay still , you trust me right?"
+    scene bg lanachangingroom 12 with Dissolve(0.8)
+    Lana "I do , I do.. alright"
+    scene bg lanachangingroom 13 with Dissolve(0.8)
+    Kiara "Okay , open now"
+    scene bg lanachangingroom 14 with Dissolve(0.8)
+    Lana "Oh wow..."
+    scene bg lanachangingroom 15 with Dissolve(0.8)
+    Lana "This looks so good!"
+    Kiara "I know right? i think you look lovely too"
+    scene bg lanachangingroom 16 with Dissolve(0.8)
+    Lana "You said i was lovely before too , so what am i now"
+    Kiara "Well double lovely then , come on let's try the clothes"
+    scene bg lanachangingroom 17 with Dissolve(0.8)
+    Kiara "How's it looking?"
+    Lana "Fits quite well i think , i love the jacket"
+    scene bg lanachangingroom 18 with Dissolve(0.8)
+    Kiara "I know right? the yellow kinda stands out"
+    Lana "Yeah this would be great during like morning walks"
+    scene bg lanachangingroom 19 with Dissolve(0.8)
+    Kiara "This kinda reminds me of high school"
+    Lana "Well it's pretty decent don't you think? A long skirt always looked good on you"
+    scene bg lanachangingroom 20 with Dissolve(0.8)
+    Kiara "I suppose you're right , and navy blue is my faovrite so why not"
+    Lana "Exactly!"
+    scene bg lanachangingroom 21 with Dissolve(0.8)
+    Kiara "Hm.. are ripped stockings okay?"
+    Lana "It's not that bad honestly , besides its more of a hipster outfit really"
+    scene bg lanachangingroom 22 with Dissolve(0.8)
+    Lana "It's not really revealing and you look stunning in it!"
+    scene bg lanachangingroom 23 with Dissolve(0.8)
+    Lana "Ahh here's the one i picked , i think it looks great on your skin"
+    scene bg lanachangingroom 24 with Dissolve(0.8)
+    Kiara "Yeah i love it , the color green has a attachment to me.. so thanks"
+    Lana "Most welcome hun , now my turn!"
+    scene bg lanachangingroom 25 with Dissolve(0.8)
+    Lana "Okay so , i didn't have your help in these . Don't laugh okay?"
+    Kiara "You know i won't , Come on out"
+    scene bg lanachangingroom 26 with Dissolve(0.8)
+    Lana "What do you think?"
+    Kiara "Hmm.. I don't if all black suits you"
+    scene bg lanachangingroom 27 with Dissolve(0.8)
+    Lana "Oh? why"
+    Kiara "Well you're like the opposite in personality so"
+    Lana "Aha you're right"
+    scene bg lanachangingroom 28 with Dissolve(0.8)
+    Lana "How about this?"
+    Kiara "Much better.. but i think we can get even more on you"
+    scene bg lanachangingroom 29 with Dissolve(0.8)
+    Kiara "Did you get something in blue?"
+    Lana "Oh yeah! it's mongolian"
+    scene bg lanachangingroom 30 with Dissolve(0.8)
+    Kiara "Now that's what i am talking about"
+    Lana "This was my choice too intially but i wanted to see different ones for your opinion"
+    scene bg lanachangingroom 31 with Dissolve(0.8)
+    Kiara "No trust me , this looks amazing!"
+    Lana "Should i just wear it then?"
+    scene bg lanachangingroom 32 with Dissolve(0.8)
+    Kiara "Why not , might as well get adapted"
+    Lana "Okay hold on , I have one more workout gear then we can go"
+    scene bg lanachangingroom 33 with Dissolve(0.8)
+    pause
+    scene bg lanachangingroom 34 with Dissolve(0.8)
+    Kiara "Wh-"
+    scene bg lanachangingroom 35 with Dissolve(0.8)
+    Lana "Well doesn't it look great?"
+    Kiara "You're gonna workout in that? hun pretty sure they'd ban you from the gym"
+    scene bg lanachangingroom 36 with Dissolve(0.8)
+    Lana "It's not for gym! , it's for home work out"
+    Kiara "Oh fine in that case then yeah"
+    scene bg lanachangingroom 37 with Dissolve(0.8)
+    Lana "Okay gimme a min , I'll change and we can go then"
+    Kiara "Okay I -"
+    scene bg lanachangingroom 38 with Dissolve(0.8)
+    Kiara " will be waiting.. ( Wow she's fit )"
+    scene bg lanachangingroom chc with Dissolve(0.8)
+    Kiara "(She's changed alot since uni.. I-)"
+    menu:
+        "Approach lana"if mc_stats.current_corruption >= 60:
+            jump. part_1
+        "Stop staring":
+            jump. part_2
+
+    label .part_1:
+        scene bg turnlana 1 with Dissolve(0.8)
+        Kiara "Wow.. it's so hard to look away"
+        scene bg turnlana 2 with Dissolve(0.8)
+        Kiara "Lana , if you don't find a guy how about being with a girl?"
+        scene bg turnlana 3 with Dissolve(0.8)
+        Lana "Aheh , I'm straight kiara so i don't know how would that work"
+        scene bg turnlana 4 with Dissolve(0.8)
+        Lana "Well to be truthful , I've never felt or been with one so not really sure about it"
+        scene bg turnlana 5 with Dissolve(0.8)
+        Kiara "So you're still kinda curious about it?"
+        Lana "I mean , I've never had it so i don't if i can say that for certain either but i've seen couples so-"
+        scene bg turnlana 6 with Dissolve(0.8)
+        Lana "Ah! .. what are -"
+        Kiara "You said you haven't felt it.. so do you want to?"
+        scene bg turnlana 7 with Dissolve(0.8)
+        Lana "Um.. kia what are you-"
+        Kiara "You can stop me anytime you don't like it but for now just a little experiment"
+        scene bg turnlana 8 with Dissolve(0.8)
+        Lana "Ahh.. i don't think is a good idea"
+        Kiara "Why's that?"
+        scene bg turnlana 9 with Dissolve(0.8)
+        Lana "I mean.. why suddenly are you asking and .. well this"
+        Kiara "It's not sudden , I'm just curious how my bestie has all my traits but this one"
+        scene bg turnlana 10 with Dissolve(0.8)
+        Lana "Well I've only dated guys that's why.. so"
+        Kiara "So you're saying you never looked at a girl and thought she was attractive"
+        scene bg turnlana 11 with Dissolve(0.8)
+        Lana "I mean kinda.. but like not in that way"
+        Kiara "In what way then?"
+        scene bg turnlana 12 with Dissolve(0.8)
+        Kiara "Did you never think how a smooth body would feel against yours?"
+        Lana "Um..maybe?"
+        scene bg turnlana 13 with Dissolve(0.8)
+        Kiara "Did you never think about me that way?"
+        Lana " I mean you're very attractive obviously but-"
+        scene bg turnlana 14 with Dissolve(0.8)
+        Kiara "But what?"
+        Lana "Uhm.. kiara you're..really close to my neck.."
+        scene bg turnlana 15 with Dissolve(0.8)
+        Kiara "How does that make you feel?"
+        Lana "Ah your hand!.. kia-"
+        scene bg turnlana 16 with Dissolve(0.8)
+        Kiara "Oh stop worrying and just tell me.."
+        Lana "Oh my god i-.. uh"
+        scene bg turnlana 17 with Dissolve(0.8)
+        Kiara "You got such pretty tits.. shouldn't you let someone pretty appreciate them?"
+        Lana "Um.. kiara this is.. I don't-"
+        scene bg turnlana 18 with Dissolve(0.8)
+        Kiara "Mhm.. keep talking"
+        Lana "Shit..( am i getting turned on? )"
+        scene bg turnlana 19 with Dissolve(0.8)
+        Kiara "Yeah.. you are"
+        Lana "Wh!.. did i say that out loud?"
+        scene bg turnlana 20 with Dissolve(0.8)
+        Kiara "You don't have to , your nipples are doing it already"
+        scene bg turnlana 21 with Dissolve(0.8)
+        Lana "*Moans* Ah!... hey.. easy."
+        Kiara "Ah i remember hearing this moan when we were in dorm back then"
+        scene bg turnlana 22 with Dissolve(0.8)
+        Lana "Kiara.. not there cmon"
+        Kiara "You can stop me anytime babe"
+        scene bg turnlana 23 with Dissolve(0.8)
+        Lana "I can't move.. i don't know why"
+        Kiara "Oh you silly , come here"
+        scene bg turnlana 24 with Dissolve(0.8)
+        Kiara "I'm gonna do this till you admit it"
+        scene bg turnlana 25 with Dissolve(0.8)
+        Lana "A-admit what?."
+        scene bg turnlana 26 with Dissolve(0.8)
+        Kiara "Heh are you playing with me too so you can let it happen?"
+        Lana "um.. no? I-"
+        scene bg turnlana 27 with Dissolve(0.8)
+        Kiara "Okay.. let's begin"
+        Lana "(What is this feeling)"
+        scene bg turnlana 28 with Dissolve(0.8)
+        pause
+        scene bg turnlana 29 with Dissolve(0.8)
+        pause
+        scene bg turnlana 30 with Dissolve(0.8)
+        Lana "Ah!.. ( She's so gentle umf)"
+        scene bg turnlana 31 with Dissolve(0.8)
+        pause
+        scene bg turnlana 32 with Dissolve(0.8)
+        pause
+        scene bg turnlana 33 with Dissolve(0.8)
+        pause
+        scene bg turnlana 34 with Dissolve(0.8)
+        Lana "Fuck.. oh man"
+        scene bg turnlana 35 with Dissolve(0.8)
+        Lana "Oh it feels so good.."
+        scene bg turnlana 36 with Dissolve(0.8)
+        pause
+        scene bg turnlana 37 with Dissolve(0.8)
+        Lana "O-okay.. you're right."
+        scene bg turnlana 38 with Dissolve(0.8)
+        Kiara "About what?"
+        Lana "I like it.."
+        scene bg turnlana 39 with Dissolve(0.8)
+        Kiara "Just like it?"
+        Lana "Ugh fine.. i love it.. cmon"
+        scene bg turnlana 40 with Dissolve(0.8)
+        Lana "Um.. can we do what we once did it shower back then?"
+        Kiara "Shower?.. Oh"
+        scene bg turnlana 41 with Dissolve(0.8)
+        Kiara "Heh , how bad do you want it?"
+        Lana "Very.."
+        scene bg turnlana 42 with Dissolve(0.8)
+        Kiara "Anything for you sweety"
+        scene bg turnlana 43 with Dissolve(0.8)
+        Kiara "Oh by the way you're yummy , nice strawberry bodywash"
+        Lana "Aheh.. i uh.. yeah ( Fuck i can't even hide it now)"
+        scene bg turnlana 44 with Dissolve(0.8)
+        Kiara "By the way.. just so you know"
+        scene bg turnlana 45 with Dissolve(0.8)
+        Kiara "I've changed alot too in terms of my physique"
+        scene bg turnlana 46 with Dissolve(0.8)
+        Kiara "Ready?"
+        Lana "Yeah , sure.. ( Wow look at her arch.. it's so immaculate)"
+        scene bg turnlana 47 with Dissolve(0.8)
+        pause
+        scene bg turnlana 48 with Dissolve(0.8)
+        Kiara "Enjoy , I take care of them as well"
+        scene bg turnlana 49 with Dissolve(0.8)
+        Lana "Wow .. you are so-"
+        scene bg turnlana 50 with Dissolve(0.8)
+        Lana "I can't even form words.. jesus they are so perfect"
+        scene bg turnlana 51 with Dissolve(0.8)
+        Kiara "I oil them daily , so better be.."
+        scene bg turnlana 52 with Dissolve(0.8)
+        Kiara "So shall we?"
+        Lana "Y-yes please.."
+        scene bg turnlana 53 with Dissolve(0.8)
+        Kiara "Look at me while we do it.. I don't wanna miss that expression of yours"
+        Lana "Okay.. not much reason denying it at this point"
+        scene bg turnlana 54 with Dissolve(0.8)
+        pause
+        scene bg turnlana 55 with Dissolve(0.8)
+        pause
+        scene bg turnlana 56 with Dissolve(0.8)
+        Lana "Your nipples are so soft"
+        Kiara "Yours are quite the curve too"
+        scene bg turnlana 57 with Dissolve(0.8)
+        pause
+        scene bg turnlana 58 with Dissolve(0.8)
+        pause
+        scene bg turnlana 59 with Dissolve(0.8)
+        Kiara "Mmm.. feels nice doesn't it?"
+        scene bg turnlana 60 with Dissolve(0.8)
+        Lana "Fuck.. yes it does.."
+        scene bg turnlana 61 with Dissolve(0.8)
+        pause
+        scene bg turnlana 62 with Dissolve(0.8)
+        pause
+        scene bg turnlana 63 with Dissolve(0.8)
+        pause
+        scene bg turnlana 64 with Dissolve(0.8)
+        Lana "Why do i like this so much?.."
+        Kiara "It's quite simple honey"
+        scene bg turnlana 65 with Dissolve(0.8)
+        pause
+        scene bg turnlana 66 with Dissolve(0.8)
+        pause
+        scene bg turnlana 67 with Dissolve(0.8)
+        Kiara "Female bodies are soft.. , they react to touch"
+        scene bg turnlana 68 with Dissolve(0.8)
+        pause
+        scene bg turnlana 69 with Dissolve(0.8)
+        Kiara "Now if smooth part touches another soft one, it feels good doesn't it?"
+        Lana "Wait so you mean..this is how it's meant to be?"
+        scene bg turnlana 70 with Dissolve(0.8)
+        Kiara "Yep.. a soft body reacts better to soft touch , It's why my hands , tongue , nipples feel good against yours"
+        scene bg turnlana 71 with Dissolve(0.8)
+        Lana "Well.. i guess i had this always then"
+        Kiara "You did , I'm glad i help it to come out , let me check anyawy though"
+        scene bg turnlana 72 with Dissolve(0.8)
+        Kiara "Ah.. wow you're a damp down there.. heh"
+        Lana "Shit.. stop teasing and kiss me already.."
+        scene bg turnlana 73 with Dissolve(0.8)
+        Kiara "Nuh uh , just a test sweetheart"
+        Lana "W-wha?.. hey"
+        scene bg turnlana 74 with Dissolve(0.8)
+        Kiara "I only did it to make you admit hehe"
+        Lana "Um.. well it's kinda unfair , you knew my weak spots"
+        scene bg turnlana 75 with Dissolve(0.8)
+        Kiara "Oh cmon , you know you loved it"
+        Lana "Maybe.. , can we perhaps test again?"
+        scene bg turnlana 76 with Dissolve(0.8)
+        Kiara "Heh Maybe we will? , but we got a spa to attend now hun"
+        Lana "I guess so yeah.. that was... something"
+        scene bg turnlana 77 with Dissolve(0.8)
+        Kiara "Alright let's get dressed"
+        Lana "Sure.. (I definitely don't mind staying naked right now though)"
+        scene bg turnlana 78 with Dissolve(0.8)
+        $ mc_stats.adjust_corruption(5)
+        Lana "Um.. we're gonna do that again right?"
+        Kiara "Hehe , maybe we will maybe we won't"
+        scene bg turnlana 79 with Dissolve(0.8)
+        Lana "Maybe once more?"
+        Kiara "Okay , visit home next weekend maybe we'll try another experiment then"
+        jump chap_2_scene_59
+
+    label .part_2:
+        scene bg dontstarelana 1 with Dissolve(0.8)
+        Kiara "( Uhm.. no what am i doing , she's my bff.. sorry lana )"
+        scene bg dontstarelana 2 with Dissolve(0.8)
+        Lana "Hey! , I'm ready. Let's go?"
+        scene bg dontstarelana 3 with Dissolve(0.8)
+        Lana "Unless you wanna appreciate my beauty more"
+        Kiara "As much as i'd love but we don't wanna delay spa , so yeah let's go"
+        scene bg dontstarelana 4 with Dissolve(0.8)
+        Kiara "It really looks great on you by the way"
+        Lana "It's your choice , how could it ever go wrong?"
+        jump chap_2_scene_59 
+
+label chap_2_scene_59:
+    scene blackscreen
+    show titletext "Yokocho Alley , Osaka" with dissolve
+    pause 1.0
+    window hide
+    scene bg dythreentsukeitalk 1 with Dissolve(0.8)
+    Keisuke "So this damian guy you're talking about.. where is he now?"
+    Natsuko "He's here already.. , I was planning to get them to meet"
+    scene bg dythreentsukeitalk 2 with Dissolve(0.8)
+    Keisuke "I see.. , Kiara doesn't remember anything then?"
+    Natsuko "It's complicated if i wanted to explain it , but yeah she doesn't remember parts of her memory"
+    scene bg dythreentsukeitalk 3 with Dissolve(0.8)
+    Keisuke "Why would a parent do something like that to their own child? It's so cruel"
+    Natsuko "Aunt mia is the only parent she has , that man is an excuse for a father"
+    scene bg dythreentsukeitalk 4 with Dissolve(0.8)
+    Keisuke "What you asked earlier.. I missed her , I really did alot"
+    Natsuko "I know , i at least had info on if she was okay. All you had was hope"
+    scene bg dythreentsukeitalk 5 with Dissolve(0.8)
+    Keisuke "It's what she taught me back then natsu , I remember it well (Have hope and you'll overcome anything)"
+    Natsuko "Kei.."
+    scene bg dythreentsukeitalk 6 with Dissolve(0.8)
+    Natsuko "You know what she taught me?"
+    scene bg dythreentsukeitalk 7 with Dissolve(0.8)
+    Keisuke "What?"
+    Natsuko "She taught me , however things may go bad. It always ends.. that's the whole point of bad times. They pass eventually"
+    scene bg dythreentsukeitalk 8 with Dissolve(0.8)
+    Natsuko "Always a light at the end of a tunnel , and once you reach it. Only the good memories stay"
+    Keisuke "It sometimes amazes me how mature she was even when so young."
+    scene bg dythreentsukeitalk 9 with Dissolve(0.8)
+    Natsuko "I trust you can keep her happy , right?"
+    Keisuke "What do you mean?"
+    scene bg dythreentsukeitalk 10 with Dissolve(0.8)
+    Natsuko "I just don't want her to go back again"
+    Keisuke "I don't either.. but why did you ask me that"
+    scene bg dythreentsukeitalk 11 with Dissolve(0.8)
+    Natsuko "Ah.. there's a lawsuit , I haven't told her but she has to go back after 2 weeks to NY"
+    Keisuke "What?.. why?"
+    scene bg dythreentsukeitalk 12 with Dissolve(0.8)
+    Natsuko "Her fat-- that man , it always was his plan and now that aunt mia is leaving him . He filed for child custody and until next hearing she'll have to stay with him"
+    Keisuke "Why haven't you told her? she deserves to know that"
+    scene bg dythreentsukeitalk 13 with Dissolve(0.8)
+    Natsuko "I didn't have the heart to, I'm finally seeing her happy . I don't want to take it away so soon"
+    Natsuko "I hate it so much keisuke , she deserves a better life"
+    scene bg dythreentsukeitalk 14 with Dissolve(0.8)
+    Keisuke "God always punishes the best doesn't he?"
+    Natsuko "What do you mean?"
+    scene bg dythreentsukeitalk 15 with Dissolve(0.8)
+    Keisuke "Finally i thought i'm good enough , and here he'll just take her again"
+    Natsuko "Hey.. that's why i said she'll be happy with you"
+    scene bg dythreentsukeitalk 16 with Dissolve(0.8)
+    Keisuke "She already chose him over me natsuko"
+    Natsuko "You don't know that.. what if he erased you before she met him?"
+    scene bg dythreentsukeitalk 17 with Dissolve(0.8)
+    Keisuke "Could be.. but she did love again natsu , I have to accept that"
+    Natsuko "That's what i mean , I know my cousin kei . She likes your company"
+    scene bg dythreentsukeitalk 18 with Dissolve(0.8)
+    Keisuke "It's almost funny isn't it? I got here , became sucessful , became what i dreamed of but for what?"
+    scene bg dythreentsukeitalk 19 with Dissolve(0.8)
+    Keisuke "Only to lose her again , I guess god is punishing me too for some reason"
+    scene bg dythreentsukeitalk 20 with Dissolve(0.8)
+    Keisuke "You know without her , it always felt empty. Nothing really made me enjoy life , but now even hearing her voice is enough"
+    scene bg dythreentsukeitalk 21 with Dissolve(0.8)
+    Natsuko "Keisuke I-"
+    Keisuke "If she goes away again , I don't know what i'll even do."
+    scene bg dythreentsukeitalk 22 with Dissolve(0.8)
+    Natsuko "Kei if you want , I can just tell damian to go back.. you both can-"
+    scene bg dythreentsukeitalk 23 with Dissolve(0.8)
+    Keisuke "You'll do no such thing natsuko , don't say that again please"
+    scene bg dythreentsukeitalk 24 with Dissolve(0.8)
+    Natsuko "What if she doesn't choose you? I don't want you to be in pain either"
+    Keisuke "If she doesnt then i can respect that , at least i'll know this time"
+    scene bg dythreentsukeitalk 25 with Dissolve(0.8)
+    Natsuko "I know about 100 guys that would just take the advantage in this situation , you really are something else"
+    Keisuke "I'm not anything really , I just think something as special as love shouldn't be taken for granted"
+    scene bg dythreentsukeitalk 26 with Dissolve(0.8)
+    Natsuko "I think you two would make a great couple and i'll see you smile again finally too"
+    scene bg dythreentsukeitalk 27 with Dissolve(0.8)
+    Natsuko "So yeah , I hope she chooses you"
+    scene bg dythreentsukeitalk 28 with Dissolve(0.8)
+    Natsuko "Promise me you'll invite me to the wedding?"
+    Keisuke "Heh.. ayane said the same thing , thanks for being here natsuko"
+    scene bg dythreentsukeitalk 29 with Dissolve(0.8)
+    Natsuko "Your welcome bro heh, this is a pretty spot.. You should bring her here"
+    Keisuke "Yeah , next time i will."
+    jump chap_2_scene_60
+
+label chap_2_scene_60:
+    scene blackscreen
+    show titletext "Kinoaki onsen , Dabuchi street" with dissolve
+    pause 1.0
+    window hide
+    scene bg lanahotspringscn 1 with Dissolve(0.8)
+    Kiara "Is this the place?"
+    Lana "Yeah , apprently its the best one here"
+    scene bg lanahotspringscn 2 with Dissolve(0.8)
+    "Onsen staff" "Irasshaimase , Mrs lana your reservation is right here"
+    Lana "Thank you very much , I believe it is for two people correct?"
+    scene bg lanahotspringscn 3 with Dissolve(0.8)
+    Lana "This is my friend kiara , me and her will be the attendes only as mentioned"
+    "Onsen staff" "Understood Mrs. lana please enjoy your stay"
+    scene bg lanahotspringscn 4 with Dissolve(0.8)
+    Kiara "Hey kitty! come here!"
+    Lana "Hm?"
+    scene bg lanahotspringscn 5 with Dissolve(0.8)
+    Kiara "Aw she moved away , was such a cutie"
+    Lana "Hey I'm cute too , give me  abit of attention please"
+    scene bg lanahotspringscn 6 with Dissolve(0.8)
+    Kiara "Hehe sorry , i just really love cats"
+    Lana "I know , after all you drink more milk than one"
+    scene bg lanahotspringscn 7 with Dissolve(0.8)
+    Kiara "Milk is good for your bones though!"
+    Lana "Yes yes  i know , let's not get to that topic or you'll start breaking down its elements"
+    scene bg lanahotspringscn 8 with Dissolve(0.8)
+    Kiara "Are you calling me a nerd Ms. Lana?"
+    Lana "Yes i am Ms. Kiara"
+    scene bg lanahotspringscn 9 with Dissolve(0.8)
+    Lana "You were literally the best at uni in terms of grades , so i have the right to"
+    Kiara "Well that's true , alright fair"
+    scene bg lanahotspringscn 10 with Dissolve(0.8)
+    Kiara "I accept the compliment in that case"
+    Lana "Of course you do heh , cmon let's have a good expirience"
+    scene bg lanahotspringscn 11 with Dissolve(0.8)
+    Kiara "Ah this is so nice and clean , i bet i could drink that water"
+    Lana "I know right? Saw it in the pictures and just had to book at that very moment"
+    scene bg lanahotspringscn 12 with Dissolve(0.8)
+    Kiara "Thanks for bringing me here , it's very peaceful"
+    Lana "I knew you liked nature so had to , we gotta wait just a bit till the spring heats up"
+    scene bg lanahotspringscn 13 with Dissolve(0.8)
+    Kiara "Hey means more time with you , so why not"
+    Lana "There's the compliment again, thank you"
+    scene bg lanahotspringscn 14 with Dissolve(0.8)
+    Lana "So kiara , I wanted to ask you something"
+    Kiara "Yeah ? shoot"
+    scene bg lanahotspringscn 15 with Dissolve(0.8)
+    Lana "Do you remember anything about your accident? I mean when it happened?"
+    scene bg lanahotspringscn 16 with Dissolve(0.8)
+    Kiara "Well the last thing i remmeber is just me planning to go to mom and meet her , then.. um"
+    scene bg lanahotspringscn 17 with Dissolve(0.8)
+    Kiara "Then uh.. I- She-"
+    scene bg lanahotspringscn 18 with Dissolve(0.8)
+    Lana "You what?.."
+    Kiara "Um.. I was with dad?- uh"
+    scene bg lanahotspringscn 19 with Dissolve(0.8)
+    Lana "You okay love?"
+    Kiara "Sorry head hurts.. It's just so foggy."
+    scene bg lanahotspringscn 20 with Dissolve(0.8)
+    Kiara "I can't remember clearly but i think i got hit while driving on the way to mom"
+    Lana "Yeah p-probably"
+    scene bg lanahotspringscn 21 with Dissolve(0.8)
+    Lana "I'm just glad you're alright , I was so worried when i heard about it"
+    Kiara "Don't worry i ain't going anywhere till i see you get married"
+    scene bg lanahotspringscn 22 with Dissolve(0.8)
+    Lana "Aheh , in that case i don't wanna get married , rather have you around whole life"
+    Kiara "I didn't mean that! , hell you ain't getting rid of me even post marriage"
+    scene bg lanahotspringscn 23 with Dissolve(0.8)
+    "Onsen staff" "Hello mrs.! , the spring is ready"
+    Lana "Thank you , please leave a Dnd sign outside since we're gonna change"
+    scene bg lanahotspringscn 24 with Dissolve(0.8)
+    Lana "Come on out!"
+    Kiara "This is a little too short isn't it?"
+    scene bg lanahotspringscn 25 with Dissolve(0.8)
+    Lana "Kiara I'm pretty sure I've seen you naked , also i reserved the entire area for a reason you know?"
+    Kiara "I guess you're right yeah"
+    scene bg lanahotspringscn 26 with Dissolve(0.8)
+    Kiara "Does it look good at least?"
+    Lana "It's not a beach no one's gonna judge you come join me , but yes you look beautiful"
+    scene bg lanahotspringscn 27 with Dissolve(0.8)
+    Kiara "Ooof , this water is kinda hot"
+    Lana "It's really nice isn't it? It cleans the pores really well"
+    scene bg lanahotspringscn 28 with Dissolve(0.8)
+    Kiara "So lana , how's auntie liz?"
+    Lana "She's alright , you know business is hard to manage but does find time to send me goodnight texts"
+    scene bg lanahotspringscn 29 with Dissolve(0.8)
+    Lana "If you wanted to just work , you could've done for her you know? I'm sure mom would've hired you"
+    Kiara "I know but i just don't want favors from anyone , I don't mean this in a rude way really but just.. I want to see what i can do on my own"
+    scene bg lanahotspringscn 30 with Dissolve(0.8)
+    Lana "Oh no i get it , it's fair but just let us know if things get rough"
+    Kiara "Yeah of course i will"
+    scene bg lanahotspringscn 31 with Dissolve(0.8)
+    Lana "So made any new friends?"
+    Kiara "Kinda.. , i mean there are few people"
+    scene bg lanahotspringscn 32 with Dissolve(0.8)
+    Lana "Don't isolate here at all okay? you need to be escape being lonely"
+    Kiara "Oh it's the opposite here really , auntie , natsuko they're all super sweet to me"
+    scene bg lanahotspringscn 33 with Dissolve(0.8)
+    Lana "I'm glad , do you know any places we can visit next weekend?"
+    Kiara "Umm , there are few heritage places , so i don't know if you'd like them"
+    scene bg lanahotspringscn 34 with Dissolve(0.8)
+    Lana "I'm sure i'll adjust just fine with your company hun"
+    Kiara "Hah , alright then we'll definitely give it a visit"
+    scene bg lanahotspringscn 35 with Dissolve(0.8)
+    Lana "All good?"
+    Kiara "Yeah it's fine just it's a little too warm , so i'll just put my feet in for now"
+    scene bg lanahotspringscn 36 with Dissolve(0.8)
+    Lana "I undertand , you have sensitive skin so it makes sense"
+    Kiara "Mhm , it's really nice water though my legs feel great"
+    scene bg lanahotspringscn 37 with Dissolve(0.8)
+    Kiara "Speaking of which you know people have really good hygiene here , my ocd doesn't get triggered as much"
+    Lana "Oh yeah , asian people do take care of stuff like that"
+    scene bg lanahotspringscn 38 with Dissolve(0.8)
+    Kiara "The food is amazing as well , my skin has gotten so much better and clear since i've been here"
+    Lana "Yeah I agree , It's decent"
+    scene bg lanahotspringscn 39 with Dissolve(0.8)
+    Kiara "So yeah , I'll never get lonely it's plenty good food and good people , wouldn't you agree?"
+    Lana "Hm.. yea"
+    Kiara "You good?"
+    scene bg lanahotspringscn 40 with Dissolve(0.8)
+    Kiara "Sweety ? you okay?"
+    scene bg lanahotspringscn 41 with Dissolve(0.8)
+    Lana "Um.. yeah , do your scars still hurt?"
+    Kiara "Oh uh not really , I don't get how they haven't healed though , rest of my body did well"
+    scene bg lanahotspringscn 42 with Dissolve(0.8)
+    Kiara "I guess because it was the impact point or something?"
+    Lana "Yeah probably.."
+    scene bg lanahotspringscn 43 with Dissolve(0.8)
+    Kiara "I mean everyone has flaws though , so it's fine being a little imperfect haha "
+    Lana "Yes.. ( These are from when she would harm herself back then.. sigh)"
+    scene bg lanahotspringscn 44 with Dissolve(0.8)
+    Lana "( Kiara , I'm so sorry i couldn't do anything to help you back then)"
+    Kiara "Hey lana? babe?"
+    scene bg lanahotspringscn 45 with Dissolve(0.8)
+    Lana "Y-yeah?.. sorry I-"
+    Kiara "Chin up hun , I'm okay . I'm right here and i'm completely fine"
+    scene bg lanahotspringscn 46 with Dissolve(0.8)
+    Lana "Yeah i just- just want you to be okay and smile , you've gone through alot already and now this.."
+    Kiara "So what? I'm not alone . That's all that matters , my family and people i care about and my best friend is here for me , isn't she?"
+    scene bg lanahotspringscn 47 with Dissolve(0.8)
+    Lana "I always will be , I promise that too"
+    Kiara "That's all i need sweety"
+    scene bg lanahotspringscn 48 with Dissolve(0.8)
+    Lana "So where do you -"
+    play music "/audio/smallmew.ogg"
+    scene bg lanahotspringscn 49 with Dissolve(0.8)
+    stop music
+    Kiara "Aheh , what are you doing here little buddy?"
+    Lana "Oh so that's the cat"
+    scene bg lanahotspringscn 50 with Dissolve(0.8)
+    play music "/audio/grabarm.ogg"
+    scene bg lanahotspringscn 51 with Dissolve(2.5)
+    stop music
+    Lana "Hehe , seems she likes your thighs. Honestly i can't blame her , they are soft"
+    Kiara "Oh shush it you , hey buddy enjoy your free real estate"
+    scene bg lanahotspringscn 52 with Dissolve(0.8)
+    Lana "So kiara , how long do you plan to stay here?"
+    Kiara "Honestly? I'm thinking forever"
+    scene bg lanahotspringscn 53 with Dissolve(0.8)
+    Lana "Really? Japan? Won't you miss usa a little?"
+    Kiara "I will but.. i think i feel happy here , even if the dad and drama didn't exist , i feel better vibes here"
+    scene bg lanahotspringscn 54 with Dissolve(0.8)
+    Lana "I see , well yeah there are alot of things to like here , like you said the food, people , cherry blossoms yada yada"
+    Kiara "There is one bad thing though and it's never going away either"
+    scene bg lanahotspringscn 55 with Dissolve(0.8)
+    Lana "What might that be?"
+    Kiara "It's a bay area , so quite alot of rain"
+    play music "/audio/likeitrain.ogg"
+    scene bg lanahotspringscn 56 with Dissolve(0.8)
+    stop music
+    Kiara "Hm? what happened cutie?"
+    scene bg lanahotspringscn 57 with Dissolve(0.8)
+    Kiara "So everything is fine except the rain"
+    play music "audio/likeitagain.ogg"
+    scene bg lanahotspringscn 58 with Dissolve(0.8)
+    stop music
+    Lana "I guess she's disagreeing with you?"
+    Kiara "No.. i think i might've just found a name for our new friend"
+    scene bg lanahotspringscn 59 with Dissolve(0.8)
+    Kiara "What do you think of your new name? Rain"
+    play music "audio/likeitagain.ogg"
+    scene bg lanahotspringscn 60 with Dissolve(0.8)
+    stop music
+    Lana "Well there we go , another reason to love rain as well"
+    Kiara "Hehe yes! , hey rain i love you!"
+    scene bg lanahotspringscn 61 with Dissolve(0.8)
+    Kiara "Mwwwah"
+    play music "/audio/anothermew.ogg"
+    scene bg lanahotspringscn 62 with Dissolve(0.8)
+    stop music
+    Kiara "Aheh , lana she's got such a cute little tongue"
+    scene bg lanahotspringscn 63 with Dissolve(0.8)
+    Lana "( It really is better for her here , she's right)"
+    Kiara "Excuse me! , please come for a second?"
+    scene bg lanahotspringscn 64 with Dissolve(0.8)
+    Kiara "Um this cat.. she-"
+    "Onsen staff" "Oh my apologies mam , she keeps sneaking in places here , she's stray"
+    scene bg lanahotspringscn 65 with Dissolve(0.8)
+    Kiara "Wait what? Stray?"
+    "Onsen staff" "We feed her and give her milk time to time , my apologies i'll take her away"
+    scene bg lanahotspringscn 66 with Dissolve(0.8)
+    Kiara "What? no! , Um.. can i keep her?"
+    "Onsen staff" "Of course if you would like to"
+    scene bg lanahotspringscn 67 with Dissolve(0.8)
+    Kiara "Would you come with me rain?"
+    play music "/audio/cuterainyes.ogg"
+    scene bg lanahotspringscn 68 with Dissolve(0.8)
+    stop music
+    Lana "Of course she would , who doesn't like your company kia"
+    Kiara "Alright i'll take her then"
+    scene bg lanahotspringscn 69 with Dissolve(0.8)
+    Lana "Hm?"
+    scene bg lanahotspringscn 70 with Dissolve(0.8)
+    Lana "Ah kiara , give me a minute it's a call from a friend"
+    Kiara "Sure take your time , there there rain. I'm gonna get you a nice blankey!"
+    scene bg lanahotspringscn 71 with Dissolve(0.8)
+    Lana "Yeah rin what is it?"
+    Rin "You gotta come back right fuckin now , he's gone! like i came out of the shower and he was just gone!"
+    Lana "What? where?"
+    scene bg lanahotspringscn 72 with Dissolve(0.8)
+    Rin "I don't know ! , he's left his phne as well . I asked the reception and they said he didn't inform."
+    Lana "Ah what on earth.. okay fine , did he say anything to you before he went?"
+    scene bg lanahotspringscn 73 with Dissolve(0.8)
+    Rin "Mentioned someone named natsuko , I don't know"
+    Lana "Shit shit , ah okay . I'm coming , you try to find him meanwhile."
+    scene bg lanahotspringscn 74 with Dissolve(0.8)
+    Kiara "Who's a good kitty? that's right you are!"
+    Lana "Um kiara?"
+    scene bg lanahotspringscn 75 with Dissolve(0.8)
+    Kiara "Yeah babe?"
+    Lana "Uh i gotta go , something came up actually."
+    scene bg lanahotspringscn 76 with Dissolve(0.8)
+    Kiara "Everything okay?"
+    Lana "Oh yeah , It's just some work related stuff"
+    scene bg lanahotspringscn 77 with Dissolve(0.8)
+    Lana "Um.. this was really nice , thanks for catching up again"
+    Kiara "It was nice because you're around"
+    scene bg lanahotspringscn 78 with Dissolve(0.8)
+    Kiara "Meet you again soon okay?"
+    Lana "Y-yeah.. next week"
+    scene bg lanahotspringscn 79 with Dissolve(0.8)
+    Lana "Love you! bye!"
+    Kiara "You too!.. ( I hope everything is alright , she seemed stressed)"
+    play music "/audio/smallmew.ogg"
+    scene bg lanahotspringscn 80 with Dissolve(0.8)
+    stop music
+    Kiara "Yes buddy haven't forgotten about you don't worry , Let's take you home"
+    pause
+    jump chap_2_scene_61
+
+label chap_2_scene_61:
+    scene bg goingteaship 1 with Dissolve(0.8)
+    Natsuko "She's probably coming soon"
+    Keisuke "Yeah , I know"
+    scene bg goingteaship 2 with Dissolve(0.8)
+    Natsuko "You good kei? you actually seem a little sick"
+    Keisuke "Ah yeah , it's just a little fever don't worry"
+    scene bg goingteaship 3 with Dissolve(0.8)
+    Kiara "Hey you two!"
+    Keisuke "Wh-.. what is that "
+    Kiara "What ? It's a cat and she is mine"
+    Natsuko "Heh , are you taking her in?"
+    scene bg goingteaship 4 with Dissolve(0.8)
+    Kiara "Um yeah , will auntie mind it? We can keep her outside if so"
+    Natsuko "I asked for a cat earlier and she said only if you and me take care of her"
+    Kiara "Yeah then why not!"
+    scene bg goingteaship 5 with Dissolve(0.8)
+    Keisuke "Alright kiara , so where to?"
+    scene bg goingteaship 6 with Dissolve(0.8)
+    Kiara "Now we must embark on a journey to the tea shop"
+    Natsuko "Oh yes it's been a while since i visited too"
+    scene bg goingteaship 7 with Dissolve(0.8)
+    Kiara "Yeah i wanted to meet him again"
+    Keisuke "Alright buckle up!"
+    scene blackscreen
+    show titletext "Nakyama Tea shop , 40 minutes later.." with dissolve
+    pause 1.0
+    window hide
+    scene bg goingteaship 8 with Dissolve(0.8)
+    pause
+    scene bg goingteaship 9 with Dissolve(0.8)
+    Natsuko "Seems quite busy today"
+    Kiara "Aw i mostly wanted to meet him , but i guess a little greetings will suffice for now"
+    scene bg goingteaship 10 with Dissolve(0.8)
+    Natsuko "It's fine , I'm sure he'll take out some time for you"
+    Kiara "I hope so.."
+    scene bg goingteaship 11 with Dissolve(0.8)
+    Natsuko "Daichi-san! , Soko ni iru?"
+    scene bg goingteaship 12 with Dissolve(0.8)
+    Natsuko "Daichi-san! .. I don't think he's here"
+    scene bg goingteaship 13 with Dissolve(0.8)
+    Naomi "Chotto, soko natsuko . Father isn't here today"
+    Natsuko "Naomi-san! , what a pleasent surprise!"
+    scene bg goingteaship 14 with Dissolve(0.8)
+    Naomi "It's a kinder sight to see you as well"
+    scene bg goingteaship 15 with Dissolve(0.8)
+    Naomi "Who's our new pretty guest? A friend of yours?"
+    scene bg goingteaship 16 with Dissolve(0.8)
+    Natsuko "This is kiara , my lovely cousin"
+    Naomi "What?.."
+    scene bg goingteaship 17 with Dissolve(0.8)
+    pause
+    scene bg goingteaship 18 with Dissolve(0.8)
+    pause
+    scene bg goingteaship 19 with Dissolve(0.8)
+    Naomi "M-mia's daughter?"
+    Kiara "Um , how do you-"
+    scene bg goingteaship 19pttwo with Dissolve(0.8)
+    Naomi "You're as beautiful as the letters described , I'd say perhaps even more"
+    Kiara "Um , You knew my mother?"
+    scene bg goingteaship 20 with Dissolve(0.8)
+    Naomi "Uhm.. heh yes i did"
+    scene bg goingteaship 21 with Dissolve(0.8)
+    Naomi "Natsuko , can i have kiara's company for a few minutes you and mr.."
+    scene bg goingteaship 22 with Dissolve(0.8)
+    Keisuke "I'm keisuke"
+    Naomi "Yes , you and keisuke eat up.. have some nice tea"
+    Natsuko "She's all yours naomi-san"
+    scene bg goingteaship 23 with Dissolve(0.8)
+    Naomi "Shall we?"
+    Kiara "Um , sure"
+    jump chap_2_scene_62
+
+label chap_2_scene_62:
+    scene bg naomikiaratalk 1 with Dissolve(0.8)
+    pause
+    scene bg naomikiaratalk 2 with Dissolve(0.8)
+    Keisuke "What was that about?"
+    Natsuko "Oh , right.. you don't know"
+    scene bg naomikiaratalk 3 with Dissolve(0.8)
+    Natsuko "She's aunt mia's childhood friend , both mr daichi and her have been close to our family since a long time"
+    Keisuke "I see , explains the reaction of her seeing kiara just now"
+    scene bg naomikiaratalk 4 with Dissolve(0.8)
+    Natsuko "Beautiful isn't she?"
+    Keisuke "Um.. yeah sure i guess."
+    scene bg naomikiaratalk 5 with Dissolve(0.8)
+    Natsuko "Oh cmon kei , it's okay to compliment other girls even if you do like someone"
+    Keisuke "Well Kiara isn't just beautiful though , She's also.. magical"
+    scene bg naomikiaratalk 6 with Dissolve(0.8)
+    Natsuko "Ah , never fail to say cheesy words do you? Come let's sit"
+    scene bg naomikiaratalk 7 with Dissolve(0.8)
+    Natsuko "So kei , why do this.. taxi thing? Why not just normally meet her?"
+    scene bg naomikiaratalk 8 with Dissolve(0.8)
+    Keisuke "Natsu when we met , I was no one ."
+    Keisuke "I was just some normal street boy without any ambitions , life goals and she was from this super rich family"
+    scene bg naomikiaratalk 9 with Dissolve(0.8)
+    Keisuke "Yet she accepted me as a friend , in that naive age she knew so much about the world than i could ever hope to"
+    scene bg naomikiaratalk 10 with Dissolve(0.8)
+    Natsuko "You waited all this time for her , without even knowing she'd come back. How?"
+    Keisuke "The answer is quite simple really , Hope."
+    scene bg naomikiaratalk 11 with Dissolve(0.8)
+    Natsuko "Well in that case then I hope nothing but the best for you , whoever or however it ends"
+    Keisuke "Yeah thanks , how about you though? Found anyone?"
+    scene bg naomikiaratalk 12 with Dissolve(0.8)
+    Natsuko "Heh.. maybe , I'm not sure yet though"
+    Keisuke "Heh don't be too late , look how that turned out for me"
+    scene bg naomikiaratalk 13 with Dissolve(0.8)
+    Natsuko "I guess i'll obnserve a little more , I mean how do you even recognize actual love?"
+    scene bg naomikiaratalk 14 with Dissolve(0.8)
+    Natsuko "Like how do you know it's not just physical attraction or bad intentions?"
+    Keisuke "You recognize it from someone who doesn't invade your space , yet cares and appreciates you unconditionally."
+    scene bg naomikiaratalk 15 with Dissolve(0.8)
+    Natsuko "I see , finding that in today's world is probably quite rare though."
+    Keisuke "It isn't , I'm sure you'll find it."
+    scene bg naomikiaratalk 16 with Dissolve(0.8)
+    Keisuke "What do you think they're talking about?"
+    Natsuko "Who knows , probably just sharing the past.."
+    scene bg naomikiaratalk 17 with Dissolve(0.8)
+    Naomi "I see , Is mia okay then?"
+    Kiara "I don't know , she messages me a little time to time but doesn't update me on things there yet , as for dad.. I have no idea at this point"
+    scene bg naomikiaratalk 18 with Dissolve(0.8)
+    Naomi "I'm sorry you had to go through that kiara , no girl should"
+    Kiara "I'm fine naomi-san , I'll be okay eventually but just want mom to be okay. She only suffered this much for me."
+    scene bg naomikiaratalk 19 with Dissolve(0.8)
+    Naomi "She will be as long as you are"
+    Naomi "Um.."
+    scene bg naomikiaratalk 20 with Dissolve(0.8)
+    Naomi "How is your sister?"
+    Kiara "E-evelyn?"
+    scene bg naomikiaratalk 21 with Dissolve(0.8)
+    Kiara "I don't know..  last we talked since my accident , she used to send letters.. but that stopped too , I haven't seen her since i was 14"
+    scene bg naomikiaratalk 22 with Dissolve(0.8)
+    Naomi "Your family is going through alot.. I'm so sorry , this is not how things should be."
+    Kiara "Sometimes i think things happen this way bcause i deserve it or something"
+    scene bg naomikiaratalk 23 with Dissolve(0.8)
+    Naomi "What?.. why would you think that?"
+    Kiara "Why else would i go through all this? I mean god up there.. we're his children right? I've been taught that he loves his children?"
+    scene bg naomikiaratalk 24 with Dissolve(0.8)
+    Kiara "Then the ones he doesn't care about , are probably ones like me.., who just have bad things happen to them"
+    scene bg naomikiaratalk 25 with Dissolve(0.8)
+    Naomi "God only controls the path you go to kiara , forming destiny is upto you. , I believe you can overcome all of it"
+    scene bg naomikiaratalk 26 with Dissolve(0.8)
+    Kiara "You really are Mr. Daichi's daughter i can tell.."
+    Naomi "Hm? how so?"
+    scene bg naomikiaratalk 27 with Dissolve(0.8)
+    Kiara "Kinder words that are true , you speak them just like him"
+    Kiara "I know what i have to do , just don't know if i am strong enough for it"
+    Naomi "Ah.. kiara , come with me outside."
+    scene bg naomikiaratalk 28 with Dissolve(0.8)
+    Naomi "The younger you must've gone through rough times. That past version of you dreamt of achieving things that seemed impossible , right?"
+    Kiara "Um.. I guess so? Why?"
+    scene bg naomikiaratalk 29 with Dissolve(0.8)
+    Naomi "So.. did you become who you wanted? Achieve all you dreamt of?"
+    Kiara "Yes , i somewhat did.. I am proud of who i am now but-"
+    scene bg naomikiaratalk 30 with Dissolve(0.8)
+    Naomi "Precisely , so be it now or future.. everyime you think of giving up or aren't ready to the face new problems"
+    Naomi "Think of all the times in past you thought the same and didn't"
+    scene bg naomikiaratalk 31 with Dissolve(0.8)
+    Naomi "That is what you seek , that is what makes you strong"
+    scene bg naomikiaratalk 32 with Dissolve(0.8)
+    Kiara "thank you , It amazes me how words needed to be heard can make such a difference."
+    Naomi "I'm just stating the truth , you're strong now and you always were. You just have to accept it."
+    scene bg naomikiaratalk 33 with Dissolve(0.8)
+    Kiara "Yes, I will. Naomi-san.."
+    Kiara "You have a lovely name you know?"
+    Naomi "Same goes for you dear kiara"
+    scene bg naomikiaratalk 34 with Dissolve(0.8)
+    Naomi "Can i ask you for a favor?"
+    Kiara "Yes why not , what is it?"
+    scene bg naomikiaratalk 35 with Dissolve(0.8)
+    Naomi "If mia comes back here , please let me know. I want her to realize i'm not upset with her either"
+    scene bg naomikiaratalk 36 with Dissolve(0.8)
+    Naomi "I Know he lied to you and others about how her family was abusive , mia couldn't talk to us because of his-.. ugh"
+    Naomi "I just miss my best friend alot. She and i haven't met in so long"
+    Kiara "I have a best friend too , believe me i understand how you feel"
+    scene bg naomikiaratalk 37 with Dissolve(0.8)
+    Kiara "Don't worry , it'll be okay soon. I'll be the first one to get you and mom to meet . I promise that"
+    Naomi "Thank you"
+    scene bg naomikiaratalk 38 with Dissolve(0.8)
+    Kiara "Naomi - san , I don't mean to be a downer but can i ask something personal?"
+    Naomi "I'll try my best to answer , please go on"
+    scene bg naomikiaratalk 39 with Dissolve(0.8)
+    Kiara "You grew up right alongside mom , she got married and well.. we both know how that ended up. So what about your life?"
+    Naomi "Ah , i see."
+    scene bg naomikiaratalk 40 with Dissolve(0.8)
+    Naomi "You're asking this because the marriage you were going to take an example of for yours in future got ruined , so wondering about mine and your own?"
+    Kiara "Yes , I'm just so worried of it you know?"
+    scene bg naomikiaratalk 41 with Dissolve(0.8)
+    Kiara "Affection , love , marriage ... All these words at this point just scare me because of how mom and dad ended up"
+    scene bg naomikiaratalk 42 with Dissolve(0.8)
+    Kiara "I understand in this instance it's dad , but it happens in so many marriages and it terrifies me"
+    scene bg naomikiaratalk 43 with Dissolve(0.8)
+    Kiara "What if the one i love , does that to me too? or worse betray my trust? I could never live with it"
+    Naomi "Kiara , marriage isn't picking a roommate while moving to a university dorm"
+    scene bg naomikiaratalk 44 with Dissolve(0.8)
+    Naomi "It's a life changing decision , you don't just pick someone to love or their best version of it , but their worst too"
+    scene bg naomikiaratalk 45 with Dissolve(0.8)
+    Kiara "I don't get what you-"
+    Naomi "When you marry someone , you see their weaker , vulnerable side.  The ones they didn't want to or couldn't show you before"
+    scene bg naomikiaratalk 46 with Dissolve(0.8)
+    Naomi "After that intial honeymoon phase ends , that is when marriage gets tested , those little pent up issues add up and cause frustration"
+    scene bg naomikiaratalk 47 with Dissolve(0.8)
+    Naomi "Those who can communicate , resolve it can make it through. Those who don't , get stuck"
+    Naomi "They then just pretend because they can't escape it or some responsiblity , which in mia's case was-"
+    scene bg naomikiaratalk 48 with Dissolve(0.8)
+    Kiara "Me.. I get it now"
+    Naomi "However , there is one positive side to this"
+    scene bg naomikiaratalk 49 with Dissolve(0.8)
+    Kiara "What would that be?"
+    Naomi "You realize the one you thought of as perfect and cared for was wrong , It doesn't mean it's over"
+    Naomi "It means only someone better without all those flaws exists and awaits you"
+    scene bg naomikiaratalk 50 with Dissolve(0.8)
+    Naomi "Perhaps someone from your past"
+    scene bg naomikiaratalk 51 with Dissolve(0.8)
+    Naomi "Perhaps someone new"
+    scene bg naomikiaratalk 52 with Dissolve(0.8)
+    Naomi "Perhaps someone who felt they weren't good enough for you"
+    scene bg naomikiaratalk 53 with Dissolve(0.8)
+    Naomi "Or maybe someone you care about"
+    scene bg naomikiaratalk 54 with Dissolve(0.8)
+    Naomi "They exist , they're just waiting for your wave"
+    Kiara "What if they don't wave back?.. Aren't you scared of that?"
+    scene bg naomikiaratalk 55 with Dissolve(0.8)
+    Naomi "I was , but i found someone too"
+    Kiara "That's.. great , who was it?"
+    scene bg naomikiaratalk 56 with Dissolve(0.8)
+    Naomi "Her name was rukia , she passed away during the virus"
+    Kiara "I'm so sorry , I didn't-"
+    scene bg naomikiaratalk 57 with Dissolve(0.8)
+    Naomi "You don't have to be , god takes what he wants to but i adjusted to that , i got my answer"
+    scene bg naomikiaratalk 58 with Dissolve(0.8)
+    Naomi "Besides alone isn't so bad , after all I-"
+    scene bg naomikiaratalk 59 with Dissolve(0.8)
+    Naomi "Ah!"
+    scene bg naomikiaratalk 60 with Dissolve(0.8)
+    Kiara "You are a wonderful person , I hope you know that. God can take what he wants but he'll never take away what you are"
+    Naomi "Oh honey.."
+    scene bg naomikiaratalk 61 with Dissolve(0.8)
+    Naomi "You really are mia's daughter too , the positvity .. it shines from you"
+    Kiara "I try my best to do what's right , I think we all should"
+    scene bg naomikiaratalk 62 with Dissolve(0.8)
+    Kiara "Will you ever love again?"
+    Naomi "Hm.."
+    scene bg naomikiaratalk 63 with Dissolve(0.8)
+    Naomi "Maybe..  , it is what rukia told me to do but even if i don't , I've expirienced true love once"
+    scene bg naomikiaratalk 64 with Dissolve(0.8)
+    Naomi "So as someone who felt it , let me say this . Do not run from it , if you feel it's genuine then just accept it"
+    Naomi "It's the greatest feeling in this world , I assure you that"
+    scene bg naomikiaratalk 65 with Dissolve(0.8)
+    Naomi "Wherever it leads from that , upto you and your partner's affection for each other"
+    Kiara "Definitely , it'll take time to trust but i will"
+    scene bg naomikiaratalk 66 with Dissolve(0.8)
+    Naomi "I know you will , I hope you find happieness kiara"
+    Kiara "Same to you naomi-san"
+    scene bg naomikiaratalk 67 with Dissolve(0.8)
+    Natsuko "So how's ayane?"
+    Keisuke "She's alright , just graduated actually"
+    scene bg naomikiaratalk 68 with Dissolve(0.8)
+    Keisuke "She was tell-"
+    scene bg naomikiaratalk 69 with Dissolve(0.8)
+    Keisuke "What the.."
+    Natsuko "Hm? telling what?"
+    scene bg naomikiaratalk 70 with Dissolve(0.8)
+    AgentWong "Hello , Mr. Keisuke . What's wrong? You seem like you've seen a ghost"
+    Keisuke "Um.. what are you doing here?"
+    scene bg naomikiaratalk 71 with Dissolve(0.8)
+    Natsuko "Hey kei , is this a friend?"
+    Keisuke "Um.."
+    AgentWong "Yes i am a friend , one he's a little too shy to talk about though"
+    scene bg naomikiaratalk 72 with Dissolve(0.8)
+    Natsuko "Trust me i get it , he's obsessed with someone already"
+    AgentWong "Ah speaking of which.."
+    scene bg naomikiaratalk 73 with Dissolve(0.8)
+    AgentWong "Kiara!"
+    Naomi "Seems you have a guest.."
+    Kiara "That voice , it can't be-"
+    scene bg naomikiaratalk 74 with Dissolve(0.8)
+    Kiara "Ms. Helena! , It's so nice to see you."
+    Kiara "You didn't pick up my call , so i thought you wouldn't come"
+    scene bg naomikiaratalk 75 with Dissolve(0.8)
+    AgentWong "Aw sorry sweety, I was showering actually . Too hard to say no to a pretty one like you"
+    Kiara "Hehe , thank you"
+    scene bg naomikiaratalk 76 with Dissolve(0.8)
+    Kiara "Kei , natsu , this is Ms. Helena . I met her on my first day of job seeking"
+    AgentWong "Ah so that's your cousin , she's beautiful indeed"
+    scene bg naomikiaratalk 77 with Dissolve(0.8)
+    Natsuko "Thank you! , you're gorgeous too"
+    scene bg naomikiaratalk 78 with Dissolve(0.8)
+    Kiara "Well this is perfect really , um kei can you drop natsu and rain home? I'll just go with ms helena and you can pick me up outside the temple then"
+    Keisuke "Uh.. are you sure?"
+    scene bg naomikiaratalk 79 with Dissolve(0.8)
+    AgentWong "I'm sure i can take care of her , don't you agree keisuke?"
+    Keisuke "Um yeah.. alright."
+    scene bg naomikiaratalk 80 with Dissolve(0.8)
+    Kiara "Just give me a moment Ms. helena , I'll be back"
+    AgentWong "Take your time"
+    scene bg naomikiaratalk 81 with Dissolve(0.8)
+    Kiara "Naomi-san , let's meet at evening to shop together?"
+    Naomi "Alright kiara , I'll let you know where to meet"
+    scene bg naomikiaratalk 82 with Dissolve(0.8)
+    Kiara "Thank you for today.. so much"
+    Naomi "Your most welcome"
+    scene bg naomikiaratalk 83 with Dissolve(0.8)
+    Keisuke "( She's here to protect her after all )"
+    scene bg naomikiaratalk 84 with Dissolve(0.8)
+    Keisuke "( I suppose i can trust her that much )"
+    jump chap_2_scene_63
+
+label chap_2_scene_63:
+    scene bg wongandkiatalk 1 with Dissolve(0.8)
+    AgentWong "So kiara , how's your job hunting going?"
+    Kiara "Oh i got all of them! , but don't have citizenship yet so temporary it is"
+    scene bg wongandkiatalk 2 with Dissolve(0.8)
+    AgentWong "They're not giving you less salary i hope"
+    Kiara "Oh no i don't think so , I mean it seems like they accept part time shifts"
+    scene bg wongandkiatalk 3 with Dissolve(0.8)
+    AgentWong "Enjoy your time here , only work what you want to okay? It's just an effort not neccessity"
+    Kiara "Yeah I'll obviously stick to what i like , but i'll give them all a go for sure"
+    scene bg wongandkiatalk 4 with Dissolve(0.8)
+    Kiara "Wow  , nice car"
+    AgentWong "Wanna drive it?"
+    Kiara "What me ? I don't think that's a good idea"
+    scene bg wongandkiatalk 5 with Dissolve(0.8)
+    AgentWong "You know how to drive right?"
+    Kiara "Yeah i do.. , well alright then"
+    scene bg wongandkiatalk 6 with Dissolve(0.8)
+    Kiara "You must have a nice job , this is a pretty sweet car"
+    AgentWong "Heh , yeah i guess you can say that"
+    scene bg wongandkiatalk 7 with Dissolve(0.8)
+    Kiara "Okay.. I got this"
+    AgentWong "Don't be too afraid , You've done it before right"
+    scene bg wongandkiatalk 8 with Dissolve(0.8)
+    Kiara "Yeah but it was quite long ago though"
+    AgentWong "It's fine sweety , once a pro always a pro"
+    scene bg wongandkiatalk 9 with Dissolve(0.8)
+    AgentWong "So which job are you most excited for so far?"
+    scene bg wongandkiatalk 10 with Dissolve(0.8)
+    Kiara "Umm.. I mean honestly all seem fine , so i wouldn't really have a definite answer"
+    scene bg wongandkiatalk 11 with Dissolve(0.8)
+    Kiara "If i had to pick though.. i guess-"
+    scene bg wongandkiatalk 12 with Dissolve(0.8)
+    Kiara "School teacher kinda sounds nice , customer care also had decent people so yeah"
+    AgentWong "I see , that's a good choice"
+    scene bg wongandkiatalk 13 with Dissolve(0.8)
+    Kiara "How about you? How's your firm thing going?"
+    AgentWong "It's going okay , I am managing some construction and real estate projects right now"
+    scene bg wongandkiatalk 14 with Dissolve(0.8)
+    AgentWong "So kiara , about our last conversation. You found someone to your liking?"
+    Kiara "Oh , you mean that way?"
+    scene bg wongandkiatalk 15 with Dissolve(0.8)
+    Kiara "Not really , I mean i've met nice people sure but it's a little too soon to fully decide"
+    AgentWong "Aha , well in that case that do you do when frustrated?"
+    scene bg wongandkiatalk 16 with Dissolve(0.8)
+    Kiara "Hm?.. frustrated?"
+    AgentWong "You know.. a little alone time"
+    scene bg wongandkiatalk 17 with Dissolve(0.8)
+    AgentWong "Don't you have a little fun with yourself?"
+    Kiara "Oh.. you mean"
+    scene bg wongandkiatalk chc with Dissolve(0.8)
+
+    menu:
+        "Change the topic":
+            jump .part_1
+        "Open up about it" if mc_stats.current_corruption >= 55:
+            jump .part_2
+    
+    label .part_1:
+        scene bg wongkiachangetopic 1 with Dissolve(0.8)
+        Kiara "Aheh uhm , well i kinda just keep myself occupied , so not really have time for it"
+        AgentWong "( Ah she's a little shy , i shouldn't have done that)"
+        scene bg wongkiachangetopic 2 with Dissolve(0.8)
+        AgentWong "Oh , well i hope i didn't make you uncomfortable by asking"
+        Kiara "Uhm , just a little bit . I mean i just didn't expect it haha"
+        scene bg wongkiachangetopic 3 with Dissolve(0.8)
+        AgentWong "Awe , well i apologize honey. We're alone so i thought a little lady talk and spending time"
+        Kiara "No no , it's fine"
+        scene bg wongkiachangetopic 4 with Dissolve(0.8)
+        Kiara "Although , for spending time i learn like new hobbies , like i'm gonna learn guitar soon"
+        AgentWong "Guitar really? will you teach me once you've done it"
+        scene bg wongkiachangetopic 5 with Dissolve(0.8)
+        Kiara "Yeah for sure!"
+        AgentWong "Alright , deal we'll play a duet once we master it"
+        jump chap_2_scene_64
+
+    label .part_2:
+        scene bg wongkiaopenup 1 with Dissolve(0.8)
+        Kiara "Well to be honest , I am kinda thinking of buying stuff for it rather than wait for a partner"
+        AgentWong "Oh , you mean like a toy?"
+        scene bg wongkiaopenup 2 with Dissolve(0.8)
+        Kiara "Well yeah kinda , but like .. i prefer to keep it reserved"
+        AgentWong "That's okay , i am kinda the same. Strict on face but freak in sheets"
+        scene bg wongkiaopenup 3 with Dissolve(0.8)
+        Kiara "Okay hehe , I'm not that but yeah.. i guess i appreciate my body"
+        AgentWong "Curious about how i appreciate mine?"
+        scene bg wongkiaopenup 4 with Dissolve(0.8)
+        Kiara "Uhm.. well i don't judge so.. what is it?"
+        AgentWong "It's a little side hobby , i suppose i should show you instead"
+        scene bg wongkiaopenup 5 with Dissolve(0.8)
+        AgentWong "Keep your eyes on the road okay?"
+        Kiara "Um alright?"
+        scene bg wongkiaopenup 6 with Dissolve(0.8)
+        Kiara "Oh my god what are you doing? ms helena haha"
+        AgentWong "Don't worry about it just drive"
+        scene bg wongkiaopenup 7 with Dissolve(0.8)
+        AgentWong "You can look anytime by the way"
+        Kiara "No , I'm pretty sure i'll get distracted"
+        scene bg wongkiaopenup 8 with Dissolve(0.8)
+        AgentWong "Oh find me that hot do you?"
+        Kiara "No comment on that one"
+        scene bg wongkiaopenup 9 with Dissolve(0.8)
+        AgentWong "Oh cmon , take a peek.. I promise you'll like it"
+        Kiara "Noppers , I know i will ! that's kinda the problem"
+        scene bg wongkiaopenup 10 with Dissolve(0.8)
+        AgentWong "Why would that be a problem?"
+        Kiara "I can't explain it.. , but how is this a hobby anyway?"
+        scene bg wongkiaopenup 11 with Dissolve(0.8)
+        AgentWong "It's exhibitinism , haven't you heard of it?"
+        scene bg wongkiaopenup 12 with Dissolve(0.8)
+        Kiara "Oh.. you mean like risking public nudity?"
+        AgentWong "Yeah , it's super exciting"
+        scene bg wongkiaopenup 13 with Dissolve(0.8)
+        AgentWong "I do it time to time , It's better than any toy trust me"
+        Kiara "I mean don't really get it but.. hey i won't judge"
+        scene bg wongkiaopenup 14 with Dissolve(0.8)
+        AgentWong "You sure you don't wanna see still?"
+        Kiara "It's not that i don't want to but i don't think i'll be focusing on road then"
+        scene bg wongkiaopenup 15 with Dissolve(0.8)
+        AgentWong "Well then how about touch?"
+        Kiara "Um.. May-"
+        scene bg wongkiaopenup 16 with Dissolve(0.8)
+        Kiara "You're not making this easy you know"
+        AgentWong "Hehe , I'm just having fun seeing this side of you"
+        scene bg wongkiaopenup 17 with Dissolve(0.8)
+        AgentWong "Cmon , give me your hand"
+        Kiara "( Jesus ah)"
+        scene bg wongkiaopenup 18 with Dissolve(0.8)
+        Kiara "Um.. what are you doing?"
+        AgentWong "Oh shush , don't be so worried"
+        scene bg wongkiaopenup 19 with Dissolve(0.8)
+        AgentWong "How's it feel?"
+        Kiara "You've got a really nice toned tummy.. and nice skin"
+        scene bg wongkiaopenup 20 with Dissolve(0.8)
+        AgentWong "Heh , go on slide your hand down.. i know you want to"
+        Kiara "Fuck ( Uh i better stop this )"
+        scene bg wongkiaopenup 21 with Dissolve(0.8)
+        Kiara "Um no i think i'm fine"
+        AgentWong "Hehe , god you're adorable."
+        Kiara "Again no comment on that one"
+        scene bg wongkiaopenup 22 with Dissolve(0.8)
+        AgentWong "It's just a vagina , You got one too right?"
+        Kiara "Oh man , you are not gonna stop are you heh?"
+        scene bg wongkiaopenup 23 with Dissolve(0.8)
+        AgentWong "Well teasing you is a little fun but sure"
+        Kiara "Heh , Exhibitinism kinda is interesting though i guess"
+        scene bg wongkiaopenup 24 with Dissolve(0.8)
+        AgentWong "Obviously it is , it's the thrill of not getting caught"
+        Kiara "Hm.. so no one has caught you yet?"
+        scene bg wongkiaopenup 25 with Dissolve(0.8)
+        AgentWong "Of course not , but getting close to it is fun too"
+        Kiara "Sounds a bit risky honestly"
+        scene bg wongkiaopenup 26 with Dissolve(0.8)
+        AgentWong "Risky? Oh kiara you silly goose"
+        Kiara "What?"
+        scene bg wongkiaopenup 27 with Dissolve(0.8)
+        AgentWong "Stop the car, take off your bottoms"
+        Kiara "Ah.. this is a public path Ms. Helena"
+        scene bg wongkiaopenup 28 with Dissolve(0.8)
+        AgentWong "It's fine , just come out . Look how pretty the nature is"
+        Kiara "Yeah i definitely see something pretty , that's for sure"
+        scene bg wongkiaopenup 29 with Dissolve(0.8)
+        AgentWong "Did you take them off?"
+        Kiara "Um..Yeah but i'll stay behind the door just to be safe"
+        scene bg wongkiaopenup 30 with Dissolve(0.8)
+        AgentWong "Safe from what? honey i'm naked here"
+        Kiara "Yeah but , like what if someone sees?"
+        scene bg wongkiaopenup 31 with Dissolve(0.8)
+        AgentWong "That's the thrill too! , also it's not like they'll do anything without permission"
+        Kiara "I guess so yeah"
+        scene bg wongkiaopenup 32 with Dissolve(0.8)
+        Kiara "She's got such a lovely butt"
+        AgentWong "You can keep staring i don't mind by the way"
+        scene bg wongkiaopenup 33 with Dissolve(0.8)
+        Kiara "What no i wasn't -"
+        AgentWong "It's fine sweetheart , I know i've got a good body too"
+        scene bg wongkiaopenup 34 with Dissolve(0.8)
+        Kiara "That you definitely do"
+        AgentWong "There we go , now i want you to take some pictures okay?"
+        scene bg wongkiaopenup 35 with Dissolve(0.8)
+        Kiara "You sure this is safe heh? What if someone comes?"
+        AgentWong "Well they'll just be jealous that two babes are having fun"
+        scene bg wongkiaopenup 36 with Dissolve(0.8)
+        Kiara "I guess so yeah"
+        AgentWong "There we go finally opening up , now cmon take some shots okay?"
+        scene bg wongkiaopenup 37 with Dissolve(0.8)
+        AgentWong "By the way , don't be too distracted by your model"
+        Kiara "Hard not to but i'll try"
+        scene bg wongkiaopenup 38 with Dissolve(0.8)
+        Kiara "You've got such nice skin"
+        AgentWong "Hey , aloevera goes a long way"
+        scene bg wongkiaopenup 39 with Dissolve(0.8)
+        Kiara "I bet people would freak out if they  knew about this side of you at your firm"
+        AgentWong "Heh , exhibitinism is kinda like a super ability . You gotta keep it secret"
+        scene bg wongkiaopenup 40 with Dissolve(0.8)
+        Kiara "Oh wow"
+        AgentWong "Keep taking them , I wanna have some nice posters in my room"
+        scene bg wongkiaopenup 41 with Dissolve(0.8)
+        Kiara "You post these in your room? wow that's.. something"
+        AgentWong "You'll get it one day"
+        scene bg wongkiaopenup 42 with Dissolve(0.8)
+        AgentWong "By the way , like what you see?"
+        Kiara "Oh um.. no comment hehe ( Wow that is a nice pussy)"
+        scene bg wongkiaopenup 43 with Dissolve(0.8)
+        AgentWong "Now can i see a little bit of you?"
+        Kiara "Ah.. i don't know if i can get naked hehe"
+        scene bg wongkiaopenup 44 with Dissolve(0.8)
+        AgentWong "Keep your underwear on then , cmon i'm sure you wanna do this"
+        Kiara "Hm... Alright then"
+        scene bg wongkiaopenup 45 with Dissolve(0.8)
+        Kiara "How do i look?"
+        AgentWong "You're shining honey , what a beautiful figure"
+        scene bg wongkiaopenup 46 with Dissolve(0.8)
+        AgentWong "I see you're wearing a little see through"
+        Kiara "Hehee , it's my favorite bra.."
+        scene bg wongkiaopenup 47 with Dissolve(0.8)
+        AgentWong "So , liking this?"
+        Kiara "Yeah i kinda get it , like it's scary but the fear is kinda exciting"
+        scene bg wongkiaopenup 48 with Dissolve(0.8)
+        $ mc_stats.adjust_corruption(5)
+        AgentWong "Exactly sweety , try it on your own but just be safe"
+        Kiara "Hm.. okay , I'll figure some places to do it at"
+        jump chap_2_scene_64
+    
+label chap_2_scene_64:
+    scene blackscreen
+    show titletext "Home street, 30 minutes later.." with dissolve
+    pause 1.0
+    window hide
+    scene bg natsureturninhome 1 with Dissolve(0.8)
+    Keisuke "So this damian , he thinks she's dead still?"
+    Natsuko "Yeah , he'll meet her soon"
+    Natsuko "Maybe.."
+    scene bg natsureturninhome 2 with Dissolve(0.8)
+    Keisuke "Natsu.. we can't-"
+    Natsuko "I'm sorry okay , I just.. Look i care about him , but i care about you and kiara more too. I want you both to be happy"
+    scene bg natsureturninhome 3 with Dissolve(0.8)
+    Keisuke "She chose him natsu , we need to consider that. Obviously it's not someone bad if kiara liked him"
+    Natsuko "Yeah , he's a good guy i am not saying otherwise but.. I just don't want that happening to my cousin again"
+    scene bg natsureturninhome 4 with Dissolve(0.8)
+    Keisuke "If things are meant to happen , they will. Just let the natural flow do what it's doing"
+    Natsuko "Alright.."
+    scene bg natsureturninhome 5 with Dissolve(0.8)
+    Keisuke "Hey , don't worry . I won't just ghost you all this time"
+    Natsuko "Yeah please kindly don't , you're the only guy i can talk to without worrying about how others see me"
+    scene bg natsureturninhome 6 with Dissolve(0.8)
+    Natsuko "Um could you stop here?"
+    Keisuke "You don't want me to drop you home?"
+    scene bg natsureturninhome 7 with Dissolve(0.8)
+    Natsuko "No  , I kinda wanna walk a little bit with rain and enjoy some air"
+    Keisuke "Alright"
+    scene bg natsureturninhome 8 with Dissolve(0.8)
+    Natsuko "See you later okay? Get that apartment we talked about ready so you can get her to meet ayane"
+    Keisuke "Yeah , I will . have a good noon natsu"
+    scene bg natsureturninhome 9 with Dissolve(0.8)
+    Natsuko "Hello there rain , say hi to your second mommy"
+    scene bg natsureturninhome 10 with Dissolve(0.8)
+    Natsuko "Hehe , she picked a cutie just like her.. aren't you the cutest boo?"
+    scene bg natsureturninhome 11 with Dissolve(0.8)
+    "???" "Oh yeah she's cute , but you're the hot one hehe"
+    Natsuko "Hm?"
+    scene bg natsureturninhome 12 with Dissolve(0.8)
+    Natsuko "Y-you.."
+    "Molester" "Remember me babe"
+    scene bg natsureturninhome 12pttwo with Dissolve(0.8)
+    pause
+    scene bg natsureturninhome 13 with Dissolve(0.8)
+    Natsuko "W-what do you want?"
+    "Molester" "Oh nothing , you just got lucky last time. How about we finish it properly?"
+    scene bg natsureturninhome 14 with Dissolve(0.8)
+    Natsuko "Don't come close , I'll sho-"
+    "Molester" "And what exactly? Go on.. all they'll do is watch"
+    scene bg natsureturninhome 15 with Dissolve(0.8)
+    "Molester" "What do you say guys? .. Heh pretty bitch"
+    "Molester" "Three of us and her three holes"
+    Natsuko "N-no.. hey let go"
+    scene bg natsureturninhome 16 with Dissolve(0.8)
+    Molester "Let's strip her naked here and fuck her. Make a statement in this town"
+    Molester "Hell yeah!"
+    scene bg natsureturninhome 17 with Dissolve(0.8)
+    Natsuko "No.. please"
+    Molester "The more you resist the more it's fun for us baby.. come here"
+    scene bg natsureturninhome 18 with Dissolve(0.8)
+    Molester "We won't hurt you hehe , we just wanna have fun"
+    Natsuko "( No.. someone save me )"
+    scene bg natsureturninhome 19 with Dissolve(0.8)
+    pause
+    scene bg natsureturninhome 20 with Dissolve(0.8)
+    pause
+    scene bg natsureturninhome 21 with Dissolve(0.8)
+    "" "*Thud*"
+    Molester "Argh!"
+    scene bg natsureturninhome 22 with Dissolve(0.8)
+    Molester "Owhg!"
+    scene bg natsureturninhome 23 with Dissolve(0.8)
+    pause
+    scene bg natsureturninhome 24 with Dissolve(0.8)
+    Molester "Ow! my back!"
+    scene bg natsureturninhome 25 with Dissolve(0.8)
+    pause
+    scene bg natsureturninhome 26 with Dissolve(0.8)
+    Molester "Argh my fucking nose is broken shit"
+    scene bg natsureturninhome 27 with Dissolve(0.8)
+    Nobi "Natsuko?"
+    scene bg natsureturninhome 28 with Dissolve(0.8)
+    Nobi "Natsuko , Daijobu ka?"
+    Natsuko "Huh?.."
+    scene bg natsureturninhome 29 with Dissolve(0.8)
+    Natsuko "N-nobi.."
+    scene bg natsureturninhome 30 with Dissolve(0.8)
+    Nobi "Did they harm you natsuko?"
+    Natsuko "No but-"
+    Molester "No we didn't man , you can have her!"
+    scene bg natsureturninhome 31 with Dissolve(0.8)
+    Molester "You can have her first bro! , we can share it later"
+    scene bg natsureturninhome 32 with Dissolve(0.8)
+    Nobi "How dare you"
+    scene bg natsureturninhome 33 with Dissolve(0.8)
+    pause
+    scene bg natsureturninhome 34 with Dissolve(0.8)
+    Molester "Whoa whoa chill bro"
+    scene bg natsureturninhome 35 with Dissolve(0.8)
+    Molester "Dude i wasn't gonna-"
+    scene bg natsureturninhome 36 with Dissolve(0.8)
+    Nobi "Quiet!"
+    Molester "Arugh!!"
+    scene bg natsureturninhome 37 with Dissolve(0.8)
+    pause
+    scene bg natsureturninhome 38 with Dissolve(0.8)
+    Molester "Aaaaah!"
+    scene bg natsureturninhome 39 with Dissolve(0.8)
+    Nobi "Filth.. , How dare you touch natsuko"
+    scene bg natsureturninhome 40 with Dissolve(0.8)
+    "" " ( True love is when someone cares without expecting anything in return )"
+    scene bg natsureturninhome 41 with Dissolve(0.8)
+    Nobi "Please forgive me , I should've been here quicker i was helping someone cross the road"
+    Natsuko "No - no it's-"
+    scene bg natsureturninhome 42 with Dissolve(0.8)
+    Natsuko "Nobi"
+    Nobi "Yes?"
+    scene bg natsureturninhome 43 with Dissolve(0.8)
+    Natsuko "You called me natsuko.."
+    Nobi "Uhm.."
+    scene bg natsureturninhome 44 with Dissolve(0.8)
+    Nobi "Please forgive me natsuko-san , i didn't intend to-"
+    Natsuko "No! hey.."
+    scene bg natsureturninhome 45 with Dissolve(0.8)
+    Natsuko "Call me natsuko , I like it more"
+    Nobi "Uhm.."
+    scene bg natsureturninhome 46 with Dissolve(0.8)
+    Natsuko "Let's head home?"
+    Nobi "Yes , I'll be right behind yo-"
+    scene bg natsureturninhome 47 with Dissolve(0.8)
+    Natsuko "No.. , let's go together?"
+    Nobi "Alright.."
+    scene bg natsureturninhome 48 with Dissolve(0.8)
+    Natsuko "Follow me rain"
+    Nobi "( Her hands are so gentle..)"
+    jump chap_2_scene_65
+
+label chap_2_scene_65:
+    scene blackscreen
+    show titletext "Khonshi temple, Osaka mountains.." with dissolve
+    pause 1.0
+    window hide
+    scene bg azumidtedythree 1 with Dissolve(0.8)
+    Kiara "Wow such a beautiful place"
+    scene bg azumidtedythree 2 with Dissolve(0.8)
+    Kiara "She told me here , I wonder where the pretty one is"
+    scene bg azumidtedythree 3 with Dissolve(0.8)
+    Kiara "Azumi!"
+    scene bg azumidtedythree 4 with Dissolve(0.8)
+    Azumi "There she is.."
+    scene bg azumidtedythree 5 with Dissolve(0.8)
+    Kiara "Hey azumi! , sorry i was a little late"
+    Azumi "It's fine! , come over!"
+    scene bg azumidtedythree 6 with Dissolve(0.8)
+    Azumi "Hope you didn't have trouble finding this place"
+    Kiara "Not really but even if did , hella worth it , It's so beatuiful"
+    scene bg azumidtedythree 7 with Dissolve(0.8)
+    Azumi "Had to pick a nice spot for someone so exquisite and amazing"
+    Kiara "In that case , I'll pick the next spot and make sure it's appropiate for you"
+    scene bg azumidtedythree 8 with Dissolve(0.8)
+    Azumi "Thank you for the compliment Kiara-san"
+    Kiara "Most welcome azumi-san hehe"
+    scene bg azumidtedythree 9 with Dissolve(0.8)
+    Kiara "Cmon , let's get going"
+    Azumi "Sure.."
+    if azumi_rom.current_romance >= 3:
+        jump .part_1
+    else:
+        jump .part_2
+            
+    label .part_1:
+            scene bg azumilovefr 1 with Dissolve(0.8)
+            Azumi "I appreciate you coming by the way , I know you've got enough on your hands already"
+            Kiara "It's the weekend after all , besides how could i say no to the first person i met here"
+            scene bg azumilovefr 2 with Dissolve(0.8)
+            Azumi "Well I'm glad you like meeting with me"
+            Kiara "Yeah of course i do , I mean I'm sure you can guess why right?"
+            scene bg azumilovefr 3 with Dissolve(0.8)
+            Azumi "Um no?"
+            Kiara "Well it's because i get to see all the pretty clothing you have"
+            scene bg azumilovefr 4 with Dissolve(0.8)
+            Azumi "Oh , in that case I should've worn something new sorry. I just thought it'd be appreciate to wear this today"
+            Kiara "It is appropiate azumi , It's what we met in . I remember it well so thanks , i appreciate the gesture"
+            scene bg azumilovefr 5 with Dissolve(0.8)
+            Azumi "So you like my clothing , does that mean you'll dress like me?"
+            Kiara "Yeah honestly I've been thinking of buying kimonos and stuff since everyone recommends it"
+            scene bg azumilovefr 6 with Dissolve(0.8)
+            Azumi "Can i pick for you? Pleaasse? I know one you'd look great in!"
+            Kiara "Okay okay , no worries you can pick all of my japanese clothes"
+            scene bg azumilovefr 7 with Dissolve(0.8)
+            Azumi "Yesss , Great!. Come look at this dragon lantern"
+            Kiara "Sure.. ( She's such a baby )"
+            scene bg azumilovefr 8 with Dissolve(0.8)
+            Azumi "So.. have you thought anything about the school?"
+            Kiara "Hm? , What about it?"
+            scene bg azumilovefr 9 with Dissolve(0.8)
+            Azumi "I mean .. if you want i can write your recommendation letter and we can keep you permanently"
+            Kiara "Oh azumi.."
+            scene bg azumilovefr 10 with Dissolve(0.8)
+            Kiara "That would be great i suppose but let me work the other jobs this week , then decide. Is that okay?"
+            scene bg azumilovefr 11 with Dissolve(0.8)
+            Azumi "Yes , of course! . Whichever is comfortable for you . I just like meeting you so i asked"
+            Kiara "Aw.."
+            scene bg azumilovefr 12 with Dissolve(0.8)
+            Kiara "Don't worry about that , We'll meet up regardless of where i work"
+            Azumi "Really? every weekend then?"
+            scene bg azumilovefr 13 with Dissolve(0.8)
+            Azumi "Pinky promise?"
+            Kiara "Heh"
+            scene bg azumilovefr 14 with Dissolve(0.8)
+            Kiara "PInky promise cutie"
+            Azumi "Good , I take those seriously"
+            scene bg azumilovefr 15 with Dissolve(0.8)
+            Azumi "By the way look at the water , It's so pristine.."
+            Kiara "Yeah It's quite clear"
+            scene bg azumilovefr 16 with Dissolve(0.8)
+            Kiara "Um azumi?"
+            Azumi "Yes?"
+            scene bg azumilovefr 17 with Dissolve(0.8)
+            Kiara "I- um i wanted to apolotgize"
+            Azumi "Why so?"
+            scene bg azumilovefr 18 with Dissolve(0.8)
+            Kiara "I kept mentioning your parents in the plane when we talked , I really didn't know"
+            Azumi "Ah.. Um It's ok-"
+            scene bg azumilovefr 19 with Dissolve(0.8)
+            Kiara "No it's not , I'm sorry.. Look my life is messed up , so i can't say i fully relate , but i know how you might feel."
+            Azumi "I-.. Did uncle tell you about this?"
+            scene bg azumilovefr 20 with Dissolve(0.8)
+            Kiara "Yes , why? was i not supposed to know"
+            Azumi "No , uh . It's just that whenever someone finds out , eventually they leave me"
+            scene bg azumilovefr 21 with Dissolve(0.8)
+            Kiara "What?.. why?"
+            Azumi "Everyone thinks I'm a curse or something , that i bring bad luck or am a bad omen so i don't-"
+            scene bg azumilovefr 22 with Dissolve(0.8)
+            Azumi "I just didn't want to be rude to you in the plane , so i kept shifting topics to keep talking"
+            Kiara "Azumi.."
+            scene bg azumilovefr 23 with Dissolve(0.8)
+            Azumi "You won't leave right?.. Please?"
+            Kiara "He- Hey what are you talking about?"
+            scene bg azumilovefr 24 with Dissolve(0.8)
+            Kiara "I would never.. oh my god , I'm so sorry for those horrible people that ever made you belive that"
+            Azumi "But-"
+            scene bg azumilovefr 25 with Dissolve(0.8)
+            Kiara "No azumi , look you're amazing. You're like the most elegant and sweet person I've met here or ever really"
+            Kiara "Pardon my language but fuck whoever says otherwise"
+            scene bg azumilovefr 26 with Dissolve(0.8)
+            Kiara "I genuinely think your parents would be proud of who you are now azumi"
+            scene bg azumilovefr 27 with Dissolve(0.8)
+            Azumi "You really think so?"
+            Kiara "Yes i do , I mean hell i'm proud i know you"
+            scene bg azumilovefr 28 with Dissolve(0.8)
+            Kiara "You know .. once the whole dad situation resolves , I'd love for you to meet my mom"
+            scene bg azumilovefr 29 with Dissolve(0.8)
+            Azumi "I would love to , She's japanese too right? How about we surprise her with both of us in kimonos?"
+            scene bg azumilovefr 30 with Dissolve(0.8)
+            Kiara "Deal! , we can even gift her something together . It'd be awesome"
+            Azumi "( Gift her?.. what could one ask for if they have you )"
+            scene bg azumilovefr 31 with Dissolve(0.8)
+            Azumi "So kiara , I wanted to ask you something too.."
+            Kiara "Sure go ahead"
+            scene bg azumilovefr 32 with Dissolve(0.8)
+            Azumi "Um.. are you single?"
+            Kiara "Oh um , yeah i am. It's actually because i'm too busy with myself honestly hah"
+            scene bg azumilovefr 33 with Dissolve(0.8)
+            Kiara "Anyway , how about you though?"
+            Azumi "Hm  what do you think?"
+            scene bg azumilovefr 34 with Dissolve(0.8)
+            Kiara "Well hard to believe if you are , I mean who wouldn't want someone as adorable as you around them? I'm sure any guy would"
+            Azumi "Ah.. about that actually"
+            scene bg azumilovefr 35 with Dissolve(0.8)
+            Azumi "I'm actually.. lesbian"
+            Kiara "Oh! , oh.. um i see that's alr-"
+            scene bg azumilovefr 36 with Dissolve(0.8)
+            Azumi "I'm sorry , i didn't really mean to hide it , I just didn't wanna weird you out so"
+            Kiara "Oh no azumi that's completely fine really , I'm bi as well so i don't judge"
+            scene bg azumilovefr 37 with Dissolve(0.8)
+            Azumi "Oh that's good to hear , but yes this is another reason i don't talk to most staff in school"
+            Kiara "Makes sense i guess , plus the whole japanese culture around this stuff is still iffy , so I understand"
+            scene bg azumilovefr 38 with Dissolve(0.8)
+            Azumi "Yes that too , I mean i don't mind male friends but you know.."
+            Kiara "Yeah i get it , sharing and talking can feel off putting and harder"
+            scene bg azumilovefr 39 with Dissolve(0.8)
+            Azumi "Exactly , plus i'm kind of clingy . So i'd rather wait to find someone long term"
+            Kiara "That's actually very nice , long term is way better than whatever people do nowadays"
+            scene bg azumilovefr 40 with Dissolve(0.8)
+            Azumi "I'm glad you liked this place by the way, always visited this since was a kid"
+            Kiara "Oh yeah i do . It's lovely and the best thing about it is that since it's very isolated , I can just close my eyes and appreciate the nature"
+            scene bg azumilovefr 41 with Dissolve(0.8)
+            Azumi "I think the same , let's do that?"
+            Kiara "What now? Ummm. okay sure"
+            scene bg azumilovefr 42 with Dissolve(0.8)
+            pause
+            scene bg azumilovefr 43 with Dissolve(0.8)
+            pause
+            scene bg azumilovefr 44 with Dissolve(0.8)
+            pause
+            scene bg azumilovefr 45 with Dissolve(0.8)
+            Azumi "Peaceful isn't it?"
+            scene bg azumilovefr 46 with Dissolve(0.8)
+            Kiara "Yeah it is , it feels so... beautiful i can't explain."
+            Azumi "Yeah.. beautiful . You're right about that"
+            scene bg azumilovefr 47 with Dissolve(0.8)
+            Azumi "Just so immaculate"
+            scene bg azumilovefr 48 with Dissolve(0.8)
+            pause
+            scene bg azumilovefr 49 with Dissolve(0.8)
+            pause
+            scene bg azumilovefr 50 with Dissolve(0.8)
+            pause
+            scene bg azumilovefr 51 with Dissolve(0.8)
+            Kiara "Um?"
+            Azumi "S-sorry , you kissed my forehead earlier so.. i thought i'd"
+            scene bg azumilovefr 52 with Dissolve(0.8)
+            Azumi "Did i make you uncomfy?"
+            Kiara "Hm? no not at all i just didn't feel it"
+            scene bg azumilovefr 53 with Dissolve(0.8)
+            Azumi "Huh?"
+            Kiara "My eyes were closed so i didn't feel it properly"
+            scene bg azumilovefr 54 with Dissolve(0.8)
+            Kiara "Could you please do it again?"
+            Azumi "Heh.. really? um.. yeah sure"
+            scene bg azumilovefr 55 with Dissolve(0.8)
+            pause
+            scene bg azumilovefr 56 with Dissolve(0.8)
+            Azumi "I think i kissed the eye part instead , maybe one more properly?"
+            Kiara "Sure , go ahead"
+            scene bg azumilovefr 57 with Dissolve(0.8)
+            pause
+            scene bg azumilovefr 58 with Dissolve(0.8)
+            Azumi "Was that good enough?"
+            Kiara "Mhm , I see now why you liked it"
+            scene bg azumilovefr 59 with Dissolve(0.8)
+            Azumi "I mean it felt special when you did it for me so.."
+            Kiara "I agree , us meeting here is special too . Why don't you capture it?"
+            scene bg azumilovefr 60 with Dissolve(0.8)
+            Azumi "You mean like a selfie? Well why not"
+            scene bg azumilovefr 61 with Dissolve(0.8)
+            Azumi "Okay just a minute , you're in the shot right?"
+            Kiara "Mhm , let me fix my pose i'll count and you take it okay?"
+            scene bg azumilovefr 62 with Dissolve(0.8)
+            Kiara "Three.."
+            scene bg azumilovefr 63 with Dissolve(0.8)
+            Kiara "Two.."
+            scene bg azumilovefr 64 with Dissolve(0.8)
+            Kiara "One.."
+            scene bg azumilovefr 65 with Dissolve(0.8)
+            Azumi "Ah.."
+            Kiara "Mwwah.."
+            scene bg azumilovefr 66 with Dissolve(0.8)
+            Kiara "You took the picture right?"
+            Azumi "Um yes but I wasn't ready for that.."
+            scene bg azumilovefr 67 with Dissolve(0.8)
+            Kiara "Well get used to it"
+            Azumi "I.. aheh , okay I'll try to"
+            scene bg azumilovefr 68 with Dissolve(0.8)
+            Azumi "Wait let's take one more near the bell"
+            Kiara "Okay!"
+            scene bg azumilovefr 69 with Dissolve(0.8)
+            Azumi "Am i in the shot?"
+            Kiara "Don't worry i'll make sure you are"
+            scene bg azumilovefr 70 with Dissolve(0.8)
+            Kiara "Well time to go now but this was nice"
+            Azumi "It was.. keep your promise okay?"
+            Kiara "I will!"
+            scene bg azumilovefr 71 with Dissolve(0.8)
+            Azumi "See you at school then right?"
+            Kiara "Yep and i'll make sure i wear something japanese too"
+            scene bg azumilovefr 72 with Dissolve(0.8)
+            Azumi "It's so hard to believe out of 8 billion people you chose to company me instead, I mean just curious.. why?"
+            Kiara "Hmmm , let me guess"
+            scene bg azumilovefr 73 with Dissolve(0.8)
+            Kiara "Aha  right, it's those cute um's and adorable giggles you do , also you have like the cutest face when you blush"
+            scene bg azumilovefr 74 with Dissolve(0.8)
+            Azumi "Heh , stop it.. I only blush out of habbit and i think it's around you mostly"
+            scene bg azumilovefr 75 with Dissolve(0.8)
+            Kiara "See there it is , also well keep it that way please. You are perfect and no thing or person can change that"
+            Azumi "Thanks kiara.."
+            scene bg azumilovefr 76 with Dissolve(0.8)
+            Kiara "Now take care okay? I'll keep in touch with texts , Remember be yourself always"
+            Azumi "Mhm , I will."
+            scene blackscreen
+            show titletext "Abit later.." with dissolve
+            pause 1.0
+            window hide
+            scene bg azumilovefr 77 with Dissolve(0.8)
+            Azumi "Be myself.. , you stay the way you are too kiara.. you're perfect"
+            $ azumi_rom.adjust_romance(2)
+            scene bg azumilovefr 78 with Dissolve(0.8)
+            AgentWong "I see a cute couple in future , a happy one at that"
+            "" "0.4.2 Ends here , Please save your game"
+            jump chap_2_scene_66
+        
+    label .part_2:
+            scene bg azmifriendonly 1 with Dissolve(0.8)
+            Azumi "Make sure i'm in the shot!"
+            Kiara "You are don't worry , i'll get down a little bit"
+            scene bg azmifriendonly 2 with Dissolve(0.8)
+            Kiara "It's quite hard to balance"
+            Azumi "Hehe , hey if the fish can do it so can we!"
+            scene bg azmifriendonly 3 with Dissolve(0.8)
+            Azumi "Kids loved you by the way , can't wait to have you at school again"
+            Kiara "I'll do my best to teach and be around"
+            scene bg azmifriendonly 4 with Dissolve(0.8)
+            Kiara "Such a pretty sunset"
+            Azumi "Yeah , nature is so beautiful when it comes to this"
+            scene bg azmifriendonly 5 with Dissolve(0.8)
+            Azumi "Lean towards the bell!"
+            Kiara "Like this?"
+            scene bg azmifriendonly 6 with Dissolve(0.8)
+            Kiara "Don't hide your face , you look great!"
+            Azumi "Yess i have little acne thats all"
+            scene bg azmifriendonly 7 with Dissolve(0.8)
+            Kiara "It's fine! , you look beautiful!"
+            Azumi "Better now?"
+            Kiara "Mhm!"
+            scene bg azmifriendonly 8 with Dissolve(0.8)
+            Kiara "I'll see you next week okay? Keep in touch"
+            Azumi "Likewise , thank you again.."
+            jump chap_2_scene_66
+
+label chap_2_scene_66:
+    scene blackscreen
+    show titletext "Nimura shrine garden , Osaka lower estate.." with dissolve
+    pause 1.0
+    window hide
+    scene bg damimeetsnaomi 1 with Dissolve(0.8)
+    Naomi "Now that father is at the shop i can relax a little"
+    scene bg damimeetsnaomi 2 with Dissolve(0.8)
+    Naomi "Haa , this is such a relaxing place."
+    scene bg damimeetsnaomi 3 with Dissolve(0.8)
+    Naomi "I'm never lonely here either because of these little ones giving me company"
+    scene bg damimeetsnaomi 4 with Dissolve(0.8)
+    Naomi "Aren't you glad I'm here? , let me give you a pat"
+    scene bg damimeetsnaomi 5 with Dissolve(0.8)
+    Naomi "Of course you do , eh... come this side"
+    scene bg damimeetsnaomi 6 with Dissolve(0.8)
+    pause
+    scene bg damimeetsnaomi 7 with Dissolve(0.8)
+    Naomi "No don't go away.. playing hard to get are you"
+    scene bg damimeetsnaomi 8 with Dissolve(0.8)
+    Naomi "Ah! , oh no please "
+    scene bg damimeetsnaomi 9 with Dissolve(0.8)
+    Naomi "uh?"
+    "???" "Don't worry i got you!"
+    scene bg damimeetsnaomi 10 with Dissolve(0.8)
+    Naomi "*Gasping* Hai.. gome na sai"
+    "???" "You alright?"
+    scene bg damimeetsnaomi 11 with Dissolve(0.8)
+    Naomi "Chikaku ni ita kamisama.."
+    scene bg damimeetsnaomi 12 with Dissolve(0.8)
+    "???" "You're fine don't worry"
+    scene bg damimeetsnaomi 13 with Dissolve(0.8)
+    Naomi "Oh.. *gasping* , almost fell down"
+    scene bg damimeetsnaomi 14 with Dissolve(0.8)
+    Naomi "Okay.. I'm alright , yes"
+    scene bg damimeetsnaomi 15 with Dissolve(0.8)
+    Naomi "Arigatou , um.. thank-?"
+    scene bg damimeetsnaomi 16 with Dissolve(0.8)
+    Damian "Irasshaimase or.. welcome."
+    Naomi "Nihongo o hanasemasu ka?"
+    scene bg damimeetsnaomi 17 with Dissolve(0.8)
+    Damian "Hai, gogaku no sensei"
+    Naomi "Heh , wow a language teacher?"
+    scene bg damimeetsnaomi 18 with Dissolve(0.8)
+    Naomi "Nice to meet you , watashi wa naomi des"
+    Damian "Likewise , Namae wa damian"
+    jump chap_2_scene_67
+
+label chap_2_scene_67:
+    scene bg meetinrose 1 with Dissolve(0.8)
+    Kiara "Sorry you had to come all this way , She's a little anti social so i had to"
+    Keisuke "It's fine , I hope you guys had a great time"
+    scene bg meetinrose 2 with Dissolve(0.8)
+    Kiara "Yeah , are you alright by the way? you sound a little under the weather"
+    scene bg meetinrose 3 with Dissolve(0.8)
+    Keisuke "Oh uh , no I'm fine . Just usual seasonal cold"
+    Kiara "Alright , take some meds okay?"
+    scene bg meetinrose 4 with Dissolve(0.8)
+    Keisuke "Don't worry , I will . So now where to?"
+    scene bg meetinrose 5 with Dissolve(0.8)
+    Kiara "Now we go to my favorite boss , I just sent you the location on maps"
+    Keisuke "Aha , got it."
+    scene bg meetinrose 6 with Dissolve(0.8)
+    Keisuke "Hold tight , road's a little muddy"
+    scene bg meetinrose 7 with Dissolve(0.8)
+    Kiara "Company matters , not the car you goose"
+    Keisuke "Much appreciated mam"
+    scene blackscreen
+    show titletext "Rose's home , upper district" with dissolve
+    pause 1.0
+    window hide
+    scene bg meetinrose 8 with Dissolve(0.8)
+    Kiara "You wanna join us?"
+    Keisuke "No I'll go get some meds , besides rather not bug you two ladies"
+    scene bg meetinrose 9 with Dissolve(0.8)
+    Kiara "if you say so , you're gonna miss out on good coffee"
+    Keisuke "What i need now is tea anyway haha"
+    scene bg meetinrose 10 with Dissolve(0.8)
+    Kiara "Oki doki , I'll let you know once i'm free okay?"
+    Keisuke "Sure thanks"
+    scene bg meetinrose 11 with Dissolve(0.8)
+    Kiara "Hm? did she leave it open for me?"
+    scene bg meetinrose 12 with Dissolve(0.8)
+    Kiara "Rose!"
+    scene bg meetinrose 13 with Dissolve(0.8)
+    Kiara "Such a lovely backyard.."
+    Kiara "Rose? you there?"
+    if rose_rom.current_romance >= 3:
+        jump .part_1
+    else:
+        jump .part_2
+
+    label .part_1:
+        scene bg roselovefst 1 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 2 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 3 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 4 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 5 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 6 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 7 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 8 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 9 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 10 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 11 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 12 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 13 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 14 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 15 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 16 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 17 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 18 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 19 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 20 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 21 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 22 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 23 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 24 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 25 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 26 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 27 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 28 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 29 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 30 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 31 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 32 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 33 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 34 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 35 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 36 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 37 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 38 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 39 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 40 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 41 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 42 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 43 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 44 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 45 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 46 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 47 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 48 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 49 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 50 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 51 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 52 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 53 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 54 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 55 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 56 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 57 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 58 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 59 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 60 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 61 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 62 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 63 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 64 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 65 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 66 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 67 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 68 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 69 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 70 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 71 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 72 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 73 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 74 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 75 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 76 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 77 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 78 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 79 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 80 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 81 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 82 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 83 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 84 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 85 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 86 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 87 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 88 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 89 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 90 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 91 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 92 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 93 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 94 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 95 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 96 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 97 with Dissolve(0.8)
+        pause
+        scene bg roselovefst 98 with Dissolve(0.8)
+        pause
+        jump chap_2_scene_68
+
+    label .part_2:
+        scene bg rosefrndfst 1 with Dissolve(0.8)
+        Rose "Sorry about that , was getting ready"
+        scene bg rosefrndfst 2 with Dissolve(0.8)
+        Kiara "Ready ? but we're not going anywhere"
+        scene bg rosefrndfst 3 with Dissolve(0.8)
+        Rose "Oh kiara , meeting you is an occassion too"
+        Kiara "Ha okay , I like that one but wow.."
+        scene bg rosefrndfst 4 with Dissolve(0.8)
+        Kiara "You look splendid , red and black can't go wrong"
+        Rose "Same for you , quite the outfit"
+        scene bg rosefrndfst 5 with Dissolve(0.8)
+        Rose "So , hope no trouble coming here?"
+        Kiara "Not at all , quite a zen vibe you got here though"
+        scene bg rosefrndfst 6 with Dissolve(0.8)
+        Rose "Gotta keep the head free to work free"
+        scene bg rosefrndfst 7 with Dissolve(0.8)
+        Kiara "Well i must say i'm impressed , this sure is something"
+        Rose "Me or the backyard?"
+        scene bg rosefrndfst 8 with Dissolve(0.8)
+        Kiara "Both of you obviously"
+        Rose "Hah , good answer. Come let's sit"
+        scene bg rosefrndfst 9 with Dissolve(0.8)
+        Rose "So kiara , did you decide on your job yet"
+        Kiara "Not quite , I was thinking to do all of em for the week or two at least , I hope that's okay with you"
+        scene bg rosefrndfst 10 with Dissolve(0.8)
+        Rose "It's completely fine and trust me most of our clients are great people"
+        Kiara "I'm sure they are , odd ones exists everywhere"
+        scene bg rosefrndfst 11 with Dissolve(0.8)
+        Rose "I'm glad you think so , was worried since of that incident"
+        Kiara "No i should thank you instead , you trusted and stood up for me . So thank you."
+        scene bg rosefrndfst 12 with Dissolve(0.8)
+        Rose "Um , there's one more thing i want you to know kiara . Promise you won't get angry?"
+        Kiara "Obviously I won't at you , go on."
+        scene bg rosefrndfst 13 with Dissolve(0.8)
+        Rose "Someone after you left.. told me about you ..  I mean.. who you are."
+        Kiara "What do you mean? and who?"
+        scene bg rosefrndfst 14 with Dissolve(0.8)
+        Rose "I can't say who but , I know who your father is.. what's happened to you and everything.."
+        Kiara "What?... How do you-"
+        scene bg rosefrndfst 15 with Dissolve(0.8)
+        Rose "One more thing.. I knew this before i hired you.."
+        scene bg rosefrndfst 16 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 17 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 18 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 19 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 20 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 21 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 22 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 23 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 24 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 25 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 26 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 27 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 28 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 29 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 30 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 31 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 32 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 33 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 34 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 35 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 36 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 37 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 38 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 39 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 40 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 41 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 42 with Dissolve(0.8)
+        pause
+        scene bg rosefrndfst 43 with Dissolve(0.8)
+        pause
+        jump chap_2_scene_68
+
+label chap_2_scene_68:
+    scene bg daythreflshbckscn 1 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 2 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 3 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 4 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 5 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 6 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 7 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 8 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 9 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 10 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 11 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 12 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 13 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 14 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 15 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 16 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 17 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 18 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 19 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 20 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 21 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 22 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 23 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 24 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 25 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 26 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 27 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 28 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 29 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 30 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 31 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 32 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 33 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 34 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 35 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 36 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 37 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 38 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 39 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 40 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 41 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 42 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 43 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 44 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 45 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 46 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 47 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 48 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 49 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 50 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 51 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 52 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 53 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 54 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 55 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 56 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 57 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 58 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 59 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 60 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 61 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 62 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 63 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 64 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 65 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 66 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 67 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 68 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 69 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 70 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 71 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 72 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 73 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 74 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 75 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 76 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 77 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 78 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 79 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 80 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 81 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 82 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 83 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 84 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 85 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 86 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 87 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 88 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 89 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 90 with Dissolve(0.8)
+    pause
+    scene bg daythreflshbckscn 91 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_69
+
+label chap_2_scene_69:
+    scene bg ndingfourthree 1 with Dissolve(0.8)
+    pause
+    scene bg ndingfourthree 2 with Dissolve(0.8)
+    pause
+    jump chap_2_scene_70
+
+label chap_2_scene_70:
     $ renpy.quit()
 
